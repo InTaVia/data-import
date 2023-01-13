@@ -1,0 +1,1 @@
+{"version":3,"file":"index.cjs","sources":["../src/validate.ts"],"sourcesContent":["export function validate() {\r\n  console.log(\"ValidateFunction\");\r\n  return;\r\n}\r\n"],"names":["console","log"],"mappings":"4BACEA,QAAQC,IAAI,mBAEd"}

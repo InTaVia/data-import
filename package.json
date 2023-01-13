@@ -1,0 +1,30 @@
+{
+  "name": "@intavia/data-import",
+  "version": "0.1.0",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "default": "./dist/index.modern.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18",
+    "npm": ">=8"
+  },
+  "packageManager": "npm@8.19.2",
+  "scripts": {
+    "build": "rm -rf dist && microbundle --format cjs,modern ./src/index.ts"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.0",
+    "microbundle": "^0.15.1",
+    "typescript": "^4.9.4"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.modern.js","sources":["../src/validate.ts"],"sourcesContent":["export function validate() {\r\n  console.log(\"ValidateFunction\");\r\n  return;\r\n}\r\n"],"names":["validate","console","log"],"mappings":"SAAwBA,IACtBC,QAAQC,IAAI,mBAEd"}
