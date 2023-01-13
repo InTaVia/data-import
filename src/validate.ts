@@ -1,4 +1,3 @@
 export function validate() {
-  console.log("ValidateFunction");
-  return;
+  throw new Error("Not yet implemented.");
 }
