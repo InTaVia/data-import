@@ -1,26 +1,3 @@
-# intavia data import
-
-this is a module to import local data into the [intavia frontend](https://github.com/InTaVia/web) using an excel template.
-
-you can find more info about the project on the [intavia website](https://intavia.eu).
-
-## template
-
-An excel template (for the example of Duerer's biography) is in `public/data`.
-
-More detailed information follows.
-
-## how to use
-
-how to use within the [intavia frontend](https://github.com/InTaVia/web):
-
-```ts
-
-```
-
-how to use within node (see `scripts/xlsx2json2intavia.ts`):
-
-```ts
 import { mkdir, writeFile, readFile } from "node:fs/promises";
 import { basename, join } from "node:path";
 import { format } from "prettier";
@@ -51,4 +28,3 @@ generate("public/data/data-duerer.xlsx")
     .catch((error) => {
         console.log(`Failed to generate data.\n`, String(error));
     });
-```
