@@ -12,13 +12,13 @@ More detailed information follows.
 
 ## how to use
 
-how to use within the [intavia frontend](https://github.com/InTaVia/web):
+how to use within the [intavia frontend](https://github.com/InTaVia/web) with FileReader (binary file):
 
 ```ts
-
+example follows
 ```
 
-how to use within node (see `scripts/xlsx2json2intavia.ts`):
+how to use within node with file buffer (see `scripts/xlsx2json2intavia.ts`; run with `npm run generate:xlsx2json2intavia`):
 
 ```ts
 import { mkdir, writeFile, readFile } from "node:fs/promises";

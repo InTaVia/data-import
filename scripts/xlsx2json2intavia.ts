@@ -1,6 +1,7 @@
 import { mkdir, writeFile, readFile } from "node:fs/promises";
 import { basename, join } from "node:path";
 import { format } from "prettier";
+import { keyBy } from "@stefanprobst/key-by";
 import * as XLSX from "xlsx";
 import { readDataFromXlsxWorkbook, transformData } from "../src";
 
@@ -11,12 +12,27 @@ async function generate(path: any) {
     const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
     const transformedData = transformData(importedData, idPrefix);
 
+    const transformedDataById = {
+        ...transformedData,
+        entities: keyBy(transformedData.entities, (entity) => {
+            return entity.id;
+        }),
+        events: keyBy(transformedData.events, (event) => {
+            return event.id;
+        }),
+    };
+
     const fixturesFolder = join(process.cwd(), "public", "fixtures");
     await mkdir(fixturesFolder, { recursive: true });
 
     await writeFile(
         join(fixturesFolder, `${idPrefix}.json`),
         format(JSON.stringify(transformedData), { parser: "json" }),
+        { encoding: "utf-8" }
+    );
+    await writeFile(
+        join(fixturesFolder, `${idPrefix}-by-id.json`),
+        format(JSON.stringify(transformedDataById), { parser: "json" }),
         { encoding: "utf-8" }
     );
 }

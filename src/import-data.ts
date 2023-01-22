@@ -14,7 +14,7 @@ export interface ImportData {
 interface ImportDataParams {
     file: File;
     onSuccess: (data: ImportData) => void;
-    onError: () => void;
+    onError: (error: string) => void;
 }
 
 export function importData(params: ImportDataParams): void {
@@ -25,16 +25,17 @@ export function importData(params: ImportDataParams): void {
     reader.onload = function onImportSuccess(event) {
         const binaryString = event.target?.result;
         const workbook = XLSX.read(binaryString, { type: "binary" });
-        // each row in all sheets is imported to an json object
+
         const idPrefix = file.name.replace(/\.xlsx$/, "");
+        // each row of all sheets is imported to an json object
         const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
         const transformedData: ImportData = transformData(importedData, idPrefix);
 
-        onSuccess(transformedData as ImportData); // FIXME: avoid type cast
+        onSuccess(transformedData);
     };
 
     reader.onerror = function onImportError() {
-        onError();
+        onError("import error");
     };
 
     reader.readAsBinaryString(file);
