@@ -11,7 +11,7 @@ test("read xlsx from workbook", () => {
     const workbook = XLSX.read(buffer, { type: "buffer" });
     const idPrefix = "duerer";
     const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
-    const transformedData = transformData(importedData, idPrefix);
+    const transformedData = transformData({ input: importedData, idPrefix });
 
     // TODO Test Entities and Events
 });

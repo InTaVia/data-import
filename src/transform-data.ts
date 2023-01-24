@@ -1,27 +1,25 @@
-import type {
-    EntityKind,
-    Entity,
-    EntityEventRelation,
-    EventEntityRelation,
-    EntityRelationRole,
-    Event,
-    VocabularyEntry,
-} from "@intavia/api-client";
+import type { EntityKind, Entity, EntityEventRelation, Event } from "@intavia/api-client";
 import { isEntityKind } from "@intavia/api-client";
 import { createEntity, createEntityEventRelations } from "./create-entity";
 import { createEvent, createEventEntityRelation } from "./create-event";
 import type { VocabularyNameAndEntry } from "./types";
-import { ImportData } from "./import-data";
+import { CollectionCandidate, ImportData } from "./import-data";
 import { arrayContainsObject } from "./lib";
 
-export function transformData(input: Array<Record<string, unknown>>, idPrefix: string): ImportData {
+interface TransformDataParams {
+    input: Array<Record<string, unknown>>;
+    idPrefix: string;
+    collectionLabels?: Record<string, string>;
+}
+
+export function transformData(params: TransformDataParams): ImportData {
+    const { input, idPrefix, collectionLabels } = params;
     const unmappedEntries = [];
-    let entities: Array<Entity> = [];
-    let events: Array<Event> = [];
-    let vocabularies: Record<string, Array<VocabularyEntry>> = {};
-    let entityRelationRoles: Array<EntityRelationRole> = [];
-    const eventCollections: Record<string, Array<Event["id"]>> = {};
-    const eventsToAddToEntities: Record<string, Array<string>> = {};
+    let entities: ImportData["entities"] = [];
+    let events: ImportData["events"] = [];
+    const vocabularies: ImportData["vocabularies"] = {};
+    const eventGroups: Record<string, Array<Event["id"]>> = {};
+    const collections: ImportData["collections"] = {};
 
     const registerVocabularyEntries = (
         vocabularyEntries: Array<VocabularyNameAndEntry> | undefined
@@ -109,11 +107,11 @@ export function transformData(input: Array<Record<string, unknown>>, idPrefix: s
                 registerVocabularyEntries(vocabularyEntries);
 
                 const entryGroup = entry.sheetName as string;
-                if (!(entryGroup in eventCollections)) {
-                    eventCollections[entryGroup] = [];
+                if (!(entryGroup in eventGroups)) {
+                    eventGroups[entryGroup] = [];
                 }
                 //add event ID to event Collection
-                eventCollections[entryGroup].push(event.id as string);
+                eventGroups[entryGroup].push(event.id as Event["id"]);
             }
 
             //     /** MEDIA */
@@ -153,17 +151,46 @@ export function transformData(input: Array<Record<string, unknown>>, idPrefix: s
         });
     }
 
+    // COLLECTION CANDIDATES
+
+    // for all data
+    collections["all"] = {
+        label: (collectionLabels != null && "all" in collectionLabels
+            ? collectionLabels["all"]
+            : idPrefix) as CollectionCandidate["label"],
+        entities: entities.map((entity) => entity.id) as CollectionCandidate["entities"],
+        events: events.map((event) => event.id) as CollectionCandidate["events"],
+    };
+
+    //by events
+    for (const eventGroup in eventGroups) {
+        collections[eventGroup] = {
+            label: (collectionLabels != null && eventGroup in collectionLabels
+                ? collectionLabels[eventGroup]
+                : eventGroup) as CollectionCandidate["label"],
+            entities: [
+                ...new Set(
+                    events
+                        .filter((event) => eventGroups[eventGroup].includes(event.id))
+                        .flatMap((event) => event.relations.map((relations) => relations.entity))
+                ),
+            ],
+            events: eventGroups[eventGroup],
+        };
+    }
+
     // (RE) RUN VALIDATION HERE FOR ENTITIES?
 
     // INDEX VALIDITY CHECKS
     // go through relations of entities and check if events are there
     // go through relations of events and check if entities are there
 
-    return {
-        entities,
-        events,
-        vocabularies,
-        unmappedEntries,
-        eventCollections,
-    };
+    const result: ImportData = {};
+    entities && (result.entities = entities);
+    events && (result.events = events);
+    vocabularies && (result.vocabularies = vocabularies);
+    unmappedEntries && (result.unmappedEntries = unmappedEntries);
+    collections && (result.collections = collections);
+
+    return result;
 }

@@ -5,19 +5,26 @@ import { keyBy } from "@stefanprobst/key-by";
 import * as XLSX from "xlsx";
 import { readDataFromXlsxWorkbook, transformData } from "../src";
 
-async function generate(path: any) {
+interface GenerateParams {
+    path: string;
+    idPrefix?: string;
+    collectionLabels?: Record<string, string>;
+}
+
+async function generate(params: GenerateParams) {
+    const { path, idPrefix: _idPrefix, collectionLabels } = params;
     const buffer = await readFile(path);
     const workbook = XLSX.read(buffer, { type: "buffer" });
-    const idPrefix = basename(path).replace(/\.xlsx$/, "");
+    const idPrefix = _idPrefix || basename(path).replace(/\.xlsx$/, "");
     const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
-    const transformedData = transformData(importedData, idPrefix);
+    const transformedData = transformData({ input: importedData, idPrefix, collectionLabels });
 
     const transformedDataById = {
         ...transformedData,
-        entities: keyBy(transformedData.entities, (entity) => {
+        entities: keyBy(transformedData.entities!, (entity) => {
             return entity.id;
         }),
-        events: keyBy(transformedData.events, (event) => {
+        events: keyBy(transformedData.events!, (event) => {
             return event.id;
         }),
     };
@@ -37,7 +44,16 @@ async function generate(path: any) {
     );
 }
 
-generate("public/data/data-duerer.xlsx")
+generate({
+    path: "public/data/data-duerer.xlsx",
+    idPrefix: "duerer",
+    collectionLabels: {
+        all: "Albrecht Dürer",
+        "event-dürer-macro": "Albrecht Dürer Makro Biographie",
+        "event-dürer-reise-niederlande": "Albrecht Dürer Reise Niederlande",
+        "event-cho": "Objekte Reise Niederlande",
+    },
+})
     .then(() => {
         console.log(`Successfully generated data.`);
     })

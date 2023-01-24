@@ -1,24 +1,38 @@
 import * as XLSX from "xlsx";
-import type { Entity, Event } from "@intavia/api-client";
+import type { Entity, Event, VocabularyEntry } from "@intavia/api-client";
 import { readDataFromXlsxWorkbook } from "./read-xlsx-workbook";
 import { transformData } from "./transform-data";
 
+export interface CollectionCandidate {
+    label: string;
+    entities: Array<Entity["id"]>;
+    events: Array<Event["id"]>;
+}
+
 export interface ImportData {
-    entities: Array<Entity>;
-    events: Array<Event>;
-    vocabularies: Record<string, unknown>;
-    unmappedEntries: Array<unknown>;
-    eventCollections: Record<string, Array<string>>;
+    entities?: Array<Entity>;
+    events?: Array<Event>;
+    vocabularies?: Record<string, Array<VocabularyEntry>>;
+    unmappedEntries?: Array<unknown>;
+    collections?: Record<string, CollectionCandidate>;
 }
 
 interface ImportDataParams {
     file: File;
     onSuccess: (data: ImportData) => void;
     onError: (error: string) => void;
+    idPrefix?: string;
+    collectionLabels?: Record<string, string>;
 }
 
 export function importData(params: ImportDataParams): void {
-    const { file, onSuccess, onError } = params;
+    const {
+        file,
+        onSuccess,
+        onError,
+        idPrefix = file.name.replace(/\.xlsx$/, ""),
+        collectionLabels,
+    } = params;
 
     const reader = new FileReader();
 
@@ -26,10 +40,13 @@ export function importData(params: ImportDataParams): void {
         const binaryString = event.target?.result;
         const workbook = XLSX.read(binaryString, { type: "binary" });
 
-        const idPrefix = file.name.replace(/\.xlsx$/, "");
         // each row of all sheets is imported to an json object
         const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
-        const transformedData: ImportData = transformData(importedData, idPrefix);
+        const transformedData: ImportData = transformData({
+            input: importedData,
+            idPrefix,
+            collectionLabels,
+        });
 
         onSuccess(transformedData);
     };

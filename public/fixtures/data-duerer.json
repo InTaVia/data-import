@@ -6164,7 +6164,7 @@
       "error": "kind property: biography not valid in row: 2 of sheet: biography"
     }
   ],
-  "eventCollections": {
+  "eventGroups": {
     "event-cho": [
       "data-duerer/cho/ev-001",
       "data-duerer/cho/ev-002",
@@ -6448,5 +6448,6 @@
       "data-duerer/nl/EID155",
       "data-duerer/nl/EID156"
     ]
-  }
+  },
+  "collections": {}
 }
