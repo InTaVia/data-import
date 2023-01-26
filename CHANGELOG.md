@@ -1,5 +1,13 @@
 # @intavia/data-import
 
+## 0.1.2
+
+### Patch Changes
+
+-   [`b151437`](https://github.com/InTaVia/data-import/commit/b151437ddcf062150c73bfb6d6aed0e3b7235c04) Thanks [@johannesliem](https://github.com/johannesliem)! - moved json generation from pseudo test to script setup
+
+-   [`005c1db`](https://github.com/InTaVia/data-import/commit/005c1db357e36fdf325a71ccc17d5e0ee74be1b5) Thanks [@johannesliem](https://github.com/johannesliem)! - collection generation for all events+entities as well as for each event-page (events + involved entities)
+
 ## 0.1.1
 
 ### Patch Changes
