@@ -2,7 +2,7 @@ import type { EntityKind, Entity, EntityEventRelation, Event } from "@intavia/ap
 import { isEntityKind } from "@intavia/api-client";
 import { createEntity, createEntityEventRelations } from "./create-entity";
 import { createEvent, createEventEntityRelation } from "./create-event";
-import type { VocabularyNameAndEntry } from "./types";
+import type { VocabularyIdAndEntry } from "./types";
 import { CollectionCandidate, ImportData } from "./import-data";
 import { arrayContainsObject } from "./lib";
 
@@ -22,16 +22,16 @@ export function transformData(params: TransformDataParams): ImportData {
     const collections: ImportData["collections"] = {};
 
     const registerVocabularyEntries = (
-        vocabularyEntries: Array<VocabularyNameAndEntry> | undefined
+        vocabularyEntries: Array<VocabularyIdAndEntry> | undefined
     ) => {
         if (vocabularyEntries !== undefined) {
             for (const vocabulary of vocabularyEntries) {
-                const { vocabularyName, vocabularyEntry } = vocabulary;
-                if (!(vocabularyName in vocabularies)) {
-                    vocabularies[vocabularyName] = [];
+                const { id, entry } = vocabulary;
+                if (!(id in vocabularies)) {
+                    vocabularies[id] = [];
                 }
-                if (!arrayContainsObject(vocabularies[vocabularyName], vocabularyEntry)) {
-                    vocabularies[vocabularyName].push(vocabularyEntry);
+                if (!arrayContainsObject(vocabularies[id], entry)) {
+                    vocabularies[id].push(entry);
                 }
             }
         }

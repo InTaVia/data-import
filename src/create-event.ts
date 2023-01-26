@@ -8,17 +8,17 @@ import type {
 } from "@intavia/api-client";
 import { eventTargetProps } from "./config";
 import { eventPropertyMappers } from "./data-mappers";
-import type { VocabularyNameAndEntry } from "./types";
+import type { VocabularyIdAndEntry } from "./types";
 
 interface CreateEventReturn {
     event: Event;
-    vocabularyEntries?: Array<VocabularyNameAndEntry>;
+    vocabularyEntries?: Array<VocabularyIdAndEntry>;
 }
 
 export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
     const targetProps = eventTargetProps;
     const event: any = {};
-    const vocabularyEntries: Array<VocabularyNameAndEntry> = [];
+    const vocabularyEntries: Array<VocabularyIdAndEntry> = [];
 
     for (const targetProp of targetProps) {
         if (!(targetProp in eventPropertyMappers)) {
@@ -69,7 +69,7 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
 
 interface CreateEventEntityRelationReturn {
     eventEntityRelation?: EventEntityRelation;
-    vocabularyEntries?: Array<VocabularyNameAndEntry>;
+    vocabularyEntries?: Array<VocabularyIdAndEntry>;
     error?: string;
 }
 

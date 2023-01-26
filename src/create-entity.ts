@@ -8,7 +8,7 @@ import type {
 
 import { entityTargetPropsByKind } from "./config";
 import { entityPropertyMappers } from "./data-mappers";
-import type { VocabularyNameAndEntry } from "./types";
+import type { VocabularyIdAndEntry } from "./types";
 import { validateEntity } from "./validate";
 import type { ValidateEntityReturn } from "./validate";
 
@@ -20,7 +20,7 @@ interface CreateEntityParams {
 interface CreateEntityReturn {
     entity: Entity;
     validationResult: ValidateEntityReturn;
-    vocabularyEntries?: Array<VocabularyNameAndEntry>;
+    vocabularyEntries?: Array<VocabularyIdAndEntry>;
     unmapedProperties?: UnmappedProps;
 }
 
@@ -49,7 +49,7 @@ export function createEntity(params: CreateEntityParams): CreateEntityReturn {
 
     const entity: any = {};
 
-    const vocabularyEntries: Array<VocabularyNameAndEntry> = [];
+    const vocabularyEntries: Array<VocabularyIdAndEntry> = [];
 
     const targetProps = entityTargetPropsByKind[kind];
 

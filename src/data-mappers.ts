@@ -170,8 +170,8 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                 })
                 .map((occupation) => {
                     return {
-                        vocabularyName: "occupation",
-                        vocabularyEntry: {
+                        id: "occupation",
+                        entry: {
                             id: `occupation/${occupation.toLowerCase().replace(/ /g, "_")}`,
                             label: { default: occupation } as InternationalizedLabel,
                         },
@@ -194,8 +194,8 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         requiredSourceProps: ["type", "kind"],
         vocabulary: (props) => {
             return {
-                vocabularyName: `${props.kind}-type`,
-                vocabularyEntry: {
+                id: `${props.kind}-type`,
+                entry: {
                     id: `${props.kind}-type/${String(props.type).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.type } as InternationalizedLabel,
                 } as EntityRelationRole,
@@ -243,8 +243,8 @@ export const eventPropertyMappers: Record<string, Mapper> = {
         requiredSourceProps: ["eventKind"],
         vocabulary: (props) => {
             return {
-                vocabularyName: "event-kind",
-                vocabularyEntry: {
+                id: "event-kind",
+                entry: {
                     id: `event-kind/${String(props.eventKind).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.eventKind } as InternationalizedLabel,
                 } as EventKind,
@@ -284,8 +284,8 @@ export const eventPropertyMappers: Record<string, Mapper> = {
         fallback: [] as Array<EventEntityRelation>,
         vocabulary: (props) => {
             return {
-                vocabularyName: "role",
-                vocabularyEntry: {
+                id: "role",
+                entry: {
                     id: `role/${String(props.relationRole).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.relationRole } as InternationalizedLabel,
                 } as EntityRelationRole,
