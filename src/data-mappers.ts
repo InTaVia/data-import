@@ -157,7 +157,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     return value !== undefined && value.trim().length > 0;
                 })
                 .map((occupation) => {
-                    return `occupation/${occupation.toLowerCase().replace(/ /g, "_")}`;
+                    return `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`;
                 });
         },
         requiredSourceProps: ["occupations"],
@@ -172,7 +172,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     return {
                         id: "occupation",
                         entry: {
-                            id: `occupation/${occupation.toLowerCase().replace(/ /g, "_")}`,
+                            id: `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`,
                             label: { default: occupation } as InternationalizedLabel,
                         },
                     };
@@ -187,7 +187,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         mapper: (props) => {
             //FIXME: for id do not use value, but similar to what will be provided by backend
             return {
-                id: `${props.kind}-type/${String(props.type).toLowerCase().replace(/ /g, "_")}`,
+                id: `${props.kind}-type-${String(props.type).toLowerCase().replace(/ /g, "_")}`,
                 label: { default: props["type"] } as InternationalizedLabel,
             };
         },
@@ -196,7 +196,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
             return {
                 id: `${props.kind}-type`,
                 entry: {
-                    id: `${props.kind}-type/${String(props.type).toLowerCase().replace(/ /g, "_")}`,
+                    id: `${props.kind}-type-${String(props.type).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.type } as InternationalizedLabel,
                 } as EntityRelationRole,
             };
@@ -236,7 +236,7 @@ export const eventPropertyMappers: Record<string, Mapper> = {
     },
     kind: {
         mapper: (props) => {
-            return `event-kind/${String(props.eventKind)
+            return `event-kind-${String(props.eventKind)
                 .toLowerCase()
                 .replace(/ /g, "_")}` as Event["kind"];
         },
@@ -245,7 +245,7 @@ export const eventPropertyMappers: Record<string, Mapper> = {
             return {
                 id: "event-kind",
                 entry: {
-                    id: `event-kind/${String(props.eventKind).toLowerCase().replace(/ /g, "_")}`,
+                    id: `event-kind-${String(props.eventKind).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.eventKind } as InternationalizedLabel,
                 } as EventKind,
             };
@@ -274,7 +274,7 @@ export const eventPropertyMappers: Record<string, Mapper> = {
             return [
                 {
                     entity: props.entity as Entity["id"],
-                    role: `role/${String(props.relationRole)
+                    role: `role-${String(props.relationRole)
                         .toLowerCase()
                         .replace(/ /g, "_")}` as EntityRelationRole["id"],
                 },
@@ -286,7 +286,7 @@ export const eventPropertyMappers: Record<string, Mapper> = {
             return {
                 id: "role",
                 entry: {
-                    id: `role/${String(props.relationRole).toLowerCase().replace(/ /g, "_")}`,
+                    id: `role-${String(props.relationRole).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.relationRole } as InternationalizedLabel,
                 } as EntityRelationRole,
             };

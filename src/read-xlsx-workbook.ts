@@ -33,7 +33,8 @@ export function readDataFromXlsxWorkbook(
 
                         for (const prefixProp of prefixProps) {
                             if (prefixProp in row) {
-                                row[prefixProp] = `${idPrefix}/${row[prefixProp]}`;
+                                const idValue = row[prefixProp] as string;
+                                row[prefixProp] = `${idPrefix}-${idValue.replace("/", "-")}`;
                             }
                         }
                         if (sheetKind === "event") {
