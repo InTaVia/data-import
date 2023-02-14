@@ -1,5 +1,13 @@
 # @intavia/data-import
 
+## 0.1.3
+
+### Patch Changes
+
+-   [`d79c86a`](https://github.com/InTaVia/data-import/commit/d79c86a3f719a76f06aefb7a81808dfa200b70c5) Thanks [@johannesliem](https://github.com/johannesliem)! - vocabulary name->id in mapper, type, generation
+
+-   [`16bd02d`](https://github.com/InTaVia/data-import/commit/16bd02dc102c15a23469144057a8eb3ef88589f1) Thanks [@johannesliem](https://github.com/johannesliem)! - replaced any slashes in ids
+
 ## 0.1.2
 
 ### Patch Changes
