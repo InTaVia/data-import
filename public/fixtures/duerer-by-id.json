@@ -112,6 +112,7 @@
     "duerer-OID002": {
       "id": "duerer-OID002",
       "label": { "default": "Man with an oar" },
+      "media": ["duerer-m-001"],
       "relations": [
         { "event": "duerer-cho-ev-002", "role": "role-object_created" }
       ],
@@ -1405,6 +1406,10 @@
         }
       ],
       "relations": [
+        { "event": "duerer-cho-ev-017", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-038", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-039", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-043", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-001", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-002", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-005", "role": "role-took_place_at" },
@@ -1514,6 +1519,8 @@
       "label": { "default": "Köln" },
       "alternativeLabels": [{ "default": "Cologne" }],
       "relations": [
+        { "event": "duerer-cho-ev-002", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-016", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-024", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-030", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID061", "role": "role-took_place_at" },
@@ -1528,6 +1535,12 @@
       "id": "duerer-pl-011",
       "label": { "default": "Aachen" },
       "relations": [
+        { "event": "duerer-cho-ev-010", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-011", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-012", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-013", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-015", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-029", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-025", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID088", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID090", "role": "role-took_place_at" },
@@ -1542,6 +1555,65 @@
       "label": { "default": "Antwerpen" },
       "alternativeLabels": [{ "default": "Antwerp" }],
       "relations": [
+        { "event": "duerer-cho-ev-003", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-004", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-005", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-006", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-009", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-018", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-019", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-020", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-021", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-022", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-023", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-024", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-025", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-026", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-027", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-028", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-030", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-031", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-032", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-033", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-034", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-035", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-041", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-042", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-044", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-045", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-046", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-047", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-048", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-049", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-050", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-051", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-052", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-053", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-055", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-056", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-057", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-058", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-059", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-060", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-061", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-062", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-063", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-064", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-065", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-066", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-067", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-068", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-069", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-070", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-072", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-073", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-074", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-075", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-076", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-077", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-078", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-079", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-080", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-026", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-029", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-031", "role": "role-took_place_at" },
@@ -1563,6 +1635,7 @@
       "label": { "default": "Mecheln" },
       "alternativeLabels": [{ "default": "Mechelen" }],
       "relations": [
+        { "event": "duerer-cho-ev-007", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-027", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-035", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID078", "role": "role-took_place_at" },
@@ -1578,6 +1651,9 @@
       "label": { "default": "Brüssel" },
       "alternativeLabels": [{ "default": "Brussels" }],
       "relations": [
+        { "event": "duerer-cho-ev-008", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-054", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-071", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-028", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-037", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID080", "role": "role-took_place_at" },
@@ -1605,6 +1681,8 @@
       "label": { "default": "Gent" },
       "alternativeLabels": [{ "default": "Ghent" }],
       "relations": [
+        { "event": "duerer-cho-ev-036", "role": "role-took_place_at" },
+        { "event": "duerer-cho-ev-037", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-033", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID141", "role": "role-took_place_at" }
       ],
@@ -2025,6 +2103,7 @@
       "id": "duerer-pl-059",
       "label": { "default": "Seligenstadt" },
       "relations": [
+        { "event": "duerer-cho-ev-001", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID043", "role": "role-took_place_at" }
       ],
       "kind": "place",
@@ -2551,6 +2630,7 @@
       "id": "duerer-pl-117",
       "label": { "default": "Tiel" },
       "relations": [
+        { "event": "duerer-cho-ev-014", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID107", "role": "role-took_place_at" }
       ],
       "kind": "place",
@@ -2652,6 +2732,7 @@
       "id": "duerer-pl-127",
       "label": { "default": "Sea between Bergen op Zoom and Goes" },
       "relations": [
+        { "event": "duerer-cho-ev-040", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID118", "role": "role-took_place_at" }
       ],
       "kind": "place",
@@ -2887,6 +2968,7 @@
       "startDate": "1520-07-19",
       "relations": [
         { "entity": "duerer-OID001", "role": "role-object_created" },
+        { "entity": "duerer-pl-059", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-003", "role": "role-current_location" }
       ]
@@ -2898,6 +2980,7 @@
       "startDate": "1520-07-19",
       "relations": [
         { "entity": "duerer-OID002", "role": "role-object_created" },
+        { "entity": "duerer-pl-010", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-004", "role": "role-current_location" }
       ]
@@ -2909,6 +2992,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID003", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -2920,6 +3004,7 @@
       "startDate": "1520-12-14",
       "relations": [
         { "entity": "duerer-OID004", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -2931,6 +3016,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID005", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -2942,6 +3028,7 @@
       "startDate": "1520-08-12",
       "relations": [
         { "entity": "duerer-OID006", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -2953,6 +3040,7 @@
       "startDate": "1520-08-26",
       "relations": [
         { "entity": "duerer-OID007", "role": "role-object_created" },
+        { "entity": "duerer-pl-013", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -2964,6 +3052,7 @@
       "startDate": "1520-08-28",
       "relations": [
         { "entity": "duerer-OID008", "role": "role-object_created" },
+        { "entity": "duerer-pl-014", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -2975,6 +3064,7 @@
       "startDate": "1520-08-18",
       "relations": [
         { "entity": "duerer-OID009", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -2988,6 +3078,7 @@
       "startDate": "1520-10-10",
       "relations": [
         { "entity": "duerer-OID010", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -2999,6 +3090,7 @@
       "startDate": "1520-10-20",
       "relations": [
         { "entity": "duerer-OID011", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3010,6 +3102,7 @@
       "startDate": "1520-10-20",
       "relations": [
         { "entity": "duerer-OID012", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3021,6 +3114,7 @@
       "startDate": "1520-10-20",
       "relations": [
         { "entity": "duerer-OID013", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3032,6 +3126,7 @@
       "startDate": "1520-11-18",
       "relations": [
         { "entity": "duerer-OID014", "role": "role-object_created" },
+        { "entity": "duerer-pl-117", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3043,6 +3138,7 @@
       "startDate": "1520-10-20",
       "relations": [
         { "entity": "duerer-OID015", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-011", "role": "role-current_location" }
       ]
@@ -3054,6 +3150,7 @@
       "startDate": "1520-11-01",
       "relations": [
         { "entity": "duerer-OID016", "role": "role-object_created" },
+        { "entity": "duerer-pl-010", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3065,6 +3162,7 @@
       "startDate": "1521-07-20",
       "relations": [
         { "entity": "duerer-OID017", "role": "role-object_created" },
+        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3076,6 +3174,7 @@
       "startDate": "1520-12-15",
       "relations": [
         { "entity": "duerer-OID018", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3087,6 +3186,7 @@
       "startDate": "1520-12-15",
       "relations": [
         { "entity": "duerer-OID019", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3098,6 +3198,7 @@
       "startDate": "1520-12-15",
       "relations": [
         { "entity": "duerer-OID020", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3109,6 +3210,7 @@
       "startDate": "1520-12-15",
       "relations": [
         { "entity": "duerer-OID021", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -3120,6 +3222,7 @@
       "startDate": "1520-08-19",
       "relations": [
         { "entity": "duerer-OID022", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-011", "role": "role-current_location" }
       ]
@@ -3131,6 +3234,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID023", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3142,6 +3246,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID024", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3153,6 +3258,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID025", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-012", "role": "role-current_location" }
       ]
@@ -3164,6 +3270,7 @@
       "startDate": "1520-08-19",
       "relations": [
         { "entity": "duerer-OID026", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-012", "role": "role-current_location" }
       ]
@@ -3175,6 +3282,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID027", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3186,6 +3294,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID028", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3197,6 +3306,7 @@
       "startDate": "1520-10-10",
       "relations": [
         { "entity": "duerer-OID029", "role": "role-object_created" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3208,6 +3318,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID030", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3219,6 +3330,7 @@
       "startDate": "1520-08-16",
       "relations": [
         { "entity": "duerer-OID031", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-010", "role": "role-current_location" }
       ]
@@ -3230,6 +3342,7 @@
       "startDate": "1520-08-16",
       "relations": [
         { "entity": "duerer-OID032", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3241,6 +3354,7 @@
       "startDate": "1520-11-22",
       "relations": [
         { "entity": "duerer-OID033", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3252,6 +3366,7 @@
       "startDate": "1520-08-04",
       "relations": [
         { "entity": "duerer-OID034", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3263,6 +3378,7 @@
       "startDate": "1520-08-19",
       "relations": [
         { "entity": "duerer-OID035", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-012", "role": "role-current_location" }
       ]
@@ -3274,6 +3390,7 @@
       "startDate": "1521-04-10",
       "relations": [
         { "entity": "duerer-OID036", "role": "role-object_created" },
+        { "entity": "duerer-pl-016", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3285,6 +3402,7 @@
       "startDate": "1521-04-10",
       "relations": [
         { "entity": "duerer-OID037", "role": "role-object_created" },
+        { "entity": "duerer-pl-016", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3296,6 +3414,7 @@
       "startDate": "1521-07-21",
       "relations": [
         { "entity": "duerer-OID038", "role": "role-object_created" },
+        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-011", "role": "role-current_location" }
       ]
@@ -3307,6 +3426,7 @@
       "startDate": "1521-07-28",
       "relations": [
         { "entity": "duerer-OID039", "role": "role-object_created" },
+        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-011", "role": "role-current_location" }
       ]
@@ -3318,6 +3438,7 @@
       "startDate": "1520-12-07",
       "relations": [
         { "entity": "duerer-OID040", "role": "role-object_created" },
+        { "entity": "duerer-pl-127", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -3329,6 +3450,7 @@
       "startDate": "1521-03-01",
       "relations": [
         { "entity": "duerer-OID041", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -3340,6 +3462,7 @@
       "startDate": "1521-03-01",
       "relations": [
         { "entity": "duerer-OID042", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3351,6 +3474,7 @@
       "startDate": "1521-07-20",
       "relations": [
         { "entity": "duerer-OID043", "role": "role-object_created" },
+        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3362,6 +3486,7 @@
       "startDate": "1521-01-16",
       "relations": [
         { "entity": "duerer-OID044", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3373,6 +3498,7 @@
       "startDate": "1521-01-16",
       "relations": [
         { "entity": "duerer-OID045", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3384,6 +3510,7 @@
       "startDate": "1521-01-16",
       "relations": [
         { "entity": "duerer-OID046", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3395,6 +3522,7 @@
       "startDate": "1521-01-16",
       "relations": [
         { "entity": "duerer-OID047", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3406,6 +3534,7 @@
       "startDate": "1521-05-16",
       "relations": [
         { "entity": "duerer-OID048", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -3417,6 +3546,7 @@
       "startDate": "1521-05-16",
       "relations": [
         { "entity": "duerer-OID049", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-011", "role": "role-current_location" }
       ]
@@ -3428,6 +3558,7 @@
       "startDate": "1521-05-16",
       "relations": [
         { "entity": "duerer-OID050", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-013", "role": "role-current_location" }
       ]
@@ -3439,6 +3570,7 @@
       "startDate": "1521-05-22",
       "relations": [
         { "entity": "duerer-OID051", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3450,6 +3582,7 @@
       "startDate": "1521-05-16",
       "relations": [
         { "entity": "duerer-OID052", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3461,6 +3594,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID053", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3472,6 +3606,7 @@
       "startDate": "1520-08-27",
       "relations": [
         { "entity": "duerer-OID054", "role": "role-object_created" },
+        { "entity": "duerer-pl-014", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3483,6 +3618,7 @@
       "startDate": "1520-08-10",
       "relations": [
         { "entity": "duerer-OID055", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3496,6 +3632,7 @@
       "startDate": "1521-05-01",
       "relations": [
         { "entity": "duerer-OID056", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3507,6 +3644,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID057", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3518,6 +3656,7 @@
       "startDate": "1521-05-01",
       "relations": [
         { "entity": "duerer-OID058", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3529,6 +3668,7 @@
       "startDate": "1521-05-01",
       "relations": [
         { "entity": "duerer-OID059", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3540,6 +3680,7 @@
       "startDate": "1521-05-01",
       "relations": [
         { "entity": "duerer-OID060", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-014", "role": "role-current_location" }
       ]
@@ -3551,6 +3692,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID061", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-015", "role": "role-current_location" }
       ]
@@ -3562,6 +3704,7 @@
       "startDate": "1521-03-20",
       "relations": [
         { "entity": "duerer-OID062", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3575,6 +3718,7 @@
       "startDate": "1521-04-20",
       "relations": [
         { "entity": "duerer-OID063", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3586,6 +3730,7 @@
       "startDate": "1521-07-02",
       "relations": [
         { "entity": "duerer-OID064", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3597,6 +3742,7 @@
       "startDate": "1521-06-08",
       "relations": [
         { "entity": "duerer-OID065", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-016", "role": "role-current_location" }
       ]
@@ -3608,6 +3754,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID066", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3619,6 +3766,7 @@
       "startDate": "1521-03-20",
       "relations": [
         { "entity": "duerer-OID067", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-013", "role": "role-current_location" }
       ]
@@ -3630,6 +3778,7 @@
       "startDate": "1520-08-15",
       "relations": [
         { "entity": "duerer-OID068", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3641,6 +3790,7 @@
       "startDate": "1521-01-05",
       "relations": [
         { "entity": "duerer-OID069", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-017", "role": "role-current_location" }
       ]
@@ -3652,6 +3802,7 @@
       "startDate": "1520-08-06",
       "relations": [
         { "entity": "duerer-OID070", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3663,6 +3814,7 @@
       "startDate": "1520-08-27",
       "relations": [
         { "entity": "duerer-OID071", "role": "role-object_created" },
+        { "entity": "duerer-pl-014", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-018", "role": "role-current_location" }
       ]
@@ -3674,6 +3826,7 @@
       "startDate": "1521-01-05",
       "relations": [
         { "entity": "duerer-OID072", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-009", "role": "role-current_location" }
       ]
@@ -3685,6 +3838,7 @@
       "startDate": "1521-04-12",
       "relations": [
         { "entity": "duerer-OID073", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3696,6 +3850,7 @@
       "startDate": "1521-02-01",
       "relations": [
         { "entity": "duerer-OID074", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-005", "role": "role-current_location" }
       ]
@@ -3707,6 +3862,7 @@
       "startDate": "1521-02-01",
       "relations": [
         { "entity": "duerer-OID075", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3718,6 +3874,7 @@
       "startDate": "1521-02-01",
       "relations": [
         { "entity": "duerer-OID076", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3729,6 +3886,7 @@
       "startDate": "1521-02-01",
       "relations": [
         { "entity": "duerer-OID077", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-008", "role": "role-current_location" }
       ]
@@ -3740,6 +3898,7 @@
       "startDate": "1520-08-05",
       "relations": [
         { "entity": "duerer-OID078", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-006", "role": "role-current_location" }
       ]
@@ -3751,6 +3910,7 @@
       "startDate": "1521-01-01",
       "relations": [
         { "entity": "duerer-OID079", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-007", "role": "role-current_location" }
       ]
@@ -3762,6 +3922,7 @@
       "startDate": "1521-03-16",
       "relations": [
         { "entity": "duerer-OID080", "role": "role-object_created" },
+        { "entity": "duerer-pl-012", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-was_creator" },
         { "entity": "duerer-gr-019", "role": "role-current_location" }
       ]
@@ -5634,6 +5795,7 @@
       "label": { "default": "Albrecht Dürer was travelling to Goes" },
       "description": "Saturday",
       "kind": "event-kind-travel",
+      "startDate": "1520-12-08",
       "relations": [
         { "entity": "duerer-pr-001", "role": "role-was_travelling" },
         { "entity": "duerer-pl-128", "role": "role-took_place_at" }
@@ -6094,13 +6256,13 @@
     ],
     "role": [
       { "id": "role-object_created", "label": { "default": "object_created" } },
+      { "id": "role-took_place_at", "label": { "default": "took_place_at" } },
       { "id": "role-was_creator", "label": { "default": "was creator" } },
       {
         "id": "role-current_location",
         "label": { "default": "current location" }
       },
       { "id": "role-person_born", "label": { "default": "person_born" } },
-      { "id": "role-took_place_at", "label": { "default": "took_place_at" } },
       { "id": "role-was_godfather", "label": { "default": "was godfather" } },
       { "id": "role-was_student", "label": { "default": "was student" } },
       { "id": "role-was_teacher", "label": { "default": "was teacher" } },
@@ -6147,6 +6309,8 @@
   "unmappedEntries": [
     {
       "id": "duerer-m-001",
+      "attribution": "https://barber.org.uk/albrecht-durer-1471-1528-2/",
+      "url": "https://barber.org.uk/wp-content/uploads/2018/06/54.9-Durer500.jpg",
       "kind": "media",
       "sheetName": "media",
       "rowNumber": 2,
@@ -6717,11 +6881,14 @@
       "label": "Objekte Reise Niederlande",
       "entities": [
         "duerer-OID001",
+        "duerer-pl-059",
         "duerer-pr-001",
         "duerer-gr-003",
         "duerer-OID002",
+        "duerer-pl-010",
         "duerer-gr-004",
         "duerer-OID003",
+        "duerer-pl-012",
         "duerer-gr-005",
         "duerer-OID004",
         "duerer-OID005",
@@ -6729,20 +6896,25 @@
         "duerer-OID006",
         "duerer-gr-007",
         "duerer-OID007",
+        "duerer-pl-013",
         "duerer-OID008",
+        "duerer-pl-014",
         "duerer-OID009",
         "duerer-gr-008",
         "duerer-OID010",
+        "duerer-pl-011",
         "duerer-OID011",
         "duerer-gr-009",
         "duerer-OID012",
         "duerer-gr-010",
         "duerer-OID013",
         "duerer-OID014",
+        "duerer-pl-117",
         "duerer-OID015",
         "duerer-gr-011",
         "duerer-OID016",
         "duerer-OID017",
+        "duerer-pl-001",
         "duerer-OID018",
         "duerer-OID019",
         "duerer-OID020",
@@ -6763,10 +6935,12 @@
         "duerer-OID034",
         "duerer-OID035",
         "duerer-OID036",
+        "duerer-pl-016",
         "duerer-OID037",
         "duerer-OID038",
         "duerer-OID039",
         "duerer-OID040",
+        "duerer-pl-127",
         "duerer-OID041",
         "duerer-OID042",
         "duerer-OID043",
