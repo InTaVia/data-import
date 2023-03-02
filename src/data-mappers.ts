@@ -17,6 +17,7 @@ type Provider = Record<string, string>;
 //FIXME Move into Template
 const providers: Record<ProviderId, Provider> = {
     q: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
+    wiki: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
     gnd: { label: "GND", baseUrl: `https://d-nb.info/gnd/$id` },
     apis: { label: "APIS", baseUrl: `https://apis.acdh.oeaw.ac.at/$id` },
     albertina: {
