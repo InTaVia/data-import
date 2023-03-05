@@ -1,5 +1,5 @@
 import * as XLSX from "xlsx";
-import type { Entity, Event, VocabularyEntry } from "@intavia/api-client";
+import type { Biography, Entity, Event, MediaResource, VocabularyEntry } from "@intavia/api-client";
 import { readDataFromXlsxWorkbook } from "./read-xlsx-workbook";
 import { transformData } from "./transform-data";
 
@@ -12,6 +12,8 @@ export interface CollectionCandidate {
 export interface ImportData {
     entities?: Array<Entity>;
     events?: Array<Event>;
+    media?: Array<MediaResource>;
+    biographies?: Array<Biography>;
     vocabularies?: Record<string, Array<VocabularyEntry>>;
     unmappedEntries?: Array<unknown>;
     collections?: Record<string, CollectionCandidate>;

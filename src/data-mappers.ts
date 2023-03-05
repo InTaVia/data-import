@@ -1,4 +1,5 @@
 import type {
+    Biography,
     Entity,
     InternationalizedLabel,
     MediaResource,
@@ -9,6 +10,7 @@ import type {
     EventKind,
     EntityRelationRole,
     EntityEventRelation,
+    VocabularyEntry,
 } from "@intavia/api-client";
 
 type ProviderId = string;
@@ -41,6 +43,8 @@ interface Mapper {
     vocabulary?: (props: Record<string, unknown>) => any;
 }
 
+const listSeparator = ";";
+
 export const entityPropertyMappers: Record<string, Mapper> = {
     id: {
         mapper: (props) => {
@@ -58,7 +62,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         mapper: (props) => {
             const alternativeLabels = props.alternativeLabels as string;
             return alternativeLabels
-                .split(";")
+                .split(listSeparator)
                 .filter(([_, value]) => {
                     return value !== undefined && value.trim().length > 0;
                 })
@@ -79,7 +83,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
             const linkedIds = props.linkedIds as string;
             return (
                 linkedIds
-                    .split(";")
+                    .split(listSeparator)
                     //filters non empty strings
                     .filter(([_, value]) => {
                         return value !== undefined && value.trim().length > 0;
@@ -104,8 +108,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
     },
     description: {
         mapper: (props) => {
-            // FIXME: use Entity["description"] when exposed by api-client
-            return props.description as string;
+            return props.description as Entity["description"];
         },
         requiredSourceProps: ["description"],
     },
@@ -113,7 +116,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         mapper: (props) => {
             const media = props.media as string;
             return media
-                .split(";")
+                .split(listSeparator)
                 .filter(([_, value]) => {
                     return value !== undefined && value.trim().length > 0;
                 })
@@ -153,7 +156,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         mapper: (props) => {
             const occupations = props.occupations as string;
             return occupations
-                .split(";")
+                .split(listSeparator)
                 .filter(([_, value]) => {
                     return value !== undefined && value.trim().length > 0;
                 })
@@ -165,7 +168,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
         vocabulary: (props) => {
             const occupations = props.occupations as string;
             return occupations
-                .split(";")
+                .split(listSeparator)
                 .filter(([_, value]) => {
                     return value !== undefined && value.trim().length > 0;
                 })
@@ -180,13 +183,26 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                 });
         },
     },
+    biographies: {
+        mapper: (props) => {
+            const biographies = props.biographies as string;
+            return biographies
+                .split(listSeparator)
+                .filter(([_, value]) => {
+                    return value !== undefined && value.trim().length > 0;
+                })
+                .map((biographyId) => {
+                    return biographyId as string;
+                }) as Array<Biography["id"]>;
+        },
+        requiredSourceProps: ["biographies"],
+    },
 
     /** Cultural-Heritage-Object */
     /** Group */ /** Hisotrical-Event */ /** Place*/
     /** type -> groupType, historicalEventType, placeType*/
     type: {
         mapper: (props) => {
-            //FIXME: for id do not use value, but similar to what will be provided by backend
             return {
                 id: `${props.kind}-type-${String(props.type).toLowerCase().replace(/ /g, "_")}`,
                 label: { default: props["type"] } as InternationalizedLabel,
@@ -199,7 +215,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                 entry: {
                     id: `${props.kind}-type-${String(props.type).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.type } as InternationalizedLabel,
-                } as EntityRelationRole,
+                } as VocabularyEntry,
             };
         },
     },
@@ -248,7 +264,7 @@ export const eventPropertyMappers: Record<string, Mapper> = {
                 entry: {
                     id: `event-kind-${String(props.eventKind).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.eventKind } as InternationalizedLabel,
-                } as EventKind,
+                } as VocabularyEntry,
             };
         },
     },
@@ -289,7 +305,78 @@ export const eventPropertyMappers: Record<string, Mapper> = {
                 entry: {
                     id: `role-${String(props.relationRole).toLowerCase().replace(/ /g, "_")}`,
                     label: { default: props.relationRole } as InternationalizedLabel,
-                } as EntityRelationRole,
+                } as VocabularyEntry,
+            };
+        },
+    },
+};
+
+export const biographyPropertyMappers: Record<string, Mapper> = {
+    id: {
+        mapper: (props) => {
+            return props.id as Biography["id"];
+        },
+        requiredSourceProps: ["id"],
+    },
+    text: {
+        mapper: (props) => {
+            return props.text as Biography["text"];
+        },
+        requiredSourceProps: ["text"],
+    },
+    citation: {
+        mapper: (props) => {
+            return props.citation as string;
+        },
+        requiredSourceProps: ["citation"],
+    },
+};
+
+export const mediaPropertyMappers: Record<string, Mapper> = {
+    id: {
+        mapper: (props) => {
+            return props.id as MediaResource["id"];
+        },
+        requiredSourceProps: ["id"],
+    },
+    label: {
+        mapper: (props) => {
+            return { default: props.label } as MediaResource["label"];
+        },
+        requiredSourceProps: ["label"],
+    },
+    description: {
+        mapper: (props) => {
+            return props.description as MediaResource["description"];
+        },
+        requiredSourceProps: ["description"],
+    },
+    attribution: {
+        mapper: (props) => {
+            return props.attribution as MediaResource["attribution"];
+        },
+        requiredSourceProps: ["attribution"],
+    },
+    url: {
+        mapper: (props) => {
+            return props.url as MediaResource["url"];
+        },
+        requiredSourceProps: ["url"],
+    },
+    kind: {
+        mapper: (props) => {
+            return `media-kind-${String(props.mediaKind)
+                .toLowerCase()
+                .replace(/ /g, "_")}` as MediaResource["kind"];
+        },
+        requiredSourceProps: ["mediaKind"],
+        vocabulary: (props) => {
+            return {
+                id: "media-kind",
+                entry: {
+                    id: `media-kind-${String(props.mediaKind).toLowerCase().replace(/ /g, "_")}`,
+                    label: { default: props.mediaKind } as InternationalizedLabel,
+                } as VocabularyEntry,
             };
         },
     },

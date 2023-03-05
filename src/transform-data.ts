@@ -5,6 +5,8 @@ import { createEvent, createEventEntityRelation } from "./create-event";
 import type { VocabularyIdAndEntry } from "./types";
 import { CollectionCandidate, ImportData } from "./import-data";
 import { arrayContainsObject } from "./lib";
+import { createBiography } from "./create-biography";
+import { createMediaResource } from "./create-media-resource";
 
 interface TransformDataParams {
     input: Array<Record<string, unknown>>;
@@ -17,6 +19,8 @@ export function transformData(params: TransformDataParams): ImportData {
     const unmappedEntries = [];
     let entities: ImportData["entities"] = [];
     let events: ImportData["events"] = [];
+    let mediaResources: ImportData["media"] = [];
+    let biographies: ImportData["biographies"] = [];
     const vocabularies: ImportData["vocabularies"] = {};
     const eventGroups: Record<string, Array<Event["id"]>> = {};
     const collections: ImportData["collections"] = {};
@@ -37,7 +41,7 @@ export function transformData(params: TransformDataParams): ImportData {
         }
     };
 
-    // CREATE ENTITIES AND EVENTS
+    // CREATE ENTITIES AND EVENTS, MEDIA, BIOGRAPHIES
 
     for (const entry of input) {
         if (!("kind" in entry)) {
@@ -59,14 +63,14 @@ export function transformData(params: TransformDataParams): ImportData {
 
         /** ENTITIES */
         if (isEntityKind(kind)) {
-            const { entity, vocabularyEntries, validationResult, unmapedProperties } = createEntity(
-                {
+            const { entity, vocabularyEntries, validationResult, unmappedProperties } =
+                createEntity({
                     entry,
                     kind,
-                }
-            );
+                });
+            // console.log(unmappedProperties);
 
-            //TODO: if validation has error > add to unmappedEntries and continue
+            //if validation has error > add to unmappedEntries and continue
             if (validationResult !== undefined && validationResult.error !== undefined) {
                 unmappedEntries.push({
                     ...entry,
@@ -102,7 +106,7 @@ export function transformData(params: TransformDataParams): ImportData {
                 });
             } else {
                 // Create new event
-                const { event, vocabularyEntries } = createEvent(entry);
+                const { event, vocabularyEntries, unmappedProperties } = createEvent(entry);
                 events.push(event);
                 registerVocabularyEntries(vocabularyEntries);
 
@@ -115,18 +119,13 @@ export function transformData(params: TransformDataParams): ImportData {
             }
 
             //     /** MEDIA */
-            // } else if (kind === "media") {
-            //     // TODO: check for required props
-            //     // if (!('id' in entry)) {
-            //     //   unmappedEntries.push({ ...entry, error: 'no id property' });
-            //     //   continue;
-            //     // }
-            // } else if (kind === "biography") {
-            // TODO: check for required props
-            // if (!('id' in entry)) {
-            //   unmappedEntries.push({ ...entry, error: 'no id property' });
-            //   continue;
-            // }
+        } else if (kind === "media") {
+            const { media, vocabularyEntries } = createMediaResource(entry);
+            mediaResources.push(media);
+            registerVocabularyEntries(vocabularyEntries);
+        } else if (kind === "biography") {
+            const { biography } = createBiography(entry);
+            biographies.push(biography);
         } else {
             unmappedEntries.push({
                 ...entry,
@@ -188,6 +187,8 @@ export function transformData(params: TransformDataParams): ImportData {
     const result: ImportData = {};
     entities && (result.entities = entities);
     events && (result.events = events);
+    mediaResources && (result.media = mediaResources);
+    biographies && (result.biographies = biographies);
     vocabularies && (result.vocabularies = vocabularies);
     unmappedEntries && (result.unmappedEntries = unmappedEntries);
     collections && (result.collections = collections);

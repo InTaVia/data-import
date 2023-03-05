@@ -6,9 +6,9 @@ import type {
     EntityEventRelation,
 } from "@intavia/api-client";
 
-import { entityTargetPropsByKind } from "./config";
+import { entityTargetPropsByKind, excludeProps } from "./config";
 import { entityPropertyMappers } from "./data-mappers";
-import type { VocabularyIdAndEntry } from "./types";
+import type { UnmappedProps, VocabularyIdAndEntry } from "./types";
 import { validateEntity } from "./validate";
 import type { ValidateEntityReturn } from "./validate";
 
@@ -21,26 +21,13 @@ interface CreateEntityReturn {
     entity: Entity;
     validationResult: ValidateEntityReturn;
     vocabularyEntries?: Array<VocabularyIdAndEntry>;
-    unmapedProperties?: UnmappedProps;
-}
-
-interface UnmappedPropsType {
-    targetProperty: string;
-    requiredSourceProperties: Array<string>;
-}
-
-interface UnmappedProps {
-    entry: Record<string, unknown>;
-    rowNumber: number;
-    sheetName: string;
-    properties: Array<UnmappedPropsType>;
-    error?: string;
+    unmappedProperties?: UnmappedProps;
 }
 
 export function createEntity(params: CreateEntityParams): CreateEntityReturn {
     const { entry, kind } = params;
 
-    const unmapedProperties = {
+    const unmappedProperties = {
         entry: entry,
         rowNumber: entry.rowNumber,
         sheetName: entry.sheetName,
@@ -53,11 +40,16 @@ export function createEntity(params: CreateEntityParams): CreateEntityReturn {
 
     const targetProps = entityTargetPropsByKind[kind];
 
+    // const difference = Object.keys(entry).filter(
+    //     (key) => ![...targetProps, ...excludeProps].includes(key)
+    // );
+    // console.log(entry.id, difference);
+
     for (const targetProp of targetProps) {
         if (!(targetProp in entityPropertyMappers)) {
-            unmapedProperties.properties.push({
+            unmappedProperties.properties.push({
                 targetProperty: targetProp,
-                requiredSourceProperties: [],
+                requiredSourceProperties: ["property not in mapper"],
             });
             continue;
         }
@@ -71,7 +63,7 @@ export function createEntity(params: CreateEntityParams): CreateEntityReturn {
             if (mapper.fallback !== undefined) {
                 entity[targetProp] = mapper.fallback;
             } else {
-                unmapedProperties.properties.push({
+                unmappedProperties.properties.push({
                     targetProperty: targetProp,
                     requiredSourceProperties: mapper.requiredSourceProps,
                 });
@@ -92,14 +84,14 @@ export function createEntity(params: CreateEntityParams): CreateEntityReturn {
         }
     }
 
-    if (unmapedProperties.properties.length > 0) {
+    if (unmappedProperties.properties.length > 0) {
         const messages = [];
-        for (const properties of unmapedProperties.properties) {
+        for (const properties of unmappedProperties.properties) {
             messages.push(
                 `${properties.targetProperty} => ${properties.requiredSourceProperties.join(", ")}`
             );
         }
-        unmapedProperties.error = `the following target properties of entity (id: ${
+        unmappedProperties.error = `the following target properties of entity (id: ${
             entry.id
         }) in row: ${entry.rowNumber} of sheet: ${
             entry.sheetName
@@ -113,7 +105,7 @@ export function createEntity(params: CreateEntityParams): CreateEntityReturn {
         entity: entity as EntityMap[typeof kind],
         validationResult,
         vocabularyEntries,
-        unmapedProperties,
+        unmappedProperties,
     };
 }
 

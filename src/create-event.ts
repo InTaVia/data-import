@@ -8,21 +8,34 @@ import type {
 } from "@intavia/api-client";
 import { eventTargetProps } from "./config";
 import { eventPropertyMappers } from "./data-mappers";
-import type { VocabularyIdAndEntry } from "./types";
+import type { UnmappedProps, VocabularyIdAndEntry } from "./types";
 
 interface CreateEventReturn {
     event: Event;
     vocabularyEntries?: Array<VocabularyIdAndEntry>;
+    unmappedProperties?: UnmappedProps;
 }
 
 export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
     const targetProps = eventTargetProps;
+
+    const unmappedProperties = {
+        entry: entry,
+        rowNumber: entry.rowNumber,
+        sheetName: entry.sheetName,
+        properties: [],
+    } as UnmappedProps;
+
     const event: any = {};
     const vocabularyEntries: Array<VocabularyIdAndEntry> = [];
 
     for (const targetProp of targetProps) {
         if (!(targetProp in eventPropertyMappers)) {
-            // TODO: add to unmapped props (see entity creation)
+            // add to unmapped props
+            unmappedProperties.properties.push({
+                targetProperty: targetProp,
+                requiredSourceProperties: [],
+            });
             continue;
         }
         const mapper = eventPropertyMappers[targetProp];
@@ -36,7 +49,11 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
             if (mapper.fallback !== undefined) {
                 event[targetProp] = mapper.fallback;
             } else {
-                // TODO: add to unmapped props (see entity creation)
+                // add to unmapped props
+                unmappedProperties.properties.push({
+                    targetProperty: targetProp,
+                    requiredSourceProperties: mapper.requiredSourceProps,
+                });
             }
             continue;
         }
@@ -59,11 +76,26 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
         _vocabularyEntries !== undefined && vocabularyEntries.push(..._vocabularyEntries);
     }
 
-    //event validation
+    if (unmappedProperties.properties.length > 0) {
+        const messages = [];
+        for (const properties of unmappedProperties.properties) {
+            messages.push(
+                `${properties.targetProperty} => ${properties.requiredSourceProperties.join(", ")}`
+            );
+        }
+        unmappedProperties.error = `the following target properties of event (id: ${
+            entry.id
+        }) in row: ${entry.rowNumber} of sheet: ${
+            entry.sheetName
+        } could not be created because of missing source properties: ${messages.join("; ")}`;
+    }
+
+    //TODO: event validation
 
     return {
         event,
         vocabularyEntries,
+        unmappedProperties,
     };
 }
 

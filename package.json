@@ -44,7 +44,7 @@
         "tabWidth": 4
     },
     "dependencies": {
-        "@intavia/api-client": "^0.1.10",
+        "@intavia/api-client": "^0.1.16",
         "lodash.isequal": "^4.5.0",
         "xlsx": "^0.18.5"
     }

@@ -8,69 +8,110 @@
       "relations": [
         { "event": "duerer-macro-ev-011", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-book",
+        "label": { "default": "book" }
+      }
     },
     "duerer-ob-002": {
       "id": "duerer-ob-002",
       "label": { "default": "Selbstbildnis im Pelzrock" },
+      "media": ["duerer-m-007"],
       "relations": [
         { "event": "duerer-macro-ev-012", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-drawing",
+        "label": { "default": "drawing" }
+      }
     },
     "duerer-ob-003": {
       "id": "duerer-ob-003",
       "label": { "default": "Der Hase" },
+      "description": "The \"Young Hare\", dated 1502, counts among Dürer's most famous works. The highly detailed drawing of the animal still fascinates today.",
+      "media": ["duerer-m-034"],
       "relations": [
         { "event": "duerer-macro-ev-013", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-drawing",
+        "label": { "default": "drawing" }
+      }
     },
     "duerer-ob-004": {
       "id": "duerer-ob-004",
       "label": { "default": "Ritter, Tod und Teufel" },
       "description": "Drei Meisterstiche",
+      "media": ["duerer-m-035"],
       "relations": [
         { "event": "duerer-macro-ev-018", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-engraving",
+        "label": { "default": "engraving" }
+      }
     },
     "duerer-ob-005": {
       "id": "duerer-ob-005",
       "label": { "default": "Hieronymus im Gehäus" },
       "description": "Drei Meisterstiche",
+      "media": ["duerer-m-036"],
       "relations": [
         { "event": "duerer-macro-ev-019", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-engraving",
+        "label": { "default": "engraving" }
+      }
     },
     "duerer-ob-006": {
       "id": "duerer-ob-006",
       "label": { "default": "Melancholie" },
-      "description": "Drei Meisterstiche",
+      "description": "Drei Meisterstiche, Dürer's \"Melancholia\" (1514) is his best known master engraving. The winged female figure of melancholy, deep in her thoughts, is surrounded by meticulously rendered objects related to geometry, astrology and mathematics. The scribbling putto adds a playful note to this enigmatic scene which culminates in the cry of the beat-like creature. ",
+      "media": ["duerer-m-037"],
       "relations": [
         { "event": "duerer-macro-ev-020", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-engraving",
+        "label": { "default": "engraving" }
+      }
     },
     "duerer-ob-007": {
       "id": "duerer-ob-007",
       "label": { "default": "Dürer-Haus" },
+      "media": ["duerer-m-038"],
       "relations": [
         { "event": "duerer-macro-ev-017", "role": "role-object_bought" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
     },
     "duerer-ob-008": {
       "id": "duerer-ob-008",
       "label": {
         "default": "Theoretische Schriften zur Perspektive, menschlichen Proportion und dem Festungsbau in deutscher Sprache"
       },
+      "description": "Between 1525 and 1528, Dürer edits his three theoretical treatises, the \"Theory of Perspective\" (1525), the \"Treatise on Fortifications\" (1527), and the \"Book of Proportions\" (1528), published postumously by his wife Agnes. Since the beginning of the 16th century, Dürer had worked on the texts and illustrations, trying to unravel the \"secrets of perspective\" and different methods to calculate human proportions. Dürer's original German versions were translated into Latin and other languages.",
       "source": { "citation": "Kolophone" },
+      "media": ["duerer-m-043"],
       "relations": [
         { "event": "duerer-macro-ev-039", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-manuscript",
+        "label": { "default": "manuscript" }
+      }
     },
     "duerer-ob-009": {
       "id": "duerer-ob-009",
@@ -78,7 +119,11 @@
       "relations": [
         { "event": "duerer-macro-ev-021", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-drawing",
+        "label": { "default": "drawing" }
+      }
     },
     "duerer-ob-010": {
       "id": "duerer-ob-010",
@@ -88,18 +133,28 @@
       "relations": [
         { "event": "duerer-macro-ev-022", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-woodcut",
+        "label": { "default": "woodcut" }
+      }
     },
     "duerer-ob-011": {
       "id": "duerer-ob-011",
       "label": {
         "default": "Porträtauftrag des dänischen Königs Christian II. (1521)"
       },
+      "description": "Christian II of Denmark, who is married to Charles' V sister and stays at the court of Brussels, commissions Dürer to paint his portrait. The painting is lost, but a drawing gives an impression of Dürer's work.",
+      "media": ["duerer-m-029"],
       "relations": [
         { "event": "duerer-macro-ev-037", "role": "role-object_created" },
         { "event": "duerer-nl-EID146", "role": "role-work_commisioned" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-drawing",
+        "label": { "default": "drawing" }
+      }
     },
     "duerer-OID001": {
       "id": "duerer-OID001",
@@ -107,7 +162,11 @@
       "relations": [
         { "event": "duerer-cho-ev-001", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID002": {
       "id": "duerer-OID002",
@@ -116,55 +175,92 @@
       "relations": [
         { "event": "duerer-cho-ev-002", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID003": {
       "id": "duerer-OID003",
       "label": { "default": "Tower of the Hof van Liere in Antwerp" },
+      "description": "Regarding the Hof van Liere, the major's residence, Dürer explicitely mentions its unsual tower, probably because of its tulip-style top which he documents in a silverpoint drawing. On the same sheet, he draws a portait of Ravensburger, a German merchant in Antwerp whom Dürer encounters severals times.  ",
+      "media": ["duerer-m-002"],
       "relations": [
         { "event": "duerer-cho-ev-003", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID004": {
       "id": "duerer-OID004",
       "label": { "default": "Portrait drawing of Lazarus Ravensburger" },
+      "description": "Regarding the Hof van Liere, the major's residence, Dürer explicitely mentions its unsual tower, probably because of its tulip-style top which he documents in a silverpoint drawing. On the same sheet, he draws a portait of Ravensburger, a German merchant in Antwerp whom Dürer encounters severals times.  ",
+      "media": ["duerer-m-002"],
       "relations": [
         { "event": "duerer-cho-ev-004", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID005": {
       "id": "duerer-OID005",
       "label": { "default": "portrait drawing of Jobst Planckfeldt" },
+      "media": ["duerer-m-003"],
       "relations": [
         { "event": "duerer-cho-ev-005", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID006": {
       "id": "duerer-OID006",
       "label": { "default": "portrait drawing of Felix Hungersperg" },
+      "media": ["duerer-m-004"],
       "relations": [
         { "event": "duerer-cho-ev-006", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID007": {
       "id": "duerer-OID007",
       "label": { "default": "A goldsmith from Mechelen" },
+      "alternativeLabels": [{ "default": "Ein Goldschmied aus Mecheln" }],
+      "media": ["duerer-m-007"],
       "relations": [
         { "event": "duerer-cho-ev-007", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID008": {
       "id": "duerer-OID008",
       "label": { "default": "A woman in Brussels" },
+      "media": ["duerer-m-008"],
       "relations": [
         { "event": "duerer-cho-ev-008", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID009": {
       "id": "duerer-OID009",
@@ -172,25 +268,40 @@
       "relations": [
         { "event": "duerer-cho-ev-009", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID010": {
       "id": "duerer-OID010",
       "label": {
         "default": "Double portrait of Paul Topler and Martin Pfinzing"
       },
+      "media": ["duerer-m-009"],
       "relations": [
         { "event": "duerer-cho-ev-010", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID011": {
       "id": "duerer-OID011",
       "label": { "default": "Aachen Cathedral" },
+      "description": "Dürer portraits Aachen Cathedral from an upper floor window of the Town Hall. All architectonical details are clearly represented. Upon closer inspection, however, one disovers that Dürer has added one bay in the choir.",
+      "media": ["duerer-m-010"],
       "relations": [
         { "event": "duerer-cho-ev-011", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID012": {
       "id": "duerer-OID012",
@@ -198,7 +309,11 @@
       "relations": [
         { "event": "duerer-cho-ev-012", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID013": {
       "id": "duerer-OID013",
@@ -206,7 +321,11 @@
       "relations": [
         { "event": "duerer-cho-ev-013", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID014": {
       "id": "duerer-OID014",
@@ -214,7 +333,11 @@
       "relations": [
         { "event": "duerer-cho-ev-014", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID015": {
       "id": "duerer-OID015",
@@ -222,39 +345,66 @@
       "relations": [
         { "event": "duerer-cho-ev-015", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID016": {
       "id": "duerer-OID016",
       "label": { "default": "A girl from Cologne" },
+      "description": "Dürer depicted Agnes several times during their journey, among others he caught her on the ship along the Rhine valley near Boppard. In this silverpoint dawing from Dürer's sketchbook she is matched with a young girl from Cologne who probably fascinated Dürer because of her attire.",
+      "media": ["duerer-m-011"],
       "relations": [
         { "event": "duerer-cho-ev-016", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID017": {
       "id": "duerer-OID017",
       "label": { "default": "Agnes Dürer, near Boppard on the Rhine" },
+      "description": "Dürer depicted Agnes several times during their journey, among others he caught her on the ship along the Rhine valley near Boppard. In this silverpoint dawing from Dürer's sketchbook she is matched with a young girl from Cologne who probably fascinated Dürer because of her attire.",
+      "media": ["duerer-m-011"],
       "relations": [
         { "event": "duerer-cho-ev-017", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID018": {
       "id": "duerer-OID018",
       "label": { "default": "Bergen op Zoom" },
+      "description": "The merchant town of Bergen op Zoom is a sort of gateway to Zeeland. While waiting for his ship, Dürer has the chance to visit the town and draw some of its major monuments, among others the picturesque view of Bergen's famous Markiesenhof, the Renaissance castle of the Marquis with its characteristic \"tulip\" tower. ",
+      "media": ["duerer-m-012"],
       "relations": [
         { "event": "duerer-cho-ev-018", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID019": {
       "id": "duerer-OID019",
       "label": { "default": "Two Women from Bergen and from Goes" },
+      "media": ["duerer-m-013"],
       "relations": [
         { "event": "duerer-cho-ev-019", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID020": {
       "id": "duerer-OID020",
@@ -262,15 +412,24 @@
       "relations": [
         { "event": "duerer-cho-ev-020", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID021": {
       "id": "duerer-OID021",
       "label": { "default": "Choir of the Groote Kerk in Bergen op Zoom" },
+      "media": ["duerer-m-014"],
       "relations": [
         { "event": "duerer-cho-ev-021", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID022": {
       "id": "duerer-OID022",
@@ -278,23 +437,37 @@
       "relations": [
         { "event": "duerer-cho-ev-022", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID023": {
       "id": "duerer-OID023",
       "label": { "default": "Table and two jars" },
+      "media": ["duerer-m-015"],
       "relations": [
         { "event": "duerer-cho-ev-023", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID024": {
       "id": "duerer-OID024",
       "label": { "default": "A suitcase and a stand" },
+      "media": ["duerer-m-016"],
       "relations": [
         { "event": "duerer-cho-ev-024", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID025": {
       "id": "duerer-OID025",
@@ -302,7 +475,11 @@
       "relations": [
         { "event": "duerer-cho-ev-025", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID026": {
       "id": "duerer-OID026",
@@ -310,7 +487,11 @@
       "relations": [
         { "event": "duerer-cho-ev-026", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID027": {
       "id": "duerer-OID027",
@@ -318,23 +499,38 @@
       "relations": [
         { "event": "duerer-cho-ev-027", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID028": {
       "id": "duerer-OID028",
       "label": { "default": "Two women in festive attire" },
+      "description": "Dürer depicted the two female figures in festive attire on different occasions. The left figure, very elegantly dressed in a somptous court robe and expanding headdress and full of live, was actually copied from a a brass statuette on the tomb of Isabella of Bourbon (d. 1465) in St Michael in Antwerp. The right woman, with a long mantle and characteristic hat, wears a typical attire of certain parts of Central Europe, i.e. Silesia or Eastern Austria, whom Dürer might have encountered in the trading town Antwerp or during the buzzling coronation festivities of Charles V. in Aachen and drawn in silverpoint technique.",
+      "media": ["duerer-m-017"],
       "relations": [
         { "event": "duerer-cho-ev-028", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID029": {
       "id": "duerer-OID029",
       "label": { "default": "Lying dog" },
+      "media": ["duerer-m-018"],
       "relations": [
         { "event": "duerer-cho-ev-029", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID030": {
       "id": "duerer-OID030",
@@ -342,7 +538,11 @@
       "relations": [
         { "event": "duerer-cho-ev-030", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID031": {
       "id": "duerer-OID031",
@@ -350,7 +550,11 @@
       "relations": [
         { "event": "duerer-cho-ev-031", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID032": {
       "id": "duerer-OID032",
@@ -358,7 +562,11 @@
       "relations": [
         { "event": "duerer-cho-ev-032", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID033": {
       "id": "duerer-OID033",
@@ -366,7 +574,11 @@
       "relations": [
         { "event": "duerer-cho-ev-033", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID034": {
       "id": "duerer-OID034",
@@ -374,7 +586,11 @@
       "relations": [
         { "event": "duerer-cho-ev-034", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID035": {
       "id": "duerer-OID035",
@@ -382,15 +598,24 @@
       "relations": [
         { "event": "duerer-cho-ev-035", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID036": {
       "id": "duerer-OID036",
       "label": { "default": "Lion with head upright" },
+      "media": ["duerer-m-019"],
       "relations": [
         { "event": "duerer-cho-ev-036", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID037": {
       "id": "duerer-OID037",
@@ -398,39 +623,64 @@
       "relations": [
         { "event": "duerer-cho-ev-037", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID038": {
       "id": "duerer-OID038",
       "label": { "default": "Rheinfels Castle" },
+      "description": "Rheinfels Castle is among the most prominent medieval castles on the Rhine river. Dürer probably made this detailed view of the castle on his high hill during a travel stop or overnight stay.",
+      "media": ["duerer-m-020"],
       "relations": [
         { "event": "duerer-cho-ev-038", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID039": {
       "id": "duerer-OID039",
       "label": { "default": "Castle (Frankonian?)" },
+      "media": ["duerer-m-020"],
       "relations": [
         { "event": "duerer-cho-ev-039", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID040": {
       "id": "duerer-OID040",
       "label": { "default": "Portrait of Max Ulstat" },
+      "media": ["duerer-m-021"],
       "relations": [
         { "event": "duerer-cho-ev-040", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID041": {
       "id": "duerer-OID041",
       "label": { "default": "Pretty young woman from Antwerp" },
+      "media": ["duerer-m-021"],
       "relations": [
         { "event": "duerer-cho-ev-041", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID042": {
       "id": "duerer-OID042",
@@ -438,7 +688,11 @@
       "relations": [
         { "event": "duerer-cho-ev-042", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID043": {
       "id": "duerer-OID043",
@@ -446,55 +700,89 @@
       "relations": [
         { "event": "duerer-cho-ev-043", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID044": {
       "id": "duerer-OID044",
       "label": { "default": "93 year old man" },
+      "media": ["duerer-m-022"],
       "relations": [
         { "event": "duerer-cho-ev-044", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID045": {
       "id": "duerer-OID045",
       "label": { "default": "Study of Left Arm" },
+      "media": ["duerer-m-023"],
       "relations": [
         { "event": "duerer-cho-ev-045", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID046": {
       "id": "duerer-OID046",
       "label": { "default": "Bookrest with Books and Box" },
+      "media": ["duerer-m-024"],
       "relations": [
         { "event": "duerer-cho-ev-046", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID047": {
       "id": "duerer-OID047",
       "label": { "default": "Skull" },
+      "media": ["duerer-m-025"],
       "relations": [
         { "event": "duerer-cho-ev-047", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID048": {
       "id": "duerer-OID048",
       "label": { "default": "Christ praying in the Garden Getsemane" },
+      "media": ["duerer-m-026"],
       "relations": [
         { "event": "duerer-cho-ev-048", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID049": {
       "id": "duerer-OID049",
       "label": { "default": "Burial of Christ" },
+      "media": ["duerer-m-027"],
       "relations": [
         { "event": "duerer-cho-ev-049", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID050": {
       "id": "duerer-OID050",
@@ -502,7 +790,11 @@
       "relations": [
         { "event": "duerer-cho-ev-050", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID051": {
       "id": "duerer-OID051",
@@ -510,7 +802,11 @@
       "relations": [
         { "event": "duerer-cho-ev-051", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID052": {
       "id": "duerer-OID052",
@@ -518,7 +814,11 @@
       "relations": [
         { "event": "duerer-cho-ev-052", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID053": {
       "id": "duerer-OID053",
@@ -526,7 +826,11 @@
       "relations": [
         { "event": "duerer-cho-ev-053", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID054": {
       "id": "duerer-OID054",
@@ -534,7 +838,11 @@
       "relations": [
         { "event": "duerer-cho-ev-054", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID055": {
       "id": "duerer-OID055",
@@ -542,7 +850,11 @@
       "relations": [
         { "event": "duerer-cho-ev-055", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID056": {
       "id": "duerer-OID056",
@@ -552,7 +864,11 @@
       "relations": [
         { "event": "duerer-cho-ev-056", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID057": {
       "id": "duerer-OID057",
@@ -560,15 +876,24 @@
       "relations": [
         { "event": "duerer-cho-ev-057", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID058": {
       "id": "duerer-OID058",
       "label": { "default": "Portrait of a man (formerly Lucas van Leyden)" },
+      "media": ["duerer-m-028"],
       "relations": [
         { "event": "duerer-cho-ev-058", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID059": {
       "id": "duerer-OID059",
@@ -576,15 +901,23 @@
       "relations": [
         { "event": "duerer-cho-ev-059", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID060": {
       "id": "duerer-OID060",
-      "label": { "default": "portrait of a man (formerly Joachim Patinir)" },
+      "label": { "default": "Portrait of a man (formerly Joachim Patinir)" },
       "relations": [
         { "event": "duerer-cho-ev-060", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID061": {
       "id": "duerer-OID061",
@@ -592,7 +925,11 @@
       "relations": [
         { "event": "duerer-cho-ev-061", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-chalk_drawing",
+        "label": { "default": "Chalk drawing" }
+      }
     },
     "duerer-OID062": {
       "id": "duerer-OID062",
@@ -600,33 +937,53 @@
       "relations": [
         { "event": "duerer-cho-ev-062", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID063": {
       "id": "duerer-OID063",
       "label": {
-        "default": "portrait of Agnes Dürer in a Netherlandish costume"
+        "default": "Portrait of Agnes Dürer in a Netherlandish costume"
       },
       "relations": [
         { "event": "duerer-cho-ev-063", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brown_metalpoint_on_dark_violet_ground",
+        "label": { "default": "Brown metalpoint on dark violet ground" }
+      }
     },
     "duerer-OID064": {
       "id": "duerer-OID064",
       "label": { "default": "Christian II of Denmark" },
+      "description": "Christian II of Denmark, who is married to Charles' V sister and stays at the court of Brussels, commissions Dürer to paint his portrait. The painting is lost, but a drawing gives an impression of Dürer's work.",
+      "media": ["duerer-m-029"],
       "relations": [
         { "event": "duerer-cho-ev-064", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      }
     },
     "duerer-OID065": {
       "id": "duerer-OID065",
       "label": { "default": "Lukas van Leyden" },
+      "description": "Lucas van Leyden is a famous painter and graphic artist. He visits Dürer for a day  in spring 1521.",
+      "media": ["duerer-m-028"],
       "relations": [
         { "event": "duerer-cho-ev-065", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID066": {
       "id": "duerer-OID066",
@@ -634,7 +991,11 @@
       "relations": [
         { "event": "duerer-cho-ev-066", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID067": {
       "id": "duerer-OID067",
@@ -642,15 +1003,24 @@
       "relations": [
         { "event": "duerer-cho-ev-067", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      }
     },
     "duerer-OID068": {
       "id": "duerer-OID068",
       "label": { "default": "Portrait of Felix Hungersperg kneeling" },
+      "media": ["duerer-m-030"],
       "relations": [
         { "event": "duerer-cho-ev-068", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID069": {
       "id": "duerer-OID069",
@@ -658,31 +1028,52 @@
       "relations": [
         { "event": "duerer-cho-ev-069", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID070": {
       "id": "duerer-OID070",
       "label": { "default": "Port of Antwerp" },
+      "description": "Shortly after his arrival in Antwerp in August 1520, Dürer depicted this view of the harbor of the city. The quickly drawn scene is full of details and gives a lively image of the bustling atmosphere on the shores of the river Schelde.",
+      "media": ["duerer-m-031"],
       "relations": [
         { "event": "duerer-cho-ev-070", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID071": {
       "id": "duerer-OID071",
       "label": { "default": "Park of Royal Palace in Brussels" },
+      "description": "Park of Royal Palace in Brussels: During his first stay in Brussels, Dürer had the chance to visit the royal palace. From one of the chambers on the upper floor he made this view of the vast, park-like garden of the royal residence. In the foreground, the tournament ground catches his attention.",
       "relations": [
         { "event": "duerer-cho-ev-071", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID072": {
       "id": "duerer-OID072",
       "label": { "default": "Head of a walrus" },
+      "description": "According to the inscription, Dürer depicts this head of a walrus after a real animal which was exhibited in Antwerp in 1521. It is one of his most lively animal portraits. The inscription claims that the walrus was caught \"in the Netherlands sea\" (e.g. the North See) and was \"twelve brabant ells long with four feet”, which is more than 8 metres. Actually, walruses are only around 3.5 metres long.",
+      "media": ["duerer-m-032"],
       "relations": [
         { "event": "duerer-cho-ev-072", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      }
     },
     "duerer-OID073": {
       "id": "duerer-OID073",
@@ -690,7 +1081,11 @@
       "relations": [
         { "event": "duerer-cho-ev-073", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-watercolor_and_bodycolor_on_parchment",
+        "label": { "default": "watercolor and bodycolor on parchment" }
+      }
     },
     "duerer-OID074": {
       "id": "duerer-OID074",
@@ -698,7 +1093,11 @@
       "relations": [
         { "event": "duerer-cho-ev-074", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      }
     },
     "duerer-OID075": {
       "id": "duerer-OID075",
@@ -706,7 +1105,11 @@
       "relations": [
         { "event": "duerer-cho-ev-075", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      }
     },
     "duerer-OID076": {
       "id": "duerer-OID076",
@@ -714,7 +1117,11 @@
       "relations": [
         { "event": "duerer-cho-ev-076", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      }
     },
     "duerer-OID077": {
       "id": "duerer-OID077",
@@ -722,7 +1129,11 @@
       "relations": [
         { "event": "duerer-cho-ev-077", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      }
     },
     "duerer-OID078": {
       "id": "duerer-OID078",
@@ -730,7 +1141,11 @@
       "relations": [
         { "event": "duerer-cho-ev-078", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      }
     },
     "duerer-OID079": {
       "id": "duerer-OID079",
@@ -738,7 +1153,11 @@
       "relations": [
         { "event": "duerer-cho-ev-079", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      }
     },
     "duerer-OID080": {
       "id": "duerer-OID080",
@@ -746,7 +1165,11 @@
       "relations": [
         { "event": "duerer-cho-ev-080", "role": "role-object_created" }
       ],
-      "kind": "cultural-heritage-object"
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-oil_painting_on_panel",
+        "label": { "default": "oil painting on panel" }
+      }
     },
     "duerer-gr-001": {
       "id": "duerer-gr-001",
@@ -1001,6 +1424,16 @@
     "duerer-pr-001": {
       "id": "duerer-pr-001",
       "label": { "default": "Albrecht Dürer" },
+      "linkedIds": [
+        {
+          "id": "11852786X",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/11852786X"
+          }
+        }
+      ],
+      "media": ["duerer-m-006"],
       "relations": [
         { "event": "duerer-cho-ev-001", "role": "role-was_creator" },
         { "event": "duerer-cho-ev-002", "role": "role-was_creator" },
@@ -1282,11 +1715,21 @@
         { "event": "duerer-nl-EID156", "role": "role-was_travelling" }
       ],
       "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } }
+      "gender": { "id": "male", "label": { "default": "male" } },
+      "biographies": ["duerer-bio-001"]
     },
     "duerer-pr-002": {
       "id": "duerer-pr-002",
       "label": { "default": "Anton Koberger" },
+      "linkedIds": [
+        {
+          "id": "118563890",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118563890"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-macro-ev-001", "role": "role-was_godfather" }
       ],
@@ -1296,6 +1739,15 @@
     "duerer-pr-003": {
       "id": "duerer-pr-003",
       "label": { "default": "Michael Wolgemut" },
+      "linkedIds": [
+        {
+          "id": "118771175",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118771175"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-macro-ev-002", "role": "role-was_teacher" }
       ],
@@ -1305,6 +1757,15 @@
     "duerer-pr-004": {
       "id": "duerer-pr-004",
       "label": { "default": "Martin Schongauer" },
+      "linkedIds": [
+        {
+          "id": "118610430",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118610430"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-macro-ev-004", "role": "role-was_employer" }
       ],
@@ -1315,13 +1776,24 @@
       "id": "duerer-pr-005",
       "label": { "default": "Agnes Dürer" },
       "alternativeLabels": [{ "default": "Agnes Frey" }],
+      "linkedIds": [
+        {
+          "id": "118869051",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118869051"
+          }
+        }
+      ],
+      "media": ["duerer-m-005"],
       "relations": [
         { "event": "duerer-macro-ev-005", "role": "role-was_wife" },
         { "event": "duerer-nl-EID001", "role": "role-was_travelling" },
         { "event": "duerer-nl-EID144", "role": "role-was_travelling" }
       ],
       "kind": "person",
-      "gender": { "id": "female", "label": { "default": "female" } }
+      "gender": { "id": "female", "label": { "default": "female" } },
+      "biographies": ["duerer-bio-002"]
     },
     "duerer-pr-006": {
       "id": "duerer-pr-006",
@@ -1337,6 +1809,15 @@
       "id": "duerer-pr-007",
       "label": { "default": "Karl V" },
       "alternativeLabels": [{ "default": "Charles V." }],
+      "linkedIds": [
+        {
+          "id": "118560093",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118560093"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-macro-ev-025", "role": "role-participated" },
         { "event": "duerer-macro-ev-030", "role": "role-participated" },
@@ -1358,6 +1839,15 @@
     "duerer-pr-009": {
       "id": "duerer-pr-009",
       "label": { "default": "Bishop of Bamberg George III Schenk von Limpurg" },
+      "linkedIds": [
+        {
+          "id": "118924710",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118924710"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-nl-EID005", "role": "role-participated" }
       ],
@@ -1367,6 +1857,15 @@
     "duerer-pr-010": {
       "id": "duerer-pr-010",
       "label": { "default": "Niclas Unger" },
+      "linkedIds": [
+        {
+          "id": "Q1990389",
+          "provider": {
+            "label": "Wikidata",
+            "baseUrl": "https://www.wikidata.org/wiki/Q1990389"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-nl-EID061", "role": "role-was_hosting" }
       ],
@@ -1376,6 +1875,15 @@
     "duerer-pr-011": {
       "id": "duerer-pr-011",
       "label": { "default": "Jan Provost" },
+      "linkedIds": [
+        {
+          "id": "12231297X",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/12231297X"
+          }
+        }
+      ],
       "relations": [
         { "event": "duerer-nl-EID139", "role": "role-was_hosting" }
       ],
@@ -1385,6 +1893,16 @@
     "duerer-pr-012": {
       "id": "duerer-pr-012",
       "label": { "default": "Christian II, King of Denmark" },
+      "linkedIds": [
+        {
+          "id": "119195380",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/119195380"
+          }
+        }
+      ],
+      "media": ["duerer-m-029"],
       "relations": [
         { "event": "duerer-macro-ev-037", "role": "role-comissioned_by" },
         { "event": "duerer-nl-EID146", "role": "role-commisioned_work" }
@@ -4448,7 +4966,7 @@
       "label": {
         "default": "Dürer stirbt in Nürnberg und wird auf dem Johannisfriedhof begraben"
       },
-      "description": "Dürer stirbt in Nürnberg und wird auf dem Johannisfriedhof begraben",
+      "description": "Dürer stirbt in Nürnberg und wird auf dem Johannisfriedhof begraben; Dürer died on April 6, 1528 at the age of 56 in his house in Nuremberg after a short illness. He was buried in the family grave of his parents-in-law on St John's graveyard in Nuremberg. His wife Agnes continued to run the workshop until her own death in 1539. Unlike most artists of his time, Dürer was never forgotten by posterity - on the contrary. Thanks to his outstanding art and self-promotion, his glory remains up until today.",
       "kind": "event-kind-death",
       "source": { "citation": "Nachrufe bedeutender Humanisten, Grabplatte" },
       "startDate": "1528-04-06",
@@ -6219,7 +6737,430 @@
       ]
     }
   },
+  "media": [
+    {
+      "id": "duerer-m-001",
+      "label": { "default": "A Man with an Oar" },
+      "attribution": "https://barber.org.uk/albrecht-durer-1471-1528-2/",
+      "url": "https://barber.org.uk/wp-content/uploads/2018/06/54.9-Durer1200.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-002",
+      "label": {
+        "default": "Portrait of Lazarus Ravensburger and the turrets of the court of Lier in Antwerp"
+      },
+      "description": "Regarding the Hof van Liere, the major's residence, Dürer explicitely mentions its unsual tower, probably because of its tulip-style top which he documents in a silverpoint drawing. On the same sheet, he draws a portait of Ravensburger, a German merchant in Antwerp whom Dürer encounters severals times.  ",
+      "attribution": "https://www.wikiart.org/en/albrecht-durer/portrait-of-lazarus-ravensburger-and-the-turrets-of-the-court-of-lier-in-antwerp",
+      "url": "https://uploads2.wikiart.org/images/albrecht-durer/portrait-of-lazarus-ravensburger-and-the-turrets-of-the-court-of-lier-in-antwerp.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-003",
+      "label": { "default": "Portrait of Jobst Plankfelt" },
+      "attribution": "https://staedelmuseum.de/go/ds/699z",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-004",
+      "label": { "default": "Portrait of Felix Hungersperg" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3162]&showtype=record",
+      "url": "http://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=15001&filename=images/3162.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-005",
+      "label": { "default": "Agnes Dürer in traditional Dutch costume" },
+      "description": "\"Agnes Dürerin in niederländischer Tracht\", Metallstiftzeichnung von Albrecht Dürer.",
+      "attribution": "https://en.wikipedia.org/wiki/File:Agnes_Duerer_1521.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Agnes_Duerer_1521.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-006",
+      "label": {
+        "default": "Albrecht Dürer: Self-Portrait with Fur-Trimmed Robe"
+      },
+      "description": "In 1500, 29-year-old Dürer paints himself in an unprecendented Christ-like manner. The fur coat also refers to his social status as renowned artist and well-situated citizen of Nuremberg.    ",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_1500_self-portrait_(High_resolution_and_detail).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Albrecht_D%C3%BCrer_-_1500_self-portrait_%28High_resolution_and_detail%29.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-007",
+      "label": { "default": "A goldsmith from Mechelen" },
+      "attribution": "https://www.bildindex.de/document/obj00030696?medium=mi03976a05&part=1",
+      "url": "https://www.bildindex.de/media/large/mi/03/97/6a/mi03976a05.jpg?Expires=1677759882&Signature=hWeVgz5cjlYCBB2LCiBgpEX8KcG3RfTFq0uPL84nDEqrdHhy5ubRwrJVjKuEWzf92X13ypwWFMGToksoUmCw2HPJSF~1JI8zBmob43tSWRXG7P0H5U3DKehqf2tfXUma7o~ZU42ct2Rf9FcwuOsC6EEw2QvAlzU7pO6W7wfrA18_&Key-Pair-Id=APKAJGHHKKX2FHRP63AQ",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-008",
+      "label": { "default": "A woman in Brussels" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3161]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3161.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-009",
+      "label": {
+        "default": "Double portrait of Paul Topler and Martin Pfinzing"
+      },
+      "attribution": "https://www.wikiart.org/en/albrecht-durer/portrait-of-paul-martin-and-the-topler-pfinzig",
+      "url": "https://uploads4.wikiart.org/images/albrecht-durer/portrait-of-paul-martin-and-the-topler-pfinzig.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-010",
+      "label": { "default": "Aachen Cathedral" },
+      "description": "Dürer portraits Aachen Cathedral from an upper floor window of the Town Hall. All architectonical details are clearly represented. Upon closer inspection, however, one disovers that Dürer has added one bay in the choir.",
+      "attribution": "https://www.britishmuseum.org/collection/object/P_1895-0915-982",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_22/3bf094b1_b130_4ca4_b521_a3e1016b5147/large_00136096_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-011",
+      "label": {
+        "default": "A girl from Cologne and Agnes Dürer, near Boppard on the Rhine"
+      },
+      "description": "Dürer depicted Agnes several times during their journey, among others he caught her on the ship along the Rhine valley near Boppard. In this silverpoint dawing from Dürer's sketchbook she is matched with a young girl from Cologne who probably fascinated Dürer because of her attire.",
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[22385r]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/22385r.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-012",
+      "label": { "default": "Bergen op Zoom" },
+      "description": "The merchant town of Bergen op Zoom is a sort of gateway to Zeeland. While waiting for his ship, Dürer has the chance to visit the town and draw some of its major monuments, among others the picturesque view of Bergen's famous Markiesenhof, the Renaissance castle of the Marquis with its characteristic \"tulip\" tower. ",
+      "attribution": "https://rkd.nl/nl/explore/images/293320",
+      "url": "https://images.rkd.nl/rkd/thumb/650x650/ba2b4991-b4cd-13b3-32f2-55ff2b82af0e.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-013",
+      "label": { "default": "Two Women from Bergen and from Goes" },
+      "description": "Een meisje uit Bergen op Zoom (links) en een meisje uit Goes (rechts), getekend door Albrecht Dürer in 1520. (Bron: Chantilly, musée Condé)",
+      "attribution": "https://www.brabantserfgoed.nl/page/10266/twee-gewone-vrouwen-uit-bergen-op-zoom-getekend-door-albrecht-d%C3%BCrer",
+      "url": "https://www.brabantserfgoed.nl/image/2019/10/29/585646.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-014",
+      "label": { "default": "Choir of the Groote Kerk in Bergen op Zoom" },
+      "attribution": "https://sammlung.staedelmuseum.de/en/work/the-new-choir-of-st-gertrudis-in-bergen-op-zoom",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-015",
+      "label": { "default": "Table and two jars" },
+      "attribution": "https://www.britishmuseum.org/collection/object/P_1921-0714-2",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/64a81b90_f52e_4794_bc34_a3b501317e9c/mid_00154486_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-016",
+      "label": { "default": "A suitcase and a stand" },
+      "attribution": "https://www.britishmuseum.org/collection/image/154487001",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/fb886624_b508_4fe4_8242_a3b50131809f/mid_00154487_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-017",
+      "label": { "default": "Two women in festive attire" },
+      "description": "Dürer depicted the two female figures in festive attire on different occasions. The left figure, very elegantly dressed in a somptous court robe and expanding headdress and full of live, was actually copied from a a brass statuette on the tomb of Isabella of Bourbon (d. 1465) in St Michael in Antwerp. The right woman, with a long mantle and characteristic hat, wears a typical attire of certain parts of Central Europe, i.e. Silesia or Eastern Austria, whom Dürer might have encountered in the trading town Antwerp or during the buzzling coronation festivities of Charles V. in Aachen and drawn in silverpoint technique.",
+      "attribution": "https://www.britishmuseum.org/collection/image/154436001",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/f1ae6fad_e277_4ce7_a508_a3b5013182a7/mid_00154436_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-018",
+      "label": { "default": "Lying dog" },
+      "attribution": "https://www.britishmuseum.org/collection/object/P_1848-1125-3",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/43dbb970_504e_4180_b28a_a3b501317bc2/mid_00154434_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-019",
+      "label": { "default": "Lion with head upright" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[22385v]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/22385v.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-020",
+      "label": { "default": "Two Castles" },
+      "description": "Evtl. Burg Rheinfels bei Goslar und Burg Stolzenfels, aus dem Silberstiftskizzenbuch, das während der Reise in die Niederlande entstand",
+      "attribution": "http://www.zeno.org/Kunstwerke/B/D%C3%BCrer,%20Albrecht:%20Zwei%20Burgen",
+      "url": "http://images.zeno.org/Kunstwerke/I/big/2540011a.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-021",
+      "label": {
+        "default": "Marx Ulstat; The Beautiful Young Woman of Antwerp, ca. 1520 – 1521"
+      },
+      "attribution": "https://sammlung.staedelmuseum.de/en/work/marx-ulstat-the-beautiful-young-woman-of-antwerp",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-022",
+      "label": { "default": "93 year old man" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3167]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3167.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-023",
+      "label": { "default": "Study of Left Arm" },
+      "attribution": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3167.JPG",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3168.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-024",
+      "label": { "default": "Bookrest with Books and Box" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3176]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3176.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-025",
+      "label": { "default": "Skull" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3175]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3175.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-026",
+      "label": { "default": "Christ praying in the Garden Getsemane" },
+      "attribution": "https://sammlung.staedelmuseum.de/en/work/agony-in-the-garden",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-027",
+      "label": { "default": "Burial of Christ" },
+      "attribution": "https://www.europeana.eu/de/item/199/item_THLBWXQUDV5ZKB2ILHXPOOBXMZJMKFOH",
+      "url": "https://proxy.europeana.eu/199/item_THLBWXQUDV5ZKB2ILHXPOOBXMZJMKFOH?view=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Fmi04673b05&disposition=inline&api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-028",
+      "label": { "default": "Portrait of a man (formerly Lucas van Leyden)" },
+      "attribution": "https://www.britishmuseum.org/collection/object/P_1910-0212-103",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/1cf4fe6c_5bd4_472e_8060_a3b50131e188/mid_00154525_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-029",
+      "label": { "default": "Portrait of Christian II of Denmark" },
+      "description": "Christian II of Denmark, who is married to Charles' V sister and stays at the court of Brussels, commissions Dürer to paint his portrait. The painting is lost, but a drawing gives an impression of Dürer's work.",
+      "attribution": "https://www.britishmuseum.org/collection/object/P_SL-5218-48",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/4_14/3d509415_1836_4b7b_8cb5_a3ba00f4062f/mid_00238245_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-030",
+      "label": { "default": "Portrait of Felix Hungersperg kneeling" },
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3163]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3163.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-031",
+      "label": { "default": "Port of Antwerp" },
+      "description": "Shortly after his arrival in Antwerp in August 1520, Dürer depicted this view of the harbor of the city. The quickly drawn scene is full of details and gives a lively image of the bustling atmosphere on the shores of the river Schelde.",
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3165]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3165.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-032",
+      "label": { "default": "Head of a walrus" },
+      "description": "According to the inscription, Dürer depicts this head of a walrus after a real animal which was exhibited in Antwerp in 1521. It is one of his most lively animal portraits. The inscription claims that the walrus was caught \"in the Netherlands sea\" (e.g. the North See) and was \"twelve brabant ells long with four feet”, which is more than 8 metres. Actually, walruses are only around 3.5 metres long.",
+      "attribution": "https://www.britishmuseum.org/collection/object/P_SL-5261-167",
+      "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/1fcc14c8_0932_40d4_b70a_a3b50131c2a7/mid_00154511_001.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-033",
+      "label": { "default": "Chandelier and coat of arms, ca. 1521" },
+      "attribution": "https://sammlung.staedelmuseum.de/en/work/chandelier-and-coat-of-arms",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-034",
+      "label": { "default": "Young Hare" },
+      "description": "The \"Young Hare\", dated 1502, counts among Dürer's most famous works. The highly detailed drawing of the animal still fascinates today.",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Hare,_1502_-_Google_Art_Project.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-035",
+      "label": { "default": "Knight, Death, and the Devil" },
+      "attribution": "https://commons.wikimedia.org/wiki/File:Duerer_-_Ritter,_Tod_und_Teufel_(Der_Reuther).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Duerer_-_Ritter%2C_Tod_und_Teufel_%28Der_Reuther%29.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-036",
+      "label": { "default": "Saint Jerome in His Study" },
+      "attribution": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer-Hieronymus-im-Geh%C3%A4us.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/D%C3%BCrer-Hieronymus-im-Geh%C3%A4us.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-037",
+      "label": { "default": "Melencolia I" },
+      "description": "Dürer's \"Melancholia\" (1514) is his best known master engraving. The winged female figure of melancholy, deep in her thoughts, is surrounded by meticulously rendered objects related to geometry, astrology and mathematics. The scribbling putto adds a playful note to this enigmatic scene which culminates in the cry of the beat-like creature. ",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28_AGDdr3EHmNGyA%29.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-038",
+      "label": { "default": "Dürer-Haus" },
+      "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht-D%C3%BCrer-Haus_i_N%C3%BCrnberg_-_TEK_-_TEKA0115528.tif",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Albrecht-D%C3%BCrer-Haus_i_N%C3%BCrnberg_-_TEK_-_TEKA0115528.tif",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-039",
+      "label": { "default": "Kupferstich" },
+      "description": "The video illustrates the making of an engraving, the most demanding graphic technique in Dürer's time, which Dürer introduced to Nuremberg after his journeyman travels. He created more than 100 engravings during his career. ",
+      "attribution": "https://www.youtube.com/watch?v=qwesPhquWsE",
+      "url": "https://www.youtube.com/watch?v=qwesPhquWsE",
+      "kind": "media-kind-video"
+    },
+    {
+      "id": "duerer-m-040",
+      "label": { "default": "Agnes Dürer (\"Mein Agnes\")" },
+      "description": "23 year old Dürer made this intimate drawing of \"His Agnes\" probably shortly before their marriage in spring 1494. Agnes was then only 18 or 19 years old. With rapid pen strokes, Dürer catches this moment of drowsy thoughtfulness. Agnes will become one of Dürer's favourite models. ",
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3063]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3063.JPG",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-041",
+      "label": { "default": "Innsbruck von Norden" },
+      "description": "This small view of Innsbruck from the North side of the Inn river is full of life. Drawn in 1496, Dürer not only portrays the cityscape on the river Inn and single buildings, but also renders ephemeral effects such as the effects of light or the reflection of houses in the water with great mastery.",
+      "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3056]&showtype=record",
+      "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3056.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-042",
+      "label": { "default": "Feast of Rose Garlands " },
+      "description": "The \"Feast of the Rose Garlands\" (1506) is Dürer's most Italianate painting. Among the faithful gathered around the Madonna in a \"Holy Conversation\", Dürer has depicted himself in the background, proudly presenting a sheet of paper with his signature. The majestic madonna, the floating garments and beautifully shaded colors, the playful putti all remind of Venetian Renaissance paintings.",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Feast_of_Rose_Garlands_-_Google_Art_Project.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Albrecht_D%C3%BCrer_-_Feast_of_Rose_Garlands_-_Google_Art_Project.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-043",
+      "label": { "default": "Book of Proportions" },
+      "description": "Dürer had worked on the \"Book of Proportions\" for almost 25 years. It describes different methods how to calculate human proportions - male and female of different contitutions and even children. One chapter is dedicated to movements, another passage to distortions. ",
+      "attribution": "https://books.google.de/books?id=SpX3BoSucz0C",
+      "url": "https://books.googleusercontent.com/books/content?req=AKW5QacMsPlzkhSCOohiXYeGljWguMgUQZpwSe9jD-AwX2dY7j4q8PfiYB4m-J-mvsYJpatZ3-Jt4fsCZCAr6gcAHgo8XQBnTUMNt41l5rsg236daxIa9HqNBkAEk1oCCB_F_p0JSetKf7xs-kEVhTq-Qbn_wXgRDnmYyENLKcPb6eOAGx0Bl8OXNIKKcW3JtNG2tTvp5CGcdn6GZGCaZWldzk6J7MFZVTFAIRyRQU9JVsHd9EG09heBzto7hdDbfN9ero7r8UITPVO7i1XxfoE6k1EHShuXtPleOELjtFzm9VrzH7cn7fY",
+      "kind": "media-kind-document"
+    },
+    {
+      "id": "duerer-m-044",
+      "label": { "default": "Dürer's grave" },
+      "description": "Dürer's grave is an iconic site since the 16th century. In the 17th century, the painter and founder of the Nuremberg art academy, Joachim von Sandrart, donated a bronze plate in veneration of his hero, and other artists strove to be buried next to Dürer in the Frey family's gravesite. ",
+      "attribution": "https://www.nuernberg.museum/projects/show/1132-albrecht-duerer-grabstaette",
+      "url": "https://www.nuernberg.museum/img/duerer_epitaph_foto_theo-noll_2021--1-_.jpg",
+      "kind": "media-kind-image"
+    },
+    {
+      "id": "duerer-m-045",
+      "label": {
+        "default": "Tagebuch der niederländischen Reise in einer Abschrift"
+      },
+      "attribution": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
+      "url": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
+      "kind": "media-kind-document"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "duerer-bio-001",
+      "text": "Albrecht Dürer (21 May 1471 – 6 April 1528) [...] was a German painter, printmaker, and theorist of the German Renaissance. Born in Nuremberg, Dürer established his reputation and influence across Europe in his twenties due to his high-quality woodcut prints. He was in contact with the major Italian artists of his time, including Raphael, Giovanni Bellini, and Leonardo da Vinci, and from 1512 was patronized by Emperor Maximilian I.\r\n\r\nDürer's vast body of work includes engravings, his preferred technique in his later prints, altarpieces, portraits and self-portraits, watercolours and books. The woodcuts series are more Gothic than the rest of his work. His well-known engravings include the three Meisterstiche (master prints) Knight, Death and the Devil (1513), Saint Jerome in his Study (1514), and Melencolia I (1514). His watercolours mark him as one of the first European landscape artists, while his woodcuts revolutionised the potential of that medium.\r\n\r\nDürer's introduction of classical motifs into Northern art, through his knowledge of Italian artists and German humanists, has secured his reputation as one of the most important figures of the Northern Renaissance. This is reinforced by his theoretical treatises, which involve principles of mathematics, perspective, and ideal proportions. ",
+      "citation": "https://en.wikipedia.org/wiki/Albrecht_D%C3%Bcrer"
+    },
+    {
+      "id": "duerer-bio-002",
+      "text": "Agnes Dürer née Frey (1475–1539) was the wife of the German artist Albrecht Dürer. During their marriage, which was childless, she was portrayed several times by Dürer.\r\n\r\nAgnes Dürer was the daughter of the coppersmith and lute maker Hans Frey and his wife Anna, a member of the patrician family Rummel. ",
+      "citation": "https://en.wikipedia.org/wiki/Agnes_D%C3%Bcrer"
+    }
+  ],
   "vocabularies": {
+    "media-kind": [
+      { "id": "media-kind-image", "label": { "default": "image" } },
+      { "id": "media-kind-video", "label": { "default": "video" } },
+      { "id": "media-kind-document", "label": { "default": "document" } }
+    ],
+    "cultural-heritage-object-type": [
+      {
+        "id": "cultural-heritage-object-type-book",
+        "label": { "default": "book" }
+      },
+      {
+        "id": "cultural-heritage-object-type-drawing",
+        "label": { "default": "drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-engraving",
+        "label": { "default": "engraving" }
+      },
+      {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      },
+      {
+        "id": "cultural-heritage-object-type-manuscript",
+        "label": { "default": "manuscript" }
+      },
+      {
+        "id": "cultural-heritage-object-type-woodcut",
+        "label": { "default": "woodcut" }
+      },
+      {
+        "id": "cultural-heritage-object-type-pen_drawing",
+        "label": { "default": "pen drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-silverpoint_drawing",
+        "label": { "default": "silverpoint drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-brush_drawing_on_dark_violet_ground",
+        "label": { "default": "brush drawing on dark violet ground" }
+      },
+      {
+        "id": "cultural-heritage-object-type-charcoal_drawing",
+        "label": { "default": "Charcoal drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-chalk_drawing",
+        "label": { "default": "Chalk drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-brown_metalpoint_on_dark_violet_ground",
+        "label": { "default": "Brown metalpoint on dark violet ground" }
+      },
+      {
+        "id": "cultural-heritage-object-type-pen_and_watercolor_drawing",
+        "label": { "default": "pen and watercolor drawing" }
+      },
+      {
+        "id": "cultural-heritage-object-type-watercolor_and_bodycolor_on_parchment",
+        "label": { "default": "watercolor and bodycolor on parchment" }
+      },
+      {
+        "id": "cultural-heritage-object-type-oil_painting_on_panel",
+        "label": { "default": "oil painting on panel" }
+      }
+    ],
     "group-type": [
       { "id": "group-type-workspace", "label": { "default": "workspace" } },
       { "id": "group-type-museum", "label": { "default": "museum" } },
@@ -6306,25 +7247,7 @@
       }
     ]
   },
-  "unmappedEntries": [
-    {
-      "id": "duerer-m-001",
-      "attribution": "https://barber.org.uk/albrecht-durer-1471-1528-2/",
-      "url": "https://barber.org.uk/wp-content/uploads/2018/06/54.9-Durer500.jpg",
-      "kind": "media",
-      "sheetName": "media",
-      "rowNumber": 2,
-      "error": "kind property: media not valid in row: 2 of sheet: media"
-    },
-    {
-      "id": "duerer-pr-001",
-      "html": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec purus urna, vestibulum at purus eget, ultricies commodo justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ullamcorper sapien at massa convallis, a scelerisque orci pretium. Quisque scelerisque iaculis condimentum. Morbi euismod dui et dignissim vulputate. Vestibulum ut ex in est malesuada finibus sed non risus. Aenean eget lobortis lacus, in vehicula purus.",
-      "kind": "biography",
-      "sheetName": "biography",
-      "rowNumber": 2,
-      "error": "kind property: biography not valid in row: 2 of sheet: biography"
-    }
-  ],
+  "unmappedEntries": [],
   "collections": {
     "all": {
       "label": "Albrecht Dürer",

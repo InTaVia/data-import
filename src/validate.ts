@@ -1,5 +1,4 @@
-//FIXME validation will require @intavia/api-client@0.1.7
-import type { Entity, Event } from "@intavia/api-client";
+import type { Biography, Entity, Event, MediaResource } from "@intavia/api-client";
 import {
     person as personSchema,
     culturalHeritageObject as culturalHeritageObjectSchema,
@@ -40,3 +39,7 @@ export function validateEntity(entity: Entity): ValidateEntityReturn {
 }
 
 export function validateEvent(event: Event) {}
+
+export function validateMediaResource(mediaResource: MediaResource) {}
+
+export function validateBiography(biography: Biography) {}

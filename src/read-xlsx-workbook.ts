@@ -45,6 +45,14 @@ export function readDataFromXlsxWorkbook(
                             }
                         }
 
+                        if (sheetKind === "media") {
+                            if (row.kind != null && String(row.kind).trim().length > 0) {
+                                row["mediaKind"] = row.kind;
+                            } else {
+                                row["mediaKind"] = sheetKind;
+                            }
+                        }
+
                         if (Object.keys(row).length !== 0) {
                             return {
                                 ...row,
