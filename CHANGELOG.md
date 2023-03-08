@@ -1,5 +1,15 @@
 # @intavia/data-import
 
+## 0.1.4
+
+### Patch Changes
+
+-   [`a53e823`](https://github.com/InTaVia/data-import/commit/a53e8238b0bb11cdc14317a1d958e420be899a59) Thanks [@johannesliem](https://github.com/johannesliem)! - added media and biographies to duerer data and linked them to entities
+
+-   [`14ca97a`](https://github.com/InTaVia/data-import/commit/14ca97acb7f08e2f555f1c71c992c585616bef29) Thanks [@johannesliem](https://github.com/johannesliem)! - added media and biography import
+
+-   [`f37a28c`](https://github.com/InTaVia/data-import/commit/f37a28c0501365d4699e7123410e2a15002d9a63) Thanks [@johannesliem](https://github.com/johannesliem)! - adding wiki provider (in addtion to q) for related ids
+
 ## 0.1.3
 
 ### Patch Changes
