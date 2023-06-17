@@ -2,6 +2,7 @@ import * as XLSX from "xlsx";
 import type { Biography, Entity, Event, MediaResource, VocabularyEntry } from "@intavia/api-client";
 import { readDataFromXlsxWorkbook } from "./read-xlsx-workbook";
 import { transformData } from "./transform-data";
+import { TagCandidate } from "./types";
 
 export interface CollectionCandidate {
     label: string;
@@ -17,6 +18,7 @@ export interface ImportData {
     vocabularies?: Record<string, Array<VocabularyEntry>>;
     unmappedEntries?: Array<unknown>;
     collections?: Record<string, CollectionCandidate>;
+    tags?: Array<TagCandidate>;
 }
 
 interface ImportDataParams {

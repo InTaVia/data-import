@@ -1,4 +1,4 @@
-import type { VocabularyEntry } from "@intavia/api-client";
+import type { Entity, Event, VocabularyEntry } from "@intavia/api-client";
 
 export interface VocabularyIdAndEntry {
     id: string;
@@ -16,4 +16,13 @@ export interface UnmappedProps {
     sheetName: string;
     properties: Array<UnmappedPropsType>;
     error?: string;
+}
+
+export interface TagCandidate {
+    label: string;
+    description: string;
+    entitySheets: Array<string>;
+    eventSheets: Array<string>;
+    entities: Array<Entity["id"]>;
+    events: Array<Event["id"]>;
 }

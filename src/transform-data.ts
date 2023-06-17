@@ -2,9 +2,9 @@ import type { EntityKind, Entity, EntityEventRelation, Event } from "@intavia/ap
 import { isEntityKind } from "@intavia/api-client";
 import { createEntity, createEntityEventRelations } from "./create-entity";
 import { createEvent, createEventEntityRelation } from "./create-event";
-import type { VocabularyIdAndEntry } from "./types";
+import type { TagCandidate, VocabularyIdAndEntry } from "./types";
 import { CollectionCandidate, ImportData } from "./import-data";
-import { arrayContainsObject } from "./lib";
+import { arrayContainsObject, unique } from "./lib";
 import { createBiography } from "./create-biography";
 import { createMediaResource } from "./create-media-resource";
 
@@ -16,6 +16,7 @@ interface TransformDataParams {
 
 export function transformData(params: TransformDataParams): ImportData {
     const { input, idPrefix, collectionLabels } = params;
+
     const unmappedEntries = [];
     let entities: ImportData["entities"] = [];
     let events: ImportData["events"] = [];
@@ -23,7 +24,9 @@ export function transformData(params: TransformDataParams): ImportData {
     let biographies: ImportData["biographies"] = [];
     const vocabularies: ImportData["vocabularies"] = {};
     const eventGroups: Record<string, Array<Event["id"]>> = {};
+    const entityGroups: Record<string, Array<Entity["id"]>> = {};
     const collections: ImportData["collections"] = {};
+    const tags: ImportData["tags"] = [];
 
     const registerVocabularyEntries = (
         vocabularyEntries: Array<VocabularyIdAndEntry> | undefined
@@ -41,6 +44,32 @@ export function transformData(params: TransformDataParams): ImportData {
         }
     };
 
+    // check if any of the entries has tagging
+    // has Tag for all? otherwise use prefix for all entities and events
+    let tagsForAll = input.filter((entry) => {
+        const entryEntitySheets = entry.entitySheets as Array<string>;
+        const entryEventSheets = entry.eventSheets as Array<string>;
+        return (
+            "kind" in entry &&
+            entry.kind === "tagging" &&
+            "entitySheets" in entry &&
+            "eventSheets" in entry &&
+            entryEntitySheets.length === 0 &&
+            entryEventSheets.length === 0
+        );
+    });
+    if (tagsForAll.length === 0) {
+        input.push({
+            label: idPrefix,
+            description: `The entire ${idPrefix} data set.`,
+            entitySheets: [],
+            eventSheets: [],
+            kind: "tagging",
+            sheetName: "tagging",
+            rowNumber: 0,
+        });
+    }
+
     // CREATE ENTITIES AND EVENTS, MEDIA, BIOGRAPHIES
 
     for (const entry of input) {
@@ -53,7 +82,7 @@ export function transformData(params: TransformDataParams): ImportData {
         }
         const kind = entry.kind as EntityKind;
 
-        if (!("id" in entry)) {
+        if (!("id" in entry) && entry.kind !== "tagging") {
             unmappedEntries.push({
                 ...entry,
                 error: `no id property for entry in row: ${entry.rowNumber} of sheet: ${entry.sheetName}`,
@@ -82,6 +111,13 @@ export function transformData(params: TransformDataParams): ImportData {
 
             entities.push(entity);
             registerVocabularyEntries(vocabularyEntries);
+
+            const entryGroup = entry.sheetName as string;
+            if (!(entryGroup in entityGroups)) {
+                entityGroups[entryGroup] = [];
+            }
+            //add event ID to event group (for Collection or tag)
+            entityGroups[entryGroup].push(entity.id as Entity["id"]);
 
             /** EVENTS */
         } else if (kind === "event") {
@@ -114,7 +150,7 @@ export function transformData(params: TransformDataParams): ImportData {
                 if (!(entryGroup in eventGroups)) {
                     eventGroups[entryGroup] = [];
                 }
-                //add event ID to event Collection
+                //add event ID to event group (for Collection or tag)
                 eventGroups[entryGroup].push(event.id as Event["id"]);
             }
 
@@ -126,6 +162,21 @@ export function transformData(params: TransformDataParams): ImportData {
         } else if (kind === "biography") {
             const { biography } = createBiography(entry);
             biographies.push(biography);
+        } else if (kind === "tagging") {
+            // add tags, create if not exists
+            // const { tags } = createTag(entry);
+            // get all ids of a given excel tab
+            const {
+                rowNumber = 0,
+                kind = "",
+                sheetName = "",
+                ..._entry
+            } = {
+                ...entry,
+                entities: [],
+                events: [],
+            };
+            tags.push(_entry as unknown as TagCandidate);
         } else {
             unmappedEntries.push({
                 ...entry,
@@ -162,6 +213,7 @@ export function transformData(params: TransformDataParams): ImportData {
     };
 
     //by events
+
     for (const eventGroup in eventGroups) {
         collections[eventGroup] = {
             label: (collectionLabels != null && eventGroup in collectionLabels
@@ -178,6 +230,33 @@ export function transformData(params: TransformDataParams): ImportData {
         };
     }
 
+    // apply tagging
+    // console.log(tags);
+
+    const _tags = tags.map((tag: TagCandidate) => {
+        if (tag.entitySheets.length === 0 && tag.eventSheets.length === 0) {
+            for (const key in entityGroups) {
+                tag.entities = [...tag.entities, ...entityGroups[key]];
+            }
+            tag.entities = unique(tag.entities);
+            for (const key in eventGroups) {
+                tag.events = [...tag.events, ...eventGroups[key]];
+            }
+            tag.events = unique(tag.events);
+        } else {
+            for (const key of tag.entitySheets) {
+                tag.entities = [...tag.entities, ...entityGroups[key]];
+            }
+            tag.entities = unique(tag.entities);
+            for (const key of tag.eventSheets) {
+                tag.events = [...tag.events, ...eventGroups[key]];
+            }
+            tag.events = unique(tag.events);
+        }
+        return tag;
+    });
+    // console.log(_tags);
+
     // (RE) RUN VALIDATION HERE FOR ENTITIES?
 
     // INDEX VALIDITY CHECKS
@@ -192,6 +271,7 @@ export function transformData(params: TransformDataParams): ImportData {
     vocabularies && (result.vocabularies = vocabularies);
     unmappedEntries && (result.unmappedEntries = unmappedEntries);
     collections && (result.collections = collections);
+    tags && (result.tags = _tags);
 
     return result;
 }

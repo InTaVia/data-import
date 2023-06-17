@@ -17,6 +17,12 @@ async function generate(params: GenerateParams) {
     const workbook = XLSX.read(buffer, { type: "buffer" });
     const idPrefix = _idPrefix || basename(path).replace(/\.xlsx$/, "");
     const importedData = readDataFromXlsxWorkbook(workbook, idPrefix);
+    //FIXME : remove
+    // console.log(
+    //     importedData.filter((item) => {
+    //         return item.kind === "tagging";
+    //     })
+    // );
     const transformedData = transformData({ input: importedData, idPrefix, collectionLabels });
 
     const transformedDataById = {
@@ -45,14 +51,15 @@ async function generate(params: GenerateParams) {
 }
 
 generate({
-    path: "public/data/data-duerer.xlsx",
-    idPrefix: "duerer",
-    collectionLabels: {
-        all: "Albrecht Dürer",
-        "event-dürer-macro": "Albrecht Dürer Makro Biographie",
-        "event-dürer-reise-niederlande": "Albrecht Dürer Reise Niederlande",
-        "event-cho": "Objekte Reise Niederlande",
-    },
+    // path: "public/data/data-duerer-tagging.xlsx",
+    path: "public/data/hofburg-data.xlsx",
+    idPrefix: "hb",
+    // collectionLabels: {
+    //     all: "Albrecht Dürer",
+    //     "event-dürer-macro": "Albrecht Dürer Makro Biographie",
+    //     "event-dürer-reise-niederlande": "Albrecht Dürer Reise Niederlande",
+    //     "event-cho": "Objekte Reise Niederlande",
+    // },
 })
     .then(() => {
         console.log(`Successfully generated data.`);
