@@ -21,12 +21,16 @@ const providers: Record<ProviderId, Provider> = {
     q: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
     wiki: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
     gnd: { label: "GND", baseUrl: `https://d-nb.info/gnd/$id` },
-    apis: { label: "APIS", baseUrl: `https://apis.acdh.oeaw.ac.at/$id` },
+    apis: { label: "APIS", baseUrl: `https://apis.acdh.oeaw.ac.at/entity/$id` },
     albertina: {
         label: "Albertina",
         baseUrl: `https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[$id]&showtype=record`,
     },
     europeana: {
+        label: "Europeana",
+        baseUrl: `https://www.europeana.eu/de/item/$id`,
+    },
+    eu: {
         label: "Europeana",
         baseUrl: `https://www.europeana.eu/de/item/$id`,
     },
@@ -91,16 +95,17 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     .map((linkedIdTuple) => {
                         const [providerId, linkedId] = linkedIdTuple.split(":");
                         const pId = providerId as ProviderId;
-                        return {
-                            id: linkedId,
-                            provider: {
+                        const result: Record<string, unknown> = {};
+                        linkedId && (result.id = linkedId);
+                        pId in providers &&
+                            (result.provider = {
                                 label: providers[pId].label,
                                 baseUrl: providers[pId].baseUrl.replace(
                                     "$id",
                                     linkedId as string
                                 ) as UrlString,
-                            },
-                        };
+                            });
+                        return result;
                     })
             );
         },
