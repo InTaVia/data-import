@@ -8403,8 +8403,6 @@
     {
       "label": "dürer",
       "description": "The entire Dürer data set.",
-      "entitySheets": [],
-      "eventSheets": [],
       "entities": [
         "duerer-ob-001",
         "duerer-ob-002",
@@ -8957,8 +8955,6 @@
     {
       "label": "macro-biography",
       "description": "Macro-Biography of Albrecht Dürer.",
-      "eventSheets": ["event-dürer-macro"],
-      "entitySheets": [],
       "entities": [],
       "events": [
         "duerer-macro-ev-001",
@@ -9006,8 +9002,6 @@
     {
       "label": "netherlands-journey",
       "description": "Dürer's Journey to The Netherlands (1520 - 1521).",
-      "eventSheets": ["event-cho", "event-dürer-reise-niederlande"],
-      "entitySheets": [],
       "entities": [],
       "events": [
         "duerer-cho-ev-001",
@@ -9252,8 +9246,6 @@
     {
       "label": "nl-journey-objects",
       "description": "Art works produced by Dürer during the Netherlands journey (a selection).",
-      "eventSheets": ["event-cho"],
-      "entitySheets": [],
       "entities": [],
       "events": [
         "duerer-cho-ev-001",
@@ -9341,8 +9333,6 @@
     {
       "label": "nl-journey-travels",
       "description": "Known stops of Dürer during the Netherlands journey.",
-      "eventSheets": ["event-dürer-reise-niederlande"],
-      "entitySheets": [],
       "entities": [],
       "events": [
         "duerer-nl-EID001",

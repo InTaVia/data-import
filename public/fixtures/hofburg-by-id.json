@@ -7694,8 +7694,6 @@
     {
       "label": "hofburg",
       "description": "The entire Hofburg data set.",
-      "entitySheets": [],
-      "eventSheets": [],
       "entities": [
         "hofburg-OB01",
         "hofburg-OB02",
@@ -8079,8 +8077,6 @@
     {
       "label": "hofburg-construction-history",
       "description": "Short general construction history of the Hofburg",
-      "eventSheets": ["event-construction-history"],
-      "entitySheets": [],
       "entities": [],
       "events": [
         "hofburg-CHE01",
