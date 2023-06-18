@@ -255,7 +255,6 @@ export function transformData(params: TransformDataParams): ImportData {
         }
         return tag;
     });
-    // console.log(_tags);
 
     // (RE) RUN VALIDATION HERE FOR ENTITIES?
 

@@ -1,6 +1,6 @@
 import { entityKinds } from "@intavia/api-client";
 
-export const sheetKinds = ["media", ...entityKinds, "event", "biography"];
+export const sheetKinds = ["media", ...entityKinds, "event", "biography", "tagging"];
 
 // FIXME can we get this information from the API-Client?
 const enityBaseProps = [

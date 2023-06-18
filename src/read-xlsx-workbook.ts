@@ -53,6 +53,7 @@ export function readDataFromXlsxWorkbook(
                         }
 
                         if (sheetKind === "tagging") {
+                            // console.log(row);
                             if (
                                 row.entitySheets != null &&
                                 String(row.entitySheets).trim().length > 0 &&
