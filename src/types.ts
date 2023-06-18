@@ -21,8 +21,8 @@ export interface UnmappedProps {
 export interface TagCandidate {
     label: string;
     description: string;
-    entitySheets: Array<string>;
-    eventSheets: Array<string>;
+    entitySheets?: Array<string>;
+    eventSheets?: Array<string>;
     entities: Array<Entity["id"]>;
     events: Array<Event["id"]>;
 }

@@ -234,7 +234,7 @@ export function transformData(params: TransformDataParams): ImportData {
     // console.log(tags);
 
     const _tags = tags.map((tag: TagCandidate) => {
-        if (tag.entitySheets.length === 0 && tag.eventSheets.length === 0) {
+        if (tag.entitySheets!.length === 0 && tag.eventSheets!.length === 0) {
             for (const key in entityGroups) {
                 tag.entities = [...tag.entities, ...entityGroups[key]];
             }
@@ -244,16 +244,17 @@ export function transformData(params: TransformDataParams): ImportData {
             }
             tag.events = unique(tag.events);
         } else {
-            for (const key of tag.entitySheets) {
+            for (const key of tag.entitySheets!) {
                 tag.entities = [...tag.entities, ...entityGroups[key]];
             }
             tag.entities = unique(tag.entities);
-            for (const key of tag.eventSheets) {
+            for (const key of tag.eventSheets!) {
                 tag.events = [...tag.events, ...eventGroups[key]];
             }
             tag.events = unique(tag.events);
         }
-        return tag;
+        const { entitySheets, eventSheets, ...tagFinal } = tag;
+        return tagFinal;
     });
 
     // (RE) RUN VALIDATION HERE FOR ENTITIES?
