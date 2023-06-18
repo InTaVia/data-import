@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.6
+
+### Patch Changes
+
+-   [`0ca1d63`](https://github.com/InTaVia/data-import/commit/0ca1d6386061644f61fa27bf7681b87de20de297) Thanks [@johannesliem](https://github.com/johannesliem)! - fixing exported tags
+
 ## 0.1.5
 
 ### Patch Changes
