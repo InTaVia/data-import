@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.5
+
+### Patch Changes
+
+-   [`78bd15d`](https://github.com/InTaVia/data-import/commit/78bd15d2ab8365ef01b290e53e2902cbb16ece78) Thanks [@johannesliem](https://github.com/johannesliem)! - tagging mechansim, missing provider fallback
+
 ## 0.1.4
 
 ### Patch Changes
