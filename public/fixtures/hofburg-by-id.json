@@ -124,6 +124,9 @@
     "hofburg-OB06": {
       "id": "hofburg-OB06",
       "label": { "default": "great bastion" },
+      "source": {
+        "citation": "https://www.geschichtewiki.wien.gv.at/Burgbastei"
+      },
       "relations": [
         { "event": "hofburg-CHE11", "role": "role-thing_role" },
         { "event": "hofburg-CHE18", "role": "role-thing_role" },
@@ -200,7 +203,7 @@
       "id": "hofburg-OB11",
       "label": { "default": "Austrian Court Chancellery" },
       "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Reichskanzleitrakt"
+        "citation": "https://www.geschichtewiki.wien.gv.at/Hofkanzlei"
       },
       "relations": [
         { "event": "hofburg-CHE29", "role": "role-thing_role" },
@@ -218,7 +221,7 @@
       "id": "hofburg-OB12",
       "label": { "default": "Court Stables" },
       "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Stallburg"
+        "citation": "https://www.geschichtewiki.wien.gv.at/MuseumsQuartier"
       },
       "relations": [
         { "event": "hofburg-CHE30", "role": "role-thing_role" },
@@ -1827,7 +1830,10 @@
     "hofburg-G03": {
       "id": "hofburg-G03",
       "label": { "default": "Hofbaucomité" },
-      "relations": [],
+      "relations": [
+        { "event": "hofburg-OBE32", "role": "role-commission" },
+        { "event": "hofburg-OBE35", "role": "role-commission" }
+      ],
       "kind": "group",
       "type": {
         "id": "group-type-institution",
@@ -1837,7 +1843,9 @@
     "hofburg-G04": {
       "id": "hofburg-G04",
       "label": { "default": "Wiener Baugesellschaft" },
-      "relations": [],
+      "relations": [
+        { "event": "hofburg-OBE33", "role": "role-construction_company" }
+      ],
       "kind": "group",
       "type": {
         "id": "group-type-institution",
@@ -2147,6 +2155,7 @@
       "relations": [
         { "event": "hofburg-PE19", "role": "role-born_person" },
         { "event": "hofburg-PE20", "role": "role-deceased_person" },
+        { "event": "hofburg-OBE22", "role": "role-architect" },
         { "event": "hofburg-ODE27", "role": "role-producing_artist" },
         { "event": "hofburg-ODE28", "role": "role-producing_artist" },
         { "event": "hofburg-ODE29", "role": "role-producing_artist" },
@@ -2239,7 +2248,9 @@
       ],
       "relations": [
         { "event": "hofburg-PE23", "role": "role-born_person" },
-        { "event": "hofburg-PE24", "role": "role-deceased_person" }
+        { "event": "hofburg-PE24", "role": "role-deceased_person" },
+        { "event": "hofburg-OBE28", "role": "role-architect" },
+        { "event": "hofburg-OBE30", "role": "role-commission_member" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2274,7 +2285,10 @@
       ],
       "relations": [
         { "event": "hofburg-PE25", "role": "role-born_person" },
-        { "event": "hofburg-PE26", "role": "role-deceased_person" }
+        { "event": "hofburg-PE26", "role": "role-deceased_person" },
+        { "event": "hofburg-OBE29", "role": "role-architect" },
+        { "event": "hofburg-OBE30", "role": "role-commission_member" },
+        { "event": "hofburg-OBE32", "role": "role-architect" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2447,7 +2461,9 @@
         { "event": "hofburg-CHE75", "role": "role-commissioner" },
         { "event": "hofburg-PE35", "role": "role-born_person" },
         { "event": "hofburg-PE36", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE23", "role": "role-commissioner" }
+        { "event": "hofburg-OBE23", "role": "role-commissioner" },
+        { "event": "hofburg-OBE25b", "role": "role-approver" },
+        { "event": "hofburg-OBE31", "role": "role-approver" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2456,7 +2472,10 @@
     "hofburg-P20": {
       "id": "hofburg-P20",
       "label": { "default": "Gudenus, Gabriel Baron von" },
-      "relations": [{ "event": "hofburg-OBE25", "role": "role-buyer" }],
+      "relations": [
+        { "event": "hofburg-OBE25", "role": "role-buyer" },
+        { "event": "hofburg-OBE25b", "role": "role-proposer" }
+      ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } }
     },
@@ -2512,7 +2531,8 @@
       ],
       "relations": [
         { "event": "hofburg-PE41", "role": "role-born_person" },
-        { "event": "hofburg-PE42", "role": "role-deceased_person" }
+        { "event": "hofburg-PE42", "role": "role-deceased_person" },
+        { "event": "hofburg-OBE21", "role": "role-architect" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2533,7 +2553,12 @@
       ],
       "relations": [
         { "event": "hofburg-PE43", "role": "role-born_person" },
-        { "event": "hofburg-PE44", "role": "role-deceased_person" }
+        { "event": "hofburg-PE44", "role": "role-deceased_person" },
+        {
+          "event": "hofburg-OBE24",
+          "role": "role-leading_court_staff_(obersthofmeister)"
+        },
+        { "event": "hofburg-OBE25a", "role": "role-proposer" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2568,7 +2593,8 @@
       ],
       "relations": [
         { "event": "hofburg-PE45", "role": "role-born_person" },
-        { "event": "hofburg-PE46", "role": "role-deceased_person" }
+        { "event": "hofburg-PE46", "role": "role-deceased_person" },
+        { "event": "hofburg-OBE25a", "role": "role-proposer" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2831,11 +2857,33 @@
     "hofburg-P38": {
       "id": "hofburg-P38",
       "label": { "default": "Alt, Rudolf von" },
+      "source": {
+        "citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_von_Alt"
+      },
+      "linkedIds": [
+        {
+          "id": "Q638183",
+          "provider": {
+            "label": "Wikidata",
+            "baseUrl": "https://www.wikidata.org/wiki/Q638183"
+          }
+        },
+        {
+          "id": "118502204",
+          "provider": {
+            "label": "GND",
+            "baseUrl": "https://d-nb.info/gnd/118502204"
+          }
+        }
+      ],
       "relations": [
+        { "event": "hofburg-PE71", "role": "role-born_person" },
+        { "event": "hofburg-PE72", "role": "role-deceased_person" },
         { "event": "hofburg-ODE51", "role": "role-producing_artist" }
       ],
       "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } }
+      "gender": { "id": "male", "label": { "default": "male" } },
+      "occupations": ["occupation-painter"]
     },
     "hofburg-L01": {
       "id": "hofburg-L01",
@@ -2966,6 +3014,9 @@
     "hofburg-L06": {
       "id": "hofburg-L06",
       "label": { "default": "great bastion" },
+      "source": {
+        "citation": "https://www.geschichtewiki.wien.gv.at/Burgbastei"
+      },
       "relations": [
         { "event": "hofburg-CHE11", "role": "role-took_place_at" },
         { "event": "hofburg-CHE18", "role": "role-took_place_at" },
@@ -3075,7 +3126,7 @@
       "id": "hofburg-L11",
       "label": { "default": "Austrian Court Chancellery" },
       "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Reichskanzleitrakt"
+        "citation": "https://www.geschichtewiki.wien.gv.at/Hofkanzlei"
       },
       "relations": [
         { "event": "hofburg-CHE29", "role": "role-took_place_at" },
@@ -3097,7 +3148,7 @@
       "id": "hofburg-L12",
       "label": { "default": "Court Stables" },
       "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Stallburg"
+        "citation": "https://www.geschichtewiki.wien.gv.at/MuseumsQuartier"
       },
       "relations": [
         { "event": "hofburg-CHE30", "role": "role-took_place_at" },
@@ -3808,6 +3859,8 @@
       "id": "hofburg-CHE22",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1708-01-01",
+      "endDate": "1793-12-31",
       "relations": [
         { "entity": "hofburg-OB01", "role": "role-thing_role" },
         { "entity": "hofburg-L01", "role": "role-took_place_at" }
@@ -3817,6 +3870,8 @@
       "id": "hofburg-CHE23",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1792-01-01",
+      "endDate": "1792-12-31",
       "relations": [
         { "entity": "hofburg-OB02", "role": "role-thing_role" },
         { "entity": "hofburg-L02", "role": "role-took_place_at" }
@@ -3826,6 +3881,8 @@
       "id": "hofburg-CHE24",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1710-01-01",
+      "endDate": "1765-12-31",
       "relations": [
         { "entity": "hofburg-OB04", "role": "role-thing_role" },
         { "entity": "hofburg-L04", "role": "role-took_place_at" }
@@ -3835,6 +3892,8 @@
       "id": "hofburg-CHE25",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1745-01-01",
+      "endDate": "1745-12-31",
       "relations": [
         { "entity": "hofburg-OB05", "role": "role-thing_role" },
         { "entity": "hofburg-L05", "role": "role-took_place_at" }
@@ -3844,6 +3903,8 @@
       "id": "hofburg-CHE26",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1773-01-01",
+      "endDate": "1773-12-31",
       "relations": [
         { "entity": "hofburg-OB06", "role": "role-thing_role" },
         { "entity": "hofburg-L06", "role": "role-took_place_at" }
@@ -3853,6 +3914,8 @@
       "id": "hofburg-CHE27",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1755-01-01",
+      "endDate": "1788-12-31",
       "relations": [
         { "entity": "hofburg-OB08", "role": "role-thing_role" },
         { "entity": "hofburg-L08", "role": "role-took_place_at" }
@@ -3862,6 +3925,8 @@
       "id": "hofburg-CHE28",
       "label": { "default": "state around 1792" },
       "kind": "event-kind-maintain",
+      "startDate": "1749-01-01",
+      "endDate": "1757-12-31",
       "relations": [
         { "entity": "hofburg-OB09", "role": "role-thing_role" },
         { "entity": "hofburg-L09", "role": "role-took_place_at" }
@@ -3931,6 +3996,8 @@
       "id": "hofburg-CHE34",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB01", "role": "role-thing_role" },
         { "entity": "hofburg-L01", "role": "role-took_place_at" }
@@ -3940,6 +4007,8 @@
       "id": "hofburg-CHE35",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB04", "role": "role-thing_role" },
         { "entity": "hofburg-L04", "role": "role-took_place_at" }
@@ -3949,6 +4018,8 @@
       "id": "hofburg-CHE36",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB05", "role": "role-thing_role" },
         { "entity": "hofburg-L05", "role": "role-took_place_at" }
@@ -3958,6 +4029,8 @@
       "id": "hofburg-CHE37",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1816-01-01",
+      "endDate": "1816-12-31",
       "relations": [
         { "entity": "hofburg-OB08", "role": "role-thing_role" },
         { "entity": "hofburg-L08", "role": "role-took_place_at" }
@@ -3967,6 +4040,8 @@
       "id": "hofburg-CHE38",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1804-01-01",
+      "endDate": "1808-12-31",
       "relations": [
         { "entity": "hofburg-OB09", "role": "role-thing_role" },
         { "entity": "hofburg-L09", "role": "role-took_place_at" }
@@ -3976,6 +4051,8 @@
       "id": "hofburg-CHE39",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB11", "role": "role-thing_role" },
         { "entity": "hofburg-L11", "role": "role-took_place_at" }
@@ -3985,6 +4062,8 @@
       "id": "hofburg-CHE40",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1815-01-01",
+      "endDate": "1815-12-31",
       "relations": [
         { "entity": "hofburg-OB12", "role": "role-thing_role" },
         { "entity": "hofburg-L12", "role": "role-took_place_at" }
@@ -3994,6 +4073,8 @@
       "id": "hofburg-CHE41",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB13", "role": "role-thing_role" },
         { "entity": "hofburg-L13", "role": "role-took_place_at" }
@@ -4003,6 +4084,8 @@
       "id": "hofburg-CHE42",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB14", "role": "role-thing_role" },
         { "entity": "hofburg-L14", "role": "role-took_place_at" }
@@ -4012,6 +4095,8 @@
       "id": "hofburg-CHE43",
       "label": { "default": "state around 1835" },
       "kind": "event-kind-maintain",
+      "startDate": "1835-01-01",
+      "endDate": "1835-12-31",
       "relations": [
         { "entity": "hofburg-OB15", "role": "role-thing_role" },
         { "entity": "hofburg-L15", "role": "role-took_place_at" }
@@ -4045,6 +4130,8 @@
       "id": "hofburg-CHE46",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB01", "role": "role-thing_role" },
         { "entity": "hofburg-L01", "role": "role-took_place_at" }
@@ -4054,6 +4141,8 @@
       "id": "hofburg-CHE47",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB04", "role": "role-thing_role" },
         { "entity": "hofburg-L04", "role": "role-took_place_at" }
@@ -4063,6 +4152,8 @@
       "id": "hofburg-CHE48",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1842-01-01",
+      "endDate": "1842-12-31",
       "relations": [
         { "entity": "hofburg-OB05", "role": "role-thing_role" },
         { "entity": "hofburg-L05", "role": "role-took_place_at" }
@@ -4072,6 +4163,8 @@
       "id": "hofburg-CHE49",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1840-01-01",
+      "endDate": "1840-12-31",
       "relations": [
         { "entity": "hofburg-OB08", "role": "role-thing_role" },
         { "entity": "hofburg-L08", "role": "role-took_place_at" }
@@ -4081,6 +4174,8 @@
       "id": "hofburg-CHE50",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB09", "role": "role-thing_role" },
         { "entity": "hofburg-L09", "role": "role-took_place_at" }
@@ -4090,6 +4185,8 @@
       "id": "hofburg-CHE51",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB11", "role": "role-thing_role" },
         { "entity": "hofburg-L11", "role": "role-took_place_at" }
@@ -4099,6 +4196,8 @@
       "id": "hofburg-CHE52",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1850-01-01",
+      "endDate": "1854-12-31",
       "relations": [
         { "entity": "hofburg-OB12", "role": "role-thing_role" },
         { "entity": "hofburg-L12", "role": "role-took_place_at" }
@@ -4108,6 +4207,8 @@
       "id": "hofburg-CHE53",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB13", "role": "role-thing_role" },
         { "entity": "hofburg-L13", "role": "role-took_place_at" }
@@ -4117,6 +4218,8 @@
       "id": "hofburg-CHE54",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB14", "role": "role-thing_role" },
         { "entity": "hofburg-L14", "role": "role-took_place_at" }
@@ -4126,6 +4229,8 @@
       "id": "hofburg-CHE55",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB15", "role": "role-thing_role" },
         { "entity": "hofburg-L15", "role": "role-took_place_at" }
@@ -4135,6 +4240,8 @@
       "id": "hofburg-CHE56",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1873-12-31",
       "relations": [
         { "entity": "hofburg-OB16", "role": "role-thing_role" },
         { "entity": "hofburg-L16", "role": "role-took_place_at" }
@@ -4144,6 +4251,8 @@
       "id": "hofburg-CHE57",
       "label": { "default": "planning state around 1873" },
       "kind": "event-kind-maintain",
+      "startDate": "1853-01-01",
+      "endDate": "1872-12-31",
       "relations": [
         { "entity": "hofburg-OB17", "role": "role-thing_role" },
         { "entity": "hofburg-L17", "role": "role-took_place_at" }
@@ -4165,6 +4274,8 @@
       "id": "hofburg-CHE59",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB19", "role": "role-thing_role" },
         { "entity": "hofburg-L19", "role": "role-took_place_at" }
@@ -4174,6 +4285,8 @@
       "id": "hofburg-CHE60",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB04", "role": "role-thing_role" },
         { "entity": "hofburg-L04", "role": "role-took_place_at" }
@@ -4183,6 +4296,8 @@
       "id": "hofburg-CHE61",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB05", "role": "role-thing_role" },
         { "entity": "hofburg-L05", "role": "role-took_place_at" }
@@ -4192,6 +4307,8 @@
       "id": "hofburg-CHE62",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1892-01-01",
+      "endDate": "1893-12-31",
       "relations": [
         { "entity": "hofburg-OB08", "role": "role-thing_role" },
         { "entity": "hofburg-L08", "role": "role-took_place_at" }
@@ -4201,6 +4318,8 @@
       "id": "hofburg-CHE63",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB09", "role": "role-thing_role" },
         { "entity": "hofburg-L09", "role": "role-took_place_at" }
@@ -4210,6 +4329,8 @@
       "id": "hofburg-CHE64",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB11", "role": "role-thing_role" },
         { "entity": "hofburg-L11", "role": "role-took_place_at" }
@@ -4219,6 +4340,8 @@
       "id": "hofburg-CHE65",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB12", "role": "role-thing_role" },
         { "entity": "hofburg-L12", "role": "role-took_place_at" }
@@ -4228,6 +4351,8 @@
       "id": "hofburg-CHE66",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB13", "role": "role-thing_role" },
         { "entity": "hofburg-L13", "role": "role-took_place_at" }
@@ -4237,6 +4362,8 @@
       "id": "hofburg-CHE67",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB14", "role": "role-thing_role" },
         { "entity": "hofburg-L14", "role": "role-took_place_at" }
@@ -4246,6 +4373,8 @@
       "id": "hofburg-CHE68",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1920-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB15", "role": "role-thing_role" },
         { "entity": "hofburg-L15", "role": "role-took_place_at" }
@@ -4255,6 +4384,8 @@
       "id": "hofburg-CHE69",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1898-01-01",
+      "endDate": "1910-12-31",
       "relations": [
         { "entity": "hofburg-OB16", "role": "role-thing_role" },
         { "entity": "hofburg-L16", "role": "role-took_place_at" }
@@ -4264,6 +4395,8 @@
       "id": "hofburg-CHE70",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1873-01-01",
+      "endDate": "1920-12-31",
       "relations": [
         { "entity": "hofburg-OB17", "role": "role-thing_role" },
         { "entity": "hofburg-L17", "role": "role-took_place_at" }
@@ -4273,6 +4406,8 @@
       "id": "hofburg-CHE71",
       "label": { "default": "state around 1920" },
       "kind": "event-kind-maintain",
+      "startDate": "1871-01-01",
+      "endDate": "1907-12-31",
       "relations": [
         { "entity": "hofburg-OB18", "role": "role-thing_role" },
         { "entity": "hofburg-L18", "role": "role-took_place_at" }
@@ -4987,6 +5122,28 @@
       "endDate": "1705-05-05",
       "relations": [{ "entity": "hofburg-P37", "role": "role-deceased_person" }]
     },
+    "hofburg-PE71": {
+      "id": "hofburg-PE71",
+      "label": { "default": "Birth of Alt, Rudolf von" },
+      "kind": "event-kind-birth",
+      "source": {
+        "citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_von_Alt"
+      },
+      "startDate": "1812-08-28",
+      "endDate": "1812-08-28",
+      "relations": [{ "entity": "hofburg-P38", "role": "role-born_person" }]
+    },
+    "hofburg-PE72": {
+      "id": "hofburg-PE72",
+      "label": { "default": "Death of Alt, Rudolf von" },
+      "kind": "event-kind-death",
+      "source": {
+        "citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_von_Alt"
+      },
+      "startDate": 1898,
+      "endDate": 1898,
+      "relations": [{ "entity": "hofburg-P38", "role": "role-deceased_person" }]
+    },
     "hofburg-GIE01": {
       "id": "hofburg-GIE01",
       "label": { "default": "Start of Erste Republik" },
@@ -5287,7 +5444,8 @@
       "endDate": "1747-12-31",
       "relations": [
         { "entity": "hofburg-OB25", "role": "role-thing_role" },
-        { "entity": "hofburg-L25", "role": "role-took_place_at" }
+        { "entity": "hofburg-L25", "role": "role-took_place_at" },
+        { "entity": "hofburg-P22", "role": "role-architect" }
       ]
     },
     "hofburg-OBE22": {
@@ -5299,6 +5457,7 @@
       "relations": [
         { "entity": "hofburg-OB25", "role": "role-thing_role" },
         { "entity": "hofburg-L25", "role": "role-took_place_at" },
+        { "entity": "hofburg-P10", "role": "role-architect" },
         { "entity": "hofburg-OD46", "role": "role-depicted_by" },
         { "entity": "hofburg-OD47", "role": "role-depicted_by" },
         { "entity": "hofburg-OD48", "role": "role-depicted_by" },
@@ -5331,7 +5490,11 @@
       "endDate": "1876-12-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        {
+          "entity": "hofburg-P23",
+          "role": "role-leading_court_staff_(obersthofmeister)"
+        }
       ]
     },
     "hofburg-OBE25": {
@@ -5358,7 +5521,9 @@
       "endDate": "1877-03-08",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P23", "role": "role-proposer" },
+        { "entity": "hofburg-P24", "role": "role-proposer" }
       ]
     },
     "hofburg-OBE25b": {
@@ -5371,7 +5536,9 @@
       "endDate": "1877-03-13",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P19", "role": "role-approver" },
+        { "entity": "hofburg-P20", "role": "role-proposer" }
       ]
     },
     "hofburg-OBE26": {
@@ -5409,7 +5576,8 @@
       "endDate": "1888-12-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P12", "role": "role-architect" }
       ]
     },
     "hofburg-OBE29": {
@@ -5422,7 +5590,8 @@
       "endDate": "1888-12-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P13", "role": "role-architect" }
       ]
     },
     "hofburg-OBE30": {
@@ -5435,7 +5604,9 @@
       "endDate": "1889-03-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P12", "role": "role-commission_member" },
+        { "entity": "hofburg-P13", "role": "role-commission_member" }
       ]
     },
     "hofburg-OBE31": {
@@ -5448,7 +5619,8 @@
       "endDate": "1889-04-30",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P19", "role": "role-approver" }
       ]
     },
     "hofburg-OBE32": {
@@ -5461,7 +5633,9 @@
       "endDate": "1889-11-30",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-P13", "role": "role-architect" },
+        { "entity": "hofburg-G03", "role": "role-commission" }
       ]
     },
     "hofburg-OBE33": {
@@ -5474,7 +5648,8 @@
       "endDate": "1890-12-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-G04", "role": "role-construction_company" }
       ]
     },
     "hofburg-OBE34": {
@@ -5498,7 +5673,8 @@
       "endDate": "1892-12-31",
       "relations": [
         { "entity": "hofburg-OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L24", "role": "role-took_place_at" }
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-G03", "role": "role-commission" }
       ]
     },
     "hofburg-OBE36": {
@@ -6804,7 +6980,8 @@
       },
       { "id": "occupation-sculptor", "label": { "default": "sculptor" } },
       { "id": "occupation-scholar", "label": { "default": "scholar" } },
-      { "id": "occupation-duke", "label": { "default": "duke" } }
+      { "id": "occupation-duke", "label": { "default": "duke" } },
+      { "id": "occupation-painter", "label": { "default": "painter" } }
     ],
     "place-type": [
       { "id": "place-type-building", "label": { "default": "building" } }
@@ -6839,7 +7016,22 @@
       { "id": "role-depicted_by", "label": { "default": "depicted by" } },
       { "id": "role-artist", "label": { "default": "artist" } },
       { "id": "role-builder", "label": { "default": "builder" } },
+      {
+        "id": "role-leading_court_staff_(obersthofmeister)",
+        "label": { "default": "leading court staff (Obersthofmeister)" }
+      },
       { "id": "role-buyer", "label": { "default": "buyer" } },
+      { "id": "role-proposer", "label": { "default": "proposer" } },
+      { "id": "role-approver", "label": { "default": "approver" } },
+      {
+        "id": "role-commission_member",
+        "label": { "default": "commission member" }
+      },
+      { "id": "role-commission", "label": { "default": "commission" } },
+      {
+        "id": "role-construction_company",
+        "label": { "default": "construction company" }
+      },
       {
         "id": "role-producing_artist",
         "label": { "default": "Producing Artist" }
@@ -7142,6 +7334,8 @@
         "hofburg-PE68",
         "hofburg-PE69",
         "hofburg-PE70",
+        "hofburg-PE71",
+        "hofburg-PE72",
         "hofburg-GIE01",
         "hofburg-GIE02",
         "hofburg-OBE01",
@@ -7406,7 +7600,8 @@
         "hofburg-P34",
         "hofburg-P35",
         "hofburg-P36",
-        "hofburg-P37"
+        "hofburg-P37",
+        "hofburg-P38"
       ],
       "events": [
         "hofburg-PE01",
@@ -7472,7 +7667,9 @@
         "hofburg-PE67",
         "hofburg-PE68",
         "hofburg-PE69",
-        "hofburg-PE70"
+        "hofburg-PE70",
+        "hofburg-PE71",
+        "hofburg-PE72"
       ]
     },
     "event-groups": {
@@ -7508,6 +7705,8 @@
         "hofburg-L15;L24",
         "hofburg-OB26",
         "hofburg-L26",
+        "hofburg-P22",
+        "hofburg-P10",
         "hofburg-OD46",
         "hofburg-OD47",
         "hofburg-OD48",
@@ -7517,8 +7716,14 @@
         "hofburg-L24;L27",
         "hofburg-P19",
         "hofburg-OD50",
+        "hofburg-P23",
         "hofburg-P20",
-        "hofburg-OD51"
+        "hofburg-P24",
+        "hofburg-OD51",
+        "hofburg-P12",
+        "hofburg-P13",
+        "hofburg-G03",
+        "hofburg-G04"
       ],
       "events": [
         "hofburg-OBE01",
@@ -7981,6 +8186,8 @@
         "hofburg-PE68",
         "hofburg-PE69",
         "hofburg-PE70",
+        "hofburg-PE71",
+        "hofburg-PE72",
         "hofburg-GIE01",
         "hofburg-GIE02",
         "hofburg-OBE01",
