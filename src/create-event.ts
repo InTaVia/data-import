@@ -67,13 +67,15 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
 
     // has Place ? add additional EventEntityRelation
     if (entry.place != null && String(entry.place).trim().length > 0) {
-        const { eventEntityRelation, vocabularyEntries: _vocabularyEntries } =
-            createEventEntityRelation({
-                entity: entry.place,
-                relationRole: "took_place_at",
-            });
-        eventEntityRelation !== undefined && event.relations.push(eventEntityRelation);
-        _vocabularyEntries !== undefined && vocabularyEntries.push(..._vocabularyEntries);
+        for (const place of String(entry.place).split(";")) {
+            const { eventEntityRelation, vocabularyEntries: _vocabularyEntries } =
+                createEventEntityRelation({
+                    entity: place.trim(),
+                    relationRole: "took_place_at",
+                });
+            eventEntityRelation !== undefined && event.relations.push(eventEntityRelation);
+            _vocabularyEntries !== undefined && vocabularyEntries.push(..._vocabularyEntries);
+        }
     }
 
     if (unmappedProperties.properties.length > 0) {
