@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.7
+
+### Patch Changes
+
+-   [`d3dcd5b`](https://github.com/InTaVia/data-import/commit/d3dcd5bb2937e172ac230c24940e6641ef5c6f1c) Thanks [@johannesliem](https://github.com/johannesliem)! - entities with more than one place are read corectly
+
 ## 0.1.6
 
 ### Patch Changes
