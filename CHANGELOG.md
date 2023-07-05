@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.8
+
+### Patch Changes
+
+-   [`ad550ed`](https://github.com/InTaVia/data-import/commit/ad550eda1ab5830a3bca831be9b091eb56af28cd) Thanks [@johannesliem](https://github.com/johannesliem)! - media resources without vocabulary generation
+
 ## 0.1.7
 
 ### Patch Changes
