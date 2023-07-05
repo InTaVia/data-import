@@ -370,19 +370,10 @@ export const mediaPropertyMappers: Record<string, Mapper> = {
     },
     kind: {
         mapper: (props) => {
-            return `media-kind-${String(props.mediaKind)
+            return `${String(props.mediaKind)
                 .toLowerCase()
                 .replace(/ /g, "_")}` as MediaResource["kind"];
         },
         requiredSourceProps: ["mediaKind"],
-        vocabulary: (props) => {
-            return {
-                id: "media-kind",
-                entry: {
-                    id: `media-kind-${String(props.mediaKind).toLowerCase().replace(/ /g, "_")}`,
-                    label: { default: props.mediaKind } as InternationalizedLabel,
-                } as VocabularyEntry,
-            };
-        },
     },
 };

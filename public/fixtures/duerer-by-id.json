@@ -1411,19 +1411,6 @@
         "label": { "default": "cemitery" }
       }
     },
-    "duerer-he-001": {
-      "id": "duerer-he-001",
-      "label": { "default": "Krönung Karl V" },
-      "relations": [
-        { "event": "duerer-macro-ev-025", "role": "role-is_historical_event" },
-        { "event": "duerer-nl-EID088", "role": "role-is_historical_event" }
-      ],
-      "kind": "historical-event",
-      "type": {
-        "id": "historical-event-type-coronation",
-        "label": { "default": "coronation" }
-      }
-    },
     "duerer-pr-001": {
       "id": "duerer-pr-001",
       "label": { "default": "Albrecht Dürer" },
@@ -4777,9 +4764,8 @@
       "startDate": "1520-10-07",
       "endDate": "1520-10-25",
       "relations": [
-        { "entity": "duerer-he-001", "role": "role-is_historical_event" },
-        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-007", "role": "role-participated" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-participated" }
       ]
     },
@@ -5955,8 +5941,7 @@
       "relations": [
         { "entity": "duerer-pr-001", "role": "role-participated" },
         { "entity": "duerer-pl-011", "role": "role-took_place_at" },
-        { "entity": "duerer-pr-007", "role": "role-participated" },
-        { "entity": "duerer-he-001", "role": "role-is_historical_event" }
+        { "entity": "duerer-pr-007", "role": "role-participated" }
       ]
     },
     "duerer-nl-EID089": {
@@ -6745,7 +6730,7 @@
       "label": { "default": "A Man with an Oar" },
       "attribution": "https://barber.org.uk/albrecht-durer-1471-1528-2/",
       "url": "https://barber.org.uk/wp-content/uploads/2018/06/54.9-Durer1200.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-002",
@@ -6755,21 +6740,21 @@
       "description": "Regarding the Hof van Liere, the major's residence, Dürer explicitely mentions its unsual tower, probably because of its tulip-style top which he documents in a silverpoint drawing. On the same sheet, he draws a portait of Ravensburger, a German merchant in Antwerp whom Dürer encounters severals times.  ",
       "attribution": "https://www.wikiart.org/en/albrecht-durer/portrait-of-lazarus-ravensburger-and-the-turrets-of-the-court-of-lier-in-antwerp",
       "url": "https://uploads2.wikiart.org/images/albrecht-durer/portrait-of-lazarus-ravensburger-and-the-turrets-of-the-court-of-lier-in-antwerp.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-003",
       "label": { "default": "Portrait of Jobst Plankfelt" },
       "attribution": "https://staedelmuseum.de/go/ds/699z",
       "url": "https://drive.google.com/uc?export=download&id=1DI1Ih544jL7rxyUxA_urkV1GCl2LMEN_",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-004",
       "label": { "default": "Portrait of Felix Hungersperg" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3162]&showtype=record",
       "url": "http://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=15001&filename=images/3162.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-005",
@@ -6777,7 +6762,7 @@
       "description": "\"Agnes Dürerin in niederländischer Tracht\", Metallstiftzeichnung von Albrecht Dürer.",
       "attribution": "https://en.wikipedia.org/wiki/File:Agnes_Duerer_1521.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Agnes_Duerer_1521.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-006",
@@ -6787,21 +6772,21 @@
       "description": "In 1500, 29-year-old Dürer paints himself in an unprecendented Christ-like manner. The fur coat also refers to his social status as renowned artist and well-situated citizen of Nuremberg.    ",
       "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_1500_self-portrait_(High_resolution_and_detail).jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Albrecht_D%C3%BCrer_-_1500_self-portrait_%28High_resolution_and_detail%29.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-007",
       "label": { "default": "A goldsmith from Mechelen" },
       "attribution": "https://id.smb.museum/object/950915",
       "url": "https://drive.google.com/uc?export=download&id=1g0sQAaHO8xrO0id89bB5WEoTsmN3C4bw",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-008",
       "label": { "default": "A woman in Brussels" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3161]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3161.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-009",
@@ -6810,7 +6795,7 @@
       },
       "attribution": "https://www.wikiart.org/en/albrecht-durer/portrait-of-paul-martin-and-the-topler-pfinzig",
       "url": "https://uploads4.wikiart.org/images/albrecht-durer/portrait-of-paul-martin-and-the-topler-pfinzig.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-010",
@@ -6818,7 +6803,7 @@
       "description": "Dürer portraits Aachen Cathedral from an upper floor window of the Town Hall. All architectonical details are clearly represented. Upon closer inspection, however, one disovers that Dürer has added one bay in the choir.",
       "attribution": "https://www.britishmuseum.org/collection/object/P_1895-0915-982",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_11/12_22/3bf094b1_b130_4ca4_b521_a3e1016b5147/large_00136096_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-011",
@@ -6828,7 +6813,7 @@
       "description": "Dürer depicted Agnes several times during their journey, among others he caught her on the ship along the Rhine valley near Boppard. In this silverpoint dawing from Dürer's sketchbook she is matched with a young girl from Cologne who probably fascinated Dürer because of her attire.",
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[22385r]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/22385r.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-012",
@@ -6836,7 +6821,7 @@
       "description": "The merchant town of Bergen op Zoom is a sort of gateway to Zeeland. While waiting for his ship, Dürer has the chance to visit the town and draw some of its major monuments, among others the picturesque view of Bergen's famous Markiesenhof, the Renaissance castle of the Marquis with its characteristic \"tulip\" tower. ",
       "attribution": "https://rkd.nl/nl/explore/images/293320",
       "url": "https://images.rkd.nl/rkd/thumb/650x650/ba2b4991-b4cd-13b3-32f2-55ff2b82af0e.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-013",
@@ -6844,28 +6829,28 @@
       "description": "Een meisje uit Bergen op Zoom (links) en een meisje uit Goes (rechts), getekend door Albrecht Dürer in 1520. (Bron: Chantilly, musée Condé)",
       "attribution": "https://www.brabantserfgoed.nl/page/10266/twee-gewone-vrouwen-uit-bergen-op-zoom-getekend-door-albrecht-d%C3%BCrer",
       "url": "https://www.brabantserfgoed.nl/image/2019/10/29/585646.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-014",
       "label": { "default": "Choir of the Groote Kerk in Bergen op Zoom" },
       "attribution": "https://sammlung.staedelmuseum.de/en/work/the-new-choir-of-st-gertrudis-in-bergen-op-zoom",
       "url": "https://drive.google.com/uc?export=download&id=1MwHz0Y-xqQ4XhFbmHQF9m4Lh9uaOPLvW",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-015",
       "label": { "default": "Table and two jars" },
       "attribution": "https://www.britishmuseum.org/collection/object/P_1921-0714-2",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/64a81b90_f52e_4794_bc34_a3b501317e9c/mid_00154486_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-016",
       "label": { "default": "A suitcase and a stand" },
       "attribution": "https://www.britishmuseum.org/collection/image/154487001",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/fb886624_b508_4fe4_8242_a3b50131809f/mid_00154487_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-017",
@@ -6873,21 +6858,21 @@
       "description": "Dürer depicted the two female figures in festive attire on different occasions. The left figure, very elegantly dressed in a somptous court robe and expanding headdress and full of live, was actually copied from a a brass statuette on the tomb of Isabella of Bourbon (d. 1465) in St Michael in Antwerp. The right woman, with a long mantle and characteristic hat, wears a typical attire of certain parts of Central Europe, i.e. Silesia or Eastern Austria, whom Dürer might have encountered in the trading town Antwerp or during the buzzling coronation festivities of Charles V. in Aachen and drawn in silverpoint technique.",
       "attribution": "https://www.britishmuseum.org/collection/image/154436001",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/f1ae6fad_e277_4ce7_a508_a3b5013182a7/mid_00154436_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-018",
       "label": { "default": "Lying dog" },
       "attribution": "https://www.britishmuseum.org/collection/object/P_1848-1125-3",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/43dbb970_504e_4180_b28a_a3b501317bc2/mid_00154434_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-019",
       "label": { "default": "Lion with head upright" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[22385v]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/22385v.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-020",
@@ -6895,7 +6880,7 @@
       "description": "Evtl. Burg Rheinfels bei Goslar und Burg Stolzenfels, aus dem Silberstiftskizzenbuch, das während der Reise in die Niederlande entstand",
       "attribution": "http://www.zeno.org/nid/2000399936X",
       "url": "https://drive.google.com/uc?export=download&id=1kJEGUnYN_fdjPG26fQpJVWzIfQqmXIqt",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-021",
@@ -6904,56 +6889,56 @@
       },
       "attribution": "https://sammlung.staedelmuseum.de/en/work/marx-ulstat-the-beautiful-young-woman-of-antwerp",
       "url": "https://drive.google.com/uc?export=download&id=1ofODJ9GwqtRlt_Cr4eDdi_IeEAs72j5b",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-022",
       "label": { "default": "93 year old man" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3167]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3167.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-023",
       "label": { "default": "Study of Left Arm" },
       "attribution": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3167.JPG",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3168.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-024",
       "label": { "default": "Bookrest with Books and Box" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3176]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3176.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-025",
       "label": { "default": "Skull" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3175]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3175.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-026",
       "label": { "default": "Christ praying in the Garden Getsemane" },
       "attribution": "https://sammlung.staedelmuseum.de/en/work/agony-in-the-garden",
       "url": "https://drive.google.com/uc?export=download&id=1c_AeKhXQrgmen6fqNzQ7C41dHJtmICSK",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-027",
       "label": { "default": "Burial of Christ" },
       "attribution": "https://www.europeana.eu/de/item/199/item_THLBWXQUDV5ZKB2ILHXPOOBXMZJMKFOH",
       "url": "https://proxy.europeana.eu/199/item_THLBWXQUDV5ZKB2ILHXPOOBXMZJMKFOH?view=http%3A%2F%2Fwww.bildindex.de%2Fbilder%2Fd%2Fmi04673b05&disposition=inline&api_url=https%3A%2F%2Fapi.europeana.eu%2Fapi",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-028",
       "label": { "default": "Portrait of a man (formerly Lucas van Leyden)" },
       "attribution": "https://www.britishmuseum.org/collection/object/P_1910-0212-103",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/1cf4fe6c_5bd4_472e_8060_a3b50131e188/mid_00154525_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-029",
@@ -6961,14 +6946,14 @@
       "description": "Christian II of Denmark, who is married to Charles' V sister and stays at the court of Brussels, commissions Dürer to paint his portrait. The painting is lost, but a drawing gives an impression of Dürer's work.",
       "attribution": "https://www.britishmuseum.org/collection/object/P_SL-5218-48",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/4_14/3d509415_1836_4b7b_8cb5_a3ba00f4062f/mid_00238245_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-030",
       "label": { "default": "Portrait of Felix Hungersperg kneeling" },
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3163]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3163.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-031",
@@ -6976,7 +6961,7 @@
       "description": "Shortly after his arrival in Antwerp in August 1520, Dürer depicted this view of the harbor of the city. The quickly drawn scene is full of details and gives a lively image of the bustling atmosphere on the shores of the river Schelde.",
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3165]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3165.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-032",
@@ -6984,14 +6969,14 @@
       "description": "According to the inscription, Dürer depicts this head of a walrus after a real animal which was exhibited in Antwerp in 1521. It is one of his most lively animal portraits. The inscription claims that the walrus was caught \"in the Netherlands sea\" (e.g. the North See) and was \"twelve brabant ells long with four feet”, which is more than 8 metres. Actually, walruses are only around 3.5 metres long.",
       "attribution": "https://www.britishmuseum.org/collection/object/P_SL-5261-167",
       "url": "https://media.britishmuseum.org/media/Repository/Documents/2014_9/29_18/1fcc14c8_0932_40d4_b70a_a3b50131c2a7/mid_00154511_001.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-033",
       "label": { "default": "Chandelier and coat of arms, ca. 1521" },
       "attribution": "https://sammlung.staedelmuseum.de/en/work/chandelier-and-coat-of-arms",
       "url": "https://drive.google.com/uc?export=download&id=1PU60_TqWqGJoRRiKm8-sOteLeKhF7vVq",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-034",
@@ -6999,21 +6984,21 @@
       "description": "The \"Young Hare\", dated 1502, counts among Dürer's most famous works. The highly detailed drawing of the animal still fascinates today.",
       "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Hare,_1502_-_Google_Art_Project.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Albrecht_D%C3%BCrer_-_Hare%2C_1502_-_Google_Art_Project.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-035",
       "label": { "default": "Knight, Death, and the Devil" },
       "attribution": "https://commons.wikimedia.org/wiki/File:Duerer_-_Ritter,_Tod_und_Teufel_(Der_Reuther).jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Duerer_-_Ritter%2C_Tod_und_Teufel_%28Der_Reuther%29.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-036",
       "label": { "default": "Saint Jerome in His Study" },
       "attribution": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer-Hieronymus-im-Geh%C3%A4us.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/D%C3%BCrer-Hieronymus-im-Geh%C3%A4us.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-037",
@@ -7021,22 +7006,22 @@
       "description": "Dürer's \"Melancholia\" (1514) is his best known master engraving. The winged female figure of melancholy, deep in her thoughts, is surrounded by meticulously rendered objects related to geometry, astrology and mathematics. The scribbling putto adds a playful note to this enigmatic scene which culminates in the cry of the beat-like creature. ",
       "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_(_AGDdr3EHmNGyA).jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Albrecht_D%C3%BCrer_-_Melencolia_I_-_Google_Art_Project_%28_AGDdr3EHmNGyA%29.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-038",
       "label": { "default": "Dürer-Haus" },
       "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht-D%C3%BCrer-Haus_i_N%C3%BCrnberg_-_TEK_-_TEKA0115528.tif",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Albrecht-D%C3%BCrer-Haus_i_N%C3%BCrnberg_-_TEK_-_TEKA0115528.tif/lossy-page1-775px-Albrecht-D%C3%BCrer-Haus_i_N%C3%BCrnberg_-_TEK_-_TEKA0115528.tif.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-039",
       "label": { "default": "Kupferstich" },
       "description": "The video illustrates the making of an engraving, the most demanding graphic technique in Dürer's time, which Dürer introduced to Nuremberg after his journeyman travels. He created more than 100 engravings during his career. ",
       "attribution": "https://www.youtube.com/watch?v=qwesPhquWsE",
-      "url": "https://www.youtube.com/watch?v=qwesPhquWsE",
-      "kind": "media-kind-video"
+      "url": "https://www.youtube-nocookie.com/embed/qwesPhquWsE",
+      "kind": "embed"
     },
     {
       "id": "duerer-m-040",
@@ -7044,7 +7029,7 @@
       "description": "23 year old Dürer made this intimate drawing of \"His Agnes\" probably shortly before their marriage in spring 1494. Agnes was then only 18 or 19 years old. With rapid pen strokes, Dürer catches this moment of drowsy thoughtfulness. Agnes will become one of Dürer's favourite models. ",
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3063]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3063.JPG",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-041",
@@ -7052,7 +7037,7 @@
       "description": "This small view of Innsbruck from the North side of the Inn river is full of life. Drawn in 1496, Dürer not only portrays the cityscape on the river Inn and single buildings, but also renders ephemeral effects such as the effects of light or the reflection of houses in the water with great mastery.",
       "attribution": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[3056]&showtype=record",
       "url": "https://sammlungenonline.albertina.at/cc/imageproxy.ashx?server=localhost&port=16001&filename=images/3056.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-042",
@@ -7060,15 +7045,15 @@
       "description": "The \"Feast of the Rose Garlands\" (1506) is Dürer's most Italianate painting. Among the faithful gathered around the Madonna in a \"Holy Conversation\", Dürer has depicted himself in the background, proudly presenting a sheet of paper with his signature. The majestic madonna, the floating garments and beautifully shaded colors, the playful putti all remind of Venetian Renaissance paintings.",
       "attribution": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Feast_of_Rose_Garlands_-_Google_Art_Project.jpg",
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Albrecht_D%C3%BCrer_-_Feast_of_Rose_Garlands_-_Google_Art_Project.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-043",
       "label": { "default": "Book of Proportions" },
       "description": "Dürer had worked on the \"Book of Proportions\" for almost 25 years. It describes different methods how to calculate human proportions - male and female of different contitutions and even children. One chapter is dedicated to movements, another passage to distortions. ",
       "attribution": "https://books.google.de/books?id=SpX3BoSucz0C",
-      "url": "https://books.googleusercontent.com/books/content?req=AKW5QacMsPlzkhSCOohiXYeGljWguMgUQZpwSe9jD-AwX2dY7j4q8PfiYB4m-J-mvsYJpatZ3-Jt4fsCZCAr6gcAHgo8XQBnTUMNt41l5rsg236daxIa9HqNBkAEk1oCCB_F_p0JSetKf7xs-kEVhTq-Qbn_wXgRDnmYyENLKcPb6eOAGx0Bl8OXNIKKcW3JtNG2tTvp5CGcdn6GZGCaZWldzk6J7MFZVTFAIRyRQU9JVsHd9EG09heBzto7hdDbfN9ero7r8UITPVO7i1XxfoE6k1EHShuXtPleOELjtFzm9VrzH7cn7fY",
-      "kind": "media-kind-document"
+      "url": "https://books.google.de/books?id=SpX3BoSucz0C",
+      "kind": "link"
     },
     {
       "id": "duerer-m-044",
@@ -7076,7 +7061,7 @@
       "description": "Dürer's grave is an iconic site since the 16th century. In the 17th century, the painter and founder of the Nuremberg art academy, Joachim von Sandrart, donated a bronze plate in veneration of his hero, and other artists strove to be buried next to Dürer in the Frey family's gravesite. ",
       "attribution": "https://www.nuernberg.museum/projects/show/1132-albrecht-duerer-grabstaette",
       "url": "https://www.nuernberg.museum/img/duerer_epitaph_foto_theo-noll_2021--1-_.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "duerer-m-045",
@@ -7085,7 +7070,7 @@
       },
       "attribution": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
       "url": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
-      "kind": "media-kind-document"
+      "kind": "link"
     }
   ],
   "biographies": [
@@ -7101,11 +7086,6 @@
     }
   ],
   "vocabularies": {
-    "media-kind": [
-      { "id": "media-kind-image", "label": { "default": "image" } },
-      { "id": "media-kind-video", "label": { "default": "video" } },
-      { "id": "media-kind-document", "label": { "default": "document" } }
-    ],
     "cultural-heritage-object-type": [
       {
         "id": "cultural-heritage-object-type-book",
@@ -7173,12 +7153,6 @@
       { "id": "group-type-museum", "label": { "default": "museum" } },
       { "id": "group-type-cemitery", "label": { "default": "cemitery" } }
     ],
-    "historical-event-type": [
-      {
-        "id": "historical-event-type-coronation",
-        "label": { "default": "coronation" }
-      }
-    ],
     "occupation": [
       { "id": "occupation-bildhauer", "label": { "default": "Bildhauer" } }
     ],
@@ -7225,10 +7199,6 @@
       { "id": "role-was_created_by", "label": { "default": "was created by" } },
       { "id": "role-object_bought", "label": { "default": "object_bought" } },
       { "id": "role-was_bought_by", "label": { "default": "was bought by" } },
-      {
-        "id": "role-is_historical_event",
-        "label": { "default": "is historical event" }
-      },
       { "id": "role-comissioned_by", "label": { "default": "comissioned by" } },
       {
         "id": "role-person_deceased",
@@ -7371,7 +7341,6 @@
         "duerer-gr-018",
         "duerer-gr-019",
         "duerer-gr-020",
-        "duerer-he-001",
         "duerer-pr-001",
         "duerer-pr-002",
         "duerer-pr-003",
@@ -8032,9 +8001,8 @@
         "duerer-pl-009",
         "duerer-ob-010",
         "duerer-pl-010",
-        "duerer-he-001",
-        "duerer-pl-011",
         "duerer-pr-007",
+        "duerer-pl-011",
         "duerer-pl-012",
         "duerer-pr-006",
         "duerer-pl-013",
@@ -8181,7 +8149,6 @@
         "duerer-pl-098",
         "duerer-pl-011",
         "duerer-pr-007",
-        "duerer-he-001",
         "duerer-pl-100",
         "duerer-pl-101",
         "duerer-pl-102",
@@ -8515,7 +8482,6 @@
         "duerer-gr-018",
         "duerer-gr-019",
         "duerer-gr-020",
-        "duerer-he-001",
         "duerer-pr-001",
         "duerer-pr-002",
         "duerer-pr-003",

@@ -6523,133 +6523,133 @@
       "label": { "default": "state around 1300" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide1_1300.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide2_1590",
       "label": { "default": "state around 1590" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide2_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide3_1650",
       "label": { "default": "state around 1650" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide3_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide4_1705",
       "label": { "default": "state around 1705" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide4_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide5_1792",
       "label": { "default": "state around 1792" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide5_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide6_1835",
       "label": { "default": "state around 1835" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide6_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide7",
       "label": { "default": "planning state around 1873" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide7.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide8",
       "label": { "default": "state around 1920" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide8.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E02_1590",
       "label": { "default": "state around 1590: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E02_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E03_1590",
       "label": { "default": "state around 1590: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E03_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E04_1590",
       "label": { "default": "state around 1590: Kindertrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E04_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E05_1590",
       "label": { "default": "state around 1590: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E05_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E06_1590",
       "label": { "default": "state around 1590: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E06_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E07_1650",
       "label": { "default": "state around 1650: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E07_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E08_1650",
       "label": { "default": "state around 1650: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E08_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E09_1650",
       "label": { "default": "state around 1650: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E09_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E10_1650",
       "label": { "default": "state around 1650: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E10_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E11_1650",
       "label": { "default": "state around 1650: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E11_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E12_1650",
       "label": { "default": "state around 1650: former chancellery builiding" },
       "description": "detail view",
       "url": "http://liem.at/hb/E12_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E13_1650",
@@ -6658,49 +6658,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E13_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E14_1705",
       "label": { "default": "state around 1705: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E14_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E15_1705",
       "label": { "default": "state around 1705: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E15_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E16_1705",
       "label": { "default": "state around 1705: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E16_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E17_1705",
       "label": { "default": "state around 1705: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E17_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E18_1705",
       "label": { "default": "state around 1705: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E18_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E19_1705",
       "label": { "default": "state around 1705: former chancellery builiding" },
       "description": "detail view",
       "url": "http://liem.at/hb/E19_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E20_1705",
@@ -6709,49 +6709,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E20_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E21_1705",
       "label": { "default": "state around 1705: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E21_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E22_1792",
       "label": { "default": "state around 1792: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E22_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E23_1792",
       "label": { "default": "state around 1792: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E23_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E24_1792",
       "label": { "default": "state around 1792: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E24_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E25_1792",
       "label": { "default": "state around 1792: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E25_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E26_1792",
       "label": { "default": "state around 1792: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E26_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E27_1792",
@@ -6760,63 +6760,63 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E27_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E28_1792",
       "label": { "default": "state around 1792: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E28_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E29_1792",
       "label": { "default": "state around 1792: Austrian Court Chancellery" },
       "description": "detail view",
       "url": "http://liem.at/hb/E29_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E31_1792",
       "label": { "default": "state around 1792: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E31_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E32_1792",
       "label": { "default": "state around 1792: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E32_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E33_1792",
       "label": { "default": "state around 1792: Winter Riding School" },
       "description": "detail view",
       "url": "http://liem.at/hb/E33_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E34_1835",
       "label": { "default": "state around 1835: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E34_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E35_1835",
       "label": { "default": "state around 1835: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E35_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E36_1835",
       "label": { "default": "state around 1835: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E36_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E37_1835",
@@ -6825,49 +6825,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E37_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E38_1835",
       "label": { "default": "state around 1835: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E38_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E39_1835",
       "label": { "default": "state around 1835: Austrian Court Chancellery" },
       "description": "detail view",
       "url": "http://liem.at/hb/E39_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E41_1835",
       "label": { "default": "state around 1835: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E41_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E42_1835",
       "label": { "default": "state around 1835: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E42_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E43_1835",
       "label": { "default": "state around 1835: Winter Riding School" },
       "description": "detail view",
       "url": "http://liem.at/hb/E43_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E44_1835",
       "label": { "default": "state around 1835: Zeremoniensaal" },
       "description": "detail view",
       "url": "http://liem.at/hb/E44_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E45_1835",
@@ -6876,7 +6876,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E45_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E46_1873",
@@ -6885,7 +6885,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E46_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E47_1873",
@@ -6894,14 +6894,14 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E47_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E48_1873",
       "label": { "default": "planning state around 1873: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E48_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E49_1873",
@@ -6910,7 +6910,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E49_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E51_1873",
@@ -6919,21 +6919,21 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E51_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E53_1873",
       "label": { "default": "planning state around 1873: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E53_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E54_1873",
       "label": { "default": "planning state around 1873: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E54_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E55_1873",
@@ -6942,7 +6942,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E55_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E57_1873",
@@ -6951,14 +6951,11 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E57_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     }
   ],
   "biographies": [],
   "vocabularies": {
-    "media-kind": [
-      { "id": "media-kind-image", "label": { "default": "image" } }
-    ],
     "cultural-heritage-object-type": [
       {
         "id": "cultural-heritage-object-type-building",
