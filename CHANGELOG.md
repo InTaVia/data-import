@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.9
+
+### Patch Changes
+
+-   [`a69c1fd`](https://github.com/InTaVia/data-import/commit/a69c1fd24a2b70f676401afcc28ac8b7573d1a73) Thanks [@johannesliem](https://github.com/johannesliem)! - trim occupations after splitting
+
 ## 0.1.8
 
 ### Patch Changes
