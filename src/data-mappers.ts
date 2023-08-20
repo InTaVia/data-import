@@ -166,7 +166,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     return value !== undefined && value.trim().length > 0;
                 })
                 .map((occupation) => {
-                    return `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`;
+                    return `occupation-${occupation.trim().toLowerCase().replace(/ /g, "_")}`;
                 });
         },
         requiredSourceProps: ["occupations"],
@@ -181,8 +181,8 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     return {
                         id: "occupation",
                         entry: {
-                            id: `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`,
-                            label: { default: occupation } as InternationalizedLabel,
+                            id: `occupation-${occupation.trim().toLowerCase().replace(/ /g, "_")}`,
+                            label: { default: occupation.trim() } as InternationalizedLabel,
                         },
                     };
                 });
