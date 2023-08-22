@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.10
+
+### Patch Changes
+
+-   [`19df52d`](https://github.com/InTaVia/data-import/commit/19df52d5f7fe4c36b925f7d89e17922108126721) Thanks [@johannesliem](https://github.com/johannesliem)! - updated linkedId mapping according to new data shape
+
 ## 0.1.9
 
 ### Patch Changes
