@@ -16,6 +16,11 @@ import type {
 type ProviderId = string;
 type Provider = Record<string, string>;
 
+interface LinkedId {
+    label: string;
+    url: UrlString;
+}
+
 //FIXME Move into Template
 const providers: Record<ProviderId, Provider> = {
     q: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
@@ -93,19 +98,40 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                         return value !== undefined && value.trim().length > 0;
                     })
                     .map((linkedIdTuple) => {
-                        const [providerId, linkedId] = linkedIdTuple.split(":");
+                        const [providerId, linkedId] = linkedIdTuple.split(/:(.*)/s);
                         const pId = providerId as ProviderId;
-                        const result: Record<string, unknown> = {};
-                        linkedId && (result.id = linkedId);
-                        pId in providers &&
-                            (result.provider = {
+                        if (pId in providers) {
+                            return {
                                 label: providers[pId].label,
-                                baseUrl: providers[pId].baseUrl.replace(
+                                url: providers[pId].baseUrl.replace(
                                     "$id",
                                     linkedId as string
                                 ) as UrlString,
-                            });
-                        return result;
+                            };
+                        } else if (pId === "url") {
+                            return {
+                                label: linkedId,
+                                url: linkedId,
+                            };
+                        } else if (pId === "http" || pId === "https") {
+                            const mergedId = `${pId}:${linkedId}`;
+                            return {
+                                label: mergedId,
+                                url: mergedId,
+                            };
+                        }
+
+                        // const result: Record<string, unknown> = {};
+                        // linkedId && (result.id = linkedId);
+                        // pId in providers &&
+                        //     (result.provider = {
+                        //         label: providers[pId].label,
+                        //         baseUrl: providers[pId].baseUrl.replace(
+                        //             "$id",
+                        //             linkedId as string
+                        //         ) as UrlString,
+                        //     });
+                        // return result;
                     })
             );
         },
