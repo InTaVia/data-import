@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.11
+
+### Patch Changes
+
+-   [`5cd19e3`](https://github.com/InTaVia/data-import/commit/5cd19e39909570bb1b1dbc9c891122cdc711290b) Thanks [@johannesliem](https://github.com/johannesliem)! - adding the option to add upstream ids to event tabels in xlsx template (as relatedEntity with some role)
+
 ## 0.1.10
 
 ### Patch Changes
