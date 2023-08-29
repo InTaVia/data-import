@@ -9,10 +9,12 @@ import type {
 import { eventTargetProps } from "./config";
 import { eventPropertyMappers } from "./data-mappers";
 import type { UnmappedProps, VocabularyIdAndEntry } from "./types";
+import { Buffer } from "buffer";
 
 interface CreateEventReturn {
     event: Event;
     vocabularyEntries?: Array<VocabularyIdAndEntry>;
+    upstreamEntities?: Array<Entity["id"]>;
     unmappedProperties?: UnmappedProps;
 }
 
@@ -28,6 +30,7 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
 
     const event: any = {};
     const vocabularyEntries: Array<VocabularyIdAndEntry> = [];
+    const upstreamEntities: Array<Entity["id"]> = [];
 
     for (const targetProp of targetProps) {
         if (!(targetProp in eventPropertyMappers)) {
@@ -65,6 +68,19 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
         }
     }
 
+    // eventEntityRelation
+    const {
+        eventEntityRelation,
+        vocabularyEntries: _vocabularyEntries,
+        upstreamEntities: _upstreamEntities,
+    } = createEventEntityRelation(entry);
+    if (!("relations" in event)) {
+        event.relations = [];
+    }
+    eventEntityRelation !== undefined && event.relations.push(eventEntityRelation);
+    _vocabularyEntries !== undefined && vocabularyEntries.push(..._vocabularyEntries);
+    _upstreamEntities !== undefined && upstreamEntities.push(..._upstreamEntities);
+
     // has Place ? add additional EventEntityRelation
     if (entry.place != null && String(entry.place).trim().length > 0) {
         for (const place of String(entry.place).split(";")) {
@@ -97,6 +113,7 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
     return {
         event,
         vocabularyEntries,
+        upstreamEntities,
         unmappedProperties,
     };
 }
@@ -104,6 +121,7 @@ export function createEvent(entry: Record<string, unknown>): CreateEventReturn {
 interface CreateEventEntityRelationReturn {
     eventEntityRelation?: EventEntityRelation;
     vocabularyEntries?: Array<VocabularyIdAndEntry>;
+    upstreamEntities?: Array<Entity["id"]>;
     error?: string;
 }
 
@@ -121,14 +139,22 @@ export function createEventEntityRelation(
         return { error: "some error" };
     }
 
-    if (mapper.vocabulary !== undefined) {
-        return {
-            eventEntityRelation: mapper.mapper(entry)[0],
-            vocabularyEntries: [mapper.vocabulary(entry)],
-        };
+    const eventEntityRelation = mapper.mapper(entry)[0];
+    const base64candidate = eventEntityRelation.entity.split("-")[1];
+    const base64regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+    const isUpstream =
+        base64regex.test(base64candidate) &&
+        Buffer.from(base64candidate, "base64").toString("utf-8").startsWith("http");
+
+    const result: CreateEventEntityRelationReturn = {};
+
+    if (isUpstream) {
+        eventEntityRelation.entity = base64candidate;
+        result.upstreamEntities = [eventEntityRelation.entity];
     }
 
-    return {
-        eventEntityRelation: mapper.mapper(entry)[0],
-    };
+    eventEntityRelation && (result.eventEntityRelation = eventEntityRelation);
+    mapper.vocabulary !== undefined && (result.vocabularyEntries = [mapper.vocabulary(entry)]);
+
+    return result;
 }

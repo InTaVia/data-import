@@ -32,7 +32,6 @@ export const eventTargetProps: Array<string> = [
     "source",
     "startDate",
     "endDate",
-    "relations",
 ];
 
 export const biographyTargetProps: Array<string> = ["id", "text", "citation"];

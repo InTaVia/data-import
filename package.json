@@ -28,6 +28,7 @@
     },
     "dependencies": {
         "@intavia/api-client": "^0.1.25",
+        "buffer": "^6.0.3",
         "lodash.isequal": "^4.5.0",
         "xlsx": "^0.18.5"
     },

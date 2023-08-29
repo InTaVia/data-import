@@ -19,6 +19,7 @@ export interface ImportData {
     unmappedEntries?: Array<unknown>;
     collections?: Record<string, CollectionCandidate>;
     tags?: Array<TagCandidate>;
+    upstreamEntityIds?: Array<Entity["id"]>;
 }
 
 interface ImportDataParams {
