@@ -144,8 +144,8 @@ export function createEventEntityRelation(
     const base64regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
 
     const isUpstream =
-        base64regex.test(base64candidate) &&
-        Buffer.from(base64candidate, "base64").toString("utf-8").startsWith("http");
+        base64regex.test(base64candidate) && atob(base64candidate).startsWith("http");
+    // Buffer.from(base64candidate, "base64").toString("utf-8").startsWith("http");
 
     const result: CreateEventEntityRelationReturn = {};
 
