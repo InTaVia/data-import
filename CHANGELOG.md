@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.12
+
+### Patch Changes
+
+-   [`65ceaf8`](https://github.com/InTaVia/data-import/commit/65ceaf8a702ad55ffc00d74b969924f19fe094cc) Thanks [@johannesliem](https://github.com/johannesliem)! - fixed bug when reading last element of array (is Uptream test)
+
 ## 0.1.11
 
 ### Patch Changes
