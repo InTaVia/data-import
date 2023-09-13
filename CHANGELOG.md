@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.13
+
+### Patch Changes
+
+-   [`6d227ae`](https://github.com/InTaVia/data-import/commit/6d227ae99601515c1ff5141e0de9808e94e93452) Thanks [@johannesliem](https://github.com/johannesliem)! - fix isUpsream test
+
 ## 0.1.12
 
 ### Patch Changes
