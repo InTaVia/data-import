@@ -34,7 +34,7 @@ export function importData(params: ImportDataParams): void {
         file,
         onSuccess,
         onError,
-        idPrefix = file.name.replace(/\.xlsx$/, ""),
+        idPrefix = file.name.replace(/(\.xlsx|\.json)$/, ""),
         collectionLabels,
     } = params;
 
