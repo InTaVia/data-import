@@ -27,6 +27,7 @@ export function transformData(params: TransformDataParams): ImportData {
     const entityGroups: Record<string, Array<Entity["id"]>> = {};
     const collections: ImportData["collections"] = {};
     const tags: ImportData["tags"] = [];
+    const upstreamEntityIds: ImportData["upstreamEntityIds"] = [];
 
     const registerVocabularyEntries = (
         vocabularyEntries: Array<VocabularyIdAndEntry> | undefined
@@ -39,6 +40,18 @@ export function transformData(params: TransformDataParams): ImportData {
                 }
                 if (!arrayContainsObject(vocabularies[id], entry)) {
                     vocabularies[id].push(entry);
+                }
+            }
+        }
+    };
+
+    const registerUpstreamEntities = (
+        _upstreamEntities: ImportData["upstreamEntityIds"] | undefined
+    ) => {
+        if (_upstreamEntities !== undefined) {
+            for (const upstreamEntity of _upstreamEntities) {
+                if (!upstreamEntityIds.includes(upstreamEntity)) {
+                    upstreamEntityIds.push(upstreamEntity);
                 }
             }
         }
@@ -129,12 +142,13 @@ export function transformData(params: TransformDataParams): ImportData {
                 // Add relation to existing event (rows in the xlsx that have the same id an only add relations; other props are ignored)
                 events = events.map((event) => {
                     if (event.id === entry.id) {
-                        const { eventEntityRelation, vocabularyEntries } =
+                        const { eventEntityRelation, vocabularyEntries, upstreamEntities } =
                             createEventEntityRelation(entry);
 
                         eventEntityRelation !== undefined &&
                             event.relations.push(eventEntityRelation);
                         registerVocabularyEntries(vocabularyEntries);
+                        registerUpstreamEntities(upstreamEntities);
 
                         // TODO unmapped entries
                     }
@@ -142,9 +156,11 @@ export function transformData(params: TransformDataParams): ImportData {
                 });
             } else {
                 // Create new event
-                const { event, vocabularyEntries, unmappedProperties } = createEvent(entry);
+                const { event, vocabularyEntries, upstreamEntities, unmappedProperties } =
+                    createEvent(entry);
                 events.push(event);
                 registerVocabularyEntries(vocabularyEntries);
+                registerUpstreamEntities(upstreamEntities);
 
                 const entryGroup = entry.sheetName as string;
                 if (!(entryGroup in eventGroups)) {
@@ -272,6 +288,7 @@ export function transformData(params: TransformDataParams): ImportData {
     unmappedEntries && (result.unmappedEntries = unmappedEntries);
     collections && (result.collections = collections);
     tags && (result.tags = _tags);
+    upstreamEntityIds && (result.upstreamEntityIds = upstreamEntityIds);
 
     return result;
 }

@@ -1,6 +1,6 @@
 {
     "name": "@intavia/data-import",
-    "version": "0.1.6",
+    "version": "0.1.13",
     "main": "./dist/index.cjs",
     "types": "./dist/index.d.ts",
     "type": "module",
@@ -26,6 +26,12 @@
         "generate:xlsx2json2intavia": "ts-node --project ./tsconfig.node.json ./scripts/xlsx2json2intavia",
         "test": "uvu -r tsm test"
     },
+    "dependencies": {
+        "@intavia/api-client": "^0.1.25",
+        "buffer": "^6.0.3",
+        "lodash.isequal": "^4.5.0",
+        "xlsx": "^0.18.5"
+    },
     "devDependencies": {
         "@changesets/changelog-github": "^0.4.8",
         "@changesets/cli": "^2.26.0",
@@ -42,10 +48,5 @@
     "prettier": {
         "printWidth": 100,
         "tabWidth": 4
-    },
-    "dependencies": {
-        "@intavia/api-client": "^0.1.16",
-        "lodash.isequal": "^4.5.0",
-        "xlsx": "^0.18.5"
     }
 }

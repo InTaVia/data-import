@@ -16,6 +16,11 @@ import type {
 type ProviderId = string;
 type Provider = Record<string, string>;
 
+interface LinkedId {
+    label: string;
+    url: UrlString;
+}
+
 //FIXME Move into Template
 const providers: Record<ProviderId, Provider> = {
     q: { label: "Wikidata", baseUrl: `https://www.wikidata.org/wiki/$id` },
@@ -93,19 +98,40 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                         return value !== undefined && value.trim().length > 0;
                     })
                     .map((linkedIdTuple) => {
-                        const [providerId, linkedId] = linkedIdTuple.split(":");
+                        const [providerId, linkedId] = linkedIdTuple.split(/:(.*)/s);
                         const pId = providerId as ProviderId;
-                        const result: Record<string, unknown> = {};
-                        linkedId && (result.id = linkedId);
-                        pId in providers &&
-                            (result.provider = {
+                        if (pId in providers) {
+                            return {
                                 label: providers[pId].label,
-                                baseUrl: providers[pId].baseUrl.replace(
+                                url: providers[pId].baseUrl.replace(
                                     "$id",
                                     linkedId as string
                                 ) as UrlString,
-                            });
-                        return result;
+                            };
+                        } else if (pId === "url") {
+                            return {
+                                label: linkedId,
+                                url: linkedId,
+                            };
+                        } else if (pId === "http" || pId === "https") {
+                            const mergedId = `${pId}:${linkedId}`;
+                            return {
+                                label: mergedId,
+                                url: mergedId,
+                            };
+                        }
+
+                        // const result: Record<string, unknown> = {};
+                        // linkedId && (result.id = linkedId);
+                        // pId in providers &&
+                        //     (result.provider = {
+                        //         label: providers[pId].label,
+                        //         baseUrl: providers[pId].baseUrl.replace(
+                        //             "$id",
+                        //             linkedId as string
+                        //         ) as UrlString,
+                        //     });
+                        // return result;
                     })
             );
         },
@@ -167,7 +193,7 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                 })
                 .map((occupation) => {
                     return {
-                        id: `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`,
+                        id: `occupation-${occupation.trim().toLowerCase().replace(/ /g, "_")}`,
                         label: { default: occupation } as InternationalizedLabel,
                     };
                 });
@@ -184,8 +210,8 @@ export const entityPropertyMappers: Record<string, Mapper> = {
                     return {
                         id: "occupation",
                         entry: {
-                            id: `occupation-${occupation.toLowerCase().replace(/ /g, "_")}`,
-                            label: { default: occupation } as InternationalizedLabel,
+                            id: `occupation-${occupation.trim().toLowerCase().replace(/ /g, "_")}`,
+                            label: { default: occupation.trim() } as InternationalizedLabel,
                         },
                     };
                 });
@@ -373,19 +399,10 @@ export const mediaPropertyMappers: Record<string, Mapper> = {
     },
     kind: {
         mapper: (props) => {
-            return `media-kind-${String(props.mediaKind)
+            return `${String(props.mediaKind)
                 .toLowerCase()
                 .replace(/ /g, "_")}` as MediaResource["kind"];
         },
         requiredSourceProps: ["mediaKind"],
-        vocabulary: (props) => {
-            return {
-                id: "media-kind",
-                entry: {
-                    id: `media-kind-${String(props.mediaKind).toLowerCase().replace(/ /g, "_")}`,
-                    label: { default: props.mediaKind } as InternationalizedLabel,
-                } as VocabularyEntry,
-            };
-        },
     },
 };

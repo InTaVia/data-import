@@ -1,5 +1,47 @@
 # @intavia/data-import
 
+## 0.1.13
+
+### Patch Changes
+
+-   [`6d227ae`](https://github.com/InTaVia/data-import/commit/6d227ae99601515c1ff5141e0de9808e94e93452) Thanks [@johannesliem](https://github.com/johannesliem)! - fix isUpsream test
+
+## 0.1.12
+
+### Patch Changes
+
+-   [`65ceaf8`](https://github.com/InTaVia/data-import/commit/65ceaf8a702ad55ffc00d74b969924f19fe094cc) Thanks [@johannesliem](https://github.com/johannesliem)! - fixed bug when reading last element of array (is Uptream test)
+
+## 0.1.11
+
+### Patch Changes
+
+-   [`5cd19e3`](https://github.com/InTaVia/data-import/commit/5cd19e39909570bb1b1dbc9c891122cdc711290b) Thanks [@johannesliem](https://github.com/johannesliem)! - adding the option to add upstream ids to event tabels in xlsx template (as relatedEntity with some role)
+
+## 0.1.10
+
+### Patch Changes
+
+-   [`19df52d`](https://github.com/InTaVia/data-import/commit/19df52d5f7fe4c36b925f7d89e17922108126721) Thanks [@johannesliem](https://github.com/johannesliem)! - updated linkedId mapping according to new data shape
+
+## 0.1.9
+
+### Patch Changes
+
+-   [`a69c1fd`](https://github.com/InTaVia/data-import/commit/a69c1fd24a2b70f676401afcc28ac8b7573d1a73) Thanks [@johannesliem](https://github.com/johannesliem)! - trim occupations after splitting
+
+## 0.1.8
+
+### Patch Changes
+
+-   [`ad550ed`](https://github.com/InTaVia/data-import/commit/ad550eda1ab5830a3bca831be9b091eb56af28cd) Thanks [@johannesliem](https://github.com/johannesliem)! - media resources without vocabulary generation
+
+## 0.1.7
+
+### Patch Changes
+
+-   [`d3dcd5b`](https://github.com/InTaVia/data-import/commit/d3dcd5bb2937e172ac230c24940e6641ef5c6f1c) Thanks [@johannesliem](https://github.com/johannesliem)! - entities with more than one place are read corectly
+
 ## 0.1.6
 
 ### Patch Changes

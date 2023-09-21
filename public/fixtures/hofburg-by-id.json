@@ -113,7 +113,8 @@
         { "event": "hofburg-CHE25", "role": "role-thing_role" },
         { "event": "hofburg-CHE36", "role": "role-thing_role" },
         { "event": "hofburg-CHE48", "role": "role-thing_role" },
-        { "event": "hofburg-CHE61", "role": "role-thing_role" }
+        { "event": "hofburg-CHE61", "role": "role-thing_role" },
+        { "event": "hofburg-ODE46", "role": "role-depicted_object" }
       ],
       "kind": "cultural-heritage-object",
       "type": {
@@ -311,7 +312,9 @@
         { "event": "hofburg-CHE68", "role": "role-thing_role" },
         { "event": "hofburg-OBE05", "role": "role-thing_role" },
         { "event": "hofburg-OBE16", "role": "role-thing_role" },
-        { "event": "hofburg-OBE18", "role": "role-thing_role" }
+        { "event": "hofburg-OBE17", "role": "role-thing_role" },
+        { "event": "hofburg-OBE18", "role": "role-thing_role" },
+        { "event": "hofburg-ODE46", "role": "role-depicted_object" }
       ],
       "kind": "cultural-heritage-object",
       "type": {
@@ -465,7 +468,9 @@
         { "event": "hofburg-OBE10", "role": "role-thing_role" },
         { "event": "hofburg-OBE13", "role": "role-thing_role" },
         { "event": "hofburg-OBE14", "role": "role-thing_role" },
+        { "event": "hofburg-OBE17", "role": "role-thing_role" },
         { "event": "hofburg-OBE19", "role": "role-thing_role" },
+        { "event": "hofburg-OBE23", "role": "role-thing_role" },
         { "event": "hofburg-OBE24", "role": "role-thing_role" },
         { "event": "hofburg-OBE25", "role": "role-thing_role" },
         { "event": "hofburg-OBE25a", "role": "role-thing_role" },
@@ -552,7 +557,8 @@
         { "event": "hofburg-ODE44", "role": "role-depicted_object" },
         { "event": "hofburg-ODE45", "role": "role-depicted_object" },
         { "event": "hofburg-ODE48", "role": "role-depicted_object" },
-        { "event": "hofburg-ODE49", "role": "role-depicted_object" }
+        { "event": "hofburg-ODE49", "role": "role-depicted_object" },
+        { "event": "hofburg-ODE50", "role": "role-depicted_object" }
       ],
       "kind": "cultural-heritage-object",
       "type": {
@@ -601,7 +607,10 @@
           }
         }
       ],
-      "relations": [],
+      "relations": [
+        { "event": "hofburg-OBE23", "role": "role-thing_role" },
+        { "event": "hofburg-ODE50", "role": "role-depicted_object" }
+      ],
       "kind": "cultural-heritage-object",
       "type": {
         "id": "cultural-heritage-object-type-building",
@@ -1884,18 +1893,18 @@
       "relations": [
         { "event": "hofburg-PE01", "role": "role-born_person" },
         { "event": "hofburg-PE02", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE01", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE05", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE06", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE07", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE08", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE09", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE10", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE11", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE17", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE18", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE19", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE21", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE01", "role": "role-architekt" },
+        { "event": "hofburg-ODE05", "role": "role-architekt" },
+        { "event": "hofburg-ODE06", "role": "role-architekt" },
+        { "event": "hofburg-ODE07", "role": "role-architekt" },
+        { "event": "hofburg-ODE08", "role": "role-architekt" },
+        { "event": "hofburg-ODE09", "role": "role-architekt" },
+        { "event": "hofburg-ODE10", "role": "role-architekt" },
+        { "event": "hofburg-ODE11", "role": "role-architekt" },
+        { "event": "hofburg-ODE17", "role": "role-architekt" },
+        { "event": "hofburg-ODE18", "role": "role-architekt" },
+        { "event": "hofburg-ODE19", "role": "role-architekt" },
+        { "event": "hofburg-ODE21", "role": "role-zeichner" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -1904,9 +1913,7 @@
     "hofburg-P02": {
       "id": "hofburg-P02",
       "label": { "default": "Anonym" },
-      "relations": [
-        { "event": "hofburg-ODE02", "role": "role-producing_artist" }
-      ],
+      "relations": [{ "event": "hofburg-ODE02", "role": "role-architekt" }],
       "kind": "person",
       "gender": { "id": "unknown", "label": { "default": "unknown" } },
       "occupations": ["occupation-architekt"]
@@ -1948,8 +1955,8 @@
         { "event": "hofburg-OBE17", "role": "role-architect" },
         { "event": "hofburg-OBE18", "role": "role-architect" },
         { "event": "hofburg-OBE19", "role": "role-architect" },
-        { "event": "hofburg-ODE03", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE20", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE03", "role": "role-architekt" },
+        { "event": "hofburg-ODE20", "role": "role-künstler" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -1985,8 +1992,8 @@
       "relations": [
         { "event": "hofburg-PE07", "role": "role-born_person" },
         { "event": "hofburg-PE08", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE04", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE16", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE04", "role": "role-architekt" },
+        { "event": "hofburg-ODE16", "role": "role-zeichner" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -1995,9 +2002,7 @@
     "hofburg-P05": {
       "id": "hofburg-P05",
       "label": { "default": "Höhenrieder Johann" },
-      "relations": [
-        { "event": "hofburg-ODE12", "role": "role-producing_artist" }
-      ],
+      "relations": [{ "event": "hofburg-ODE12", "role": "role-architekt" }],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
       "occupations": ["occupation-architekt"]
@@ -2032,11 +2037,11 @@
       "relations": [
         { "event": "hofburg-PE11", "role": "role-born_person" },
         { "event": "hofburg-PE12", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE13", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE23", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE24", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE25", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE26", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE13", "role": "role-architekt" },
+        { "event": "hofburg-ODE23", "role": "role-architekt" },
+        { "event": "hofburg-ODE24", "role": "role-architekt" },
+        { "event": "hofburg-ODE25", "role": "role-architekt" },
+        { "event": "hofburg-ODE26", "role": "role-architekt" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2064,7 +2069,7 @@
       "relations": [
         { "event": "hofburg-PE13", "role": "role-born_person" },
         { "event": "hofburg-PE14", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE14", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE14", "role": "role-architekt" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2093,7 +2098,7 @@
       "relations": [
         { "event": "hofburg-PE15", "role": "role-born_person" },
         { "event": "hofburg-PE16", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE15", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE15", "role": "role-zeichner" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2124,7 +2129,7 @@
       "relations": [
         { "event": "hofburg-PE17", "role": "role-born_person" },
         { "event": "hofburg-PE18", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE22", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE22", "role": "role-architekt" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2156,26 +2161,26 @@
         { "event": "hofburg-PE19", "role": "role-born_person" },
         { "event": "hofburg-PE20", "role": "role-deceased_person" },
         { "event": "hofburg-OBE22", "role": "role-architect" },
-        { "event": "hofburg-ODE27", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE28", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE29", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE30", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE31", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE32", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE33", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE34", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE35", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE36", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE37", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE38", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE39", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE40", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE41", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE42", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE46", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE47", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE48", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE49", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE27", "role": "role-architekt" },
+        { "event": "hofburg-ODE28", "role": "role-architekt" },
+        { "event": "hofburg-ODE29", "role": "role-architekt" },
+        { "event": "hofburg-ODE30", "role": "role-architekt" },
+        { "event": "hofburg-ODE31", "role": "role-architekt" },
+        { "event": "hofburg-ODE32", "role": "role-architekt" },
+        { "event": "hofburg-ODE33", "role": "role-architekt" },
+        { "event": "hofburg-ODE34", "role": "role-architekt" },
+        { "event": "hofburg-ODE35", "role": "role-architekt" },
+        { "event": "hofburg-ODE36", "role": "role-architekt" },
+        { "event": "hofburg-ODE37", "role": "role-architekt" },
+        { "event": "hofburg-ODE38", "role": "role-architekt" },
+        { "event": "hofburg-ODE39", "role": "role-architekt" },
+        { "event": "hofburg-ODE40", "role": "role-architekt" },
+        { "event": "hofburg-ODE41", "role": "role-architekt" },
+        { "event": "hofburg-ODE42", "role": "role-architekt" },
+        { "event": "hofburg-ODE46", "role": "role-architekt" },
+        { "event": "hofburg-ODE47", "role": "role-architekt" },
+        { "event": "hofburg-ODE48", "role": "role-architekt" },
+        { "event": "hofburg-ODE49", "role": "role-architekt" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2211,9 +2216,9 @@
         { "event": "hofburg-OBE06", "role": "role-architect" },
         { "event": "hofburg-OBE09", "role": "role-architect" },
         { "event": "hofburg-OBE11", "role": "role-architect" },
-        { "event": "hofburg-ODE43", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE44", "role": "role-producing_artist" },
-        { "event": "hofburg-ODE45", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE43", "role": "role-architekt" },
+        { "event": "hofburg-ODE44", "role": "role-architekt" },
+        { "event": "hofburg-ODE45", "role": "role-architekt" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2288,7 +2293,8 @@
         { "event": "hofburg-PE26", "role": "role-deceased_person" },
         { "event": "hofburg-OBE29", "role": "role-architect" },
         { "event": "hofburg-OBE30", "role": "role-commission_member" },
-        { "event": "hofburg-OBE32", "role": "role-architect" }
+        { "event": "hofburg-OBE32", "role": "role-architect" },
+        { "event": "hofburg-ODE50", "role": "role-künstler" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2389,7 +2395,8 @@
       ],
       "relations": [
         { "event": "hofburg-PE31", "role": "role-born_person" },
-        { "event": "hofburg-PE32", "role": "role-deceased_person" }
+        { "event": "hofburg-PE32", "role": "role-deceased_person" },
+        { "event": "hofburg-ODE50", "role": "role-künstler" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -2879,7 +2886,7 @@
       "relations": [
         { "event": "hofburg-PE71", "role": "role-born_person" },
         { "event": "hofburg-PE72", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE51", "role": "role-producing_artist" }
+        { "event": "hofburg-ODE51", "role": "role-maler" }
       ],
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } },
@@ -3249,6 +3256,7 @@
         { "event": "hofburg-CHE68", "role": "role-took_place_at" },
         { "event": "hofburg-OBE05", "role": "role-took_place_at" },
         { "event": "hofburg-OBE16", "role": "role-took_place_at" },
+        { "event": "hofburg-OBE17", "role": "role-took_place_at" },
         { "event": "hofburg-OBE18", "role": "role-took_place_at" }
       ],
       "kind": "place",
@@ -3436,7 +3444,9 @@
         { "event": "hofburg-OBE10", "role": "role-took_place_at" },
         { "event": "hofburg-OBE13", "role": "role-took_place_at" },
         { "event": "hofburg-OBE14", "role": "role-took_place_at" },
+        { "event": "hofburg-OBE17", "role": "role-took_place_at" },
         { "event": "hofburg-OBE19", "role": "role-took_place_at" },
+        { "event": "hofburg-OBE23", "role": "role-took_place_at" },
         { "event": "hofburg-OBE24", "role": "role-took_place_at" },
         { "event": "hofburg-OBE25", "role": "role-took_place_at" },
         { "event": "hofburg-OBE25a", "role": "role-took_place_at" },
@@ -3536,7 +3546,7 @@
           }
         }
       ],
-      "relations": [],
+      "relations": [{ "event": "hofburg-OBE23", "role": "role-took_place_at" }],
       "kind": "place",
       "type": {
         "id": "place-type-building",
@@ -5392,8 +5402,10 @@
       "startDate": "1734-01-01",
       "endDate": "1734-12-31",
       "relations": [
-        { "entity": "hofburg-OB15;OB24", "role": "role-thing_role" },
-        { "entity": "hofburg-L15;L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-OB15", "role": "role-thing_role" },
+        { "entity": "hofburg-L15", "role": "role-took_place_at" },
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-OB24", "role": "role-thing_role" },
         { "entity": "hofburg-P03", "role": "role-architect" }
       ]
     },
@@ -5474,8 +5486,10 @@
       "startDate": "1869-01-01",
       "endDate": "1869-12-31",
       "relations": [
-        { "entity": "hofburg-OB24;OB27", "role": "role-thing_role" },
-        { "entity": "hofburg-L24;L27", "role": "role-took_place_at" },
+        { "entity": "hofburg-OB24", "role": "role-thing_role" },
+        { "entity": "hofburg-L24", "role": "role-took_place_at" },
+        { "entity": "hofburg-L27", "role": "role-took_place_at" },
+        { "entity": "hofburg-OB27", "role": "role-thing_role" },
         { "entity": "hofburg-P19", "role": "role-commissioner" },
         { "entity": "hofburg-OD50", "role": "role-depicted_by" }
       ]
@@ -5699,7 +5713,7 @@
       "relations": [
         { "entity": "hofburg-OD01", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5715,7 +5729,7 @@
       "relations": [
         { "entity": "hofburg-OD02", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P02", "role": "role-producing_artist" },
+        { "entity": "hofburg-P02", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5731,7 +5745,7 @@
       "relations": [
         { "entity": "hofburg-OD03", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P03", "role": "role-producing_artist" },
+        { "entity": "hofburg-P03", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5747,7 +5761,7 @@
       "relations": [
         { "entity": "hofburg-OD04", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P04", "role": "role-producing_artist" },
+        { "entity": "hofburg-P04", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5763,7 +5777,7 @@
       "relations": [
         { "entity": "hofburg-OD05", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5779,7 +5793,7 @@
       "relations": [
         { "entity": "hofburg-OD06", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5795,7 +5809,7 @@
       "relations": [
         { "entity": "hofburg-OD07", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5811,7 +5825,7 @@
       "relations": [
         { "entity": "hofburg-OD08", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5827,7 +5841,7 @@
       "relations": [
         { "entity": "hofburg-OD09", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5843,7 +5857,7 @@
       "relations": [
         { "entity": "hofburg-OD10", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5859,7 +5873,7 @@
       "relations": [
         { "entity": "hofburg-OD11", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5875,7 +5889,7 @@
       "relations": [
         { "entity": "hofburg-OD12", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P05", "role": "role-producing_artist" },
+        { "entity": "hofburg-P05", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5891,7 +5905,7 @@
       "relations": [
         { "entity": "hofburg-OD13", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-producing_artist" },
+        { "entity": "hofburg-P06", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5907,7 +5921,7 @@
       "relations": [
         { "entity": "hofburg-OD14", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P07", "role": "role-producing_artist" },
+        { "entity": "hofburg-P07", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5923,7 +5937,7 @@
       "relations": [
         { "entity": "hofburg-OD15", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P08", "role": "role-producing_artist" },
+        { "entity": "hofburg-P08", "role": "role-zeichner" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5939,7 +5953,7 @@
       "relations": [
         { "entity": "hofburg-OD16", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P04", "role": "role-producing_artist" },
+        { "entity": "hofburg-P04", "role": "role-zeichner" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5955,7 +5969,7 @@
       "relations": [
         { "entity": "hofburg-OD17", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5971,7 +5985,7 @@
       "relations": [
         { "entity": "hofburg-OD18", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5987,7 +6001,7 @@
       "relations": [
         { "entity": "hofburg-OD19", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6003,7 +6017,7 @@
       "relations": [
         { "entity": "hofburg-OD20", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P03", "role": "role-producing_artist" },
+        { "entity": "hofburg-P03", "role": "role-künstler" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6019,7 +6033,7 @@
       "relations": [
         { "entity": "hofburg-OD21", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-producing_artist" },
+        { "entity": "hofburg-P01", "role": "role-zeichner" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6035,7 +6049,7 @@
       "relations": [
         { "entity": "hofburg-OD22", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P09", "role": "role-producing_artist" },
+        { "entity": "hofburg-P09", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6051,7 +6065,7 @@
       "relations": [
         { "entity": "hofburg-OD23", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-producing_artist" },
+        { "entity": "hofburg-P06", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6067,7 +6081,7 @@
       "relations": [
         { "entity": "hofburg-OD24", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-producing_artist" },
+        { "entity": "hofburg-P06", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6083,7 +6097,7 @@
       "relations": [
         { "entity": "hofburg-OD25", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-producing_artist" },
+        { "entity": "hofburg-P06", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6099,7 +6113,7 @@
       "relations": [
         { "entity": "hofburg-OD26", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-producing_artist" },
+        { "entity": "hofburg-P06", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6115,7 +6129,7 @@
       "relations": [
         { "entity": "hofburg-OD27", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6131,7 +6145,7 @@
       "relations": [
         { "entity": "hofburg-OD28", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6147,7 +6161,7 @@
       "relations": [
         { "entity": "hofburg-OD29", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6163,7 +6177,7 @@
       "relations": [
         { "entity": "hofburg-OD30", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6179,7 +6193,7 @@
       "relations": [
         { "entity": "hofburg-OD31", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6195,7 +6209,7 @@
       "relations": [
         { "entity": "hofburg-OD32", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6211,7 +6225,7 @@
       "relations": [
         { "entity": "hofburg-OD33", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6227,7 +6241,7 @@
       "relations": [
         { "entity": "hofburg-OD34", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6243,7 +6257,7 @@
       "relations": [
         { "entity": "hofburg-OD35", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6259,7 +6273,7 @@
       "relations": [
         { "entity": "hofburg-OD36", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6275,7 +6289,7 @@
       "relations": [
         { "entity": "hofburg-OD37", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6291,7 +6305,7 @@
       "relations": [
         { "entity": "hofburg-OD38", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6307,7 +6321,7 @@
       "relations": [
         { "entity": "hofburg-OD39", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6323,7 +6337,7 @@
       "relations": [
         { "entity": "hofburg-OD40", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6339,7 +6353,7 @@
       "relations": [
         { "entity": "hofburg-OD41", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6355,7 +6369,7 @@
       "relations": [
         { "entity": "hofburg-OD42", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6371,7 +6385,7 @@
       "relations": [
         { "entity": "hofburg-OD43", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-producing_artist" },
+        { "entity": "hofburg-P11", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6385,7 +6399,7 @@
       "relations": [
         { "entity": "hofburg-OD44", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-producing_artist" },
+        { "entity": "hofburg-P11", "role": "role-architekt" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6401,7 +6415,7 @@
       "relations": [
         { "entity": "hofburg-OD45", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-producing_artist" },
+        { "entity": "hofburg-P11", "role": "role-architekt" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6417,8 +6431,9 @@
       "relations": [
         { "entity": "hofburg-OD46", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
-        { "entity": "hofburg-OB15;OB05", "role": "role-depicted_object" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-OB15", "role": "role-depicted_object" },
+        { "entity": "hofburg-OB05", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
     },
@@ -6433,7 +6448,7 @@
       "relations": [
         { "entity": "hofburg-OD47", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6449,7 +6464,7 @@
       "relations": [
         { "entity": "hofburg-OD48", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6465,7 +6480,7 @@
       "relations": [
         { "entity": "hofburg-OD49", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-producing_artist" },
+        { "entity": "hofburg-P10", "role": "role-architekt" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6481,8 +6496,10 @@
       "relations": [
         { "entity": "hofburg-OD50", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P16;P13", "role": "role-producing_artist" },
-        { "entity": "hofburg-OB25;OB27", "role": "role-depicted_object" },
+        { "entity": "hofburg-P16", "role": "role-künstler" },
+        { "entity": "hofburg-P13", "role": "role-künstler" },
+        { "entity": "hofburg-OB25", "role": "role-depicted_object" },
+        { "entity": "hofburg-OB27", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
     },
@@ -6495,7 +6512,7 @@
       "relations": [
         { "entity": "hofburg-OD51", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P38", "role": "role-producing_artist" },
+        { "entity": "hofburg-P38", "role": "role-maler" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
     }
@@ -6506,133 +6523,133 @@
       "label": { "default": "state around 1300" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide1_1300.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide2_1590",
       "label": { "default": "state around 1590" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide2_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide3_1650",
       "label": { "default": "state around 1650" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide3_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide4_1705",
       "label": { "default": "state around 1705" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide4_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide5_1792",
       "label": { "default": "state around 1792" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide5_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide6_1835",
       "label": { "default": "state around 1835" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide6_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide7",
       "label": { "default": "planning state around 1873" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide7.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-Slide8",
       "label": { "default": "state around 1920" },
       "description": "general view",
       "url": "http://liem.at/hb/Slide8.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E02_1590",
       "label": { "default": "state around 1590: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E02_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E03_1590",
       "label": { "default": "state around 1590: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E03_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E04_1590",
       "label": { "default": "state around 1590: Kindertrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E04_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E05_1590",
       "label": { "default": "state around 1590: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E05_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E06_1590",
       "label": { "default": "state around 1590: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E06_1590.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E07_1650",
       "label": { "default": "state around 1650: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E07_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E08_1650",
       "label": { "default": "state around 1650: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E08_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E09_1650",
       "label": { "default": "state around 1650: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E09_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E10_1650",
       "label": { "default": "state around 1650: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E10_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E11_1650",
       "label": { "default": "state around 1650: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E11_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E12_1650",
       "label": { "default": "state around 1650: former chancellery builiding" },
       "description": "detail view",
       "url": "http://liem.at/hb/E12_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E13_1650",
@@ -6641,49 +6658,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E13_1650.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E14_1705",
       "label": { "default": "state around 1705: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E14_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E15_1705",
       "label": { "default": "state around 1705: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E15_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E16_1705",
       "label": { "default": "state around 1705: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E16_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E17_1705",
       "label": { "default": "state around 1705: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E17_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E18_1705",
       "label": { "default": "state around 1705: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E18_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E19_1705",
       "label": { "default": "state around 1705: former chancellery builiding" },
       "description": "detail view",
       "url": "http://liem.at/hb/E19_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E20_1705",
@@ -6692,49 +6709,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E20_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E21_1705",
       "label": { "default": "state around 1705: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E21_1705.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E22_1792",
       "label": { "default": "state around 1792: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E22_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E23_1792",
       "label": { "default": "state around 1792: Spanier bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E23_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E24_1792",
       "label": { "default": "state around 1792: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E24_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E25_1792",
       "label": { "default": "state around 1792: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E25_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E26_1792",
       "label": { "default": "state around 1792: great bastion" },
       "description": "detail view",
       "url": "http://liem.at/hb/E26_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E27_1792",
@@ -6743,63 +6760,63 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E27_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E28_1792",
       "label": { "default": "state around 1792: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E28_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E29_1792",
       "label": { "default": "state around 1792: Austrian Court Chancellery" },
       "description": "detail view",
       "url": "http://liem.at/hb/E29_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E31_1792",
       "label": { "default": "state around 1792: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E31_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E32_1792",
       "label": { "default": "state around 1792: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E32_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E33_1792",
       "label": { "default": "state around 1792: Winter Riding School" },
       "description": "detail view",
       "url": "http://liem.at/hb/E33_1792.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E34_1835",
       "label": { "default": "state around 1835: Schweizerhof (Alte Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E34_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E35_1835",
       "label": { "default": "state around 1835: Amalienburg (Neue Burg)" },
       "description": "detail view",
       "url": "http://liem.at/hb/E35_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E36_1835",
       "label": { "default": "state around 1835: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E36_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E37_1835",
@@ -6808,49 +6825,49 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E37_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E38_1835",
       "label": { "default": "state around 1835: Leopoldinian Wing" },
       "description": "detail view",
       "url": "http://liem.at/hb/E38_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E39_1835",
       "label": { "default": "state around 1835: Austrian Court Chancellery" },
       "description": "detail view",
       "url": "http://liem.at/hb/E39_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E41_1835",
       "label": { "default": "state around 1835: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E41_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E42_1835",
       "label": { "default": "state around 1835: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E42_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E43_1835",
       "label": { "default": "state around 1835: Winter Riding School" },
       "description": "detail view",
       "url": "http://liem.at/hb/E43_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E44_1835",
       "label": { "default": "state around 1835: Zeremoniensaal" },
       "description": "detail view",
       "url": "http://liem.at/hb/E44_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E45_1835",
@@ -6859,7 +6876,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E45_1835.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E46_1873",
@@ -6868,7 +6885,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E46_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E47_1873",
@@ -6877,14 +6894,14 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E47_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E48_1873",
       "label": { "default": "planning state around 1873: Stallburg" },
       "description": "detail view",
       "url": "http://liem.at/hb/E48_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E49_1873",
@@ -6893,7 +6910,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E49_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E51_1873",
@@ -6902,21 +6919,21 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E51_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E53_1873",
       "label": { "default": "planning state around 1873: Court Library" },
       "description": "detail view",
       "url": "http://liem.at/hb/E53_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E54_1873",
       "label": { "default": "planning state around 1873: Reichskanzleitrakt" },
       "description": "detail view",
       "url": "http://liem.at/hb/E54_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E55_1873",
@@ -6925,7 +6942,7 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E55_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     },
     {
       "id": "hofburg-E57_1873",
@@ -6934,14 +6951,11 @@
       },
       "description": "detail view",
       "url": "http://liem.at/hb/E57_1873.jpg",
-      "kind": "media-kind-image"
+      "kind": "image"
     }
   ],
   "biographies": [],
   "vocabularies": {
-    "media-kind": [
-      { "id": "media-kind-image", "label": { "default": "image" } }
-    ],
     "cultural-heritage-object-type": [
       {
         "id": "cultural-heritage-object-type-building",
@@ -7032,15 +7046,15 @@
         "id": "role-construction_company",
         "label": { "default": "construction company" }
       },
-      {
-        "id": "role-producing_artist",
-        "label": { "default": "Producing Artist" }
-      },
+      { "id": "role-architekt", "label": { "default": "Architekt" } },
       {
         "id": "role-depicted_object",
         "label": { "default": "Depicted Object" }
       },
-      { "id": "role-owner", "label": { "default": "Owner" } }
+      { "id": "role-owner", "label": { "default": "Owner" } },
+      { "id": "role-zeichner", "label": { "default": "Zeichner" } },
+      { "id": "role-künstler", "label": { "default": "Künstler" } },
+      { "id": "role-maler", "label": { "default": "Maler" } }
     ]
   },
   "unmappedEntries": [],
@@ -7701,8 +7715,6 @@
         "hofburg-OD20",
         "hofburg-P27",
         "hofburg-P15",
-        "hofburg-OB15;OB24",
-        "hofburg-L15;L24",
         "hofburg-OB26",
         "hofburg-L26",
         "hofburg-P22",
@@ -7712,8 +7724,8 @@
         "hofburg-OD48",
         "hofburg-OD49",
         "hofburg-OD40",
-        "hofburg-OB24;OB27",
-        "hofburg-L24;L27",
+        "hofburg-L27",
+        "hofburg-OB27",
         "hofburg-P19",
         "hofburg-OD50",
         "hofburg-P23",
@@ -7830,13 +7842,15 @@
         "hofburg-OB25",
         "hofburg-OD45",
         "hofburg-OD46",
-        "hofburg-OB15;OB05",
+        "hofburg-OB15",
+        "hofburg-OB05",
         "hofburg-OD47",
         "hofburg-OD48",
         "hofburg-OD49",
         "hofburg-OD50",
-        "hofburg-P16;P13",
-        "hofburg-OB25;OB27",
+        "hofburg-P16",
+        "hofburg-P13",
+        "hofburg-OB27",
         "hofburg-OD51",
         "hofburg-P38"
       ],

@@ -31,8 +31,12 @@ export function readDataFromXlsxWorkbook(
 
                         for (const prefixProp of prefixProps) {
                             if (prefixProp in row) {
-                                const idValue = row[prefixProp] as string;
-                                row[prefixProp] = `${idPrefix}-${idValue.replace("/", "-")}`;
+                                const idValues = String(row[prefixProp]).trim();
+                                let ids = [];
+                                for (const idValue of idValues.split(";")) {
+                                    ids.push(`${idPrefix}-${idValue.trim().replace("/", "-")}`);
+                                }
+                                row[prefixProp] = ids.join(";");
                             }
                         }
 
