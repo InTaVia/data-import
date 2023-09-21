@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.14
+
+### Patch Changes
+
+-   [`9bf9902`](https://github.com/InTaVia/data-import/commit/9bf99026275f38b7a59ce6f8b3c4e28e5d1e4dcf) Thanks [@samuelbeck](https://github.com/samuelbeck)! - Fix occupations mapping and remove ".json" suffix from idPrefixes
+
 ## 0.1.13
 
 ### Patch Changes
