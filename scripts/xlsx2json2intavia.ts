@@ -45,7 +45,7 @@ async function generate(params: GenerateParams) {
 }
 
 generate({
-    path: "public/data/data-duerer-tagging.xlsx",
+    path: "public/data/data-duerer_english.xlsx",
     idPrefix: "duerer",
     collectionLabels: {
         all: "Albrecht Dürer",
@@ -62,7 +62,18 @@ generate({
     });
 
 generate({
-    path: "public/data/hofburg-data.xlsx",
+    path: "public/data/data-vergerio.xlsx",
+    idPrefix: "vergerio",
+})
+    .then(() => {
+        console.log(`Successfully generated data [vergerio].`);
+    })
+    .catch((error) => {
+        console.log(`Failed to generate data [vergerio].\n`, String(error));
+    });
+
+generate({
+    path: "public/data/data-hofburg.xlsx",
     idPrefix: "hofburg",
 })
     .then(() => {
@@ -70,4 +81,37 @@ generate({
     })
     .catch((error) => {
         console.log(`Failed to generate data [hofburg].\n`, String(error));
+    });
+
+generate({
+    path: "public/data/data-zens.xlsx",
+    idPrefix: "zens",
+})
+    .then(() => {
+        console.log(`Successfully generated data [zens].`);
+    })
+    .catch((error) => {
+        console.log(`Failed to generate data [zens].\n`, String(error));
+    });
+
+generate({
+    path: "public/data/data-tuusula-places.xlsx",
+    idPrefix: "tuusula",
+})
+    .then(() => {
+        console.log(`Successfully generated data [tuusula].`);
+    })
+    .catch((error) => {
+        console.log(`Failed to generate data [tuusula].\n`, String(error));
+    });
+
+generate({
+    path: "public/data/data-ernest-adamic.xlsx",
+    idPrefix: "adamic-ernest",
+})
+    .then(() => {
+        console.log(`Successfully generated data [adamic-ernest].`);
+    })
+    .catch((error) => {
+        console.log(`Failed to generate data [adamic-ernest].\n`, String(error));
     });

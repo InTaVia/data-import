@@ -8,11 +8,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q37878562",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q37878562"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q37878562"
         }
       ],
       "relations": [
@@ -69,11 +66,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q61992432",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q61992432"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61992432"
         }
       ],
       "relations": [
@@ -98,13 +92,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/Stallburg"
       },
       "linkedIds": [
-        {
-          "id": "Q774259",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q774259"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q774259" }
       ],
       "relations": [
         { "event": "hofburg-CHE06", "role": "role-thing_role" },
@@ -180,11 +168,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q113812408",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q113812408"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q113812408"
         }
       ],
       "relations": [
@@ -261,13 +246,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Reichskanzleitrakt&oldid=836403"
       },
       "linkedIds": [
-        {
-          "id": "Q2139504",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q2139504"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q2139504" }
       ],
       "relations": [
         { "event": "hofburg-CHE32", "role": "role-thing_role" },
@@ -297,13 +276,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Winterreitschule&oldid=834613"
       },
       "linkedIds": [
-        {
-          "id": "Q2585074",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q2585074"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q2585074" }
       ],
       "relations": [
         { "event": "hofburg-CHE33", "role": "role-thing_role" },
@@ -420,11 +393,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q45350189",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q45350189"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45350189"
         }
       ],
       "relations": [{ "event": "hofburg-CHE74", "role": "role-thing_role" }],
@@ -454,13 +424,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Michaelertrakt&oldid=836047"
       },
       "linkedIds": [
-        {
-          "id": "Q978722",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q978722"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q978722" }
       ],
       "relations": [
         { "event": "hofburg-OBE03", "role": "role-thing_role" },
@@ -527,7 +491,8 @@
         { "event": "hofburg-ODE41", "role": "role-depicted_object" },
         { "event": "hofburg-ODE42", "role": "role-depicted_object" },
         { "event": "hofburg-ODE43", "role": "role-depicted_object" },
-        { "event": "hofburg-ODE47", "role": "role-depicted_object" }
+        { "event": "hofburg-ODE47", "role": "role-depicted_object" },
+        { "event": "hofburg-ODE51", "role": "role-depicted_object" }
       ],
       "kind": "cultural-heritage-object",
       "type": {
@@ -542,13 +507,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Hofburg&oldid=836758"
       },
       "linkedIds": [
-        {
-          "id": "Q46242",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q46242"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q46242" }
       ],
       "relations": [
         { "event": "hofburg-OBE06", "role": "role-thing_role" },
@@ -574,11 +533,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q45350189",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q45350189"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45350189"
         }
       ],
       "relations": [
@@ -599,13 +555,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Kaiserforum&oldid=834103"
       },
       "linkedIds": [
-        {
-          "id": "Q1707326",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1707326"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q1707326" }
       ],
       "relations": [
         { "event": "hofburg-OBE23", "role": "role-thing_role" },
@@ -623,13 +573,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt (Vorstadtfassade, Michaelertrakt, Burgtheater), Gesamtplan, Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8830]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8830]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ8830"
         }
       ],
       "relations": [{ "event": "hofburg-ODE01", "role": "role-thing_role" }],
@@ -645,13 +595,13 @@
         "default": "Wien I, Hofburg, Altes Burgtheater, Bühnenhaus, Fassade zum Michaelerplatz, Aufriss und Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ9253]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ9253]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ9253"
         }
       ],
       "relations": [{ "event": "hofburg-ODE02", "role": "role-thing_role" }],
@@ -667,13 +617,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Projekt I, Perspektive"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8391]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8391]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ8391"
         }
       ],
       "relations": [
@@ -692,13 +642,13 @@
         "default": "Wien I, Hofburg, Festdekoration, Michaelertrakt, Festdekoration und Illumination anläßlich des Einzugs von Kaiser Franz I. am 16. Juni 1814, Grundriss und Aufriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8214]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ8214]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ8214"
         }
       ],
       "relations": [{ "event": "hofburg-ODE04", "role": "role-thing_role" }],
@@ -714,13 +664,13 @@
         "default": "Wien I, Hofburg, kaiserlicher Baugrund Michaelerplatz Nr. 6, Lageplan"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6784]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6784]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6784"
         }
       ],
       "relations": [{ "event": "hofburg-ODE05", "role": "role-thing_role" }],
@@ -736,13 +686,13 @@
         "default": "Wien I, Hofburg, kaiserlicher Baugrund Michaelerplatz Nr. 6, Neubauprojekt, Keller, Grundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6785]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6785]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6785"
         }
       ],
       "relations": [{ "event": "hofburg-ODE06", "role": "role-thing_role" }],
@@ -758,13 +708,13 @@
         "default": "Wien I, Hofburg, kaiserlicher Baugrund Michaelerplatz Nr. 6, Neubauprojekt, Parterre, Grundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6786]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6786]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6786"
         }
       ],
       "relations": [{ "event": "hofburg-ODE07", "role": "role-thing_role" }],
@@ -780,13 +730,13 @@
         "default": "Wien I, Hofburg, kaiserlicher Baugrund Michaelerplatz Nr. 6, Neubauprojekt, Querschnitt"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6787]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6787]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6787"
         }
       ],
       "relations": [{ "event": "hofburg-ODE08", "role": "role-thing_role" }],
@@ -802,13 +752,13 @@
         "default": "Wien I, Hofburg, Michaelerplatz mit Schauflergasse, Situationsplan"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6780]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6780]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6780"
         }
       ],
       "relations": [{ "event": "hofburg-ODE09", "role": "role-thing_role" }],
@@ -824,13 +774,13 @@
         "default": "Wien I, Hofburg, Michaelerplatz mit Schauflergasse, Situationsplan"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6781]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6781]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6781"
         }
       ],
       "relations": [{ "event": "hofburg-ODE10", "role": "role-thing_role" }],
@@ -846,13 +796,13 @@
         "default": "Wien I, Hofburg, Michaelerplatz mit Umgebung und Vermessung neuer Baulinien in der Schauflergasse, Situationsplan"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6782]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6782]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6782"
         }
       ],
       "relations": [{ "event": "hofburg-ODE11", "role": "role-thing_role" }],
@@ -868,13 +818,13 @@
         "default": "Wien I, Hofburg, Altes Burgtheater, Eingang am Michaelerplatz, Vordach, Grundriss, Schnitt, Aufriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6546]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6546]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6546"
         }
       ],
       "relations": [{ "event": "hofburg-ODE12", "role": "role-thing_role" }],
@@ -890,13 +840,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Ausbauprojekt, Parterre, Grundriß (Pause)"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6523]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6523]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6523"
         }
       ],
       "relations": [{ "event": "hofburg-ODE13", "role": "role-thing_role" }],
@@ -912,13 +862,13 @@
         "default": "Wien I, Hofburg, Leopoldinischer Trakt, Mezzanin, Grundriss mit Planskizze zum Neubau des Zeremoniensaales sowie nachträglicher Skizze zum Ausbau des Michaelertraktes"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6468]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6468]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6468"
         }
       ],
       "relations": [{ "event": "hofburg-ODE14", "role": "role-thing_role" }],
@@ -934,13 +884,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Querschnitt durch das Rondell"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6367]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6367]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6367"
         }
       ],
       "relations": [{ "event": "hofburg-ODE15", "role": "role-thing_role" }],
@@ -956,13 +906,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Skulpturen für die Michaelerfassade: Tugenden, Skizzen"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6210]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6210]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6210"
         }
       ],
       "relations": [{ "event": "hofburg-ODE16", "role": "role-thing_role" }],
@@ -976,13 +926,13 @@
       "id": "hofburg-OD17",
       "label": { "default": "Wien I, Hofburg, Michaelertrakt, Schnitt" },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6203]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6203]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6203"
         }
       ],
       "relations": [{ "event": "hofburg-ODE17", "role": "role-thing_role" }],
@@ -998,13 +948,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Schweizertrakt, Zeremoniensaaltrakt, 1.Stock, Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6194]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6194]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6194"
         }
       ],
       "relations": [{ "event": "hofburg-ODE18", "role": "role-thing_role" }],
@@ -1020,13 +970,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6195]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6195]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6195"
         }
       ],
       "relations": [{ "event": "hofburg-ODE19", "role": "role-thing_role" }],
@@ -1042,13 +992,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Projekt II, Aufriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6180]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6180]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6180"
         }
       ],
       "relations": [
@@ -1067,13 +1017,13 @@
         "default": "Wien I, Hofburg, Aman-Rekonstruktion, Michaeler-, Augustiner- und Kapuzinerkirche mit der Gruftanlage sowie Schweizertrakt zwischen 1619 und 1637, Parterre, Grundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6154]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6154]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6154"
         }
       ],
       "relations": [{ "event": "hofburg-ODE21", "role": "role-thing_role" }],
@@ -1089,13 +1039,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Vollendungsprojekt, Perspektive"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6131]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6131]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6131"
         }
       ],
       "relations": [{ "event": "hofburg-ODE22", "role": "role-thing_role" }],
@@ -1111,13 +1061,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Ausbauprojekt, 1.Stock, Grundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6100]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6100]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6100"
         }
       ],
       "relations": [{ "event": "hofburg-ODE23", "role": "role-thing_role" }],
@@ -1133,13 +1083,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Hofbibliothek, Winterreitschule, Stallburg, Michaelertrakt, Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6097]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6097]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6097"
         }
       ],
       "relations": [{ "event": "hofburg-ODE24", "role": "role-thing_role" }],
@@ -1155,13 +1105,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Hofbibliothek, Winterreitschule, Michaelertrakt, Ansicht"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6098]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6098]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6098"
         }
       ],
       "relations": [{ "event": "hofburg-ODE25", "role": "role-thing_role" }],
@@ -1177,13 +1127,13 @@
         "default": "Wien I, Hofburg, Michaelertrakt, Ausbauprojekt, Aufriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6099]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6099]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6099"
         }
       ],
       "relations": [{ "event": "hofburg-ODE26", "role": "role-thing_role" }],
@@ -1199,13 +1149,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Obergeschoß, Detailgrundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6087]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6087]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6087"
         }
       ],
       "relations": [{ "event": "hofburg-ODE27", "role": "role-thing_role" }],
@@ -1221,13 +1171,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Innerer Burghof und Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6082/2]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6082/2]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6082_2"
         }
       ],
       "relations": [{ "event": "hofburg-ODE28", "role": "role-thing_role" }],
@@ -1243,13 +1193,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6085]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6085]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6085"
         }
       ],
       "relations": [{ "event": "hofburg-ODE29", "role": "role-thing_role" }],
@@ -1265,13 +1215,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Parterre, Detailgrundriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6086r]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6086r]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6086r"
         }
       ],
       "relations": [{ "event": "hofburg-ODE30", "role": "role-thing_role" }],
@@ -1287,13 +1237,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailskizze"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6086v]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6086v]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6086v"
         }
       ],
       "relations": [{ "event": "hofburg-ODE31", "role": "role-thing_role" }],
@@ -1309,13 +1259,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6079r]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6079r]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6079r"
         }
       ],
       "relations": [{ "event": "hofburg-ODE32", "role": "role-thing_role" }],
@@ -1331,13 +1281,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6079v]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6079v]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6079v"
         }
       ],
       "relations": [{ "event": "hofburg-ODE33", "role": "role-thing_role" }],
@@ -1353,13 +1303,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelerplatz, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6078/7]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6078/7]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6078_7"
         }
       ],
       "relations": [{ "event": "hofburg-ODE34", "role": "role-thing_role" }],
@@ -1375,13 +1325,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelerplatz, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6078/8]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6078/8]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6078_8"
         }
       ],
       "relations": [{ "event": "hofburg-ODE35", "role": "role-thing_role" }],
@@ -1397,13 +1347,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Schweizerhof, Leopoldinischer Trakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6077/3]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6077/3]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6077_3"
         }
       ],
       "relations": [{ "event": "hofburg-ODE36", "role": "role-thing_role" }],
@@ -1419,13 +1369,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Amalienburg, Leopoldinischer Trakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6077/2]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6077/2]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6077_2"
         }
       ],
       "relations": [{ "event": "hofburg-ODE37", "role": "role-thing_role" }],
@@ -1441,13 +1391,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt (?), Schnitt"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6067]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6067]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6067"
         }
       ],
       "relations": [{ "event": "hofburg-ODE38", "role": "role-thing_role" }],
@@ -1463,13 +1413,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6053/5]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6053/5]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6053_5"
         }
       ],
       "relations": [{ "event": "hofburg-ODE39", "role": "role-thing_role" }],
@@ -1485,13 +1435,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Portal, Aufriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6050]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6050]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6050"
         }
       ],
       "relations": [
@@ -1510,13 +1460,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/4]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/4]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6048_4"
         }
       ],
       "relations": [{ "event": "hofburg-ODE41", "role": "role-thing_role" }],
@@ -1532,13 +1482,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Innerer Burghof, Schweizerhof, Burgbastei, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6049/2]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6049/2]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6049_2"
         }
       ],
       "relations": [{ "event": "hofburg-ODE42", "role": "role-thing_role" }],
@@ -1554,13 +1504,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Fassade, Aufriß"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6041]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6041]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6041"
         }
       ],
       "relations": [
@@ -1577,13 +1527,13 @@
       "id": "hofburg-OD44",
       "label": { "default": "Wien Hofburg, Gesamtgrundriss" },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6040]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6040]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6040"
         }
       ],
       "relations": [
@@ -1602,13 +1552,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Gesamtplan, Hauptgeschoß, Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6038]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6038]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6038"
         }
       ],
       "relations": [
@@ -1627,13 +1577,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Winterreitschule und Stallburg, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/3]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/3]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6048_3"
         }
       ],
       "relations": [
@@ -1652,13 +1602,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Michaelertrakt, Detailgrundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/4]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6048/4]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6048_4"
         }
       ],
       "relations": [
@@ -1677,13 +1627,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Gesamtplan, 1.Stock, Grundriss"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6055]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6055]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6055"
         }
       ],
       "relations": [
@@ -1702,13 +1652,13 @@
         "default": "Wien I, Hofburg, Um- und Neubauprojekt, Gesamtplan, Parterre, Grundriss, Teil 1"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6080/1]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6080/1]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6080_1"
         }
       ],
       "relations": [
@@ -1727,13 +1677,13 @@
         "default": "Wien I, Hofburg, Gesamtplan mit Kaiserforum, Entwurf, Situationsplan"
       },
       "linkedIds": [
-        { "id": "https" },
         {
-          "id": "https",
-          "provider": {
-            "label": "Europeana",
-            "baseUrl": "https://www.europeana.eu/de/item/https"
-          }
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6218]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[AZ6218]&showtype=record"
+        },
+        {
+          "label": "Europeana",
+          "url": "https://www.europeana.eu/de/item/https://www.europeana.eu/de/item/15508/AZ6218"
         }
       ],
       "relations": [
@@ -1749,7 +1699,12 @@
     "hofburg-OD51": {
       "id": "hofburg-OD51",
       "label": { "default": "Der Michaelerplatz" },
-      "linkedIds": [{ "id": "https" }],
+      "linkedIds": [
+        {
+          "label": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DL234]&showtype=record",
+          "url": "https://sammlungenonline.albertina.at/?query=search=/record/objectnumbersearch=[DL234]&showtype=record"
+        }
+      ],
       "relations": [
         { "event": "hofburg-OBE27", "role": "role-depicted_by" },
         { "event": "hofburg-ODE51", "role": "role-thing_role" }
@@ -1861,621 +1816,6 @@
         "label": { "default": "institution" }
       }
     },
-    "hofburg-P01": {
-      "id": "hofburg-P01",
-      "label": { "default": "Aman, Johann" },
-      "source": {
-        "citation": "https://biographien.ac.at/ID-0.3020276-1;https://www.architektenlexikon.at/de/1185.htm"
-      },
-      "linkedIds": [
-        {
-          "id": "Q1404630",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1404630"
-          }
-        },
-        {
-          "id": "135708885",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/135708885"
-          }
-        },
-        {
-          "id": "90455",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/90455"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE01", "role": "role-born_person" },
-        { "event": "hofburg-PE02", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE01", "role": "role-architekt" },
-        { "event": "hofburg-ODE05", "role": "role-architekt" },
-        { "event": "hofburg-ODE06", "role": "role-architekt" },
-        { "event": "hofburg-ODE07", "role": "role-architekt" },
-        { "event": "hofburg-ODE08", "role": "role-architekt" },
-        { "event": "hofburg-ODE09", "role": "role-architekt" },
-        { "event": "hofburg-ODE10", "role": "role-architekt" },
-        { "event": "hofburg-ODE11", "role": "role-architekt" },
-        { "event": "hofburg-ODE17", "role": "role-architekt" },
-        { "event": "hofburg-ODE18", "role": "role-architekt" },
-        { "event": "hofburg-ODE19", "role": "role-architekt" },
-        { "event": "hofburg-ODE21", "role": "role-zeichner" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P02": {
-      "id": "hofburg-P02",
-      "label": { "default": "Anonym" },
-      "relations": [{ "event": "hofburg-ODE02", "role": "role-architekt" }],
-      "kind": "person",
-      "gender": { "id": "unknown", "label": { "default": "unknown" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P03": {
-      "id": "hofburg-P03",
-      "label": { "default": "Fischer von Erlach, Joseph Emanuel" },
-      "source": {
-        "citation": "https://de.wikisource.org/wiki/BLK%C3%96:Fischer_von_Erlach,_Joseph_Emanuel_Freiherr"
-      },
-      "linkedIds": [
-        {
-          "id": "Q84588",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q84588"
-          }
-        },
-        {
-          "id": "118683721",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118683721"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE05", "role": "role-born_person" },
-        { "event": "hofburg-PE06", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE03", "role": "role-architect" },
-        { "event": "hofburg-OBE05", "role": "role-architect" },
-        { "event": "hofburg-OBE07", "role": "role-architect" },
-        { "event": "hofburg-OBE08", "role": "role-architect" },
-        { "event": "hofburg-OBE10", "role": "role-architect" },
-        { "event": "hofburg-OBE13", "role": "role-architect" },
-        { "event": "hofburg-OBE14", "role": "role-architect" },
-        { "event": "hofburg-OBE15", "role": "role-architect" },
-        { "event": "hofburg-OBE16", "role": "role-architect" },
-        { "event": "hofburg-OBE17", "role": "role-architect" },
-        { "event": "hofburg-OBE18", "role": "role-architect" },
-        { "event": "hofburg-OBE19", "role": "role-architect" },
-        { "event": "hofburg-ODE03", "role": "role-architekt" },
-        { "event": "hofburg-ODE20", "role": "role-künstler" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P04": {
-      "id": "hofburg-P04",
-      "label": { "default": "Remy, Ludwig Gabriel von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3046484-1" },
-      "linkedIds": [
-        {
-          "id": "Q1874423",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1874423"
-          }
-        },
-        {
-          "id": "116437618",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/116437618"
-          }
-        },
-        {
-          "id": "46185",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/46185"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE07", "role": "role-born_person" },
-        { "event": "hofburg-PE08", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE04", "role": "role-architekt" },
-        { "event": "hofburg-ODE16", "role": "role-zeichner" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P05": {
-      "id": "hofburg-P05",
-      "label": { "default": "Höhenrieder Johann" },
-      "relations": [{ "event": "hofburg-ODE12", "role": "role-architekt" }],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P06": {
-      "id": "hofburg-P06",
-      "label": { "default": "Hetzendorf von Hohenberg, Johann Ferdinand" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3028408-1" },
-      "linkedIds": [
-        {
-          "id": "Q1693429",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1693429"
-          }
-        },
-        {
-          "id": "118774743",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118774743"
-          }
-        },
-        {
-          "id": "77983",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/77983"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE11", "role": "role-born_person" },
-        { "event": "hofburg-PE12", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE13", "role": "role-architekt" },
-        { "event": "hofburg-ODE23", "role": "role-architekt" },
-        { "event": "hofburg-ODE24", "role": "role-architekt" },
-        { "event": "hofburg-ODE25", "role": "role-architekt" },
-        { "event": "hofburg-ODE26", "role": "role-architekt" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P07": {
-      "id": "hofburg-P07",
-      "label": { "default": "Montoyer, Louis de" },
-      "linkedIds": [
-        {
-          "id": "Q327170",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q327170"
-          }
-        },
-        {
-          "id": "129233307",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/129233307"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE13", "role": "role-born_person" },
-        { "event": "hofburg-PE14", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE14", "role": "role-architekt" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P08": {
-      "id": "hofburg-P08",
-      "label": { "default": "Ortner, Anton" },
-      "source": { "citation": "https://www.architektenlexikon.at/de/1201.htm" },
-      "linkedIds": [
-        {
-          "id": "Q98684057",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q98684057"
-          }
-        },
-        {
-          "id": "1117818292",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/1117818292"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE15", "role": "role-born_person" },
-        { "event": "hofburg-PE16", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE15", "role": "role-zeichner" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-zeichner"]
-    },
-    "hofburg-P09": {
-      "id": "hofburg-P09",
-      "label": { "default": "Gfall, Johann" },
-      "source": {
-        "citation": "https://de.wikisource.org/wiki/BLK%C3%96:Gfall,_Anton"
-      },
-      "linkedIds": [
-        {
-          "id": "Q94619379",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q94619379"
-          }
-        },
-        {
-          "id": "129111554",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/129111554"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE17", "role": "role-born_person" },
-        { "event": "hofburg-PE18", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE22", "role": "role-architekt" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P10": {
-      "id": "hofburg-P10",
-      "label": { "default": "Jadot, Jean Nicolas" },
-      "source": {
-        "citation": "https://de.wikisource.org/wiki/BLK%C3%96:Jadot_Baron_de_Ville-Issey,_Johann_Niklas_von"
-      },
-      "linkedIds": [
-        {
-          "id": "Q1685720",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1685720"
-          }
-        },
-        {
-          "id": "129197785",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/129197785"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE19", "role": "role-born_person" },
-        { "event": "hofburg-PE20", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE22", "role": "role-architect" },
-        { "event": "hofburg-ODE27", "role": "role-architekt" },
-        { "event": "hofburg-ODE28", "role": "role-architekt" },
-        { "event": "hofburg-ODE29", "role": "role-architekt" },
-        { "event": "hofburg-ODE30", "role": "role-architekt" },
-        { "event": "hofburg-ODE31", "role": "role-architekt" },
-        { "event": "hofburg-ODE32", "role": "role-architekt" },
-        { "event": "hofburg-ODE33", "role": "role-architekt" },
-        { "event": "hofburg-ODE34", "role": "role-architekt" },
-        { "event": "hofburg-ODE35", "role": "role-architekt" },
-        { "event": "hofburg-ODE36", "role": "role-architekt" },
-        { "event": "hofburg-ODE37", "role": "role-architekt" },
-        { "event": "hofburg-ODE38", "role": "role-architekt" },
-        { "event": "hofburg-ODE39", "role": "role-architekt" },
-        { "event": "hofburg-ODE40", "role": "role-architekt" },
-        { "event": "hofburg-ODE41", "role": "role-architekt" },
-        { "event": "hofburg-ODE42", "role": "role-architekt" },
-        { "event": "hofburg-ODE46", "role": "role-architekt" },
-        { "event": "hofburg-ODE47", "role": "role-architekt" },
-        { "event": "hofburg-ODE48", "role": "role-architekt" },
-        { "event": "hofburg-ODE49", "role": "role-architekt" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P11": {
-      "id": "hofburg-P11",
-      "label": { "default": "Hildebrandt, Johann Lucas von" },
-      "source": {
-        "citation": "https://de.wikisource.org/wiki/BLK%C3%96:Hildebrand,_Johann_Lucas_von"
-      },
-      "linkedIds": [
-        {
-          "id": "Q84507",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q84507"
-          }
-        },
-        {
-          "id": "118550950",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118550950"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE21", "role": "role-born_person" },
-        { "event": "hofburg-PE22", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE02", "role": "role-architect" },
-        { "event": "hofburg-OBE04", "role": "role-architect" },
-        { "event": "hofburg-OBE06", "role": "role-architect" },
-        { "event": "hofburg-OBE09", "role": "role-architect" },
-        { "event": "hofburg-OBE11", "role": "role-architect" },
-        { "event": "hofburg-ODE43", "role": "role-architekt" },
-        { "event": "hofburg-ODE44", "role": "role-architekt" },
-        { "event": "hofburg-ODE45", "role": "role-architekt" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P12": {
-      "id": "hofburg-P12",
-      "label": { "default": "Kirschner, Ferdinand von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3033844-1" },
-      "linkedIds": [
-        {
-          "id": "Q88297",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q88297"
-          }
-        },
-        {
-          "id": "1013623398",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/1013623398"
-          }
-        },
-        {
-          "id": "92264",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/92264"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE23", "role": "role-born_person" },
-        { "event": "hofburg-PE24", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE28", "role": "role-architect" },
-        { "event": "hofburg-OBE30", "role": "role-commission_member" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P13": {
-      "id": "hofburg-P13",
-      "label": { "default": "Hasenauer, Carl von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3033844-1" },
-      "linkedIds": [
-        {
-          "id": "Q84541",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q84541"
-          }
-        },
-        {
-          "id": "118546597",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118546597"
-          }
-        },
-        {
-          "id": "92211",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/92211"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE25", "role": "role-born_person" },
-        { "event": "hofburg-PE26", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE29", "role": "role-architect" },
-        { "event": "hofburg-OBE30", "role": "role-commission_member" },
-        { "event": "hofburg-OBE32", "role": "role-architect" },
-        { "event": "hofburg-ODE50", "role": "role-künstler" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P14": {
-      "id": "hofburg-P14",
-      "label": { "default": "Schmidt, Friedrich Frh. von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3055248-1" },
-      "linkedIds": [
-        {
-          "id": "Q77431",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q77431"
-          }
-        },
-        {
-          "id": "118608770",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118608770"
-          }
-        },
-        {
-          "id": "40649",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/40649"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE27", "role": "role-born_person" },
-        { "event": "hofburg-PE28", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architekt"]
-    },
-    "hofburg-P15": {
-      "id": "hofburg-P15",
-      "label": { "default": "Salomon, Kleiner" },
-      "source": {
-        "citation": "https://de.wikisource.org/wiki/BLK%C3%96:Kleiner,_Salomon"
-      },
-      "linkedIds": [
-        {
-          "id": "Q2215015",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q2215015"
-          }
-        },
-        {
-          "id": "118723464",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118723464"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE29", "role": "role-born_person" },
-        { "event": "hofburg-PE30", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE14", "role": "role-artist" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-zeichner"]
-    },
-    "hofburg-P16": {
-      "id": "hofburg-P16",
-      "label": { "default": "Semper, Gottfried" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3050652-1" },
-      "linkedIds": [
-        {
-          "id": "Q61342",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q61342"
-          }
-        },
-        {
-          "id": "118613154",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118613154"
-          }
-        },
-        {
-          "id": "34921",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/34921"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE31", "role": "role-born_person" },
-        { "event": "hofburg-PE32", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE50", "role": "role-künstler" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-künstler"]
-    },
-    "hofburg-P18": {
-      "id": "hofburg-P18",
-      "label": { "default": "Karl VI" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Karl_VI."
-      },
-      "linkedIds": [
-        {
-          "id": "Q150665",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q150665"
-          }
-        },
-        {
-          "id": "118560107",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118560107"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-CHE29", "role": "role-commissioner" },
-        { "event": "hofburg-CHE30", "role": "role-commissioner" },
-        { "event": "hofburg-CHE31", "role": "role-commissioner" },
-        { "event": "hofburg-CHE32", "role": "role-commissioner" },
-        { "event": "hofburg-CHE33", "role": "role-commissioner" },
-        { "event": "hofburg-PE33", "role": "role-born_person" },
-        { "event": "hofburg-PE34", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE01", "role": "role-commissioner" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P19": {
-      "id": "hofburg-P19",
-      "label": { "default": "Franz Joseph I" },
-      "source": {
-        "citation": "https://biographien.ac.at/ID-0.3024398-1;https://www.geschichtewiki.wien.gv.at/Franz_Joseph_I."
-      },
-      "linkedIds": [
-        {
-          "id": "Q51056",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q51056"
-          }
-        },
-        {
-          "id": "118535013",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118535013"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-CHE58", "role": "role-commissioner" },
-        { "event": "hofburg-CHE72", "role": "role-commissioner" },
-        { "event": "hofburg-CHE73", "role": "role-commissioner" },
-        { "event": "hofburg-CHE74", "role": "role-commissioner" },
-        { "event": "hofburg-CHE75", "role": "role-commissioner" },
-        { "event": "hofburg-PE35", "role": "role-born_person" },
-        { "event": "hofburg-PE36", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE23", "role": "role-commissioner" },
-        { "event": "hofburg-OBE25b", "role": "role-approver" },
-        { "event": "hofburg-OBE31", "role": "role-approver" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
     "hofburg-P20": {
       "id": "hofburg-P20",
       "label": { "default": "Gudenus, Gabriel Baron von" },
@@ -2486,412 +1826,6 @@
       "kind": "person",
       "gender": { "id": "male", "label": { "default": "male" } }
     },
-    "hofburg-P21": {
-      "id": "hofburg-P21",
-      "label": { "default": "Schönborn, Conrad Adolph von" },
-      "linkedIds": [
-        {
-          "id": "Q59653363",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q59653363"
-          }
-        },
-        {
-          "id": "120172356",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/120172356"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE39", "role": "role-born_person" },
-        { "event": "hofburg-PE40", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE04", "role": "role-commissioner" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-imperial_vice_chancellor"]
-    },
-    "hofburg-P22": {
-      "id": "hofburg-P22",
-      "label": { "default": "Neumann, Balthasar" },
-      "source": {
-        "citation": "https://de.wikipedia.org/wiki/Balthasar_Neumann"
-      },
-      "linkedIds": [
-        {
-          "id": "Q61349",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q61349"
-          }
-        },
-        {
-          "id": "118587269",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118587269"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE41", "role": "role-born_person" },
-        { "event": "hofburg-PE42", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE21", "role": "role-architect" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architect"]
-    },
-    "hofburg-P23": {
-      "id": "hofburg-P23",
-      "label": { "default": "Hohenlohe-Schillingfürst, Konstantin Prinz von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3026608-1" },
-      "linkedIds": [
-        {
-          "id": "76850",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/76850"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE43", "role": "role-born_person" },
-        { "event": "hofburg-PE44", "role": "role-deceased_person" },
-        {
-          "event": "hofburg-OBE24",
-          "role": "role-leading_court_staff_(obersthofmeister)"
-        },
-        { "event": "hofburg-OBE25a", "role": "role-proposer" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-obersthofmeister/head_of_the_court_household"]
-    },
-    "hofburg-P24": {
-      "id": "hofburg-P24",
-      "label": { "default": "Lasser von Zollheim, Joseph Baron von" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3035886-1" },
-      "linkedIds": [
-        {
-          "id": "Q1705115",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1705115"
-          }
-        },
-        {
-          "id": "136320465",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/136320465"
-          }
-        },
-        {
-          "id": "64728",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/64728"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE45", "role": "role-born_person" },
-        { "event": "hofburg-PE46", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE25a", "role": "role-proposer" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-politician_and_lawyer"]
-    },
-    "hofburg-P25": {
-      "id": "hofburg-P25",
-      "label": { "default": "Koechlin, Karl" },
-      "source": { "citation": "https://biographien.ac.at/ID-0.3030414-1" },
-      "linkedIds": [
-        {
-          "id": "Q55907923",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q55907923"
-          }
-        },
-        {
-          "id": "1013663128",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/1013663128"
-          }
-        },
-        {
-          "id": "70018",
-          "provider": {
-            "label": "APIS",
-            "baseUrl": "https://apis.acdh.oeaw.ac.at/entity/70018"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE47", "role": "role-born_person" },
-        { "event": "hofburg-PE48", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architect_and_minister"]
-    },
-    "hofburg-P26": {
-      "id": "hofburg-P26",
-      "label": { "default": "Boffrand, Germain" },
-      "source": {
-        "citation": "https://www.sueddeutscher-barock.ch/In-Meister/a-g/Boffrand_Germain.html"
-      },
-      "linkedIds": [
-        {
-          "id": "Q1311013",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1311013"
-          }
-        },
-        {
-          "id": "123285852",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/123285852"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE49", "role": "role-born_person" },
-        { "event": "hofburg-PE50", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE10", "role": "role-builder" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-architect"]
-    },
-    "hofburg-P27": {
-      "id": "hofburg-P27",
-      "label": { "default": "Mattielli, Lorenzo" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Lorenzo_Mattielli&oldid=796772"
-      },
-      "linkedIds": [
-        {
-          "id": "Q1455126",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1455126"
-          }
-        },
-        {
-          "id": "119286947",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/119286947"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE51", "role": "role-born_person" },
-        { "event": "hofburg-PE52", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE12", "role": "role-artist" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-sculptor"]
-    },
-    "hofburg-P28": {
-      "id": "hofburg-P28",
-      "label": { "default": "Albrecht, Conrad Adolph von" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Conrad_Adolph_von_Albrecht"
-      },
-      "linkedIds": [
-        {
-          "id": "Q59653363",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q59653363"
-          }
-        },
-        {
-          "id": "120172356",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/120172356"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE53", "role": "role-born_person" },
-        { "event": "hofburg-PE54", "role": "role-deceased_person" },
-        { "event": "hofburg-OBE08", "role": "role-artist" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-scholar"]
-    },
-    "hofburg-P29": {
-      "id": "hofburg-P29",
-      "label": { "default": "Francis II/I" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Franz_II._(I.)"
-      },
-      "relations": [
-        { "event": "hofburg-CHE44", "role": "role-commissioner" },
-        { "event": "hofburg-CHE45", "role": "role-commissioner" },
-        { "event": "hofburg-PE55", "role": "role-born_person" },
-        { "event": "hofburg-PE56", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P31": {
-      "id": "hofburg-P31",
-      "label": { "default": "Leopold VI of Babenberg" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Leopold_VI."
-      },
-      "relations": [
-        { "event": "hofburg-CHE01", "role": "role-commissioner" },
-        { "event": "hofburg-PE57", "role": "role-born_person" },
-        { "event": "hofburg-PE58", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-duke"]
-    },
-    "hofburg-P32": {
-      "id": "hofburg-P32",
-      "label": { "default": "Friedrich II of Babenberg" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Friedrich_II._der_Streitbare"
-      },
-      "relations": [
-        { "event": "hofburg-CHE01", "role": "role-commissioner" },
-        { "event": "hofburg-PE59", "role": "role-born_person" },
-        { "event": "hofburg-PE60", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-duke"]
-    },
-    "hofburg-P33": {
-      "id": "hofburg-P33",
-      "label": { "default": "Ferdinand I" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Ferdinand_I._(Heiliges_R%C3%B6misches_Reich)"
-      },
-      "relations": [
-        { "event": "hofburg-CHE02", "role": "role-commissioner" },
-        { "event": "hofburg-CHE03", "role": "role-commissioner" },
-        { "event": "hofburg-CHE04", "role": "role-commissioner" },
-        { "event": "hofburg-CHE08", "role": "role-commissioner" },
-        { "event": "hofburg-PE61", "role": "role-born_person" },
-        { "event": "hofburg-PE62", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P34": {
-      "id": "hofburg-P34",
-      "label": { "default": "Rudolf II" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_II."
-      },
-      "relations": [
-        { "event": "hofburg-CHE05", "role": "role-commissioner" },
-        { "event": "hofburg-PE63", "role": "role-born_person" },
-        { "event": "hofburg-PE64", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P35": {
-      "id": "hofburg-P35",
-      "label": { "default": "Maximilian II" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Maximilian_II."
-      },
-      "relations": [
-        { "event": "hofburg-CHE06", "role": "role-commissioner" },
-        { "event": "hofburg-PE65", "role": "role-born_person" },
-        { "event": "hofburg-PE66", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P36": {
-      "id": "hofburg-P36",
-      "label": { "default": "Ferdinand II" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Ferdinand_II._(Heiliges_R%C3%B6misches_Reich)"
-      },
-      "relations": [
-        { "event": "hofburg-CHE11", "role": "role-commissioner" },
-        { "event": "hofburg-CHE12", "role": "role-commissioner" },
-        { "event": "hofburg-CHE13", "role": "role-commissioner" },
-        { "event": "hofburg-PE67", "role": "role-born_person" },
-        { "event": "hofburg-PE68", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P37": {
-      "id": "hofburg-P37",
-      "label": { "default": "Leopold I" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Leopold_I."
-      },
-      "relations": [
-        { "event": "hofburg-CHE21", "role": "role-commissioner" },
-        { "event": "hofburg-PE69", "role": "role-born_person" },
-        { "event": "hofburg-PE70", "role": "role-deceased_person" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-emperor"]
-    },
-    "hofburg-P38": {
-      "id": "hofburg-P38",
-      "label": { "default": "Alt, Rudolf von" },
-      "source": {
-        "citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_von_Alt"
-      },
-      "linkedIds": [
-        {
-          "id": "Q638183",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q638183"
-          }
-        },
-        {
-          "id": "118502204",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118502204"
-          }
-        }
-      ],
-      "relations": [
-        { "event": "hofburg-PE71", "role": "role-born_person" },
-        { "event": "hofburg-PE72", "role": "role-deceased_person" },
-        { "event": "hofburg-ODE51", "role": "role-maler" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-painter"]
-    },
     "hofburg-L01": {
       "id": "hofburg-L01",
       "label": { "default": "Schweizerhof (Alte Burg)" },
@@ -2900,11 +1834,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q37878562",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q37878562"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q37878562"
         }
       ],
       "relations": [
@@ -2940,7 +1871,7 @@
         "id": "place-type-building",
         "label": { "default": "building" }
       },
-      "geometry": { "type": "Point", "coordinates": [16.363922, 48.206189] }
+      "geometry": { "type": "Point", "coordinates": [16.36492, 48.206669] }
     },
     "hofburg-L03": {
       "id": "hofburg-L03",
@@ -2954,7 +1885,7 @@
         "id": "place-type-building",
         "label": { "default": "building" }
       },
-      "geometry": { "type": "Point", "coordinates": [16.364442, 48.207433] }
+      "geometry": { "type": "Point", "coordinates": [16.365059, 48.206977] }
     },
     "hofburg-L04": {
       "id": "hofburg-L04",
@@ -2964,11 +1895,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q61992432",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q61992432"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q61992432"
         }
       ],
       "relations": [
@@ -2994,13 +1922,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/Stallburg"
       },
       "linkedIds": [
-        {
-          "id": "Q774259",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q774259"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q774259" }
       ],
       "relations": [
         { "event": "hofburg-CHE06", "role": "role-took_place_at" },
@@ -3088,11 +2010,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q113812408",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q113812408"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q113812408"
         }
       ],
       "relations": [
@@ -3202,13 +2121,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Reichskanzleitrakt&oldid=836403"
       },
       "linkedIds": [
-        {
-          "id": "Q2139504",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q2139504"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q2139504" }
       ],
       "relations": [
         { "event": "hofburg-CHE32", "role": "role-took_place_at" },
@@ -3241,13 +2154,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Winterreitschule&oldid=834613"
       },
       "linkedIds": [
-        {
-          "id": "Q2585074",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q2585074"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q2585074" }
       ],
       "relations": [
         { "event": "hofburg-CHE33", "role": "role-took_place_at" },
@@ -3391,11 +2298,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q45350189",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q45350189"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45350189"
         }
       ],
       "relations": [{ "event": "hofburg-CHE74", "role": "role-took_place_at" }],
@@ -3430,13 +2334,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Michaelertrakt&oldid=836047"
       },
       "linkedIds": [
-        {
-          "id": "Q978722",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q978722"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q978722" }
       ],
       "relations": [
         { "event": "hofburg-OBE03", "role": "role-took_place_at" },
@@ -3478,13 +2376,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Hofburg&oldid=836758"
       },
       "linkedIds": [
-        {
-          "id": "Q46242",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q46242"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q46242" }
       ],
       "relations": [
         { "event": "hofburg-OBE06", "role": "role-took_place_at" },
@@ -3509,11 +2401,8 @@
       },
       "linkedIds": [
         {
-          "id": "Q45350189",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q45350189"
-          }
+          "label": "Wikidata",
+          "url": "https://www.wikidata.org/wiki/Q45350189"
         }
       ],
       "relations": [
@@ -3538,13 +2427,7 @@
         "citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Kaiserforum&oldid=834103"
       },
       "linkedIds": [
-        {
-          "id": "Q1707326",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1707326"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q1707326" }
       ],
       "relations": [{ "event": "hofburg-OBE23", "role": "role-took_place_at" }],
       "kind": "place",
@@ -5713,7 +4596,7 @@
       "relations": [
         { "entity": "hofburg-OD01", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5729,7 +4612,7 @@
       "relations": [
         { "entity": "hofburg-OD02", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P02", "role": "role-architekt" },
+        { "entity": "hofburg-P02", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5745,7 +4628,7 @@
       "relations": [
         { "entity": "hofburg-OD03", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P03", "role": "role-architekt" },
+        { "entity": "hofburg-P03", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5761,7 +4644,7 @@
       "relations": [
         { "entity": "hofburg-OD04", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P04", "role": "role-architekt" },
+        { "entity": "hofburg-P04", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5777,7 +4660,7 @@
       "relations": [
         { "entity": "hofburg-OD05", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5793,7 +4676,7 @@
       "relations": [
         { "entity": "hofburg-OD06", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5809,7 +4692,7 @@
       "relations": [
         { "entity": "hofburg-OD07", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5825,7 +4708,7 @@
       "relations": [
         { "entity": "hofburg-OD08", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5841,7 +4724,7 @@
       "relations": [
         { "entity": "hofburg-OD09", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5857,7 +4740,7 @@
       "relations": [
         { "entity": "hofburg-OD10", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5873,7 +4756,7 @@
       "relations": [
         { "entity": "hofburg-OD11", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5889,7 +4772,7 @@
       "relations": [
         { "entity": "hofburg-OD12", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P05", "role": "role-architekt" },
+        { "entity": "hofburg-P05", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5905,7 +4788,7 @@
       "relations": [
         { "entity": "hofburg-OD13", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-architekt" },
+        { "entity": "hofburg-P06", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5921,7 +4804,7 @@
       "relations": [
         { "entity": "hofburg-OD14", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P07", "role": "role-architekt" },
+        { "entity": "hofburg-P07", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5937,7 +4820,7 @@
       "relations": [
         { "entity": "hofburg-OD15", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P08", "role": "role-zeichner" },
+        { "entity": "hofburg-P08", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5953,7 +4836,7 @@
       "relations": [
         { "entity": "hofburg-OD16", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P04", "role": "role-zeichner" },
+        { "entity": "hofburg-P04", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5969,7 +4852,7 @@
       "relations": [
         { "entity": "hofburg-OD17", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -5985,7 +4868,7 @@
       "relations": [
         { "entity": "hofburg-OD18", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6001,7 +4884,7 @@
       "relations": [
         { "entity": "hofburg-OD19", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-architekt" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6017,7 +4900,7 @@
       "relations": [
         { "entity": "hofburg-OD20", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P03", "role": "role-künstler" },
+        { "entity": "hofburg-P03", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6033,7 +4916,7 @@
       "relations": [
         { "entity": "hofburg-OD21", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P01", "role": "role-zeichner" },
+        { "entity": "hofburg-P01", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6049,7 +4932,7 @@
       "relations": [
         { "entity": "hofburg-OD22", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P09", "role": "role-architekt" },
+        { "entity": "hofburg-P09", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6065,7 +4948,7 @@
       "relations": [
         { "entity": "hofburg-OD23", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-architekt" },
+        { "entity": "hofburg-P06", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6081,7 +4964,7 @@
       "relations": [
         { "entity": "hofburg-OD24", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-architekt" },
+        { "entity": "hofburg-P06", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6097,7 +4980,7 @@
       "relations": [
         { "entity": "hofburg-OD25", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-architekt" },
+        { "entity": "hofburg-P06", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6113,7 +4996,7 @@
       "relations": [
         { "entity": "hofburg-OD26", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P06", "role": "role-architekt" },
+        { "entity": "hofburg-P06", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6129,7 +5012,7 @@
       "relations": [
         { "entity": "hofburg-OD27", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6145,7 +5028,7 @@
       "relations": [
         { "entity": "hofburg-OD28", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6161,7 +5044,7 @@
       "relations": [
         { "entity": "hofburg-OD29", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6177,7 +5060,7 @@
       "relations": [
         { "entity": "hofburg-OD30", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6193,7 +5076,7 @@
       "relations": [
         { "entity": "hofburg-OD31", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6209,7 +5092,7 @@
       "relations": [
         { "entity": "hofburg-OD32", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6225,7 +5108,7 @@
       "relations": [
         { "entity": "hofburg-OD33", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6241,7 +5124,7 @@
       "relations": [
         { "entity": "hofburg-OD34", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6257,7 +5140,7 @@
       "relations": [
         { "entity": "hofburg-OD35", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6273,7 +5156,7 @@
       "relations": [
         { "entity": "hofburg-OD36", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6289,7 +5172,7 @@
       "relations": [
         { "entity": "hofburg-OD37", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6305,7 +5188,7 @@
       "relations": [
         { "entity": "hofburg-OD38", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6321,7 +5204,7 @@
       "relations": [
         { "entity": "hofburg-OD39", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6337,7 +5220,7 @@
       "relations": [
         { "entity": "hofburg-OD40", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6353,7 +5236,7 @@
       "relations": [
         { "entity": "hofburg-OD41", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6369,7 +5252,7 @@
       "relations": [
         { "entity": "hofburg-OD42", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6385,7 +5268,7 @@
       "relations": [
         { "entity": "hofburg-OD43", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-architekt" },
+        { "entity": "hofburg-P11", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6399,7 +5282,7 @@
       "relations": [
         { "entity": "hofburg-OD44", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-architekt" },
+        { "entity": "hofburg-P11", "role": "role-producing_artist" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6415,7 +5298,7 @@
       "relations": [
         { "entity": "hofburg-OD45", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P11", "role": "role-architekt" },
+        { "entity": "hofburg-P11", "role": "role-producing_artist" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6431,7 +5314,7 @@
       "relations": [
         { "entity": "hofburg-OD46", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB15", "role": "role-depicted_object" },
         { "entity": "hofburg-OB05", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
@@ -6448,7 +5331,7 @@
       "relations": [
         { "entity": "hofburg-OD47", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6464,7 +5347,7 @@
       "relations": [
         { "entity": "hofburg-OD48", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6480,7 +5363,7 @@
       "relations": [
         { "entity": "hofburg-OD49", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P10", "role": "role-architekt" },
+        { "entity": "hofburg-P10", "role": "role-producing_artist" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
@@ -6496,8 +5379,8 @@
       "relations": [
         { "entity": "hofburg-OD50", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P16", "role": "role-künstler" },
-        { "entity": "hofburg-P13", "role": "role-künstler" },
+        { "entity": "hofburg-P16", "role": "role-producing_artist" },
+        { "entity": "hofburg-P13", "role": "role-producing_artist" },
         { "entity": "hofburg-OB25", "role": "role-depicted_object" },
         { "entity": "hofburg-OB27", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
@@ -6512,7 +5395,8 @@
       "relations": [
         { "entity": "hofburg-OD51", "role": "role-thing_role" },
         { "entity": "hofburg-L28", "role": "role-took_place_at" },
-        { "entity": "hofburg-P38", "role": "role-maler" },
+        { "entity": "hofburg-P38", "role": "role-producing_artist" },
+        { "entity": "hofburg-OB24", "role": "role-depicted_object" },
         { "entity": "hofburg-G02", "role": "role-owner" }
       ]
     }
@@ -6970,33 +5854,6 @@
       { "id": "group-type-institution", "label": { "default": "institution" } },
       { "id": "group-type-museum", "label": { "default": "museum" } }
     ],
-    "occupation": [
-      { "id": "occupation-architekt", "label": { "default": "Architekt" } },
-      { "id": "occupation-zeichner", "label": { "default": "Zeichner" } },
-      { "id": "occupation-künstler", "label": { "default": "Künstler" } },
-      { "id": "occupation-emperor", "label": { "default": "emperor" } },
-      {
-        "id": "occupation-imperial_vice_chancellor",
-        "label": { "default": "imperial vice chancellor" }
-      },
-      { "id": "occupation-architect", "label": { "default": "architect" } },
-      {
-        "id": "occupation-obersthofmeister/head_of_the_court_household",
-        "label": { "default": "Obersthofmeister/head of the court household" }
-      },
-      {
-        "id": "occupation-politician_and_lawyer",
-        "label": { "default": "politician and lawyer" }
-      },
-      {
-        "id": "occupation-architect_and_minister",
-        "label": { "default": "architect and minister" }
-      },
-      { "id": "occupation-sculptor", "label": { "default": "sculptor" } },
-      { "id": "occupation-scholar", "label": { "default": "scholar" } },
-      { "id": "occupation-duke", "label": { "default": "duke" } },
-      { "id": "occupation-painter", "label": { "default": "painter" } }
-    ],
     "place-type": [
       { "id": "place-type-building", "label": { "default": "building" } }
     ],
@@ -7046,18 +5903,670 @@
         "id": "role-construction_company",
         "label": { "default": "construction company" }
       },
-      { "id": "role-architekt", "label": { "default": "Architekt" } },
+      {
+        "id": "role-producing_artist",
+        "label": { "default": "Producing Artist" }
+      },
       {
         "id": "role-depicted_object",
         "label": { "default": "Depicted Object" }
       },
-      { "id": "role-owner", "label": { "default": "Owner" } },
-      { "id": "role-zeichner", "label": { "default": "Zeichner" } },
-      { "id": "role-künstler", "label": { "default": "Künstler" } },
-      { "id": "role-maler", "label": { "default": "Maler" } }
+      { "id": "role-owner", "label": { "default": "Owner" } }
     ]
   },
-  "unmappedEntries": [],
+  "unmappedEntries": [
+    {
+      "id": "hofburg-P01",
+      "label": "Aman, Johann",
+      "source-citation": "https://biographien.ac.at/ID-0.3020276-1;https://www.architektenlexikon.at/de/1185.htm",
+      "linkedIds": "q:Q1404630;gnd:135708885;apis:90455",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 2,
+      "error": "validation error for entity in row: 2 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P02",
+      "label": "Anonym",
+      "gender": "unknown",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 3,
+      "error": "validation error for entity in row: 3 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P03",
+      "label": "Fischer von Erlach, Joseph Emanuel",
+      "source-citation": "https://de.wikisource.org/wiki/BLK%C3%96:Fischer_von_Erlach,_Joseph_Emanuel_Freiherr",
+      "linkedIds": "q:Q84588;gnd:118683721",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 4,
+      "error": "validation error for entity in row: 4 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P04",
+      "label": "Remy, Ludwig Gabriel von",
+      "source-citation": "https://biographien.ac.at/ID-0.3046484-1",
+      "linkedIds": "q:Q1874423;gnd:116437618;apis:46185",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 5,
+      "error": "validation error for entity in row: 5 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P05",
+      "label": "Höhenrieder Johann",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 6,
+      "error": "validation error for entity in row: 6 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P06",
+      "label": "Hetzendorf von Hohenberg, Johann Ferdinand",
+      "source-citation": "https://biographien.ac.at/ID-0.3028408-1",
+      "linkedIds": "q:Q1693429;gnd:118774743;apis:77983",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 7,
+      "error": "validation error for entity in row: 7 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P07",
+      "label": "Montoyer, Louis de",
+      "linkedIds": "q:Q327170;gnd:129233307",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 8,
+      "error": "validation error for entity in row: 8 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P08",
+      "label": "Ortner, Anton",
+      "source-citation": "https://www.architektenlexikon.at/de/1201.htm",
+      "linkedIds": "q:Q98684057;gnd:1117818292",
+      "gender": "male",
+      "occupations": "Zeichner",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 9,
+      "error": "validation error for entity in row: 9 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P09",
+      "label": "Gfall, Johann",
+      "source-citation": "https://de.wikisource.org/wiki/BLK%C3%96:Gfall,_Anton",
+      "linkedIds": "q:Q94619379;gnd:129111554",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 10,
+      "error": "validation error for entity in row: 10 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P10",
+      "label": "Jadot, Jean Nicolas",
+      "source-citation": "https://de.wikisource.org/wiki/BLK%C3%96:Jadot_Baron_de_Ville-Issey,_Johann_Niklas_von",
+      "linkedIds": "q:Q1685720;gnd:129197785",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 11,
+      "error": "validation error for entity in row: 11 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P11",
+      "label": "Hildebrandt, Johann Lucas von",
+      "source-citation": "https://de.wikisource.org/wiki/BLK%C3%96:Hildebrand,_Johann_Lucas_von",
+      "linkedIds": "q:Q84507;gnd:118550950",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 12,
+      "error": "validation error for entity in row: 12 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P12",
+      "label": "Kirschner, Ferdinand von",
+      "source-citation": "https://biographien.ac.at/ID-0.3033844-1",
+      "linkedIds": "q:Q88297;gnd:1013623398;apis:92264",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 13,
+      "error": "validation error for entity in row: 13 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P13",
+      "label": "Hasenauer, Carl von",
+      "source-citation": "https://biographien.ac.at/ID-0.3033844-1",
+      "linkedIds": "q:Q84541;gnd:118546597;apis:92211",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 14,
+      "error": "validation error for entity in row: 14 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P14",
+      "label": "Schmidt, Friedrich Frh. von",
+      "source-citation": "https://biographien.ac.at/ID-0.3055248-1",
+      "linkedIds": "q:Q77431;gnd:118608770;apis:40649",
+      "gender": "male",
+      "occupations": "Architekt",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 15,
+      "error": "validation error for entity in row: 15 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P15",
+      "label": "Salomon, Kleiner",
+      "source-citation": "https://de.wikisource.org/wiki/BLK%C3%96:Kleiner,_Salomon",
+      "linkedIds": "q:Q2215015;gnd:118723464",
+      "gender": "male",
+      "occupations": "Zeichner",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 16,
+      "error": "validation error for entity in row: 16 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P16",
+      "label": "Semper, Gottfried",
+      "source-citation": "https://biographien.ac.at/ID-0.3050652-1",
+      "linkedIds": "q:Q61342;gnd:118613154;apis:34921",
+      "gender": "male",
+      "occupations": "Künstler",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 17,
+      "error": "validation error for entity in row: 17 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P18",
+      "label": "Karl VI",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Karl_VI.",
+      "linkedIds": "q:Q150665;gnd:118560107",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 18,
+      "error": "validation error for entity in row: 18 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P19",
+      "label": "Franz Joseph I",
+      "source-citation": "https://biographien.ac.at/ID-0.3024398-1;https://www.geschichtewiki.wien.gv.at/Franz_Joseph_I.",
+      "linkedIds": "q:Q51056;gnd:118535013",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 19,
+      "error": "validation error for entity in row: 19 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P21",
+      "label": "Schönborn, Conrad Adolph von",
+      "linkedIds": "q:Q59653363;gnd:120172356",
+      "gender": "male",
+      "occupations": "imperial vice chancellor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 21,
+      "error": "validation error for entity in row: 21 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P22",
+      "label": "Neumann, Balthasar",
+      "source-citation": "https://de.wikipedia.org/wiki/Balthasar_Neumann",
+      "linkedIds": "q:Q61349;gnd:118587269",
+      "gender": "male",
+      "occupations": "architect",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 22,
+      "error": "validation error for entity in row: 22 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P23",
+      "label": "Hohenlohe-Schillingfürst, Konstantin Prinz von",
+      "source-citation": "https://biographien.ac.at/ID-0.3026608-1",
+      "linkedIds": "apis:76850",
+      "gender": "male",
+      "occupations": "Obersthofmeister/head of the court household",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 23,
+      "error": "validation error for entity in row: 23 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P24",
+      "label": "Lasser von Zollheim, Joseph Baron von",
+      "source-citation": "https://biographien.ac.at/ID-0.3035886-1",
+      "linkedIds": "q:Q1705115;gnd:136320465;apis:64728",
+      "gender": "male",
+      "occupations": "politician and lawyer",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 24,
+      "error": "validation error for entity in row: 24 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P25",
+      "label": "Koechlin, Karl",
+      "source-citation": "https://biographien.ac.at/ID-0.3030414-1",
+      "linkedIds": "q:Q55907923;gnd:1013663128;apis:70018",
+      "gender": "male",
+      "occupations": "architect and minister",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 25,
+      "error": "validation error for entity in row: 25 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P26",
+      "label": "Boffrand, Germain",
+      "source-citation": "https://www.sueddeutscher-barock.ch/In-Meister/a-g/Boffrand_Germain.html",
+      "linkedIds": "q:Q1311013;gnd:123285852",
+      "gender": "male",
+      "occupations": "architect",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 26,
+      "error": "validation error for entity in row: 26 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P27",
+      "label": "Mattielli, Lorenzo",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/index.php?title=Lorenzo_Mattielli&oldid=796772",
+      "linkedIds": "q:Q1455126;gnd:119286947",
+      "gender": "male",
+      "occupations": "sculptor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 27,
+      "error": "validation error for entity in row: 27 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P28",
+      "label": "Albrecht, Conrad Adolph von",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Conrad_Adolph_von_Albrecht",
+      "linkedIds": "q:Q59653363;gnd:120172356",
+      "gender": "male",
+      "occupations": "scholar",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 28,
+      "error": "validation error for entity in row: 28 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P29",
+      "label": "Francis II/I",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Franz_II._(I.)",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 29,
+      "error": "validation error for entity in row: 29 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P31",
+      "label": "Leopold VI of Babenberg",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Leopold_VI.",
+      "gender": "male",
+      "occupations": "duke",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 30,
+      "error": "validation error for entity in row: 30 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P32",
+      "label": "Friedrich II of Babenberg",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Friedrich_II._der_Streitbare",
+      "gender": "male",
+      "occupations": "duke",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 31,
+      "error": "validation error for entity in row: 31 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P33",
+      "label": "Ferdinand I",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Ferdinand_I._(Heiliges_R%C3%B6misches_Reich)",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 32,
+      "error": "validation error for entity in row: 32 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P34",
+      "label": "Rudolf II",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_II.",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 33,
+      "error": "validation error for entity in row: 33 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P35",
+      "label": "Maximilian II",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Maximilian_II.",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 34,
+      "error": "validation error for entity in row: 34 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P36",
+      "label": "Ferdinand II",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Ferdinand_II._(Heiliges_R%C3%B6misches_Reich)",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 35,
+      "error": "validation error for entity in row: 35 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P37",
+      "label": "Leopold I",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Leopold_I.",
+      "gender": "male",
+      "occupations": "emperor",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 36,
+      "error": "validation error for entity in row: 36 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "hofburg-P38",
+      "label": "Alt, Rudolf von",
+      "source-citation": "https://www.geschichtewiki.wien.gv.at/Rudolf_von_Alt",
+      "linkedIds": "q:Q638183;gnd:118502204",
+      "gender": "male",
+      "occupations": "painter",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 37,
+      "error": "validation error for entity in row: 37 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    }
+  ],
   "collections": {
     "all": {
       "label": "hofburg",
@@ -7143,42 +6652,7 @@
         "hofburg-G02",
         "hofburg-G03",
         "hofburg-G04",
-        "hofburg-P01",
-        "hofburg-P02",
-        "hofburg-P03",
-        "hofburg-P04",
-        "hofburg-P05",
-        "hofburg-P06",
-        "hofburg-P07",
-        "hofburg-P08",
-        "hofburg-P09",
-        "hofburg-P10",
-        "hofburg-P11",
-        "hofburg-P12",
-        "hofburg-P13",
-        "hofburg-P14",
-        "hofburg-P15",
-        "hofburg-P16",
-        "hofburg-P18",
-        "hofburg-P19",
         "hofburg-P20",
-        "hofburg-P21",
-        "hofburg-P22",
-        "hofburg-P23",
-        "hofburg-P24",
-        "hofburg-P25",
-        "hofburg-P26",
-        "hofburg-P27",
-        "hofburg-P28",
-        "hofburg-P29",
-        "hofburg-P31",
-        "hofburg-P32",
-        "hofburg-P33",
-        "hofburg-P34",
-        "hofburg-P35",
-        "hofburg-P36",
-        "hofburg-P37",
-        "hofburg-P38",
         "hofburg-L01",
         "hofburg-L02",
         "hofburg-L03",
@@ -7995,42 +7469,7 @@
         "hofburg-G02",
         "hofburg-G03",
         "hofburg-G04",
-        "hofburg-P01",
-        "hofburg-P02",
-        "hofburg-P03",
-        "hofburg-P04",
-        "hofburg-P05",
-        "hofburg-P06",
-        "hofburg-P07",
-        "hofburg-P08",
-        "hofburg-P09",
-        "hofburg-P10",
-        "hofburg-P11",
-        "hofburg-P12",
-        "hofburg-P13",
-        "hofburg-P14",
-        "hofburg-P15",
-        "hofburg-P16",
-        "hofburg-P18",
-        "hofburg-P19",
         "hofburg-P20",
-        "hofburg-P21",
-        "hofburg-P22",
-        "hofburg-P23",
-        "hofburg-P24",
-        "hofburg-P25",
-        "hofburg-P26",
-        "hofburg-P27",
-        "hofburg-P28",
-        "hofburg-P29",
-        "hofburg-P31",
-        "hofburg-P32",
-        "hofburg-P33",
-        "hofburg-P34",
-        "hofburg-P35",
-        "hofburg-P36",
-        "hofburg-P37",
-        "hofburg-P38",
         "hofburg-L01",
         "hofburg-L02",
         "hofburg-L03",
@@ -8377,5 +7816,6 @@
         "hofburg-CHE75"
       ]
     }
-  ]
+  ],
+  "upstreamEntityIds": []
 }

@@ -1,0 +1,1029 @@
+{
+  "entities": [
+    {
+      "id": "vergerio-ob-001",
+      "label": {
+        "default": "The inscription in the Cathedral of the Assumption "
+      },
+      "media": ["vergerio-m-002"],
+      "relations": [
+        { "event": "vergerio-bio-E27", "role": "role-was_partially_demolished" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-inscription",
+        "label": { "default": "inscription" }
+      }
+    },
+    {
+      "id": "vergerio-pr-001",
+      "label": { "default": "Pier Paolo Vergerio" },
+      "linkedIds": [
+        { "label": "GND", "url": "https://d-nb.info/gnd/118768077" }
+      ],
+      "media": ["vergerio-m-001"],
+      "relations": [
+        { "event": "vergerio-bio-E1", "role": "role-person_born" },
+        { "event": "vergerio-bio-E2", "role": "role-person_deceased" },
+        { "event": "vergerio-bio-E3", "role": "role-was_student" },
+        { "event": "vergerio-bio-E4", "role": "role-was_working" },
+        { "event": "vergerio-bio-E5", "role": "role-was_husband" },
+        { "event": "vergerio-bio-E6", "role": "role-was_working" },
+        { "event": "vergerio-bio-E7", "role": "role-was_working" },
+        { "event": "vergerio-bio-E8", "role": "role-was_working" },
+        { "event": "vergerio-bio-E9", "role": "role-participated" },
+        { "event": "vergerio-bio-E10", "role": "role-was_participating" },
+        { "event": "vergerio-bio-E11", "role": "role-received_award" },
+        { "event": "vergerio-bio-E12", "role": "role-received_award" },
+        { "event": "vergerio-bio-E13", "role": "role-was_travelling" },
+        { "event": "vergerio-bio-E14", "role": "role-was_travelling" },
+        { "event": "vergerio-bio-E15", "role": "role-was_under_suspicion" },
+        { "event": "vergerio-bio-E16", "role": "role-was_accused" },
+        { "event": "vergerio-bio-E16", "role": "role-was_moving" },
+        { "event": "vergerio-bio-E17", "role": "role-was_acquitted" },
+        { "event": "vergerio-bio-E18", "role": "role-was_accused" },
+        { "event": "vergerio-bio-E19", "role": "role-was_moving" },
+        { "event": "vergerio-bio-E20", "role": "role-was_excomunicated" },
+        { "event": "vergerio-bio-E21", "role": "role-was_working" },
+        { "event": "vergerio-bio-E22", "role": "role-was_moving" },
+        { "event": "vergerio-bio-E22", "role": "role-was_working" },
+        { "event": "vergerio-bio-E23", "role": "role-was_working" },
+        { "event": "vergerio-bio-E24", "role": "role-was_opponent" },
+        { "event": "vergerio-bio-E25", "role": "role-was_travelling" },
+        { "event": "vergerio-bio-E26", "role": "role-was_travelling" },
+        { "event": "vergerio-bio-E27", "role": "role-linked" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } },
+      "occupations": []
+    },
+    {
+      "id": "vergerio-pr-002",
+      "label": { "default": "Primož Trubar" },
+      "media": ["vergerio-m-003"],
+      "relations": [
+        { "event": "vergerio-bio-E2", "role": "role-was_present" },
+        { "event": "vergerio-bio-E23", "role": "role-was_collaborating" },
+        { "event": "vergerio-bio-E24", "role": "role-was_opponent" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-003",
+      "label": { "default": "Diana Contarini" },
+      "relations": [{ "event": "vergerio-bio-E5", "role": "role-was_wife" }],
+      "kind": "person",
+      "gender": { "id": "female", "label": { "default": "female" } }
+    },
+    {
+      "id": "vergerio-pr-004",
+      "label": { "default": "Pope Clemens VII" },
+      "relations": [
+        { "event": "vergerio-bio-E6", "role": "role-was_employer" },
+        { "event": "vergerio-bio-E7", "role": "role-was_employer" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-005",
+      "label": { "default": "Ferdinand I" },
+      "media": ["vergerio-m-005"],
+      "relations": [{ "event": "vergerio-bio-E7", "role": "role-was_related" }],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-006",
+      "label": { "default": "Pope Paul III" },
+      "relations": [
+        { "event": "vergerio-bio-E8", "role": "role-was_employer" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-007",
+      "label": { "default": "Martin Luther" },
+      "media": ["vergerio-m-004"],
+      "relations": [
+        { "event": "vergerio-bio-E9", "role": "role-participated" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-008",
+      "label": { "default": "Gasparo Contarini" },
+      "relations": [
+        { "event": "vergerio-bio-E10", "role": "role-was_leading" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-009",
+      "label": { "default": "Antonio Elio" },
+      "relations": [
+        { "event": "vergerio-bio-E12", "role": "role-was_opponent" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-010",
+      "label": { "default": "Hipolito d'Este" },
+      "relations": [
+        { "event": "vergerio-bio-E13", "role": "role-was_travelling" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-011",
+      "label": { "default": "Marguerite, Queen of Navarre" },
+      "relations": [
+        { "event": "vergerio-bio-E13", "role": "role-was_in_connection" }
+      ],
+      "kind": "person",
+      "gender": { "id": "female", "label": { "default": "female" } }
+    },
+    {
+      "id": "vergerio-pr-012",
+      "label": { "default": "Cardinal Gonzaga" },
+      "relations": [
+        { "event": "vergerio-bio-E16", "role": "role-was_hosting" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-013",
+      "label": { "default": "Christoph, Duke of Württemberg" },
+      "media": ["vergerio-m-012"],
+      "relations": [
+        { "event": "vergerio-bio-E22", "role": "role-was_employer" }
+      ],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pr-014",
+      "label": { "default": "Bishop Antonio Elio" },
+      "relations": [{ "event": "vergerio-bio-E27", "role": "role-linked" }],
+      "kind": "person",
+      "gender": { "id": "male", "label": { "default": "male" } }
+    },
+    {
+      "id": "vergerio-pl-001",
+      "label": { "default": "Iustinopolis" },
+      "alternativeLabels": [
+        { "default": "Koper" },
+        { "default": "Capodistria" }
+      ],
+      "relations": [
+        { "event": "vergerio-bio-E1", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E12", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E15", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E16", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E27", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [13.72944, 45.54694] }
+    },
+    {
+      "id": "vergerio-pl-002",
+      "label": { "default": "Tubingen" },
+      "relations": [
+        { "event": "vergerio-bio-E2", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E22", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E23", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E24", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [9.057645, 48.521637] }
+    },
+    {
+      "id": "vergerio-pl-003",
+      "label": { "default": "Padua" },
+      "relations": [
+        { "event": "vergerio-bio-E3", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E4", "role": "role-place_of_work" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [11.866667, 45.416668] }
+    },
+    {
+      "id": "vergerio-pl-004",
+      "label": { "default": "Verona" },
+      "relations": [
+        { "event": "vergerio-bio-E4", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E4", "role": "role-place_of_work" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [10.993313, 45.438618] }
+    },
+    {
+      "id": "vergerio-pl-005",
+      "label": { "default": "Venice" },
+      "relations": [
+        { "event": "vergerio-bio-E4", "role": "role-place_of_work" },
+        { "event": "vergerio-bio-E5", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E17", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [12.315515, 45.440845] }
+    },
+    {
+      "id": "vergerio-pl-006",
+      "label": { "default": "Rome" },
+      "relations": [
+        { "event": "vergerio-bio-E6", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E10", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E20", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [12.496365, 41.902782] }
+    },
+    {
+      "id": "vergerio-pl-007",
+      "label": { "default": "Vienna, imperial court" },
+      "relations": [
+        { "event": "vergerio-bio-E7", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [16.37136, 48.19231] }
+    },
+    {
+      "id": "vergerio-pl-008",
+      "label": { "default": "Wittenberg" },
+      "relations": [
+        { "event": "vergerio-bio-E9", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-ciyt", "label": { "default": "ciyt" } },
+      "geometry": { "type": "Point", "coordinates": [12.627966, 51.873983] }
+    },
+    {
+      "id": "vergerio-pl-009",
+      "label": { "default": "Modruš, Croatia" },
+      "relations": [
+        { "event": "vergerio-bio-E11", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [15.24153, 45.128929] }
+    },
+    {
+      "id": "vergerio-pl-010",
+      "label": { "default": "Paris" },
+      "relations": [
+        { "event": "vergerio-bio-E13", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [2.3414, 48.8571] }
+    },
+    {
+      "id": "vergerio-pl-011",
+      "label": { "default": "Worms" },
+      "relations": [
+        { "event": "vergerio-bio-E14", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [8.33731, 49.63718] }
+    },
+    {
+      "id": "vergerio-pl-012",
+      "label": { "default": "Mantua" },
+      "relations": [
+        { "event": "vergerio-bio-E18", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [10.78327, 45.15862] }
+    },
+    {
+      "id": "vergerio-pl-013",
+      "label": { "default": "Vicosoprano" },
+      "relations": [
+        { "event": "vergerio-bio-E19", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E21", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [9.62971, 46.3655] }
+    },
+    {
+      "id": "vergerio-pl-014",
+      "label": { "default": "Poland" },
+      "relations": [
+        { "event": "vergerio-bio-E25", "role": "role-took_place_at" },
+        { "event": "vergerio-bio-E26", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-country", "label": { "default": "country" } },
+      "geometry": { "type": "Point", "coordinates": [21.23401, 52.21891] }
+    }
+  ],
+  "events": [
+    {
+      "id": "vergerio-bio-E1",
+      "label": { "default": "Birth" },
+      "description": "He was born at Capodistria (Koper), Istria, then part of the Venetian Republic IMG[Image of him]",
+      "kind": "event-kind-birth",
+      "startDate": "1498-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-person_born" },
+        { "entity": "vergerio-pl-001", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E2",
+      "label": { "default": "Death" },
+      "description": "Despite their previous fallout, Trubar is present at Vergerio's deathbed",
+      "kind": "event-kind-death",
+      "startDate": "1565-04-10",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-person_deceased" },
+        { "entity": "vergerio-pl-002", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-002", "role": "role-was_present" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E3",
+      "label": { "default": "Studies" },
+      "description": "He studied jurisprudence in Padua; was awarded the title dr. iuris and poeta laureatus",
+      "kind": "event-kind-educational",
+      "startDate": "1520-01-01",
+      "endDate": 1523,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_student" },
+        { "entity": "vergerio-pl-003", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E4",
+      "label": { "default": "Work" },
+      "description": "Worked as a lawyer, the longest period in Venice (5 years)",
+      "kind": "event-kind-professional",
+      "startDate": "1521-01-01",
+      "endDate": 1530,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pl-004", "role": "role-took_place_at" },
+        { "entity": "vergerio-pl-004", "role": "role-place_of_work" },
+        { "entity": "vergerio-pl-003", "role": "role-place_of_work" },
+        { "entity": "vergerio-pl-005", "role": "role-place_of_work" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E5",
+      "label": { "default": "Marriage" },
+      "description": "In Venice he met and married Diana Contarini; she died a year later",
+      "kind": "event-kind-family",
+      "startDate": "1526-01-01",
+      "endDate": 1527,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_husband" },
+        { "entity": "vergerio-pl-005", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-003", "role": "role-was_wife" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E6",
+      "label": { "default": "Papal secretary" },
+      "description": "In 1530 he came to Rome, where he won the trust of Pope Clemens VII",
+      "kind": "event-kind-professional",
+      "startDate": "1532-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pl-006", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-004", "role": "role-was_employer" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E7",
+      "label": { "default": "Papal nuntio first time" },
+      "description": "Papal nuntio for Pope Clemens VII",
+      "kind": "event-kind-professional",
+      "startDate": "1533-01-01",
+      "endDate": 1534,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pl-007", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-004", "role": "role-was_employer" },
+        { "entity": "vergerio-pr-005", "role": "role-was_related" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E8",
+      "label": { "default": "Papal nuntio second time" },
+      "description": "Travelled extensively to German towns in preparations for the ecumenical council under Pope Paul III",
+      "kind": "event-kind-professional",
+      "startDate": "1535-01-01",
+      "endDate": 1535,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pr-006", "role": "role-was_employer" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E9",
+      "label": { "default": "Met Luther" },
+      "description": "He met Martin Luther personally and disliked him",
+      "kind": "event-kind-meeting",
+      "startDate": "1535-01-01",
+      "endDate": 1535,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-participated" },
+        { "entity": "vergerio-pl-008", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-007", "role": "role-participated" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E10",
+      "label": { "default": "Papal committee" },
+      "description": "Participated in the committee for the drafting of the Papal decree on the convening of the ecumenical council (led by Gasparo Contarini) titled Ad dominici gregis curam",
+      "kind": "event-kind-professional",
+      "startDate": "1536-01-01",
+      "endDate": "1536-05",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_participating" },
+        { "entity": "vergerio-pl-006", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-008", "role": "role-was_leading" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E11",
+      "label": { "default": "Pope in Modruš" },
+      "description": "Was awarded the bishopric in Modruš and Senj for his services as papal nuntio",
+      "kind": "event-kind-award",
+      "startDate": "1536-05-01",
+      "endDate": "1536-09",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-received_award" },
+        { "entity": "vergerio-pl-009", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E12",
+      "label": { "default": "Pope in Iustinopolis" },
+      "description": "Was awarded the bishopric in his hometown of Iustinopolis (Koper) at behest of Emperor Ferdinand; travels extensively to Istria Dalmatia and the East; fallout and legal process against Antonio Elio, secretary to Alessandro Farnese",
+      "kind": "event-kind-award",
+      "startDate": "1536-09-01",
+      "endDate": 1549,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-received_award" },
+        { "entity": "vergerio-pl-001", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-009", "role": "role-was_opponent" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E13",
+      "label": { "default": "Travel to French Court" },
+      "description": "Together with Hipolito d'Este travels to French court, has ties to the sister of Francis I, Marguerite of Navarre",
+      "kind": "event-kind-travel",
+      "startDate": "1539-01-01",
+      "endDate": 1539,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_travelling" },
+        { "entity": "vergerio-pl-010", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-010", "role": "role-was_travelling" },
+        { "entity": "vergerio-pr-011", "role": "role-was_in_connection" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E14",
+      "label": { "default": "Travel to Worms" },
+      "description": "Travels to Worms (and Haguenau?) to take part in the conference",
+      "kind": "event-kind-travel",
+      "startDate": "1540-01-01",
+      "endDate": 1541,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_travelling" },
+        { "entity": "vergerio-pl-011", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E15",
+      "label": { "default": "Under suspicion" },
+      "description": "Active reformist in his bishopric of Iustinopolis, but also suspected to be introducing Lutheranism to Istria",
+      "kind": "event-kind-event",
+      "startDate": "1541-01-01",
+      "endDate": 1544,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_under_suspicion" },
+        { "entity": "vergerio-pl-001", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E16",
+      "label": { "default": "First charges" },
+      "description": "Officially charged by the Franciscan pater-guardian of Lutheranism and recalled to Rome; moves to Mantua to Cardinal Gonzaga in order to avoid inquisition",
+      "kind": "event-kind-event",
+      "startDate": "1544-01-01",
+      "endDate": 1547,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_accused" },
+        { "entity": "vergerio-pl-001", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-001", "role": "role-was_moving" },
+        { "entity": "vergerio-pr-012", "role": "role-was_hosting" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E17",
+      "label": { "default": "Charges dropped" },
+      "description": "Charges dropped; Vergerio wrote his famous Otto difesioni",
+      "kind": "event-kind-event",
+      "startDate": "1547-01-01",
+      "endDate": 1547,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_acquitted" },
+        { "entity": "vergerio-pl-005", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E18",
+      "label": { "default": "Charges renewed" },
+      "description": "Charges against Vergerio were renewed in 1548",
+      "kind": "event-kind-event",
+      "startDate": "1548-01-01",
+      "endDate": 1549,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_accused" },
+        { "entity": "vergerio-pl-012", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E19",
+      "label": { "default": "Move to Switzerland" },
+      "description": "Moves to Vicosoprano",
+      "kind": "event-kind-moving",
+      "startDate": "1548-10-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_moving" },
+        { "entity": "vergerio-pl-013", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E20",
+      "label": { "default": "Excomunication" },
+      "description": "Pope officially excommunicated Vergerio in absentia",
+      "kind": "event-kind-event",
+      "startDate": "1549-07-03",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_excomunicated" },
+        { "entity": "vergerio-pl-006", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E21",
+      "label": { "default": "Protestant priest" },
+      "description": "Protestant priest in Vicosoprano",
+      "kind": "event-kind-professional",
+      "startDate": "1550-01-01",
+      "endDate": 1553,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pl-013", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E22",
+      "label": { "default": "Move to Tubingen" },
+      "description": "Moves to Tubingen to become adviser to Christoph, Duke of Württemberg",
+      "kind": "event-kind-moving",
+      "startDate": "1553-11-01",
+      "endDate": 1565,
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_moving" },
+        { "entity": "vergerio-pl-002", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pr-013", "role": "role-was_employer" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E23",
+      "label": { "default": "Active protestant author and activist" },
+      "description": "Wrote more than 170 works (mostly anti-papal pamphlets); worked closely with P. Trubar who translated the Bible into Slovene; V. also actively promoted the translation of the Bible into Croatian (with little success)",
+      "kind": "event-kind-professional",
+      "startDate": "1555-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_working" },
+        { "entity": "vergerio-pl-002", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-002", "role": "role-was_collaborating" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E24",
+      "label": { "default": "Fallout with Trubar" },
+      "description": "An overly ambitious man, V. credited himself with too big a role in the translations of the Bible into vernacular languages",
+      "kind": "event-kind-event",
+      "startDate": "1555-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_opponent" },
+        { "entity": "vergerio-pl-002", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-002", "role": "role-was_opponent" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E25",
+      "label": { "default": "Christoph's envoy" },
+      "description": "Diplomatic missions to Poland on behalf of Christoph, Duke of Württemberg",
+      "kind": "event-kind-travel",
+      "startDate": "1556-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_travelling" },
+        { "entity": "vergerio-pl-014", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E26",
+      "label": { "default": "Christoph's envoy 2" },
+      "description": "Diplomatic missions to Poland on behalf of Christoph, Duke of Württemberg",
+      "kind": "event-kind-travel",
+      "startDate": "1559-01-01",
+      "relations": [
+        { "entity": "vergerio-pr-001", "role": "role-was_travelling" },
+        { "entity": "vergerio-pl-014", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "vergerio-bio-E27",
+      "label": { "default": "Damnatio memoriae" },
+      "description": "The inscription in the Cathedral of the Assumption in Koper is partially demolished, probably at behest of the then bishop Antonio Elio",
+      "kind": "event-kind-event",
+      "startDate": "1572-01-01",
+      "relations": [
+        {
+          "entity": "vergerio-ob-001",
+          "role": "role-was_partially_demolished"
+        },
+        { "entity": "vergerio-pl-001", "role": "role-took_place_at" },
+        { "entity": "vergerio-pr-001", "role": "role-linked" },
+        { "entity": "vergerio-pr-014", "role": "role-linked" }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "vergerio-m-001",
+      "label": { "default": "Peter Pavel Vergerij" },
+      "attribution": "https://commons.wikimedia.org/wiki/File:Peter_Pavel_Vergerij.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/Peter_Pavel_Vergerij.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "vergerio-m-002",
+      "label": {
+        "default": "The inscription in the Cathedral of the Assumption "
+      },
+      "url": "https://drive.google.com/uc?export=download&id=1rMHdPk-ybfAngCCSAqIDe1JbCXGcMj2V",
+      "kind": "image"
+    },
+    {
+      "id": "vergerio-m-003",
+      "label": { "default": "Primož Trubar" },
+      "url": "https://drive.google.com/uc?export=download&id=1LwDeXJX_h-FKpRD4skU1q5f1YjnI_L-C",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-004",
+      "label": { "default": "Martin Luther" },
+      "url": "https://drive.google.com/uc?export=download&id=1Gd6cSdY5qUx0UdolwgcjcsM7MnjRuP6n",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-005",
+      "label": { "default": "Ferdinand I of Austria" },
+      "url": "https://drive.google.com/uc?export=download&id=1fpFJRCmw0aHheNwOCX5EeQAvo9JKd73r",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-006",
+      "label": { "default": "Pope Paul III" },
+      "url": "https://drive.google.com/uc?export=download&id=18uuNtlkOLtMolslEwbIDqhJJ27rp_iDW",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-008",
+      "label": { "default": "Assumption Cathedral" },
+      "url": "https://drive.google.com/uc?export=download&id=1LIQrk6Tw4hoAaF7p0D3Ps5Uy32t8dRPL",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-009",
+      "label": { "default": "Koper (Iustinopolis) 1781" },
+      "url": "https://drive.google.com/uc?export=download&id=1DXCrCDXORIVIbskZq06Tu0M8u5I-QVLO",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-010",
+      "url": "https://drive.google.com/uc?export=download&id=15CDR1n_88W6dehzWAb8V3-tanEoFr0UZ",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-011",
+      "label": { "default": "Allessandro Farnese" },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Alessandro_Farnese%2C_S._Anguisciola.jpg",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-012",
+      "label": { "default": "Christopher Duke of Württemberg" },
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Abraham_Hel_001.jpg",
+      "kind": "media"
+    },
+    {
+      "id": "vergerio-m-013",
+      "label": { "default": "Diana Contarini" },
+      "url": "https://drive.google.com/uc?export=download&id=1kiimJKBfm87ZSa72oZtwa1erqfySPyRs",
+      "kind": "media"
+    }
+  ],
+  "biographies": [],
+  "vocabularies": {
+    "cultural-heritage-object-type": [
+      {
+        "id": "cultural-heritage-object-type-inscription",
+        "label": { "default": "inscription" }
+      }
+    ],
+    "place-type": [
+      { "id": "place-type-city", "label": { "default": "city" } },
+      { "id": "place-type-ciyt", "label": { "default": "ciyt" } },
+      { "id": "place-type-country", "label": { "default": "country" } }
+    ],
+    "event-kind": [
+      { "id": "event-kind-birth", "label": { "default": "birth" } },
+      { "id": "event-kind-death", "label": { "default": "death" } },
+      { "id": "event-kind-educational", "label": { "default": "educational" } },
+      {
+        "id": "event-kind-professional",
+        "label": { "default": "professional" }
+      },
+      { "id": "event-kind-family", "label": { "default": "family" } },
+      { "id": "event-kind-meeting", "label": { "default": "meeting" } },
+      { "id": "event-kind-award", "label": { "default": "award" } },
+      { "id": "event-kind-travel", "label": { "default": "travel" } },
+      { "id": "event-kind-event", "label": { "default": "event" } },
+      { "id": "event-kind-moving", "label": { "default": "moving" } }
+    ],
+    "role": [
+      { "id": "role-person_born", "label": { "default": "person_born" } },
+      { "id": "role-took_place_at", "label": { "default": "took_place_at" } },
+      {
+        "id": "role-person_deceased",
+        "label": { "default": "person_deceased" }
+      },
+      { "id": "role-was_present", "label": { "default": "was present" } },
+      { "id": "role-was_student", "label": { "default": "was student" } },
+      { "id": "role-was_working", "label": { "default": "was working" } },
+      { "id": "role-place_of_work", "label": { "default": "place of work" } },
+      { "id": "role-was_husband", "label": { "default": "was husband" } },
+      { "id": "role-was_wife", "label": { "default": "was wife" } },
+      { "id": "role-was_employer", "label": { "default": "was employer" } },
+      { "id": "role-was_related", "label": { "default": "was related" } },
+      { "id": "role-participated", "label": { "default": "participated" } },
+      {
+        "id": "role-was_participating",
+        "label": { "default": "was participating" }
+      },
+      { "id": "role-was_leading", "label": { "default": "was leading" } },
+      { "id": "role-received_award", "label": { "default": "received award" } },
+      { "id": "role-was_opponent", "label": { "default": "was opponent" } },
+      { "id": "role-was_travelling", "label": { "default": "was travelling" } },
+      {
+        "id": "role-was_in_connection",
+        "label": { "default": "was in connection" }
+      },
+      {
+        "id": "role-was_under_suspicion",
+        "label": { "default": "was under suspicion" }
+      },
+      { "id": "role-was_accused", "label": { "default": "was accused" } },
+      { "id": "role-was_moving", "label": { "default": "was moving" } },
+      { "id": "role-was_hosting", "label": { "default": "was hosting" } },
+      { "id": "role-was_acquitted", "label": { "default": "was acquitted" } },
+      {
+        "id": "role-was_excomunicated",
+        "label": { "default": "was excomunicated" }
+      },
+      {
+        "id": "role-was_collaborating",
+        "label": { "default": "was collaborating" }
+      },
+      {
+        "id": "role-was_partially_demolished",
+        "label": { "default": "was partially demolished" }
+      },
+      { "id": "role-linked", "label": { "default": "linked" } }
+    ]
+  },
+  "unmappedEntries": [],
+  "collections": {
+    "all": {
+      "label": "vergerio",
+      "entities": [
+        "vergerio-ob-001",
+        "vergerio-pr-001",
+        "vergerio-pr-002",
+        "vergerio-pr-003",
+        "vergerio-pr-004",
+        "vergerio-pr-005",
+        "vergerio-pr-006",
+        "vergerio-pr-007",
+        "vergerio-pr-008",
+        "vergerio-pr-009",
+        "vergerio-pr-010",
+        "vergerio-pr-011",
+        "vergerio-pr-012",
+        "vergerio-pr-013",
+        "vergerio-pr-014",
+        "vergerio-pl-001",
+        "vergerio-pl-002",
+        "vergerio-pl-003",
+        "vergerio-pl-004",
+        "vergerio-pl-005",
+        "vergerio-pl-006",
+        "vergerio-pl-007",
+        "vergerio-pl-008",
+        "vergerio-pl-009",
+        "vergerio-pl-010",
+        "vergerio-pl-011",
+        "vergerio-pl-012",
+        "vergerio-pl-013",
+        "vergerio-pl-014"
+      ],
+      "events": [
+        "vergerio-bio-E1",
+        "vergerio-bio-E2",
+        "vergerio-bio-E3",
+        "vergerio-bio-E4",
+        "vergerio-bio-E5",
+        "vergerio-bio-E6",
+        "vergerio-bio-E7",
+        "vergerio-bio-E8",
+        "vergerio-bio-E9",
+        "vergerio-bio-E10",
+        "vergerio-bio-E11",
+        "vergerio-bio-E12",
+        "vergerio-bio-E13",
+        "vergerio-bio-E14",
+        "vergerio-bio-E15",
+        "vergerio-bio-E16",
+        "vergerio-bio-E17",
+        "vergerio-bio-E18",
+        "vergerio-bio-E19",
+        "vergerio-bio-E20",
+        "vergerio-bio-E21",
+        "vergerio-bio-E22",
+        "vergerio-bio-E23",
+        "vergerio-bio-E24",
+        "vergerio-bio-E25",
+        "vergerio-bio-E26",
+        "vergerio-bio-E27"
+      ]
+    },
+    "event-vergerio": {
+      "label": "event-vergerio",
+      "entities": [
+        "vergerio-pr-001",
+        "vergerio-pl-001",
+        "vergerio-pl-002",
+        "vergerio-pr-002",
+        "vergerio-pl-003",
+        "vergerio-pl-004",
+        "vergerio-pl-005",
+        "vergerio-pr-003",
+        "vergerio-pl-006",
+        "vergerio-pr-004",
+        "vergerio-pl-007",
+        "vergerio-pr-005",
+        "vergerio-pr-006",
+        "vergerio-pl-008",
+        "vergerio-pr-007",
+        "vergerio-pr-008",
+        "vergerio-pl-009",
+        "vergerio-pr-009",
+        "vergerio-pl-010",
+        "vergerio-pr-010",
+        "vergerio-pr-011",
+        "vergerio-pl-011",
+        "vergerio-pr-012",
+        "vergerio-pl-012",
+        "vergerio-pl-013",
+        "vergerio-pr-013",
+        "vergerio-pl-014",
+        "vergerio-ob-001",
+        "vergerio-pr-014"
+      ],
+      "events": [
+        "vergerio-bio-E1",
+        "vergerio-bio-E2",
+        "vergerio-bio-E3",
+        "vergerio-bio-E4",
+        "vergerio-bio-E5",
+        "vergerio-bio-E6",
+        "vergerio-bio-E7",
+        "vergerio-bio-E8",
+        "vergerio-bio-E9",
+        "vergerio-bio-E10",
+        "vergerio-bio-E11",
+        "vergerio-bio-E12",
+        "vergerio-bio-E13",
+        "vergerio-bio-E14",
+        "vergerio-bio-E15",
+        "vergerio-bio-E16",
+        "vergerio-bio-E17",
+        "vergerio-bio-E18",
+        "vergerio-bio-E19",
+        "vergerio-bio-E20",
+        "vergerio-bio-E21",
+        "vergerio-bio-E22",
+        "vergerio-bio-E23",
+        "vergerio-bio-E24",
+        "vergerio-bio-E25",
+        "vergerio-bio-E26",
+        "vergerio-bio-E27"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "label": "vergerio",
+      "description": "The entire vergerio data set.",
+      "entities": [
+        "vergerio-ob-001",
+        "vergerio-pr-001",
+        "vergerio-pr-002",
+        "vergerio-pr-003",
+        "vergerio-pr-004",
+        "vergerio-pr-005",
+        "vergerio-pr-006",
+        "vergerio-pr-007",
+        "vergerio-pr-008",
+        "vergerio-pr-009",
+        "vergerio-pr-010",
+        "vergerio-pr-011",
+        "vergerio-pr-012",
+        "vergerio-pr-013",
+        "vergerio-pr-014",
+        "vergerio-pl-001",
+        "vergerio-pl-002",
+        "vergerio-pl-003",
+        "vergerio-pl-004",
+        "vergerio-pl-005",
+        "vergerio-pl-006",
+        "vergerio-pl-007",
+        "vergerio-pl-008",
+        "vergerio-pl-009",
+        "vergerio-pl-010",
+        "vergerio-pl-011",
+        "vergerio-pl-012",
+        "vergerio-pl-013",
+        "vergerio-pl-014"
+      ],
+      "events": [
+        "vergerio-bio-E1",
+        "vergerio-bio-E2",
+        "vergerio-bio-E3",
+        "vergerio-bio-E4",
+        "vergerio-bio-E5",
+        "vergerio-bio-E6",
+        "vergerio-bio-E7",
+        "vergerio-bio-E8",
+        "vergerio-bio-E9",
+        "vergerio-bio-E10",
+        "vergerio-bio-E11",
+        "vergerio-bio-E12",
+        "vergerio-bio-E13",
+        "vergerio-bio-E14",
+        "vergerio-bio-E15",
+        "vergerio-bio-E16",
+        "vergerio-bio-E17",
+        "vergerio-bio-E18",
+        "vergerio-bio-E19",
+        "vergerio-bio-E20",
+        "vergerio-bio-E21",
+        "vergerio-bio-E22",
+        "vergerio-bio-E23",
+        "vergerio-bio-E24",
+        "vergerio-bio-E25",
+        "vergerio-bio-E26",
+        "vergerio-bio-E27"
+      ]
+    }
+  ],
+  "upstreamEntityIds": []
+}

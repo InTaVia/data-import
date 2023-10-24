@@ -60,9 +60,7 @@
       "label": { "default": "Hieronymus im Gehäus" },
       "description": "Drei Meisterstiche",
       "media": ["duerer-m-036"],
-      "relations": [
-        { "event": "duerer-macro-ev-019", "role": "role-object_created" }
-      ],
+      "relations": [],
       "kind": "cultural-heritage-object",
       "type": {
         "id": "cultural-heritage-object-type-engraving",
@@ -74,9 +72,7 @@
       "label": { "default": "Melancholie" },
       "description": "Drei Meisterstiche, Dürer's \"Melancholia\" (1514) is his best known master engraving. The winged female figure of melancholy, deep in her thoughts, is surrounded by meticulously rendered objects related to geometry, astrology and mathematics. The scribbling putto adds a playful note to this enigmatic scene which culminates in the cry of the beat-like creature. ",
       "media": ["duerer-m-037"],
-      "relations": [
-        { "event": "duerer-macro-ev-020", "role": "role-object_created" }
-      ],
+      "relations": [],
       "kind": "cultural-heritage-object",
       "type": {
         "id": "cultural-heritage-object-type-engraving",
@@ -1415,13 +1411,7 @@
       "id": "duerer-pr-001",
       "label": { "default": "Albrecht Dürer" },
       "linkedIds": [
-        {
-          "id": "11852786X",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/11852786X"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/11852786X" }
       ],
       "media": ["duerer-m-006"],
       "relations": [
@@ -1523,8 +1513,6 @@
         { "event": "duerer-macro-ev-016", "role": "role-was_travelling" },
         { "event": "duerer-macro-ev-017", "role": "role-was_bought_by" },
         { "event": "duerer-macro-ev-018", "role": "role-was_created_by" },
-        { "event": "duerer-macro-ev-019", "role": "role-was_created_by" },
-        { "event": "duerer-macro-ev-020", "role": "role-was_created_by" },
         { "event": "duerer-macro-ev-021", "role": "role-was_created_by" },
         { "event": "duerer-macro-ev-022", "role": "role-was_created_by" },
         { "event": "duerer-macro-ev-023", "role": "role-was_travelling" },
@@ -1712,13 +1700,7 @@
       "id": "duerer-pr-002",
       "label": { "default": "Anton Koberger" },
       "linkedIds": [
-        {
-          "id": "118563890",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118563890"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118563890" }
       ],
       "relations": [
         { "event": "duerer-macro-ev-001", "role": "role-was_godfather" }
@@ -1730,13 +1712,7 @@
       "id": "duerer-pr-003",
       "label": { "default": "Michael Wolgemut" },
       "linkedIds": [
-        {
-          "id": "118771175",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118771175"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118771175" }
       ],
       "relations": [
         { "event": "duerer-macro-ev-002", "role": "role-was_teacher" }
@@ -1748,13 +1724,7 @@
       "id": "duerer-pr-004",
       "label": { "default": "Martin Schongauer" },
       "linkedIds": [
-        {
-          "id": "118610430",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118610430"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118610430" }
       ],
       "relations": [
         { "event": "duerer-macro-ev-004", "role": "role-was_employer" }
@@ -1767,13 +1737,7 @@
       "label": { "default": "Agnes Dürer" },
       "alternativeLabels": [{ "default": "Agnes Frey" }],
       "linkedIds": [
-        {
-          "id": "118869051",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118869051"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118869051" }
       ],
       "media": ["duerer-m-005"],
       "relations": [
@@ -1786,27 +1750,11 @@
       "biographies": ["duerer-bio-002"]
     },
     {
-      "id": "duerer-pr-006",
-      "label": { "default": "Konrat Meit" },
-      "relations": [
-        { "event": "duerer-macro-ev-027", "role": "role-participated" }
-      ],
-      "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "occupations": ["occupation-bildhauer"]
-    },
-    {
       "id": "duerer-pr-007",
       "label": { "default": "Karl V" },
       "alternativeLabels": [{ "default": "Charles V." }],
       "linkedIds": [
-        {
-          "id": "118560093",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118560093"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118560093" }
       ],
       "relations": [
         { "event": "duerer-macro-ev-025", "role": "role-participated" },
@@ -1830,13 +1778,7 @@
       "id": "duerer-pr-009",
       "label": { "default": "Bishop of Bamberg George III Schenk von Limpurg" },
       "linkedIds": [
-        {
-          "id": "118924710",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/118924710"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/118924710" }
       ],
       "relations": [
         { "event": "duerer-nl-EID005", "role": "role-participated" }
@@ -1848,13 +1790,7 @@
       "id": "duerer-pr-010",
       "label": { "default": "Niclas Unger" },
       "linkedIds": [
-        {
-          "id": "Q1990389",
-          "provider": {
-            "label": "Wikidata",
-            "baseUrl": "https://www.wikidata.org/wiki/Q1990389"
-          }
-        }
+        { "label": "Wikidata", "url": "https://www.wikidata.org/wiki/Q1990389" }
       ],
       "relations": [
         { "event": "duerer-nl-EID061", "role": "role-was_hosting" }
@@ -1866,13 +1802,7 @@
       "id": "duerer-pr-011",
       "label": { "default": "Jan Provost" },
       "linkedIds": [
-        {
-          "id": "12231297X",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/12231297X"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/12231297X" }
       ],
       "relations": [
         { "event": "duerer-nl-EID139", "role": "role-was_hosting" }
@@ -1884,13 +1814,7 @@
       "id": "duerer-pr-012",
       "label": { "default": "Christian II, King of Denmark" },
       "linkedIds": [
-        {
-          "id": "119195380",
-          "provider": {
-            "label": "GND",
-            "baseUrl": "https://d-nb.info/gnd/119195380"
-          }
-        }
+        { "label": "GND", "url": "https://d-nb.info/gnd/119195380" }
       ],
       "media": ["duerer-m-029"],
       "relations": [
@@ -1902,16 +1826,10 @@
     },
     {
       "id": "duerer-pl-001",
-      "label": { "default": "Nürnberg" },
-      "alternativeLabels": [{ "default": "Nuremberg" }],
+      "label": { "default": "Nuremberg" },
+      "alternativeLabels": [{ "default": "Nürnberg" }],
       "linkedIds": [
-        {
-          "id": "2861650",
-          "provider": {
-            "label": "Geonames",
-            "baseUrl": "https://www.geonames.org/2861650"
-          }
-        }
+        { "label": "Geonames", "url": "https://www.geonames.org/2861650" }
       ],
       "relations": [
         { "event": "duerer-cho-ev-017", "role": "role-took_place_at" },
@@ -1928,8 +1846,6 @@
         { "event": "duerer-macro-ev-016", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-017", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-018", "role": "role-took_place_at" },
-        { "event": "duerer-macro-ev-019", "role": "role-took_place_at" },
-        { "event": "duerer-macro-ev-020", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-022", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-023", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-038", "role": "role-took_place_at" },
@@ -2024,8 +1940,8 @@
     },
     {
       "id": "duerer-pl-010",
-      "label": { "default": "Köln" },
-      "alternativeLabels": [{ "default": "Cologne" }],
+      "label": { "default": "Cologne" },
+      "alternativeLabels": [{ "default": "Köln" }],
       "relations": [
         { "event": "duerer-cho-ev-002", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-016", "role": "role-took_place_at" },
@@ -2049,7 +1965,6 @@
         { "event": "duerer-cho-ev-013", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-015", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-029", "role": "role-took_place_at" },
-        { "event": "duerer-macro-ev-025", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID088", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID090", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID152", "role": "role-took_place_at" }
@@ -2060,8 +1975,8 @@
     },
     {
       "id": "duerer-pl-012",
-      "label": { "default": "Antwerpen" },
-      "alternativeLabels": [{ "default": "Antwerp" }],
+      "label": { "default": "Antwerp" },
+      "alternativeLabels": [{ "default": "Antwerpen" }],
       "relations": [
         { "event": "duerer-cho-ev-003", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-004", "role": "role-took_place_at" },
@@ -2140,8 +2055,8 @@
     },
     {
       "id": "duerer-pl-013",
-      "label": { "default": "Mecheln" },
-      "alternativeLabels": [{ "default": "Mechelen" }],
+      "label": { "default": "Mechelen" },
+      "alternativeLabels": [{ "default": "Mecheln" }],
       "relations": [
         { "event": "duerer-cho-ev-007", "role": "role-took_place_at" },
         { "event": "duerer-macro-ev-027", "role": "role-took_place_at" },
@@ -2156,8 +2071,8 @@
     },
     {
       "id": "duerer-pl-014",
-      "label": { "default": "Brüssel" },
-      "alternativeLabels": [{ "default": "Brussels" }],
+      "label": { "default": "Brussels" },
+      "alternativeLabels": [{ "default": "Brüssel" }],
       "relations": [
         { "event": "duerer-cho-ev-008", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-054", "role": "role-took_place_at" },
@@ -2174,8 +2089,8 @@
     },
     {
       "id": "duerer-pl-015",
-      "label": { "default": "Brügge" },
-      "alternativeLabels": [{ "default": "Bruges" }],
+      "label": { "default": "Bruges" },
+      "alternativeLabels": [{ "default": "Brügge" }],
       "relations": [
         { "event": "duerer-macro-ev-032", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID139", "role": "role-took_place_at" }
@@ -2186,8 +2101,8 @@
     },
     {
       "id": "duerer-pl-016",
-      "label": { "default": "Gent" },
-      "alternativeLabels": [{ "default": "Ghent" }],
+      "label": { "default": "Ghent" },
+      "alternativeLabels": [{ "default": "Gent" }],
       "relations": [
         { "event": "duerer-cho-ev-036", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-037", "role": "role-took_place_at" },
@@ -4437,7 +4352,7 @@
     },
     {
       "id": "duerer-macro-ev-001",
-      "label": { "default": "Geburt von Albrecht Dürer" },
+      "label": { "default": "Birth of Albrecht Dürer" },
       "description": "Dürer wird in Nürnberg geboren, sein Pate ist der international bekannte Drucker Anton Koberger, Taufdatum: 21.5.1471",
       "kind": "event-kind-birth",
       "source": { "citation": "Dürers Familienchronik" },
@@ -4450,7 +4365,7 @@
     },
     {
       "id": "duerer-macro-ev-002",
-      "label": { "default": "Malerlehre bei Michael Wolgemut" },
+      "label": { "default": "Painter apprenticeship at  Michael Wolgemut" },
       "description": "Malerlehre bei Michael Wolgemut in Nürnberg",
       "kind": "event-kind-education",
       "source": { "citation": "Dürers Familienchronik" },
@@ -4464,7 +4379,7 @@
     },
     {
       "id": "duerer-macro-ev-003",
-      "label": { "default": "Gesellenwanderschaft an den Oberrhein" },
+      "label": { "default": "Journeyman travels to the Upper Rhine" },
       "description": "Gesellenwanderschaft an den Oberrhein",
       "kind": "event-kind-professional",
       "source": {
@@ -4478,7 +4393,7 @@
     },
     {
       "id": "duerer-macro-ev-004",
-      "label": { "default": "Arbeitsaufenthalt bei Martin Schongauer" },
+      "label": { "default": "Working stay with Martin Schongauer" },
       "description": "Aufenthalt in der Werkstatt von Martin Schongauer",
       "kind": "event-kind-professional",
       "startDate": "1494-03-31",
@@ -4490,7 +4405,7 @@
     },
     {
       "id": "duerer-macro-ev-005",
-      "label": { "default": "Heirat mit Agnes Frey" },
+      "label": { "default": "Marriage with Agnes Frey" },
       "description": "Heirat mit Agnes Frey in Nürnberg",
       "kind": "event-kind-family",
       "startDate": "1494-04-01",
@@ -4502,7 +4417,7 @@
     },
     {
       "id": "duerer-macro-ev-006",
-      "label": { "default": "Erste Italienreise: Tirol" },
+      "label": { "default": "First trip to Italy: Tyrol" },
       "description": "Erste Italienreise, über Werke rekonstruierbare Aufenthalte in Tirol/Südtirol/Trentino, Venedig",
       "kind": "event-kind-travel",
       "source": {
@@ -4516,7 +4431,7 @@
     },
     {
       "id": "duerer-macro-ev-007",
-      "label": { "default": "Erste Italienreise: Südtirol" },
+      "label": { "default": "First trip to Italy: South Tyrol" },
       "description": "Erste Italienreise",
       "kind": "event-kind-travel",
       "source": {
@@ -4530,7 +4445,7 @@
     },
     {
       "id": "duerer-macro-ev-008",
-      "label": { "default": "Erste Italienreise: Trentino" },
+      "label": { "default": "First trip to Italy: Trentino" },
       "description": "Erste Italienreise",
       "kind": "event-kind-travel",
       "source": {
@@ -4544,7 +4459,7 @@
     },
     {
       "id": "duerer-macro-ev-009",
-      "label": { "default": "Erste Italienreise: Venedig" },
+      "label": { "default": "First trip to Italy: Venice" },
       "description": "Erste Italienreise",
       "kind": "event-kind-travel",
       "source": {
@@ -4558,7 +4473,9 @@
     },
     {
       "id": "duerer-macro-ev-010",
-      "label": { "default": "Aufbau einer Maler- und Graphikwerkstatt" },
+      "label": {
+        "default": "Establishment of a painting and graphics workshop"
+      },
       "description": "Aufbau einer Maler- und Graphikwerkstatt in Nürnberg mit internationalem Vertriebsnetz, ab 1497 erste Angestellte",
       "kind": "event-kind-founding",
       "source": {
@@ -4573,7 +4490,7 @@
     },
     {
       "id": "duerer-macro-ev-011",
-      "label": { "default": "Apokalypse erscheint" },
+      "label": { "default": "\"Apocalypse\" published" },
       "description": "Mit der „Apokalypse“ erscheint Dürers erstes großes Buch",
       "kind": "event-kind-creation",
       "source": { "citation": "Kolophon" },
@@ -4586,7 +4503,7 @@
     },
     {
       "id": "duerer-macro-ev-012",
-      "label": { "default": "Selbstbildnis im Pelzrock erstellt" },
+      "label": { "default": "\"Self-Portrait with Fur-Trimmed Robe\" created" },
       "description": "Selbstbildnis im Pelzrock (München, Alte Pinakothek)",
       "kind": "event-kind-creation",
       "source": { "citation": "Datierung auf Bild, Physiognomie" },
@@ -4600,7 +4517,7 @@
     },
     {
       "id": "duerer-macro-ev-013",
-      "label": { "default": "„Der Hase“ erstellt" },
+      "label": { "default": "„Young Hare“ created" },
       "description": "„Der Hase“ als erstes Tieraquarell",
       "kind": "event-kind-creation",
       "source": { "citation": "Datierung auf Bild, ähnliche zeitnahe Studien" },
@@ -4613,7 +4530,7 @@
     },
     {
       "id": "duerer-macro-ev-014",
-      "label": { "default": "Zweite Italienreise: Venedig" },
+      "label": { "default": "Second trip to Italy: Venice" },
       "description": "Zweite Italienreise, Aufenthalte in Venedig und Bologna",
       "kind": "event-kind-travel",
       "source": {
@@ -4627,7 +4544,7 @@
     },
     {
       "id": "duerer-macro-ev-015",
-      "label": { "default": "Zweite Italienreise: Bologna" },
+      "label": { "default": "Second trip to Italy: Bologna" },
       "description": "Zweite Italienreise, Aufenthalte in Venedig und Bologna",
       "kind": "event-kind-travel",
       "source": {
@@ -4641,7 +4558,7 @@
     },
     {
       "id": "duerer-macro-ev-016",
-      "label": { "default": "Zweite Italienreise: Rückkehr nach Nürnberg" },
+      "label": { "default": "Second trip to Italy: Return to Nuremberg" },
       "description": "Zweite Italienreise, Aufenthalte in Venedig und Bologna",
       "kind": "event-kind-travel",
       "source": {
@@ -4655,7 +4572,7 @@
     },
     {
       "id": "duerer-macro-ev-017",
-      "label": { "default": "Kauf des „Dürer-Hauses“" },
+      "label": { "default": "Purchase of the „Dürer House“" },
       "description": "Kauf des „Dürer-Hauses“ am Tiergärtnertor in Nürnberg",
       "kind": "event-kind-bussines",
       "source": { "citation": "Urkunde" },
@@ -4668,7 +4585,9 @@
     },
     {
       "id": "duerer-macro-ev-018",
-      "label": { "default": "Drei Meisterstiche: „Ritter, Tod und Teufel“" },
+      "label": {
+        "default": "Three master engravings: „Knight, Death and the Devil“, \"Saint Jerome in his Study\", and \"Melencolia I\""
+      },
       "description": "Drei Meisterstiche („Ritter, Tod und Teufel“, „Hieronymus im Gehäus“, „Melancholie“)",
       "kind": "event-kind-creation",
       "source": { "citation": "Datierung auf Kupferstichen" },
@@ -4680,34 +4599,8 @@
       ]
     },
     {
-      "id": "duerer-macro-ev-019",
-      "label": { "default": "Drei Meisterstiche: „Hieronymus im Gehäus“" },
-      "description": "Drei Meisterstiche („Ritter, Tod und Teufel“, „Hieronymus im Gehäus“, „Melancholie“)",
-      "kind": "event-kind-creation",
-      "source": { "citation": "Datierung auf Kupferstichen" },
-      "startDate": "1513-01-01",
-      "relations": [
-        { "entity": "duerer-ob-005", "role": "role-object_created" },
-        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
-        { "entity": "duerer-pr-001", "role": "role-was_created_by" }
-      ]
-    },
-    {
-      "id": "duerer-macro-ev-020",
-      "label": { "default": "Drei Meisterstiche: „Melancholie“" },
-      "description": "Drei Meisterstiche („Ritter, Tod und Teufel“, „Hieronymus im Gehäus“, „Melancholie“)",
-      "kind": "event-kind-creation",
-      "source": { "citation": "Datierung auf Kupferstichen" },
-      "startDate": "1513-01-01",
-      "relations": [
-        { "entity": "duerer-ob-006", "role": "role-object_created" },
-        { "entity": "duerer-pl-001", "role": "role-took_place_at" },
-        { "entity": "duerer-pr-001", "role": "role-was_created_by" }
-      ]
-    },
-    {
       "id": "duerer-macro-ev-021",
-      "label": { "default": "Portrait von Kaiser Maximilian" },
+      "label": { "default": "Portrait of Emperor Maximilian I." },
       "description": "Reichstag (Portrait von Kaiser Maximilian)",
       "kind": "event-kind-creation",
       "startDate": "1517-05-30",
@@ -4719,7 +4612,9 @@
     },
     {
       "id": "duerer-macro-ev-022",
-      "label": { "default": "Ehrenpforte für Kaiser Maximilian I." },
+      "label": {
+        "default": "\"The Triumphal Arch\" for Emperor Maximilian I."
+      },
       "description": "Ehrenpforte für Kaiser Maximilian I. (Riesenholzschnitt)",
       "kind": "event-kind-creation",
       "source": { "citation": "Korrespondenz, Datierung auf Holzschnitt" },
@@ -4732,7 +4627,7 @@
     },
     {
       "id": "duerer-macro-ev-023",
-      "label": { "default": "Beginn der Niederländische Reise" },
+      "label": { "default": "Start of the Netherlands Journey" },
       "description": "Beginn der Niederländische Reise, Aufenthalte in Köln, Aachen, Antwerpen, Brüssel, Gent, Brügge, Mecheln, Dürer genießt internationalen Ruhm und verkehrt in Hofkreisen",
       "kind": "event-kind-travel",
       "source": { "citation": "„Tagebuch“ der NL Reise, Werke" },
@@ -4745,7 +4640,7 @@
     {
       "id": "duerer-macro-ev-024",
       "label": {
-        "default": "Station auf der Hinreise mit Besuch seines Vetters"
+        "default": "Station on the outward journey with visit to his cousin"
       },
       "description": "Station auf der Hinreise mit Besuch seines Vetters",
       "kind": "event-kind-travel",
@@ -4758,20 +4653,15 @@
     },
     {
       "id": "duerer-macro-ev-025",
-      "label": { "default": "Krönung Karl V" },
-      "description": "Krönung Karl V",
       "kind": "event-kind-event",
-      "startDate": "1520-10-07",
-      "endDate": "1520-10-25",
       "relations": [
         { "entity": "duerer-pr-007", "role": "role-participated" },
-        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-participated" }
       ]
     },
     {
       "id": "duerer-macro-ev-026",
-      "label": { "default": "Hauptstandort" },
+      "label": { "default": "Main site" },
       "description": "Hauptstandort",
       "kind": "event-kind-travel",
       "startDate": "1520-08-02",
@@ -4783,7 +4673,7 @@
     },
     {
       "id": "duerer-macro-ev-027",
-      "label": { "default": "Besuch des Bildhauers Konrat Meit" },
+      "label": { "default": "Visit of the sculptor Konrat Meit" },
       "description": "Besuch des Bildhauers Konrat Meit",
       "kind": "event-kind-meeting",
       "startDate": "1520-08-26",
@@ -4795,7 +4685,7 @@
     },
     {
       "id": "duerer-macro-ev-028",
-      "label": { "default": "Kontakte zu Hofkreisen (1520)" },
+      "label": { "default": "Contacts with court circles" },
       "description": "Kontakte zu Hofkreisen (1520)",
       "kind": "event-kind-meeting",
       "startDate": "1520-08-27",
@@ -4807,7 +4697,7 @@
     },
     {
       "id": "duerer-macro-ev-029",
-      "label": { "default": "Hauptstandort" },
+      "label": { "default": "Main site" },
       "description": "Hauptstandort",
       "kind": "event-kind-travel",
       "startDate": "1520-09-03",
@@ -4820,7 +4710,7 @@
     {
       "id": "duerer-macro-ev-030",
       "label": {
-        "default": "Station auf der Rückreise mit Teilnahme an Empfang Karls V"
+        "default": "Station on the return journey with participation in the coronation of Karl V"
       },
       "description": "Station auf der Rückreise mit Teilnahme an Empfang Karls V.",
       "kind": "event-kind-event",
@@ -4834,7 +4724,7 @@
     },
     {
       "id": "duerer-macro-ev-031",
-      "label": { "default": "Hauptstandort" },
+      "label": { "default": "Main site" },
       "description": "Hauptstandort",
       "kind": "event-kind-travel",
       "startDate": "1520-11-14",
@@ -4846,7 +4736,7 @@
     },
     {
       "id": "duerer-macro-ev-032",
-      "label": { "default": "Besuch von Bau- und Kunstwerken" },
+      "label": { "default": "Visit of building and works of art" },
       "description": "Besuch von Bau- und Kunstwerken",
       "kind": "event-kind-travel",
       "startDate": "1521-04-07",
@@ -4858,7 +4748,7 @@
     },
     {
       "id": "duerer-macro-ev-033",
-      "label": { "default": "Besuch von Bau- und Kunstwerken" },
+      "label": { "default": "Visit of building and works of art" },
       "description": "Besuch von Bau- und Kunstwerken",
       "kind": "event-kind-travel",
       "startDate": "1521-04-09",
@@ -4870,7 +4760,7 @@
     },
     {
       "id": "duerer-macro-ev-034",
-      "label": { "default": "Hauptstandort" },
+      "label": { "default": "Main site" },
       "description": "Hauptstandort",
       "kind": "event-kind-travel",
       "startDate": "1521-04-12",
@@ -4882,7 +4772,7 @@
     },
     {
       "id": "duerer-macro-ev-035",
-      "label": { "default": "Besuch Margaretes von Österreich (1521)" },
+      "label": { "default": "Visit of Margaret of Austria" },
       "description": "Besuch Margaretes von Österreich (1521)",
       "kind": "event-kind-meeting",
       "startDate": "1521-06-06",
@@ -4895,7 +4785,7 @@
     },
     {
       "id": "duerer-macro-ev-036",
-      "label": { "default": "Hauptstandort" },
+      "label": { "default": "Main site" },
       "description": "Hauptstandort",
       "kind": "event-kind-travel",
       "startDate": "1521-06-09",
@@ -4908,7 +4798,7 @@
     {
       "id": "duerer-macro-ev-037",
       "label": {
-        "default": "Porträtauftrag des dänischen Königs Christian II."
+        "default": "Portrait commission from the Danish King Christian II."
       },
       "description": "Porträtauftrag des dänischen Königs Christian II. (1521)",
       "kind": "event-kind-creation",
@@ -4923,7 +4813,7 @@
     },
     {
       "id": "duerer-macro-ev-038",
-      "label": { "default": "Rückkehr nach Nürnberg" },
+      "label": { "default": "Return to Nuremberg" },
       "description": "Rückkehr nach Nürnberg",
       "kind": "event-kind-travel",
       "startDate": "1521-07-12",
@@ -4935,7 +4825,7 @@
     {
       "id": "duerer-macro-ev-039",
       "label": {
-        "default": "Theoretische Schriften zur Perspektive, menschlichen Proportion und dem Festungsbau in deutscher Sprache"
+        "default": "Theoretical writings on perspective, human proportion and fortress construction in German language"
       },
       "description": "Theoretische Schriften zur Perspektive, menschlichen Proportion und dem Festungsbau in deutscher Sprache",
       "kind": "event-kind-creation",
@@ -4951,7 +4841,7 @@
     {
       "id": "duerer-macro-ev-040",
       "label": {
-        "default": "Dürer stirbt in Nürnberg und wird auf dem Johannisfriedhof begraben"
+        "default": "Dürer dies in Nuremberg and is buried in the Johannis cemetery"
       },
       "description": "Dürer stirbt in Nürnberg und wird auf dem Johannisfriedhof begraben; Dürer died on April 6, 1528 at the age of 56 in his house in Nuremberg after a short illness. He was buried in the family grave of his parents-in-law on St John's graveyard in Nuremberg. His wife Agnes continued to run the workshop until her own death in 1539. Unlike most artists of his time, Dürer was never forgotten by posterity - on the contrary. Thanks to his outstanding art and self-promotion, his glory remains up until today.",
       "kind": "event-kind-death",
@@ -5941,7 +5831,8 @@
       "relations": [
         { "entity": "duerer-pr-001", "role": "role-participated" },
         { "entity": "duerer-pl-011", "role": "role-took_place_at" },
-        { "entity": "duerer-pr-007", "role": "role-participated" }
+        { "entity": "duerer-pr-007", "role": "role-participated" },
+        { "entity": "duerer-he-001", "role": "role-is_historical_event" }
       ]
     },
     {
@@ -5980,7 +5871,7 @@
     },
     {
       "id": "duerer-nl-EID092",
-      "label": { "default": "Karl V provided support" },
+      "label": { "default": "Charles V provided support" },
       "description": "waits for tax waiver confirmation of Charles V, court contacts, exchange of presents, stays with the Nuremberg delegation, Sunday, route and places of overnight stays uncertain",
       "kind": "event-kind-travel",
       "startDate": "1520-10-28",
@@ -7020,8 +6911,8 @@
       "label": { "default": "Kupferstich" },
       "description": "The video illustrates the making of an engraving, the most demanding graphic technique in Dürer's time, which Dürer introduced to Nuremberg after his journeyman travels. He created more than 100 engravings during his career. ",
       "attribution": "https://www.youtube.com/watch?v=qwesPhquWsE",
-      "url": "https://www.youtube-nocookie.com/embed/qwesPhquWsE",
-      "kind": "embed"
+      "url": "https://www.youtube.com/watch?v=qwesPhquWsE",
+      "kind": "video"
     },
     {
       "id": "duerer-m-040",
@@ -7052,8 +6943,8 @@
       "label": { "default": "Book of Proportions" },
       "description": "Dürer had worked on the \"Book of Proportions\" for almost 25 years. It describes different methods how to calculate human proportions - male and female of different contitutions and even children. One chapter is dedicated to movements, another passage to distortions. ",
       "attribution": "https://books.google.de/books?id=SpX3BoSucz0C",
-      "url": "https://books.google.de/books?id=SpX3BoSucz0C",
-      "kind": "link"
+      "url": "https://books.googleusercontent.com/books/content?req=AKW5QacMsPlzkhSCOohiXYeGljWguMgUQZpwSe9jD-AwX2dY7j4q8PfiYB4m-J-mvsYJpatZ3-Jt4fsCZCAr6gcAHgo8XQBnTUMNt41l5rsg236daxIa9HqNBkAEk1oCCB_F_p0JSetKf7xs-kEVhTq-Qbn_wXgRDnmYyENLKcPb6eOAGx0Bl8OXNIKKcW3JtNG2tTvp5CGcdn6GZGCaZWldzk6J7MFZVTFAIRyRQU9JVsHd9EG09heBzto7hdDbfN9ero7r8UITPVO7i1XxfoE6k1EHShuXtPleOELjtFzm9VrzH7cn7fY",
+      "kind": "document"
     },
     {
       "id": "duerer-m-044",
@@ -7070,7 +6961,7 @@
       },
       "attribution": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
       "url": "https://nbn-resolving.org/urn:nbn:de:bvb:22-dtl-0000001897",
-      "kind": "link"
+      "kind": "document"
     }
   ],
   "biographies": [
@@ -7153,9 +7044,6 @@
       { "id": "group-type-museum", "label": { "default": "museum" } },
       { "id": "group-type-cemitery", "label": { "default": "cemitery" } }
     ],
-    "occupation": [
-      { "id": "occupation-bildhauer", "label": { "default": "Bildhauer" } }
-    ],
     "place-type": [
       { "id": "place-type-city", "label": { "default": "city" } },
       { "id": "place-type-state", "label": { "default": "state" } }
@@ -7207,6 +7095,10 @@
       { "id": "role-is_gravesite", "label": { "default": "is gravesite" } },
       { "id": "role-was_hosting", "label": { "default": "was hosting" } },
       {
+        "id": "role-is_historical_event",
+        "label": { "default": "is historical event" }
+      },
+      {
         "id": "role-provided_support",
         "label": { "default": "provided support" }
       },
@@ -7225,7 +7117,25 @@
       }
     ]
   },
-  "unmappedEntries": [],
+  "unmappedEntries": [
+    {
+      "id": "duerer-pr-006",
+      "label": "Konrat Meit",
+      "gender": "male",
+      "occupations": "Bildhauer",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 7,
+      "error": "validation error for entity in row: 7 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    }
+  ],
   "collections": {
     "all": {
       "label": "Albrecht Dürer",
@@ -7346,7 +7256,6 @@
         "duerer-pr-003",
         "duerer-pr-004",
         "duerer-pr-005",
-        "duerer-pr-006",
         "duerer-pr-007",
         "duerer-pr-008",
         "duerer-pr-009",
@@ -7596,8 +7505,6 @@
         "duerer-macro-ev-016",
         "duerer-macro-ev-017",
         "duerer-macro-ev-018",
-        "duerer-macro-ev-019",
-        "duerer-macro-ev-020",
         "duerer-macro-ev-021",
         "duerer-macro-ev-022",
         "duerer-macro-ev-023",
@@ -7972,8 +7879,8 @@
         "duerer-cho-ev-080"
       ]
     },
-    "event-dürer-macro": {
-      "label": "Albrecht Dürer Makro Biographie",
+    "event-dürer-macro-english": {
+      "label": "event-dürer-macro-english",
       "entities": [
         "duerer-pr-001",
         "duerer-pl-001",
@@ -7995,14 +7902,11 @@
         "duerer-pl-008",
         "duerer-ob-007",
         "duerer-ob-004",
-        "duerer-ob-005",
-        "duerer-ob-006",
         "duerer-ob-009",
         "duerer-pl-009",
         "duerer-ob-010",
         "duerer-pl-010",
         "duerer-pr-007",
-        "duerer-pl-011",
         "duerer-pl-012",
         "duerer-pr-006",
         "duerer-pl-013",
@@ -8034,8 +7938,6 @@
         "duerer-macro-ev-016",
         "duerer-macro-ev-017",
         "duerer-macro-ev-018",
-        "duerer-macro-ev-019",
-        "duerer-macro-ev-020",
         "duerer-macro-ev-021",
         "duerer-macro-ev-022",
         "duerer-macro-ev-023",
@@ -8149,6 +8051,7 @@
         "duerer-pl-098",
         "duerer-pl-011",
         "duerer-pr-007",
+        "duerer-he-001",
         "duerer-pl-100",
         "duerer-pl-101",
         "duerer-pl-102",
@@ -8368,8 +8271,8 @@
   },
   "tags": [
     {
-      "label": "dürer",
-      "description": "The entire Dürer data set.",
+      "label": "duerer",
+      "description": "The entire duerer data set.",
       "entities": [
         "duerer-ob-001",
         "duerer-ob-002",
@@ -8487,7 +8390,6 @@
         "duerer-pr-003",
         "duerer-pr-004",
         "duerer-pr-005",
-        "duerer-pr-006",
         "duerer-pr-007",
         "duerer-pr-008",
         "duerer-pr-009",
@@ -8737,8 +8639,6 @@
         "duerer-macro-ev-016",
         "duerer-macro-ev-017",
         "duerer-macro-ev-018",
-        "duerer-macro-ev-019",
-        "duerer-macro-ev-020",
         "duerer-macro-ev-021",
         "duerer-macro-ev-022",
         "duerer-macro-ev-023",
@@ -8917,548 +8817,7 @@
         "duerer-nl-EID155",
         "duerer-nl-EID156"
       ]
-    },
-    {
-      "label": "macro-biography",
-      "description": "Macro-Biography of Albrecht Dürer.",
-      "entities": [],
-      "events": [
-        "duerer-macro-ev-001",
-        "duerer-macro-ev-002",
-        "duerer-macro-ev-003",
-        "duerer-macro-ev-004",
-        "duerer-macro-ev-005",
-        "duerer-macro-ev-006",
-        "duerer-macro-ev-007",
-        "duerer-macro-ev-008",
-        "duerer-macro-ev-009",
-        "duerer-macro-ev-010",
-        "duerer-macro-ev-011",
-        "duerer-macro-ev-012",
-        "duerer-macro-ev-013",
-        "duerer-macro-ev-014",
-        "duerer-macro-ev-015",
-        "duerer-macro-ev-016",
-        "duerer-macro-ev-017",
-        "duerer-macro-ev-018",
-        "duerer-macro-ev-019",
-        "duerer-macro-ev-020",
-        "duerer-macro-ev-021",
-        "duerer-macro-ev-022",
-        "duerer-macro-ev-023",
-        "duerer-macro-ev-024",
-        "duerer-macro-ev-025",
-        "duerer-macro-ev-026",
-        "duerer-macro-ev-027",
-        "duerer-macro-ev-028",
-        "duerer-macro-ev-029",
-        "duerer-macro-ev-030",
-        "duerer-macro-ev-031",
-        "duerer-macro-ev-032",
-        "duerer-macro-ev-033",
-        "duerer-macro-ev-034",
-        "duerer-macro-ev-035",
-        "duerer-macro-ev-036",
-        "duerer-macro-ev-037",
-        "duerer-macro-ev-038",
-        "duerer-macro-ev-039",
-        "duerer-macro-ev-040"
-      ]
-    },
-    {
-      "label": "netherlands-journey",
-      "description": "Dürer's Journey to The Netherlands (1520 - 1521).",
-      "entities": [],
-      "events": [
-        "duerer-cho-ev-001",
-        "duerer-cho-ev-002",
-        "duerer-cho-ev-003",
-        "duerer-cho-ev-004",
-        "duerer-cho-ev-005",
-        "duerer-cho-ev-006",
-        "duerer-cho-ev-007",
-        "duerer-cho-ev-008",
-        "duerer-cho-ev-009",
-        "duerer-cho-ev-010",
-        "duerer-cho-ev-011",
-        "duerer-cho-ev-012",
-        "duerer-cho-ev-013",
-        "duerer-cho-ev-014",
-        "duerer-cho-ev-015",
-        "duerer-cho-ev-016",
-        "duerer-cho-ev-017",
-        "duerer-cho-ev-018",
-        "duerer-cho-ev-019",
-        "duerer-cho-ev-020",
-        "duerer-cho-ev-021",
-        "duerer-cho-ev-022",
-        "duerer-cho-ev-023",
-        "duerer-cho-ev-024",
-        "duerer-cho-ev-025",
-        "duerer-cho-ev-026",
-        "duerer-cho-ev-027",
-        "duerer-cho-ev-028",
-        "duerer-cho-ev-029",
-        "duerer-cho-ev-030",
-        "duerer-cho-ev-031",
-        "duerer-cho-ev-032",
-        "duerer-cho-ev-033",
-        "duerer-cho-ev-034",
-        "duerer-cho-ev-035",
-        "duerer-cho-ev-036",
-        "duerer-cho-ev-037",
-        "duerer-cho-ev-038",
-        "duerer-cho-ev-039",
-        "duerer-cho-ev-040",
-        "duerer-cho-ev-041",
-        "duerer-cho-ev-042",
-        "duerer-cho-ev-043",
-        "duerer-cho-ev-044",
-        "duerer-cho-ev-045",
-        "duerer-cho-ev-046",
-        "duerer-cho-ev-047",
-        "duerer-cho-ev-048",
-        "duerer-cho-ev-049",
-        "duerer-cho-ev-050",
-        "duerer-cho-ev-051",
-        "duerer-cho-ev-052",
-        "duerer-cho-ev-053",
-        "duerer-cho-ev-054",
-        "duerer-cho-ev-055",
-        "duerer-cho-ev-056",
-        "duerer-cho-ev-057",
-        "duerer-cho-ev-058",
-        "duerer-cho-ev-059",
-        "duerer-cho-ev-060",
-        "duerer-cho-ev-061",
-        "duerer-cho-ev-062",
-        "duerer-cho-ev-063",
-        "duerer-cho-ev-064",
-        "duerer-cho-ev-065",
-        "duerer-cho-ev-066",
-        "duerer-cho-ev-067",
-        "duerer-cho-ev-068",
-        "duerer-cho-ev-069",
-        "duerer-cho-ev-070",
-        "duerer-cho-ev-071",
-        "duerer-cho-ev-072",
-        "duerer-cho-ev-073",
-        "duerer-cho-ev-074",
-        "duerer-cho-ev-075",
-        "duerer-cho-ev-076",
-        "duerer-cho-ev-077",
-        "duerer-cho-ev-078",
-        "duerer-cho-ev-079",
-        "duerer-cho-ev-080",
-        "duerer-nl-EID001",
-        "duerer-nl-EID002",
-        "duerer-nl-EID003",
-        "duerer-nl-EID004",
-        "duerer-nl-EID005",
-        "duerer-nl-EID006",
-        "duerer-nl-EID007",
-        "duerer-nl-EID008",
-        "duerer-nl-EID009",
-        "duerer-nl-EID010",
-        "duerer-nl-EID011",
-        "duerer-nl-EID012",
-        "duerer-nl-EID013",
-        "duerer-nl-EID014",
-        "duerer-nl-EID015",
-        "duerer-nl-EID016",
-        "duerer-nl-EID017",
-        "duerer-nl-EID018",
-        "duerer-nl-EID019",
-        "duerer-nl-EID020",
-        "duerer-nl-EID021",
-        "duerer-nl-EID022",
-        "duerer-nl-EID023",
-        "duerer-nl-EID024",
-        "duerer-nl-EID025",
-        "duerer-nl-EID026",
-        "duerer-nl-EID027",
-        "duerer-nl-EID028",
-        "duerer-nl-EID029",
-        "duerer-nl-EID030",
-        "duerer-nl-EID031",
-        "duerer-nl-EID032",
-        "duerer-nl-EID033",
-        "duerer-nl-EID034",
-        "duerer-nl-EID035",
-        "duerer-nl-EID036",
-        "duerer-nl-EID037",
-        "duerer-nl-EID038",
-        "duerer-nl-EID039",
-        "duerer-nl-EID040",
-        "duerer-nl-EID041",
-        "duerer-nl-EID042",
-        "duerer-nl-EID043",
-        "duerer-nl-EID044",
-        "duerer-nl-EID045",
-        "duerer-nl-EID046",
-        "duerer-nl-EID047",
-        "duerer-nl-EID048",
-        "duerer-nl-EID049",
-        "duerer-nl-EID050",
-        "duerer-nl-EID051",
-        "duerer-nl-EID052",
-        "duerer-nl-EID053",
-        "duerer-nl-EID054",
-        "duerer-nl-EID055",
-        "duerer-nl-EID056",
-        "duerer-nl-EID057",
-        "duerer-nl-EID058",
-        "duerer-nl-EID059",
-        "duerer-nl-EID060",
-        "duerer-nl-EID061",
-        "duerer-nl-EID062",
-        "duerer-nl-EID063",
-        "duerer-nl-EID064",
-        "duerer-nl-EID065",
-        "duerer-nl-EID066",
-        "duerer-nl-EID067",
-        "duerer-nl-EID068",
-        "duerer-nl-EID069",
-        "duerer-nl-EID070",
-        "duerer-nl-EID071",
-        "duerer-nl-EID072",
-        "duerer-nl-EID073",
-        "duerer-nl-EID074",
-        "duerer-nl-EID075",
-        "duerer-nl-EID076",
-        "duerer-nl-EID077",
-        "duerer-nl-EID078",
-        "duerer-nl-EID079",
-        "duerer-nl-EID080",
-        "duerer-nl-EID081",
-        "duerer-nl-EID082",
-        "duerer-nl-EID083",
-        "duerer-nl-EID084",
-        "duerer-nl-EID085",
-        "duerer-nl-EID086",
-        "duerer-nl-EID087",
-        "duerer-nl-EID088",
-        "duerer-nl-EID089",
-        "duerer-nl-EID090",
-        "duerer-nl-EID091",
-        "duerer-nl-EID092",
-        "duerer-nl-EID093",
-        "duerer-nl-EID094",
-        "duerer-nl-EID095",
-        "duerer-nl-EID096",
-        "duerer-nl-EID097",
-        "duerer-nl-EID098",
-        "duerer-nl-EID099",
-        "duerer-nl-EID100",
-        "duerer-nl-EID101",
-        "duerer-nl-EID102",
-        "duerer-nl-EID103",
-        "duerer-nl-EID103a",
-        "duerer-nl-EID104",
-        "duerer-nl-EID105",
-        "duerer-nl-EID106",
-        "duerer-nl-EID107",
-        "duerer-nl-EID108",
-        "duerer-nl-EID109",
-        "duerer-nl-EID110",
-        "duerer-nl-EID111",
-        "duerer-nl-EID112",
-        "duerer-nl-EID113",
-        "duerer-nl-EID114",
-        "duerer-nl-EID115",
-        "duerer-nl-EID116",
-        "duerer-nl-EID117",
-        "duerer-nl-EID118",
-        "duerer-nl-EID119",
-        "duerer-nl-EID120",
-        "duerer-nl-EID121",
-        "duerer-nl-EID122",
-        "duerer-nl-EID123",
-        "duerer-nl-EID124",
-        "duerer-nl-EID125",
-        "duerer-nl-EID126",
-        "duerer-nl-EID127",
-        "duerer-nl-EID128",
-        "duerer-nl-EID129",
-        "duerer-nl-EID130",
-        "duerer-nl-EID131",
-        "duerer-nl-EID132",
-        "duerer-nl-EID133",
-        "duerer-nl-EID134",
-        "duerer-nl-EID135",
-        "duerer-nl-EID136",
-        "duerer-nl-EID137",
-        "duerer-nl-EID138",
-        "duerer-nl-EID139",
-        "duerer-nl-EID140",
-        "duerer-nl-EID141",
-        "duerer-nl-EID142",
-        "duerer-nl-EID143",
-        "duerer-nl-EID144",
-        "duerer-nl-EID145",
-        "duerer-nl-EID146",
-        "duerer-nl-EID147",
-        "duerer-nl-EID148",
-        "duerer-nl-EID149",
-        "duerer-nl-EID150",
-        "duerer-nl-EID151",
-        "duerer-nl-EID152",
-        "duerer-nl-EID153",
-        "duerer-nl-EID154",
-        "duerer-nl-EID155",
-        "duerer-nl-EID156"
-      ]
-    },
-    {
-      "label": "nl-journey-objects",
-      "description": "Art works produced by Dürer during the Netherlands journey (a selection).",
-      "entities": [],
-      "events": [
-        "duerer-cho-ev-001",
-        "duerer-cho-ev-002",
-        "duerer-cho-ev-003",
-        "duerer-cho-ev-004",
-        "duerer-cho-ev-005",
-        "duerer-cho-ev-006",
-        "duerer-cho-ev-007",
-        "duerer-cho-ev-008",
-        "duerer-cho-ev-009",
-        "duerer-cho-ev-010",
-        "duerer-cho-ev-011",
-        "duerer-cho-ev-012",
-        "duerer-cho-ev-013",
-        "duerer-cho-ev-014",
-        "duerer-cho-ev-015",
-        "duerer-cho-ev-016",
-        "duerer-cho-ev-017",
-        "duerer-cho-ev-018",
-        "duerer-cho-ev-019",
-        "duerer-cho-ev-020",
-        "duerer-cho-ev-021",
-        "duerer-cho-ev-022",
-        "duerer-cho-ev-023",
-        "duerer-cho-ev-024",
-        "duerer-cho-ev-025",
-        "duerer-cho-ev-026",
-        "duerer-cho-ev-027",
-        "duerer-cho-ev-028",
-        "duerer-cho-ev-029",
-        "duerer-cho-ev-030",
-        "duerer-cho-ev-031",
-        "duerer-cho-ev-032",
-        "duerer-cho-ev-033",
-        "duerer-cho-ev-034",
-        "duerer-cho-ev-035",
-        "duerer-cho-ev-036",
-        "duerer-cho-ev-037",
-        "duerer-cho-ev-038",
-        "duerer-cho-ev-039",
-        "duerer-cho-ev-040",
-        "duerer-cho-ev-041",
-        "duerer-cho-ev-042",
-        "duerer-cho-ev-043",
-        "duerer-cho-ev-044",
-        "duerer-cho-ev-045",
-        "duerer-cho-ev-046",
-        "duerer-cho-ev-047",
-        "duerer-cho-ev-048",
-        "duerer-cho-ev-049",
-        "duerer-cho-ev-050",
-        "duerer-cho-ev-051",
-        "duerer-cho-ev-052",
-        "duerer-cho-ev-053",
-        "duerer-cho-ev-054",
-        "duerer-cho-ev-055",
-        "duerer-cho-ev-056",
-        "duerer-cho-ev-057",
-        "duerer-cho-ev-058",
-        "duerer-cho-ev-059",
-        "duerer-cho-ev-060",
-        "duerer-cho-ev-061",
-        "duerer-cho-ev-062",
-        "duerer-cho-ev-063",
-        "duerer-cho-ev-064",
-        "duerer-cho-ev-065",
-        "duerer-cho-ev-066",
-        "duerer-cho-ev-067",
-        "duerer-cho-ev-068",
-        "duerer-cho-ev-069",
-        "duerer-cho-ev-070",
-        "duerer-cho-ev-071",
-        "duerer-cho-ev-072",
-        "duerer-cho-ev-073",
-        "duerer-cho-ev-074",
-        "duerer-cho-ev-075",
-        "duerer-cho-ev-076",
-        "duerer-cho-ev-077",
-        "duerer-cho-ev-078",
-        "duerer-cho-ev-079",
-        "duerer-cho-ev-080"
-      ]
-    },
-    {
-      "label": "nl-journey-travels",
-      "description": "Known stops of Dürer during the Netherlands journey.",
-      "entities": [],
-      "events": [
-        "duerer-nl-EID001",
-        "duerer-nl-EID002",
-        "duerer-nl-EID003",
-        "duerer-nl-EID004",
-        "duerer-nl-EID005",
-        "duerer-nl-EID006",
-        "duerer-nl-EID007",
-        "duerer-nl-EID008",
-        "duerer-nl-EID009",
-        "duerer-nl-EID010",
-        "duerer-nl-EID011",
-        "duerer-nl-EID012",
-        "duerer-nl-EID013",
-        "duerer-nl-EID014",
-        "duerer-nl-EID015",
-        "duerer-nl-EID016",
-        "duerer-nl-EID017",
-        "duerer-nl-EID018",
-        "duerer-nl-EID019",
-        "duerer-nl-EID020",
-        "duerer-nl-EID021",
-        "duerer-nl-EID022",
-        "duerer-nl-EID023",
-        "duerer-nl-EID024",
-        "duerer-nl-EID025",
-        "duerer-nl-EID026",
-        "duerer-nl-EID027",
-        "duerer-nl-EID028",
-        "duerer-nl-EID029",
-        "duerer-nl-EID030",
-        "duerer-nl-EID031",
-        "duerer-nl-EID032",
-        "duerer-nl-EID033",
-        "duerer-nl-EID034",
-        "duerer-nl-EID035",
-        "duerer-nl-EID036",
-        "duerer-nl-EID037",
-        "duerer-nl-EID038",
-        "duerer-nl-EID039",
-        "duerer-nl-EID040",
-        "duerer-nl-EID041",
-        "duerer-nl-EID042",
-        "duerer-nl-EID043",
-        "duerer-nl-EID044",
-        "duerer-nl-EID045",
-        "duerer-nl-EID046",
-        "duerer-nl-EID047",
-        "duerer-nl-EID048",
-        "duerer-nl-EID049",
-        "duerer-nl-EID050",
-        "duerer-nl-EID051",
-        "duerer-nl-EID052",
-        "duerer-nl-EID053",
-        "duerer-nl-EID054",
-        "duerer-nl-EID055",
-        "duerer-nl-EID056",
-        "duerer-nl-EID057",
-        "duerer-nl-EID058",
-        "duerer-nl-EID059",
-        "duerer-nl-EID060",
-        "duerer-nl-EID061",
-        "duerer-nl-EID062",
-        "duerer-nl-EID063",
-        "duerer-nl-EID064",
-        "duerer-nl-EID065",
-        "duerer-nl-EID066",
-        "duerer-nl-EID067",
-        "duerer-nl-EID068",
-        "duerer-nl-EID069",
-        "duerer-nl-EID070",
-        "duerer-nl-EID071",
-        "duerer-nl-EID072",
-        "duerer-nl-EID073",
-        "duerer-nl-EID074",
-        "duerer-nl-EID075",
-        "duerer-nl-EID076",
-        "duerer-nl-EID077",
-        "duerer-nl-EID078",
-        "duerer-nl-EID079",
-        "duerer-nl-EID080",
-        "duerer-nl-EID081",
-        "duerer-nl-EID082",
-        "duerer-nl-EID083",
-        "duerer-nl-EID084",
-        "duerer-nl-EID085",
-        "duerer-nl-EID086",
-        "duerer-nl-EID087",
-        "duerer-nl-EID088",
-        "duerer-nl-EID089",
-        "duerer-nl-EID090",
-        "duerer-nl-EID091",
-        "duerer-nl-EID092",
-        "duerer-nl-EID093",
-        "duerer-nl-EID094",
-        "duerer-nl-EID095",
-        "duerer-nl-EID096",
-        "duerer-nl-EID097",
-        "duerer-nl-EID098",
-        "duerer-nl-EID099",
-        "duerer-nl-EID100",
-        "duerer-nl-EID101",
-        "duerer-nl-EID102",
-        "duerer-nl-EID103",
-        "duerer-nl-EID103a",
-        "duerer-nl-EID104",
-        "duerer-nl-EID105",
-        "duerer-nl-EID106",
-        "duerer-nl-EID107",
-        "duerer-nl-EID108",
-        "duerer-nl-EID109",
-        "duerer-nl-EID110",
-        "duerer-nl-EID111",
-        "duerer-nl-EID112",
-        "duerer-nl-EID113",
-        "duerer-nl-EID114",
-        "duerer-nl-EID115",
-        "duerer-nl-EID116",
-        "duerer-nl-EID117",
-        "duerer-nl-EID118",
-        "duerer-nl-EID119",
-        "duerer-nl-EID120",
-        "duerer-nl-EID121",
-        "duerer-nl-EID122",
-        "duerer-nl-EID123",
-        "duerer-nl-EID124",
-        "duerer-nl-EID125",
-        "duerer-nl-EID126",
-        "duerer-nl-EID127",
-        "duerer-nl-EID128",
-        "duerer-nl-EID129",
-        "duerer-nl-EID130",
-        "duerer-nl-EID131",
-        "duerer-nl-EID132",
-        "duerer-nl-EID133",
-        "duerer-nl-EID134",
-        "duerer-nl-EID135",
-        "duerer-nl-EID136",
-        "duerer-nl-EID137",
-        "duerer-nl-EID138",
-        "duerer-nl-EID139",
-        "duerer-nl-EID140",
-        "duerer-nl-EID141",
-        "duerer-nl-EID142",
-        "duerer-nl-EID143",
-        "duerer-nl-EID144",
-        "duerer-nl-EID145",
-        "duerer-nl-EID146",
-        "duerer-nl-EID147",
-        "duerer-nl-EID148",
-        "duerer-nl-EID149",
-        "duerer-nl-EID150",
-        "duerer-nl-EID151",
-        "duerer-nl-EID152",
-        "duerer-nl-EID153",
-        "duerer-nl-EID154",
-        "duerer-nl-EID155",
-        "duerer-nl-EID156"
-      ]
     }
-  ]
+  ],
+  "upstreamEntityIds": []
 }

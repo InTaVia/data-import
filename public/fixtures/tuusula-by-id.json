@@ -1,0 +1,312 @@
+{
+  "entities": {
+    "tuusula-ob-001": {
+      "id": "tuusula-ob-001",
+      "label": { "default": "Ahola" },
+      "alternativeLabels": [{ "default": "Ahola" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-001", "role": "role-took_place_at" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    },
+    "tuusula-ob-002": {
+      "id": "tuusula-ob-002",
+      "label": { "default": "Suviranta" },
+      "alternativeLabels": [{ "default": "Suviranta" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-002", "role": "role-object_created" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    },
+    "tuusula-ob-003": {
+      "id": "tuusula-ob-003",
+      "label": { "default": "Halosenniemi" },
+      "alternativeLabels": [{ "default": "Halosenniemi" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-003", "role": "role-object_created" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    },
+    "tuusula-ob-004": {
+      "id": "tuusula-ob-004",
+      "label": { "default": "Erkkola" },
+      "alternativeLabels": [{ "default": "Erkkola" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-004", "role": "role-object_created" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    },
+    "tuusula-ob-005": {
+      "id": "tuusula-ob-005",
+      "label": { "default": "Ainola" },
+      "alternativeLabels": [{ "default": "Ainola" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-005", "role": "role-object_created" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    },
+    "tuusula-pl-001": {
+      "id": "tuusula-pl-001",
+      "label": { "default": "Ahola" },
+      "alternativeLabels": [{ "default": "Suviranta" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-001", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-house", "label": { "default": "house" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.0811626566852, 60.4560803401777]
+      }
+    },
+    "tuusula-pl-002": {
+      "id": "tuusula-pl-002",
+      "label": { "default": "Suviranta" },
+      "alternativeLabels": [{ "default": "Suviranta" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-002", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-house", "label": { "default": "house" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.0794898713421, 60.452074950108]
+      }
+    },
+    "tuusula-pl-003": {
+      "id": "tuusula-pl-003",
+      "label": { "default": "Halosenniemi" },
+      "alternativeLabels": [{ "default": "Halosenniemi" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-003", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-house", "label": { "default": "house" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.054762832646, 60.43557072203]
+      }
+    },
+    "tuusula-pl-004": {
+      "id": "tuusula-pl-004",
+      "label": { "default": "Erkkola" },
+      "alternativeLabels": [{ "default": "Erkkola" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-004", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-house", "label": { "default": "house" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.0484294233533, 60.423411548832]
+      }
+    },
+    "tuusula-pl-005": {
+      "id": "tuusula-pl-005",
+      "label": { "default": "Ainola" },
+      "alternativeLabels": [{ "default": "Ainola" }],
+      "relations": [
+        { "event": "tuusula-cho-ev-005", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-house", "label": { "default": "house" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.0858842575387, 60.4550218702345]
+      }
+    }
+  },
+  "events": {
+    "tuusula-cho-ev-001": {
+      "id": "tuusula-cho-ev-001",
+      "label": {
+        "default": "Juhani Aho and Venny Soldan-Brofeldt moved to the villa rented from the Järvenpää Manor"
+      },
+      "kind": "event-kind-event_(bioc)",
+      "startDate": "1897-01-01",
+      "endDate": "1897-01-01",
+      "relations": [
+        { "entity": "tuusula-ob-001", "role": "role-took_place_at" },
+        { "entity": "tuusula-pl-001", "role": "role-took_place_at" },
+        {
+          "entity": "aHR0cDovL3d3dy5pbnRhdmlhLmV1L3Byb3ZpZGVkX3BlcnNvbi81ODk2",
+          "role": "role-moving"
+        }
+      ]
+    },
+    "tuusula-cho-ev-002": {
+      "id": "tuusula-cho-ev-002",
+      "label": {
+        "default": "Suviranta was built on the shore of Lake Tuusulanjärvi"
+      },
+      "kind": "event-kind-creation",
+      "startDate": "1901-01-01",
+      "endDate": "1901-01-01",
+      "relations": [
+        { "entity": "tuusula-ob-002", "role": "role-object_created" },
+        { "entity": "tuusula-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    "tuusula-cho-ev-003": {
+      "id": "tuusula-cho-ev-003",
+      "label": {
+        "default": "Halosenniemi was built by Pekka and Maija Halonen"
+      },
+      "kind": "event-kind-creation",
+      "startDate": "1902-01-01",
+      "endDate": "1902-01-01",
+      "relations": [
+        { "entity": "tuusula-ob-003", "role": "role-object_created" },
+        { "entity": "tuusula-pl-003", "role": "role-took_place_at" }
+      ]
+    },
+    "tuusula-cho-ev-004": {
+      "id": "tuusula-cho-ev-004",
+      "label": {
+        "default": "Erkkola designed by Pekka and Antti Halonen, was completed."
+      },
+      "kind": "event-kind-creation",
+      "startDate": "1902-01-01",
+      "endDate": "1902-01-01",
+      "relations": [
+        { "entity": "tuusula-ob-004", "role": "role-object_created" },
+        { "entity": "tuusula-pl-004", "role": "role-took_place_at" }
+      ]
+    },
+    "tuusula-cho-ev-005": {
+      "id": "tuusula-cho-ev-005",
+      "label": {
+        "default": "The Sibelius family's Ainola was built on Kielomäki."
+      },
+      "kind": "event-kind-creation",
+      "startDate": "1904-01-01",
+      "endDate": "1904-01-01",
+      "relations": [
+        { "entity": "tuusula-ob-005", "role": "role-object_created" },
+        { "entity": "tuusula-pl-005", "role": "role-took_place_at" }
+      ]
+    }
+  },
+  "media": [],
+  "biographies": [],
+  "vocabularies": {
+    "cultural-heritage-object-type": [
+      {
+        "id": "cultural-heritage-object-type-building",
+        "label": { "default": "building" }
+      }
+    ],
+    "place-type": [
+      { "id": "place-type-house", "label": { "default": "house" } }
+    ],
+    "event-kind": [
+      {
+        "id": "event-kind-event_(bioc)",
+        "label": { "default": "Event (bioc)" }
+      },
+      { "id": "event-kind-creation", "label": { "default": "creation" } }
+    ],
+    "role": [
+      { "id": "role-took_place_at", "label": { "default": "took place at" } },
+      { "id": "role-took_place_at", "label": { "default": "took_place_at" } },
+      { "id": "role-moving", "label": { "default": "moving" } },
+      { "id": "role-object_created", "label": { "default": "object_created" } }
+    ]
+  },
+  "unmappedEntries": [],
+  "collections": {
+    "all": {
+      "label": "tuusula",
+      "entities": [
+        "tuusula-ob-001",
+        "tuusula-ob-002",
+        "tuusula-ob-003",
+        "tuusula-ob-004",
+        "tuusula-ob-005",
+        "tuusula-pl-001",
+        "tuusula-pl-002",
+        "tuusula-pl-003",
+        "tuusula-pl-004",
+        "tuusula-pl-005"
+      ],
+      "events": [
+        "tuusula-cho-ev-001",
+        "tuusula-cho-ev-002",
+        "tuusula-cho-ev-003",
+        "tuusula-cho-ev-004",
+        "tuusula-cho-ev-005"
+      ]
+    },
+    "event-cho": {
+      "label": "event-cho",
+      "entities": [
+        "tuusula-ob-001",
+        "tuusula-pl-001",
+        "aHR0cDovL3d3dy5pbnRhdmlhLmV1L3Byb3ZpZGVkX3BlcnNvbi81ODk2",
+        "tuusula-ob-002",
+        "tuusula-pl-002",
+        "tuusula-ob-003",
+        "tuusula-pl-003",
+        "tuusula-ob-004",
+        "tuusula-pl-004",
+        "tuusula-ob-005",
+        "tuusula-pl-005"
+      ],
+      "events": [
+        "tuusula-cho-ev-001",
+        "tuusula-cho-ev-002",
+        "tuusula-cho-ev-003",
+        "tuusula-cho-ev-004",
+        "tuusula-cho-ev-005"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "label": "tuusula",
+      "description": "The entire tuusula data set.",
+      "entities": [
+        "tuusula-ob-001",
+        "tuusula-ob-002",
+        "tuusula-ob-003",
+        "tuusula-ob-004",
+        "tuusula-ob-005",
+        "tuusula-pl-001",
+        "tuusula-pl-002",
+        "tuusula-pl-003",
+        "tuusula-pl-004",
+        "tuusula-pl-005"
+      ],
+      "events": [
+        "tuusula-cho-ev-001",
+        "tuusula-cho-ev-002",
+        "tuusula-cho-ev-003",
+        "tuusula-cho-ev-004",
+        "tuusula-cho-ev-005"
+      ]
+    }
+  ],
+  "upstreamEntityIds": [
+    "aHR0cDovL3d3dy5pbnRhdmlhLmV1L3Byb3ZpZGVkX3BlcnNvbi81ODk2"
+  ]
+}

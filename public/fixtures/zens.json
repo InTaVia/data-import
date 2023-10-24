@@ -1,0 +1,4644 @@
+{
+  "entities": [
+    {
+      "id": "zens-ob-001",
+      "label": { "default": "Radiertes Tagebuch" },
+      "description": "Von 1977 bis 2019 führte Herwig Zens ein radiertes Tagebuch, von dem er u.a. auch Monumentaldrucke anfertigte, die als die längsten Radierungen der Welt gelten.",
+      "media": ["zens-m-011"],
+      "relations": [
+        { "event": "zens-ev-013", "role": "role-project" },
+        { "event": "zens-ev-035", "role": "role-related_art_project" },
+        { "event": "zens-ev-048", "role": "role-related_art_project" },
+        { "event": "zens-ev-056", "role": "role-exhibition" },
+        { "event": "zens-ev-056", "role": "role-related_art_project" },
+        { "event": "zens-ev-065", "role": "role-related_art_project" },
+        { "event": "zens-ev-069", "role": "role-related_art_project" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-divers",
+        "label": { "default": "Divers" }
+      }
+    },
+    {
+      "id": "zens-ob-002",
+      "label": { "default": "\"Pinturas Negras\" von Francisco de Goya" },
+      "description": "Goya schuf die \"Pinturas Negras\" von etwa 1819 bis 1823.",
+      "media": ["zens-m-012"],
+      "relations": [
+        { "event": "zens-ev-006", "role": "role-inspiring_work" },
+        { "event": "zens-ev-010", "role": "role-inspiring_work" },
+        { "event": "zens-ev-022", "role": "role-inspiring_work" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-werkserie",
+        "label": { "default": "Werkserie" }
+      }
+    },
+    {
+      "id": "zens-ob-003",
+      "label": { "default": "Palermo-Zyklus (1983-1990)" },
+      "description": "Von 1983-1990 Arbeit am \"Palermo-Zyklus\" (Mappe mit Aquatinta-Radierungen)",
+      "media": ["zens-m-013"],
+      "relations": [{ "event": "zens-ev-021", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus;_grafiken",
+        "label": { "default": "Zyklus; Grafiken" }
+      }
+    },
+    {
+      "id": "zens-ob-004",
+      "label": { "default": "Goya-Projektionen" },
+      "description": "An seinen Goya-Projektionen oder auch Goya-Paraphrasen arbeitete Zens bis 1993. ",
+      "media": ["zens-m-032"],
+      "relations": [
+        { "event": "zens-ev-022", "role": "role-project" },
+        { "event": "zens-ev-033", "role": "role-related_art_project" },
+        { "event": "zens-ev-057", "role": "role-related_art_project" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-005",
+      "label": { "default": "Projekt „Basler Totentanz“ von Zens" },
+      "description": "Zens arbeitete 1990 am Projekt «Basler Totentanz».",
+      "media": ["zens-m-038"],
+      "relations": [
+        { "event": "zens-ev-027", "role": "role-related_art_project" },
+        { "event": "zens-ev-028", "role": "role-project" },
+        { "event": "zens-ev-068", "role": "role-related_art_project" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-006",
+      "label": { "default": "Basler Totentanz" },
+      "description": "Spätmittelalterliches Wandbild, 1439/40 (1805 zerstört), das sich an der Innenseite des Laienfriedhofes des Predigerklosters in Basel befand.",
+      "media": ["zens-m-036"],
+      "relations": [
+        { "event": "zens-ev-027", "role": "role-inspiring_work" },
+        { "event": "zens-ev-028", "role": "role-inspiring_work" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-wandgemälde",
+        "label": { "default": "Wandgemälde" }
+      }
+    },
+    {
+      "id": "zens-ob-007",
+      "label": { "default": "Projekt Möbelbilder-Bildermöbel" },
+      "description": "tbd",
+      "media": ["zens-m-014"],
+      "relations": [{ "event": "zens-ev-032", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-008",
+      "label": { "default": "Graphikzyklus Schuberts Winterreise" },
+      "description": "tbd",
+      "media": ["zens-m-015"],
+      "relations": [{ "event": "zens-ev-037", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-009",
+      "label": { "default": "Schuberts Winterreise" },
+      "description": "Franz Schubert komponierte den Liederzyklus \"Winterreise\" (op. 89, D 911, 24 Lieder für Singstimme und Klavier) im Herbst 1827. ",
+      "media": ["zens-m-040"],
+      "relations": [{ "event": "zens-ev-037", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-musikkomposition",
+        "label": { "default": "Musikkomposition" }
+      }
+    },
+    {
+      "id": "zens-ob-010",
+      "label": { "default": "Jakob Hiebelers frühbarocker Totentanz" },
+      "description": "tbd",
+      "media": ["zens-m-018"],
+      "relations": [{ "event": "zens-ev-038", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-wandgemälde",
+        "label": { "default": "Wandgemälde" }
+      }
+    },
+    {
+      "id": "zens-ob-011",
+      "label": { "default": "Zens Gemälde nach Hiebelers Totentanz" },
+      "description": "Herwig Zens schuf einen 20-teiligen Gemäldezyklus 1998 als '\"Paraphrase\" auf den Hiebeler-Totentanz in Füssen. Darüber hinaus inspirierte der Totentanz von Hiebeler ihn auch zu Zeichnungen, Radierungen und weiteren Gemälden.",
+      "media": ["zens-m-019"],
+      "relations": [
+        { "event": "zens-ev-038", "role": "role-project_inspiration" },
+        { "event": "zens-ev-044", "role": "role-inspiring_work" },
+        { "event": "zens-ev-044", "role": "role-related_art_project" }
+      ],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-012",
+      "label": {
+        "default": "Bilderfries in der Aufbewahrungshalle in Brunn am Gebirge"
+      },
+      "description": "tbd",
+      "media": ["zens-m-020"],
+      "relations": [{ "event": "zens-ev-040", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-013",
+      "label": { "default": "Herwig Zens. Das druckgraphische Werk 1965-2007" },
+      "description": "Publikation \"Herwig Zens. Das druckgraphische Werk 1965-2007\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "media": ["zens-m-060"],
+      "relations": [{ "event": "zens-ev-062", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-014",
+      "label": { "default": "Strukturen der Kunst" },
+      "description": "Buch von Herwig Zens \"Strukturen der Kunst\" gemeinsam mit Walter Stach (Wien: Jugend und Volk)",
+      "media": ["zens-m-025"],
+      "relations": [{ "event": "zens-ev-015", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-015",
+      "label": { "default": "KunstBEgriffe" },
+      "description": "Buch von Herwig Zens \"KunstBEgriffe\", Klett-Verlag, Stuttgart 1994, mit Walter Stach",
+      "media": ["zens-m-026"],
+      "relations": [{ "event": "zens-ev-034", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-016",
+      "label": { "default": "Bildnerische Erziehung 1" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 1\". Jugend und Volk, Wien 1981, mit Walter Stach",
+      "media": ["zens-m-030"],
+      "relations": [{ "event": "zens-ev-016", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-017",
+      "label": { "default": "SHB-Unterrichtsfilm \"Die Radierung\"" },
+      "description": "SHB-Unterrichtsfilm \"Die Radierung\", Kamera: Herbert Link, Regie: Robert Polak",
+      "relations": [{ "event": "zens-ev-017", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-018",
+      "label": { "default": "Bildnerische Erziehung 2" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 2\". Jugend und Volk, Wien 1982, mit Walter Stach",
+      "media": ["zens-m-031"],
+      "relations": [{ "event": "zens-ev-020", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-019",
+      "label": {
+        "default": "Bilderzyklus zu Hugo Distlers „Totentanz op.12“ von Herwig Zens"
+      },
+      "description": "Bilderzyklus zu Hugo Distlers „Totentanz op.12“ von Herwig Zens",
+      "media": ["zens-m-033"],
+      "relations": [{ "event": "zens-ev-049", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-020",
+      "label": { "default": "Hugo Distlers „Totentanz op.12“" },
+      "description": "Von 1935–1941 komponierte Hugo Distler die Motettensammlung \"Geistliche Chormusik op. 12\", Nr. 2 ist ein dem Totensonntag zugeordneter \"Totentanz\".",
+      "relations": [{ "event": "zens-ev-049", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-musikkomposition",
+        "label": { "default": "Musikkomposition" }
+      }
+    },
+    {
+      "id": "zens-ob-021",
+      "label": { "default": "Film \"Zens Vienna\"" },
+      "description": "Film \"Zens Vienna\" (1986, 25 Minuten, Idee: Herwig Zens, Kamera: Herbert Link, Buch und Regie: Robert Polak)",
+      "relations": [{ "event": "zens-ev-024", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-022",
+      "label": { "default": "Film \"Nun muss ich tanzen\"" },
+      "description": "Film \"Nun muss ich tanzen\" Der Basler Totentanz (1990, 23 Minuten, Buch: Herwig Zens, Robert Polak, Herbert Link, Musik: Inge Link, Tanz: Sylvia Both, Bertl Gstettner, Kamera und Aufnahmeleitung: Herbert Link, Regie: Robert Polak)",
+      "relations": [{ "event": "zens-ev-027", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-023",
+      "label": { "default": "Kreuzweg-Stationen v. H. Zens" },
+      "description": "Für das Österreichische Hospiz in Jerusalem kreierte Zens vierzehn \"Kreuzwegstationen\"",
+      "media": ["zens-m-039"],
+      "relations": [{ "event": "zens-ev-030", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-024",
+      "label": { "default": "Film \"Goya − Projektion\"" },
+      "description": "Film \"Goya − Projektion\" (1993, 33 Minuten, Ton: Rudi Fink, Kamera: Peter Roehsler, Schnitt: Michael Hudecek, Regie: Peter Kasperak)",
+      "relations": [{ "event": "zens-ev-033", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-025",
+      "label": { "default": "Film \"Eine spanische Passion\"" },
+      "description": "Film \"Eine spanische Passion\" (1999, 27 Minuten, Idee: Herwig Zens, Buch: Gustav W. Trampitsch, Kamera: Peter Kasperak, Regie: Gustav W. Trampitsch)",
+      "relations": [{ "event": "zens-ev-039", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-026",
+      "label": { "default": "Publikation \"Also sprach Zens [...]\"" },
+      "description": "Herwig Zens' Publikation \"Also sprach Zens. Kritische Anmerkungen zu Kunst und Kunstpädagogik\" (Wien: Österreichischer Kunst und Kulturverlag)",
+      "media": ["zens-m-042"],
+      "relations": [{ "event": "zens-ev-041", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-027",
+      "label": { "default": "Wandgestaltung \"Die Entstehung der Musik\"" },
+      "description": "Wandgestaltung \"Die Entstehung der Musik\" im Vivaldi-Saal in der Universität für Musik und darstellende Kunst Wien",
+      "relations": [{ "event": "zens-ev-042", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-wandgemälde",
+        "label": { "default": "Wandgemälde" }
+      }
+    },
+    {
+      "id": "zens-ob-028",
+      "label": { "default": "Kunstaktion \"step by step\"" },
+      "description": "Kunstaktion \"step by step\" mit Studierenden in Los Angeles",
+      "relations": [{ "event": "zens-ev-043", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-divers",
+        "label": { "default": "Divers" }
+      }
+    },
+    {
+      "id": "zens-ob-029",
+      "label": { "default": "Mappe \"Füssener Totentanz\"" },
+      "description": "Zur Uraufführung der gleichnamigen Komposition von Rainer Bischof im Rahmen der Bregenzer Festspiele 2000 legte der Künstler die Mappe \"Füssener Totentanz\" vor, die ein Faksimile der Partitur und vierzig überarbeitete Blätter als Farblithografien enthält.",
+      "media": ["zens-m-019"],
+      "relations": [{ "event": "zens-ev-044", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-grafikmappe",
+        "label": { "default": "Grafikmappe" }
+      }
+    },
+    {
+      "id": "zens-ob-030",
+      "label": { "default": "Theseus-Zyklus " },
+      "description": "Theseus-Zyklus wird im Jahr 2000 im Kunsthistorischen Museum Wien präsentiert.",
+      "media": ["zens-m-044"],
+      "relations": [{ "event": "zens-ev-045", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-031",
+      "label": { "default": "\"Schwoaze Weiber“" },
+      "description": "\"Schwoaze Weiber“ wurden u.a. im Schlosspark Ambras, Innsbruck gezeigt",
+      "media": ["zens-m-046", "zens-m-047"],
+      "relations": [{ "event": "zens-ev-050", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-032",
+      "label": { "default": "\"Neuer Lübecker Totentanz\" " },
+      "description": "Zens schafft den \"Neuen Lübecker Totentanz\" für die Marienkirche in Lübeck",
+      "media": ["zens-m-048", "zens-m-049"],
+      "relations": [{ "event": "zens-ev-052", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-033",
+      "label": { "default": "Lübecker Totentanz 1463 " },
+      "description": "Der Lübecker Totentanz war ein mittelalterliches Monumentalgemälde in der Marienkirche in Lübeck von 1463",
+      "media": ["zens-m-050"],
+      "relations": [{ "event": "zens-ev-052", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-wandgemälde",
+        "label": { "default": "Wandgemälde" }
+      }
+    },
+    {
+      "id": "zens-ob-034",
+      "label": {
+        "default": "Musikvideoprojekt \"Gesang der Geister über den Wassern\" (Schoenberg-Chor)"
+      },
+      "description": "Musikvideoprojekt \"Gesang der Geister über den Wassern\" gemeinsam mit dem Arnold-Schönberg-Chor (Ltg:: Erwin Ortner)",
+      "media": ["zens-m-052"],
+      "relations": [{ "event": "zens-ev-054", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-035",
+      "label": { "default": "Gedicht \"Gesang der Geister über den Wassern\"" },
+      "description": "Johann Wolfgang von Goethe verfasst das sechsstrophige Gedicht \"Gesang der Geister über den Wassern\" 1779.",
+      "media": ["zens-m-054"],
+      "relations": [{ "event": "zens-ev-054", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-gedicht",
+        "label": { "default": "Gedicht" }
+      }
+    },
+    {
+      "id": "zens-ob-036",
+      "label": {
+        "default": "Schuberts Vertonung von \"Gesang der Geister über den Wassern\""
+      },
+      "description": "Johann Wolfgang Goethes Gedicht \"Gesang der Geister über den Wassern\" aus dem Jahr 1779 inspirierte Franz Schubert zu einer Vertonung für Männerchor (D 714 [op. post. 167]).",
+      "media": ["zens-m-056"],
+      "relations": [{ "event": "zens-ev-054", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-musikkomposition",
+        "label": { "default": "Musikkomposition" }
+      }
+    },
+    {
+      "id": "zens-ob-037",
+      "label": { "default": "Publikation der Briefe Goyas an Zapater" },
+      "description": "Publikation \"Francisco de Goya: Briefe an Martín Zapater\", hrsg. u. eingel. von Herwig Zens. (Enth. außerd. Herwig Zens’ Goya-Reflexionen.) Verlag Bibliothek der Provinz, Weitra 2004",
+      "media": ["zens-m-057"],
+      "relations": [{ "event": "zens-ev-055", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-038",
+      "label": {
+        "default": "Bildzyklus für die österr. Botschaft in Washington"
+      },
+      "description": "Zyklus von Bildern für den Festsaal der österreichischen Botschaft in Washington",
+      "media": ["zens-m-059"],
+      "relations": [{ "event": "zens-ev-058", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      }
+    },
+    {
+      "id": "zens-ob-039",
+      "label": {
+        "default": "Film “Goya – Last und Leidenschaft” (G. W. Trampitsch)"
+      },
+      "description": "Filmprojekt: “Goya – Last und Leidenschaft” (Gustav W. Trampitsch)",
+      "relations": [{ "event": "zens-ev-059", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-040",
+      "label": { "default": "Filmprojekt Haimatochare (2007, Herbert Link)" },
+      "description": "Haimatochare von E.T.A. Hoffmann, Ausschnitte einer Lesung vom 2. Juni 2006\nin der Bibliothek der Akademie der bildenden Künste, Wien, 2007, 17 Minuten",
+      "relations": [{ "event": "zens-ev-063", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-041",
+      "label": {
+        "default": "Filmprojekt Der Tod auf Urlaub (2007, Herbert Link)"
+      },
+      "description": "Filmprojekt Der Tod auf Urlaub (2007, Herbert Link)",
+      "media": ["zens-m-067"],
+      "relations": [{ "event": "zens-ev-064", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film_",
+        "label": { "default": "Film " }
+      }
+    },
+    {
+      "id": "zens-ob-042",
+      "label": {
+        "default": "Filmprojekt Zens – Das radierte Tagebuch (2007, Herbert Link)"
+      },
+      "description": "Filmprojekt Zens – Das radierte Tagebuch (2007, Herbert Link)",
+      "relations": [{ "event": "zens-ev-065", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film_",
+        "label": { "default": "Film " }
+      }
+    },
+    {
+      "id": "zens-ob-043",
+      "label": { "default": "Publikation \"Herwig Zens. Zeichnungen\"" },
+      "description": "Publikation \"Herwig Zens. Zeichnungen\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "media": ["zens-m-069"],
+      "relations": [{ "event": "zens-ev-067", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-044",
+      "label": { "default": "Film \"Zens rafft die Zeit\"" },
+      "description": "Filmprojekt Zens rafft die Zeit – Zusammenführung von zwei unabhängigen Ereignissen (2009, Herbert Link)",
+      "relations": [{ "event": "zens-ev-068", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film_",
+        "label": { "default": "Film " }
+      }
+    },
+    {
+      "id": "zens-ob-045",
+      "label": { "default": "König Ubu" },
+      "description": "König Ubu (frz. \"Ubu roi\") ist ein Theaterstück des französischen Schriftstellers Alfred Jarry (1873–1907). ",
+      "media": ["zens-m-070"],
+      "relations": [{ "event": "zens-ev-069", "role": "role-inspiring_work" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-theaterstück",
+        "label": { "default": "Theaterstück" }
+      }
+    },
+    {
+      "id": "zens-ob-046",
+      "label": { "default": "Film \"König Ubu und sein Gefolge\"" },
+      "description": "Filmprojekt König Ubu und sein Gefolge – aus dem radierten Tagebuch von Herwig Zens (2010, Herbert Link)",
+      "relations": [{ "event": "zens-ev-069", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-047",
+      "label": { "default": "Grafiken in \"Es tanzt der Tod sein' Reigen\"" },
+      "description": "Grafiken von Herwig Zens in der Publikation \"Es tanzt der Tod sein' Reigen\" von Hans Dieter Mairinger (Linz: Wagner Verlag)",
+      "media": ["zens-m-072"],
+      "relations": [{ "event": "zens-ev-071", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-grafiken",
+        "label": { "default": "Grafiken" }
+      }
+    },
+    {
+      "id": "zens-ob-048",
+      "label": {
+        "default": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\""
+      },
+      "description": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\", hrsg. v. Johannes Scheer (Wien: Kunstverlag Wolfrum)",
+      "media": ["zens-m-076"],
+      "relations": [{ "event": "zens-ev-073", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-049",
+      "label": { "default": "Publikation \"Herwig Zens. Mythos\"" },
+      "description": "Publikation \"Herwig Zens. Mythos\", hrsg. v. Johann Winkler, Linz: Wagner Verlag",
+      "media": ["zens-m-077"],
+      "relations": [{ "event": "zens-ev-074", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-050",
+      "label": { "default": "Film \"ZENS – Der Versuch\" " },
+      "description": "Filmprojekt ZENS – Der Versuch (2013) Herbert Link anlässlich des 70. Geburtstags v. H. Zens",
+      "media": ["zens-m-066", "zens-m-078"],
+      "relations": [{ "event": "zens-ev-075", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-ob-051",
+      "label": {
+        "default": "Illustrationen in \"Flüchtiges Wild: 50 Gedichte\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation Stefan Nebehay: Flüchtiges Wild: 50 Gedichte. Verlag Bibliothek der Provinz, Weitra 2014",
+      "media": ["zens-m-079", "zens-m-080"],
+      "relations": [{ "event": "zens-ev-076", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-052",
+      "label": {
+        "default": "Illustrationen in \"Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation Gernot Friedel: Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen. Mandelbaum-Verlag, Wien 2015",
+      "media": ["zens-m-082"],
+      "relations": [{ "event": "zens-ev-077", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-053",
+      "label": {
+        "default": "Illustrationen in \"Tod oder Leben - Kleiner Totentanz\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation \"Tod oder Leben - Kleiner Totentanz\" von Hans Dieter Mairinger (Wagner Verlag, Linz 2015)",
+      "relations": [{ "event": "zens-ev-078", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-054",
+      "label": { "default": "Publikation „Zens Reisen“" },
+      "description": "Publikation „Zens Reisen“. Hrsg. von Johannes Scheer. Wagner Verlag, Linz 2016",
+      "media": ["zens-m-084"],
+      "relations": [{ "event": "zens-ev-079", "role": "role-book_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-055",
+      "label": { "default": "Radierungen in der Reihe \"Der Totentanz\" " },
+      "description": "2 Originalradierungen von Herwig Zens in der Publikation \"DER TOTENTANZ\", Heft 7 der Reihe Totentänze mit der Ballade \"Der Totentanz\" von Johann Wolfgang von Goethe. Hrsg. von Jost Braun, Edition Lebensretter, Berlin & Leipzig 2018",
+      "media": ["zens-m-086", "zens-m-087"],
+      "relations": [{ "event": "zens-ev-081", "role": "role-project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      }
+    },
+    {
+      "id": "zens-ob-056",
+      "label": { "default": "Film \"Beethoven im Rucksack\"" },
+      "description": "Film \"Beethoven im Rucksack\" (1984, 25 Minuten, Idee: Herwig Zens, Kamera: Herbert Link, Buch und Regie: Robert Polak)",
+      "relations": [{ "event": "zens-ev-023", "role": "role-film_project" }],
+      "kind": "cultural-heritage-object",
+      "type": {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      }
+    },
+    {
+      "id": "zens-gr-001",
+      "label": { "default": "Akademie der bildenden Künste in Wien" },
+      "relations": [
+        { "event": "zens-ev-002", "role": "role-school" },
+        { "event": "zens-ev-005", "role": "role-institution" },
+        { "event": "zens-ev-007", "role": "role-institution" },
+        { "event": "zens-ev-010", "role": "role-institution" },
+        { "event": "zens-ev-012", "role": "role-institution" },
+        { "event": "zens-ev-026", "role": "role-institution" },
+        { "event": "zens-ev-060", "role": "role-profession" }
+      ],
+      "kind": "group",
+      "type": { "id": "group-type-academy", "label": { "default": "academy" } }
+    },
+    {
+      "id": "zens-gr-002",
+      "label": { "default": "„Schule des Sehens“ von Oskar Kokoschka" },
+      "relations": [{ "event": "zens-ev-003", "role": "role-school" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-art_school",
+        "label": { "default": "art school" }
+      }
+    },
+    {
+      "id": "zens-gr-003",
+      "label": {
+        "default": "Land Niederösterreich - Amt der niederösterreichischen Landesregierung"
+      },
+      "relations": [
+        { "event": "zens-ev-011", "role": "role-institution" },
+        { "event": "zens-ev-053", "role": "role-institution" }
+      ],
+      "kind": "group",
+      "type": {
+        "id": "group-type-state_government",
+        "label": { "default": "state government" }
+      }
+    },
+    {
+      "id": "zens-gr-004",
+      "label": { "default": "Land Tirol - Amt der Tiroler Landesregierung" },
+      "relations": [{ "event": "zens-ev-018", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-state_government",
+        "label": { "default": "state government" }
+      }
+    },
+    {
+      "id": "zens-gr-005",
+      "label": { "default": "Land Wien - Amt der Wiener Landesregierung" },
+      "relations": [
+        { "event": "zens-ev-019", "role": "role-institution" },
+        { "event": "zens-ev-046", "role": "role-institution" },
+        { "event": "zens-ev-072", "role": "role-institution" }
+      ],
+      "kind": "group",
+      "type": {
+        "id": "group-type-state_government",
+        "label": { "default": "state government" }
+      }
+    },
+    {
+      "id": "zens-gr-006",
+      "label": { "default": "Theodor Körner Fonds" },
+      "relations": [{ "event": "zens-ev-025", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-funding_body",
+        "label": { "default": "funding body" }
+      }
+    },
+    {
+      "id": "zens-gr-007",
+      "label": { "default": "Bilbao Fine Arts Museum" },
+      "relations": [
+        { "event": "zens-ev-022", "role": "role-institution" },
+        { "event": "zens-ev-031", "role": "role-institution" }
+      ],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-008",
+      "label": { "default": "Museo del Prado" },
+      "relations": [{ "event": "zens-ev-006", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-009",
+      "label": { "default": "Historisches Museum Basel" },
+      "relations": [{ "event": "zens-ev-028", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-010",
+      "label": { "default": "Art Basel" },
+      "relations": [{ "event": "zens-ev-029", "role": "role-exhibition" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-art_fair",
+        "label": { "default": "art fair" }
+      }
+    },
+    {
+      "id": "zens-gr-011",
+      "label": { "default": "Österreichisches Hospiz in Jerusalem" },
+      "relations": [{ "event": "zens-ev-030", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-pilgrims_hostel",
+        "label": { "default": "pilgrims hostel" }
+      }
+    },
+    {
+      "id": "zens-gr-012",
+      "label": { "default": "Art multiple, Düsseldorf" },
+      "relations": [{ "event": "zens-ev-035", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-art_fair",
+        "label": { "default": "art fair" }
+      }
+    },
+    {
+      "id": "zens-gr-013",
+      "label": { "default": "SAGA in Paris" },
+      "relations": [{ "event": "zens-ev-036", "role": "role-exhibition" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-art_fair",
+        "label": { "default": "art fair" }
+      }
+    },
+    {
+      "id": "zens-gr-014",
+      "label": {
+        "default": "Universität für Musik und darstellende Kunst Wien"
+      },
+      "relations": [{ "event": "zens-ev-042", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-university",
+        "label": { "default": "university" }
+      }
+    },
+    {
+      "id": "zens-gr-015",
+      "label": { "default": "Kunsthistorisches Museum Wien" },
+      "relations": [
+        { "event": "zens-ev-045", "role": "role-institution" },
+        { "event": "zens-ev-050", "role": "role-institution" },
+        { "event": "zens-ev-057", "role": "role-institution" }
+      ],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-016",
+      "label": { "default": "Bregenzer Festspiele" },
+      "relations": [{ "event": "zens-ev-044", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-festival",
+        "label": { "default": "festival" }
+      }
+    },
+    {
+      "id": "zens-gr-017",
+      "label": { "default": "Estampa, Madrid" },
+      "relations": [{ "event": "zens-ev-048", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-art_fair",
+        "label": { "default": "art fair" }
+      }
+    },
+    {
+      "id": "zens-gr-018",
+      "label": { "default": "Arnold Schoenberg Chor" },
+      "relations": [{ "event": "zens-ev-054", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-concert_choir",
+        "label": { "default": "concert choir" }
+      }
+    },
+    {
+      "id": "zens-gr-019",
+      "label": { "default": "Graphikzentrum Betanzos (Spanien)" },
+      "relations": [{ "event": "zens-ev-056", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-020",
+      "label": { "default": "Österreichische Botschaft in Washington" },
+      "relations": [{ "event": "zens-ev-058", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-embassy", "label": { "default": "embassy" } }
+    },
+    {
+      "id": "zens-gr-021",
+      "label": { "default": "„Otto Schäfer Bibliothek“, Schweinfurt" },
+      "relations": [{ "event": "zens-ev-061", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-022",
+      "label": { "default": "Landesgalerie NÖ" },
+      "relations": [{ "event": "zens-ev-085", "role": "role-institution" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-gr-023",
+      "label": { "default": "Landessammlungen NÖ" },
+      "relations": [{ "event": "zens-ev-083", "role": "role-institution" }],
+      "kind": "group",
+      "type": {
+        "id": "group-type-landessammlungen",
+        "label": { "default": "Landessammlungen" }
+      }
+    },
+    {
+      "id": "zens-gr-024",
+      "label": { "default": "Museum Frauenbad, Baden" },
+      "relations": [{ "event": "zens-ev-047", "role": "role-exhibition" }],
+      "kind": "group",
+      "type": { "id": "group-type-museum", "label": { "default": "museum" } }
+    },
+    {
+      "id": "zens-pl-001",
+      "label": { "default": "Himberg (near Vienna)" },
+      "relations": [{ "event": "zens-ev-000", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [16.4446941, 48.0827839] }
+    },
+    {
+      "id": "zens-pl-002",
+      "label": { "default": "Wien" },
+      "relations": [
+        { "event": "zens-ev-001a", "role": "role-took_place_at" },
+        { "event": "zens-ev-001b", "role": "role-took_place_at" },
+        { "event": "zens-ev-005", "role": "role-took_place_at" },
+        { "event": "zens-ev-007", "role": "role-took_place_at" },
+        { "event": "zens-ev-008", "role": "role-took_place_at" },
+        { "event": "zens-ev-009", "role": "role-took_place_at" },
+        { "event": "zens-ev-010", "role": "role-took_place_at" },
+        { "event": "zens-ev-011", "role": "role-took_place_at" },
+        { "event": "zens-ev-013", "role": "role-took_place_at" },
+        { "event": "zens-ev-015", "role": "role-took_place_at" },
+        { "event": "zens-ev-016", "role": "role-took_place_at" },
+        { "event": "zens-ev-017", "role": "role-took_place_at" },
+        { "event": "zens-ev-019", "role": "role-took_place_at" },
+        { "event": "zens-ev-020", "role": "role-took_place_at" },
+        { "event": "zens-ev-021", "role": "role-took_place_at" },
+        { "event": "zens-ev-022", "role": "role-took_place_at" },
+        { "event": "zens-ev-023", "role": "role-took_place_at" },
+        { "event": "zens-ev-024", "role": "role-took_place_at" },
+        { "event": "zens-ev-025", "role": "role-took_place_at" },
+        { "event": "zens-ev-032", "role": "role-took_place_at" },
+        { "event": "zens-ev-033", "role": "role-took_place_at" },
+        { "event": "zens-ev-037", "role": "role-took_place_at" },
+        { "event": "zens-ev-039", "role": "role-took_place_at" },
+        { "event": "zens-ev-041", "role": "role-took_place_at" },
+        { "event": "zens-ev-042", "role": "role-took_place_at" },
+        { "event": "zens-ev-045", "role": "role-took_place_at" },
+        { "event": "zens-ev-046", "role": "role-took_place_at" },
+        { "event": "zens-ev-049", "role": "role-took_place_at" },
+        { "event": "zens-ev-054", "role": "role-took_place_at" },
+        { "event": "zens-ev-057", "role": "role-took_place_at" },
+        { "event": "zens-ev-059", "role": "role-took_place_at" },
+        { "event": "zens-ev-060", "role": "role-took_place_at" },
+        { "event": "zens-ev-062", "role": "role-took_place_at" },
+        { "event": "zens-ev-063", "role": "role-took_place_at" },
+        { "event": "zens-ev-064", "role": "role-took_place_at" },
+        { "event": "zens-ev-065", "role": "role-took_place_at" },
+        { "event": "zens-ev-067", "role": "role-took_place_at" },
+        { "event": "zens-ev-068", "role": "role-took_place_at" },
+        { "event": "zens-ev-069", "role": "role-took_place_at" },
+        { "event": "zens-ev-070", "role": "role-took_place_at" },
+        { "event": "zens-ev-072", "role": "role-took_place_at" },
+        { "event": "zens-ev-073", "role": "role-took_place_at" },
+        { "event": "zens-ev-075", "role": "role-took_place_at" },
+        { "event": "zens-ev-077", "role": "role-took_place_at" },
+        { "event": "zens-ev-080", "role": "role-took_place_at" },
+        { "event": "zens-ev-082", "role": "role-took_place_at" },
+        { "event": "zens-ev-084", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [16.3738189, 48.2081743] }
+    },
+    {
+      "id": "zens-pl-003",
+      "label": { "default": "Salzburg" },
+      "relations": [{ "event": "zens-ev-003", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [13.05501, 47.80949] }
+    },
+    {
+      "id": "zens-pl-004",
+      "label": { "default": "Paris" },
+      "relations": [{ "event": "zens-ev-004", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [23.522219, 48.856614] }
+    },
+    {
+      "id": "zens-pl-005",
+      "label": { "default": "Madrid, Prado" },
+      "relations": [
+        { "event": "zens-ev-006", "role": "role-took_place_at" },
+        { "event": "zens-ev-048", "role": "role-took_place_at" },
+        { "event": "zens-ev-051", "role": "role-took_place_at" },
+        { "event": "zens-ev-066", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-place", "label": { "default": "place" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.69211636524493, 40.4139451177188]
+      }
+    },
+    {
+      "id": "zens-pl-006",
+      "label": { "default": "Athos" },
+      "relations": [{ "event": "zens-ev-014", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [24.2152731, 40.2644928] }
+    },
+    {
+      "id": "zens-pl-007",
+      "label": { "default": "Innsbruck" },
+      "relations": [
+        { "event": "zens-ev-018", "role": "role-took_place_at" },
+        { "event": "zens-ev-050", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [11.4041024, 47.2692124] }
+    },
+    {
+      "id": "zens-pl-008",
+      "label": { "default": "Basel" },
+      "relations": [
+        { "event": "zens-ev-027", "role": "role-took_place_at" },
+        { "event": "zens-ev-028", "role": "role-took_place_at" },
+        { "event": "zens-ev-029", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [7.5885761, 47.5595986] }
+    },
+    {
+      "id": "zens-pl-009",
+      "label": { "default": "Jerusalem" },
+      "relations": [{ "event": "zens-ev-030", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [35.21371, 31.768319] }
+    },
+    {
+      "id": "zens-pl-010",
+      "label": { "default": "Bilbao" },
+      "relations": [{ "event": "zens-ev-031", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [-2.9349852, 43.2630126] }
+    },
+    {
+      "id": "zens-pl-011",
+      "label": { "default": "Stuttgart" },
+      "relations": [{ "event": "zens-ev-034", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [9.1829321, 48.7758459] }
+    },
+    {
+      "id": "zens-pl-012",
+      "label": { "default": "Düsseldorf" },
+      "relations": [{ "event": "zens-ev-035", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [6.7734556, 51.2277411] }
+    },
+    {
+      "id": "zens-pl-013",
+      "label": { "default": "Paris" },
+      "relations": [{ "event": "zens-ev-036", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [2.3522219, 48.856614] }
+    },
+    {
+      "id": "zens-pl-014",
+      "label": { "default": "Füssen" },
+      "relations": [{ "event": "zens-ev-038", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [10.7004328, 47.569648] }
+    },
+    {
+      "id": "zens-pl-015",
+      "label": { "default": "Brunn am Gebirge" },
+      "relations": [{ "event": "zens-ev-040", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [16.2853875, 48.108956] }
+    },
+    {
+      "id": "zens-pl-016",
+      "label": { "default": "Los Angeles" },
+      "relations": [{ "event": "zens-ev-043", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [-118.2436849, 34.0522342] }
+    },
+    {
+      "id": "zens-pl-017",
+      "label": { "default": "Bregenz" },
+      "relations": [{ "event": "zens-ev-044", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [9.74231, 47.50075] }
+    },
+    {
+      "id": "zens-pl-018",
+      "label": { "default": "Baden" },
+      "relations": [{ "event": "zens-ev-047", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [9.3501336, 48.6616037] }
+    },
+    {
+      "id": "zens-pl-019",
+      "label": { "default": "Lübeck" },
+      "relations": [{ "event": "zens-ev-052", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [10.6865593, 53.8654673] }
+    },
+    {
+      "id": "zens-pl-020",
+      "label": { "default": "St. Pölten" },
+      "relations": [
+        { "event": "zens-ev-053", "role": "role-took_place_at" },
+        { "event": "zens-ev-083", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [15.63817, 48.20353] }
+    },
+    {
+      "id": "zens-pl-021",
+      "label": { "default": "Weitra" },
+      "relations": [
+        { "event": "zens-ev-055", "role": "role-took_place_at" },
+        { "event": "zens-ev-076", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [14.8973836, 48.7008974] }
+    },
+    {
+      "id": "zens-pl-022",
+      "label": { "default": "Betanzos (Spain)" },
+      "relations": [{ "event": "zens-ev-056", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [-8.2131233, 43.2784298] }
+    },
+    {
+      "id": "zens-pl-023",
+      "label": { "default": "Washington, öst. Botschaft" },
+      "relations": [{ "event": "zens-ev-058", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-place", "label": { "default": "place" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.1043088953512, 39.9656994425921]
+      }
+    },
+    {
+      "id": "zens-pl-024",
+      "label": { "default": "Schweinfurt" },
+      "relations": [{ "event": "zens-ev-061", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [10.2194228, 50.0492047] }
+    },
+    {
+      "id": "zens-pl-025",
+      "label": { "default": "Linz" },
+      "relations": [
+        { "event": "zens-ev-071", "role": "role-took_place_at" },
+        { "event": "zens-ev-074", "role": "role-took_place_at" },
+        { "event": "zens-ev-078", "role": "role-took_place_at" },
+        { "event": "zens-ev-079", "role": "role-took_place_at" }
+      ],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [14.28583, 48.30694] }
+    },
+    {
+      "id": "zens-pl-026",
+      "label": { "default": "Berlin" },
+      "relations": [{ "event": "zens-ev-081", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [13.404954, 52.5200065] }
+    },
+    {
+      "id": "zens-pl-027",
+      "label": { "default": "Krems" },
+      "relations": [{ "event": "zens-ev-085", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [15.60384, 48.40999] }
+    },
+    {
+      "id": "zens-pl-028",
+      "label": { "default": "Cordoba" },
+      "relations": [{ "event": "zens-ev-066", "role": "role-took_place_at" }],
+      "kind": "place",
+      "type": { "id": "place-type-city", "label": { "default": "city" } },
+      "geometry": { "type": "Point", "coordinates": [-4.779568, 37.884507] }
+    },
+    {
+      "id": "zens-pl-029",
+      "label": { "default": "Wien, Akademie der bildenen Künste" },
+      "relations": [],
+      "kind": "place",
+      "type": { "id": "place-type-place", "label": { "default": "place" } },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.3653077841796, 48.2018416188375]
+      }
+    }
+  ],
+  "events": [
+    {
+      "id": "zens-ev-000",
+      "label": { "default": "Geboren in Himberg bei Wien" },
+      "description": "Geboren in Himberg bei Wien (Niederösterreich)",
+      "kind": "event-kind-birth",
+      "startDate": "1943-06-05",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-person_born" },
+        { "entity": "zens-pl-001", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-001a",
+      "label": { "default": "Volksschule Wien" },
+      "description": "Besuch der Volksschule in Wien",
+      "kind": "event-kind-career",
+      "startDate": "1949-09-01",
+      "endDate": "1955-06-30",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-001b",
+      "label": { "default": "Bundesrealgymnasiums Albertgasse" },
+      "description": "Besuch des Bundesrealgymnasiums Albertgasse in Wien",
+      "kind": "event-kind-career",
+      "startDate": "1955-09-01",
+      "endDate": "1961-06-30",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-002",
+      "label": { "default": "Studium an der Akademie der Bildenden Künste" },
+      "description": "Beginn des Studiums der Malerei an der Akademie der bildenden Künste in Wien (bis 1967).",
+      "kind": "event-kind-career",
+      "startDate": "1961-10-01",
+      "endDate": "1967-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-0029", "role": "role-took_place_at" },
+        { "entity": "zens-gr-001", "role": "role-school" }
+      ]
+    },
+    {
+      "id": "zens-ev-003",
+      "label": { "default": "Schule des Sehens bei O. Kokoschka" },
+      "description": "Besuch der „Schule des Sehens“ von Oskar Kokoschka in Salzburg",
+      "kind": "event-kind-career",
+      "startDate": "1962-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-003", "role": "role-took_place_at" },
+        { "entity": "zens-pr-002", "role": "role-teacher" },
+        { "entity": "zens-gr-002", "role": "role-school" }
+      ]
+    },
+    {
+      "id": "zens-ev-004",
+      "label": { "default": "Aufenthalt in Paris" },
+      "description": "Reise nach Paris mit Gerhard Weissenbacher",
+      "kind": "event-kind-movement",
+      "startDate": "1962-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-travelling" },
+        { "entity": "zens-pl-004", "role": "role-took_place_at" },
+        { "entity": "zens-pr-003", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-005",
+      "label": { "default": "Fügerpreis" },
+      "description": "Fügerpreis (Akademie der bildenden Künste)",
+      "kind": "event-kind-honour",
+      "startDate": "1965-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-001", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-006",
+      "label": { "default": "Studium von Goya im Prado" },
+      "description": "Erste Reise nach Spanien, wo er sich mit den „Pinturas Negras“ von Francisco de Goya (Madrid, Prado) auseinandersetzte",
+      "kind": "event-kind-movement",
+      "startDate": "1965-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-005", "role": "role-took_place_at" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" },
+        { "entity": "zens-gr-008", "role": "role-institution" },
+        { "entity": "zens-ob-002", "role": "role-inspiring_work" }
+      ]
+    },
+    {
+      "id": "zens-ev-007",
+      "label": { "default": "Lehramtprüfung Bildnerische Erziehung" },
+      "description": "Ablegen der Lehramtsprüfung für Bildnerische Erziehung, Geschichte und Werkerziehung",
+      "kind": "event-kind-career",
+      "startDate": "1966-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-001", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-008",
+      "label": { "default": "Ausstellungstätigkeitsbeginn" },
+      "description": "Beginn der Ausstellungstätigkeit",
+      "kind": "event-kind-career",
+      "startDate": "1966-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-profession" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-009",
+      "label": { "default": "Lehrtätigkeit Wien" },
+      "description": "Lehrtätigkeit an verschiedenen Wiener Gymnasien bis 1987",
+      "kind": "event-kind-career",
+      "startDate": "1967-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-profession" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-010",
+      "label": { "default": "Diplom Malerei bei Franz Elsner" },
+      "description": "Diplom der Malerei bei Franz Elsner mit einer Arbeit über die \"Pinturas Negras\" des spanischen Künstlers Francisco José de Goya y Lucientes",
+      "kind": "event-kind-career",
+      "startDate": "1967-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-student" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-005", "role": "role-teacher" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" },
+        { "entity": "zens-gr-001", "role": "role-institution" },
+        { "entity": "zens-ob-002", "role": "role-inspiring_work" }
+      ]
+    },
+    {
+      "id": "zens-ev-011",
+      "label": { "default": "Förderpreis Land Niederösterreich" },
+      "description": "Förderungspreis des Landes Niederösterreich",
+      "kind": "event-kind-honour",
+      "startDate": "1972-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-003", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-012",
+      "label": { "default": "Lehrtätigkeit Akademie der bildenden Künste" },
+      "description": "Beginn der Tätigkeit als Lehrbeauftragter an der Akademie der bildenden Künste",
+      "kind": "event-kind-career",
+      "startDate": "1975-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-profession" },
+        { "entity": "zens-pl-0029", "role": "role-took_place_at" },
+        { "entity": "zens-gr-001", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-013",
+      "label": { "default": "Beginn \"Radiertes Tagebuch\"" },
+      "description": "Beginn des \"Radierten Tagebuches\", für das er seine Erlebnisse auf 5x40 cm großen Kupferplatten festhält",
+      "kind": "event-kind-production",
+      "startDate": "1977-01-01",
+      "relations": [
+        { "entity": "zens-ob-001", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-014",
+      "label": { "default": "Aufenthalt in Athos, Griechenland" },
+      "description": "Krankheitsbedingter längerer Aufenthalt in Griechenland",
+      "kind": "event-kind-movement",
+      "startDate": "1977-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-travelling" },
+        { "entity": "zens-pl-006", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-015",
+      "label": { "default": "Buch \"Strukturen der Kunst\"" },
+      "description": "Buch von Herwig Zens \"Strukturen der Kunst\" gemeinsam mit Walter Stach (Wien: Jugend und Volk)",
+      "kind": "event-kind-production",
+      "startDate": "1981-01-01",
+      "relations": [
+        { "entity": "zens-ob-014", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-006", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-016",
+      "label": { "default": "Buch \"Bildnerische Erziehung 1\"" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 1\". Jugend und Volk, Wien 1981, mit Walter Stach",
+      "kind": "event-kind-production",
+      "startDate": "1981-01-01",
+      "relations": [
+        { "entity": "zens-ob-016", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-006", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-017",
+      "label": { "default": "SHB-Unterrichtsfilm \"Die Radierung\"" },
+      "description": "SHB-Unterrichtsfilm \"Die Radierung\", Kamera: Herbert Link, Regie: Robert Polak",
+      "kind": "event-kind-production",
+      "startDate": "1982-01-01",
+      "relations": [
+        { "entity": "zens-ob-017", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-008", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-018",
+      "label": { "default": "Ankaufspreis Land Tirol" },
+      "description": "Ankaufspreis des Landes Tirol beim Innsbrucker Grafikwettbewerb",
+      "kind": "event-kind-honour",
+      "startDate": "1982-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-007", "role": "role-took_place_at" },
+        { "entity": "zens-gr-004", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-019",
+      "label": { "default": "Förderpreis Land Wien" },
+      "description": "Förderungspreis des Landes Wien",
+      "kind": "event-kind-honour",
+      "startDate": "1982-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-005", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-020",
+      "label": { "default": "Buch \"Bildnerische Erziehung 2\"" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 2\". Jugend und Volk, Wien 1982, mit Walter Stach",
+      "kind": "event-kind-production",
+      "startDate": "1982-01-01",
+      "relations": [
+        { "entity": "zens-ob-018", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-006", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-021",
+      "label": { "default": "Arbeit am \"Palermo-Zyklus\" " },
+      "description": "Von 1983-1990 Arbeit am \"Palermo-Zyklus\" (Mappe mit Aquatinta-Radierungen)",
+      "kind": "event-kind-production",
+      "startDate": "1983-01-01",
+      "endDate": "1990-01-01",
+      "relations": [
+        { "entity": "zens-ob-003", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-022",
+      "label": { "default": "Goya-Projektionen" },
+      "description": "Goya-Projektionen (bis 1993, Abschluss im Museum Moderner Kunst, Bilbao)",
+      "kind": "event-kind-production",
+      "startDate": "1984-01-01",
+      "relations": [
+        { "entity": "zens-ob-004", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-007", "role": "role-institution" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-002", "role": "role-inspiring_work" }
+      ]
+    },
+    {
+      "id": "zens-ev-023",
+      "label": { "default": "Film \"Beethoven im Rucksack\"" },
+      "description": "Film \"Beethoven im Rucksack\" (1984, 25 Minuten, Idee: Herwig Zens, Kamera: Herbert Link, Buch und Regie: Robert Polak)",
+      "kind": "event-kind-production",
+      "startDate": "1984-01-01",
+      "relations": [
+        { "entity": "zens-ob-056", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-008", "role": "role-project_partner" },
+        { "entity": "zens-pr-011", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-024",
+      "label": { "default": "Film \"Zens Vienna\"" },
+      "description": "Film \"Zens Vienna\" (1986, 25 Minuten, Idee: Herwig Zens, Kamera: Herbert Link, Buch und Regie: Robert Polak)",
+      "kind": "event-kind-production",
+      "startDate": "1986-01-01",
+      "relations": [
+        { "entity": "zens-ob-021", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-008", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-025",
+      "label": { "default": "Theodor-Körner-Preis" },
+      "description": "Theodor-Körner-Preis",
+      "kind": "event-kind-honour",
+      "startDate": "1986-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-006", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-026",
+      "label": { "default": "Professur für künstlerisches Lehramt / AkBild" },
+      "description": "Professur für künstlerische Lehramtsausbildung an der Akademie der bildenden Künste (bis 2006, krankheitsbedingte Emeritierung) und Vorstand des Institutes für das künstlerische Lehramt (ebenfalls bis 2006)",
+      "kind": "event-kind-career",
+      "startDate": "1987-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-profession" },
+        { "entity": "zens-pl-0029", "role": "role-took_place_at" },
+        { "entity": "zens-gr-001", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-027",
+      "label": { "default": "Film \"Nun muss ich tanzen\" " },
+      "description": "Film \"Nun muss ich tanzen\" Der Basler Totentanz (1990, 23 Minuten, Buch: Herwig Zens, Robert Polak, Herbert Link, Musik: Inge Link, Tanz: Sylvia Both, Bertl Gstettner, Kamera und Aufnahmeleitung: Herbert Link, Regie: Robert Polak)",
+      "kind": "event-kind-production",
+      "startDate": "1990-01-01",
+      "relations": [
+        { "entity": "zens-ob-022", "role": "role-project" },
+        { "entity": "zens-pl-008", "role": "role-took_place_at" },
+        { "entity": "zens-ob-005", "role": "role-related_art_project" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-008", "role": "role-project_partner" },
+        { "entity": "zens-ob-006", "role": "role-inspiring_work" }
+      ]
+    },
+    {
+      "id": "zens-ev-028",
+      "label": { "default": "Projekt \"Basler Totentanz\"" },
+      "description": "Projekt „Basler Totentanz“ mit dem Historischen Museum Basel",
+      "kind": "event-kind-production",
+      "startDate": "1990-01-01",
+      "relations": [
+        { "entity": "zens-ob-005", "role": "role-project" },
+        { "entity": "zens-pl-008", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-006", "role": "role-inspiring_work" },
+        { "entity": "zens-gr-009", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-029",
+      "label": { "default": "Personale auf Basler Kunstmesse" },
+      "description": "Personale auf der Art Basel",
+      "kind": "event-kind-career",
+      "startDate": "1990-01-01",
+      "relations": [
+        { "entity": "zens-gr-010", "role": "role-exhibition" },
+        { "entity": "zens-pl-008", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-030",
+      "label": { "default": "\"Kreuzwegstationen\", Jerusalem" },
+      "description": "Für das Österreichische Hospiz in Jerusalem kreierte Zens vierzehn \"Kreuzwegstationen\"",
+      "kind": "event-kind-production",
+      "startDate": "1993-01-01",
+      "relations": [
+        { "entity": "zens-ob-023", "role": "role-project" },
+        { "entity": "zens-pl-009", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-011", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-031",
+      "label": { "default": "\"Goya-Projektionen\" in Bilbao" },
+      "description": "Abschluss der Aktion \"Goya-Projektionen\" (seit 1984) im Museum moderner Kunst, Bilbao",
+      "kind": "event-kind-production",
+      "startDate": "1993-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-010", "role": "role-took_place_at" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" },
+        { "entity": "zens-gr-007", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-032",
+      "label": { "default": "Projekt Möbelbilder-Bildermöbel" },
+      "description": "Projekt Möbelbilder-Bildermöbel mit Publikation (Verlag Salzburg : Verlag Galerie Welz,, 1995)",
+      "kind": "event-kind-production",
+      "startDate": "1993-01-01",
+      "relations": [
+        { "entity": "zens-ob-007", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-033",
+      "label": { "default": "Film \"Goya-Projektion\"" },
+      "description": "Film \"Goya − Projektion\" (1993, 33 Minuten, Ton: Rudi Fink, Kamera: Peter Roehsler, Schnitt: Michael Hudecek, Regie: Peter Kasperak)",
+      "kind": "event-kind-production",
+      "startDate": "1993-01-01",
+      "relations": [
+        { "entity": "zens-ob-024", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-012", "role": "role-projekt_partner" },
+        { "entity": "zens-ob-004", "role": "role-related_art_project" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-034",
+      "label": { "default": "Buch \"KunstBEgriffe\"" },
+      "description": "Buch von Herwig Zens \"KunstBEgriffe\", Klett-Verlag, Stuttgart 1994, mit Walter Stach",
+      "kind": "event-kind-production",
+      "startDate": "1994-01-01",
+      "relations": [
+        { "entity": "zens-ob-015", "role": "role-book_project" },
+        { "entity": "zens-pl-011", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-006", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-035",
+      "label": { "default": "Radiertes Tagebuch bei der Art Multiple " },
+      "description": "Präsentation des \"Radierten Tagebuchs\" erstmals als \"Längste Radierung der Welt\" bei der Art multiple, Düsseldorf (fast 300 Seiten, Höhe von 76 cm und Länge von 20 Metern)",
+      "kind": "event-kind-career",
+      "startDate": "1995-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-012", "role": "role-took_place_at" },
+        { "entity": "zens-ob-001", "role": "role-related_art_project" },
+        { "entity": "zens-gr-012", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-036",
+      "label": { "default": "Personale auf der SAGA in Paris" },
+      "description": "Personale auf der SAGA in Paris",
+      "kind": "event-kind-career",
+      "startDate": "1995-01-01",
+      "relations": [
+        { "entity": "zens-gr-013", "role": "role-exhibition" },
+        { "entity": "zens-pl-013", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-037",
+      "label": { "default": "Graphikzyklus \"Schuberts Winterreise\"" },
+      "description": "Graphikzyklus Schuberts Winterreise",
+      "kind": "event-kind-production",
+      "startDate": "1997-01-01",
+      "relations": [
+        { "entity": "zens-ob-008", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-009", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-009", "role": "role-inspiring_work" }
+      ]
+    },
+    {
+      "id": "zens-ev-038",
+      "label": { "default": "Totentanzgemälde Annakapelle" },
+      "description": "Im Oktober 1998 entstanden 20 Gemälde nach Jakob Hiebelers frühbarockem Totentanz in der Annakapelle in Füssen.",
+      "kind": "event-kind-production",
+      "startDate": "1998-01-01",
+      "relations": [
+        { "entity": "zens-ob-010", "role": "role-project" },
+        { "entity": "zens-pl-014", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-011", "role": "role-project_inspiration" },
+        { "entity": "zens-pr-010", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-039",
+      "label": { "default": "Film \"Eine spanische Passion\"" },
+      "description": "Film \"Eine spanische Passion\" (1999, 27 Minuten, Idee: Herwig Zens, Buch: Gustav W. Trampitsch, Kamera: Peter Kasperak, Regie: Gustav W. Trampitsch)",
+      "kind": "event-kind-production",
+      "startDate": "1999-01-01",
+      "relations": [
+        { "entity": "zens-ob-025", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-013", "role": "role-projekt_partner" },
+        { "entity": "zens-pr-012", "role": "role-projekt_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-040",
+      "label": { "default": "Bilderfries in Brunn am Gebirge" },
+      "description": "55 Meter langer Bilderfries in der Aufbewahrungshalle in Brunn am Gebirge gemeinsam mit Architekt Helmut Sautner",
+      "kind": "event-kind-production",
+      "startDate": "1999-01-01",
+      "relations": [
+        { "entity": "zens-ob-012", "role": "role-project" },
+        { "entity": "zens-pl-015", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-014", "role": "role-projekt_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-041",
+      "label": {
+        "default": "\"Also sprach Zens. Kritische Anmerkungen zu Kunst und Kunstpädagogik\""
+      },
+      "description": "Herwig Zens' Publikation \"Also sprach Zens. Kritische Anmerkungen zu Kunst und Kunstpädagogik\" (Wien: Österreichischer Kunst und Kulturverlag)",
+      "kind": "event-kind-production",
+      "startDate": "1999-01-01",
+      "relations": [
+        { "entity": "zens-ob-026", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" }
+      ]
+    },
+    {
+      "id": "zens-ev-042",
+      "label": { "default": "\"Die Entstehung der Musik\" " },
+      "description": "Wandgestaltung \"Die Entstehung der Musik\" im Vivaldi-Saal in der Universität für Musik und darstellende Kunst Wien",
+      "kind": "event-kind-production",
+      "startDate": "2000-01-01",
+      "relations": [
+        { "entity": "zens-ob-027", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-014", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-043",
+      "label": { "default": "Kunstaktion \"step by step\"" },
+      "description": "Kunstaktion \"step by step\" mit Studierenden in Los Angeles",
+      "kind": "event-kind-production",
+      "startDate": "2000-01-01",
+      "relations": [
+        { "entity": "zens-ob-028", "role": "role-project" },
+        { "entity": "zens-pl-016", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-044",
+      "label": {
+        "default": "\"Füssener Totentanz\" bei Bregenzer Festspielen"
+      },
+      "description": "Zur Uraufführung der gleichnamigen Komposition von Rainer Bischof im Rahmen der Bregenzer Festspiele 2000 legte der Künstler die Mappe \"Füssener Totentanz\" vor.",
+      "kind": "event-kind-production",
+      "startDate": "2000-01-01",
+      "relations": [
+        { "entity": "zens-ob-029", "role": "role-project" },
+        { "entity": "zens-pl-017", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-010", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-011", "role": "role-inspiring_work" },
+        { "entity": "zens-pr-015", "role": "role-project_partner" },
+        { "entity": "zens-ob-011", "role": "role-related_art_project" },
+        { "entity": "zens-gr-016", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-045",
+      "label": { "default": "\"Theseus-Zyklus\" im KHM Wien" },
+      "description": "Theseus-Zyklus wird im Jahr 2000 im Kunsthistorischen Museum Wien präsentiert.",
+      "kind": "event-kind-production",
+      "startDate": "2000-01-01",
+      "relations": [
+        { "entity": "zens-ob-030", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-015", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-046",
+      "label": { "default": "Ehrenmedaille der Stadt Wien in Gold" },
+      "description": "Ehrenmedaille der Stadt Wien in Gold",
+      "kind": "event-kind-honour",
+      "startDate": "2001-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-005", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-047",
+      "label": { "default": "Retrospektive im Frauenbad, Baden" },
+      "description": "Retrospektive im Frauenbad, Baden",
+      "kind": "event-kind-career",
+      "startDate": "2001-01-01",
+      "relations": [
+        { "entity": "zens-gr-024", "role": "role-exhibition" },
+        { "entity": "zens-pl-018", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-048",
+      "label": { "default": "Estampa in Madrid" },
+      "description": "Präsentation der Tagebuch-Radierung im Rahmen der Estampa, Madrid",
+      "kind": "event-kind-production",
+      "startDate": "2001-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-005", "role": "role-took_place_at" },
+        { "entity": "zens-ob-001", "role": "role-related_art_project" },
+        { "entity": "zens-gr-017", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-049",
+      "label": { "default": "Bilderzyklus zu Hugo Distlers „Totentanz op.12“" },
+      "description": "Bilderzyklus zu Hugo Distlers „Totentanz op.12“",
+      "kind": "event-kind-production",
+      "startDate": "2001-01-01",
+      "relations": [
+        { "entity": "zens-ob-019", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-020", "role": "role-inspiring_work" },
+        { "entity": "zens-pr-016", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-050",
+      "label": {
+        "default": "\"Schwoaze Weiber“ im Schlosspark Ambras, Innsbruck"
+      },
+      "description": "\"Schwoaze Weiber“ im Schlosspark Ambras, Innsbruck",
+      "kind": "event-kind-production",
+      "startDate": "2002-01-01",
+      "relations": [
+        { "entity": "zens-ob-031", "role": "role-project" },
+        { "entity": "zens-pl-007", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-015", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-051",
+      "label": { "default": "Orden \"De Merito Civil\" " },
+      "description": "Orden De Merito Civil-Verleihung durch Juan Carlos I von Spanien",
+      "kind": "event-kind-honour",
+      "startDate": "2002-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-005", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-052",
+      "label": { "default": "\"Neuer Lübecker Totentanz\" " },
+      "description": "Zens schafft den \"Neuen Lübecker Totentanz\" für die Marienkirche in Lübeck",
+      "kind": "event-kind-production",
+      "startDate": "2003-01-01",
+      "relations": [
+        { "entity": "zens-ob-032", "role": "role-project" },
+        { "entity": "zens-pl-019", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-033", "role": "role-inspiring_work" },
+        { "entity": "zens-pr-017", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-053",
+      "label": { "default": "Silbernes Komturkreuz des Landes NÖ" },
+      "description": "Silbernes Komturkreuz des Landes Niederösterreich für besondere kulturelle Verdienste",
+      "kind": "event-kind-honour",
+      "startDate": "2003-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-020", "role": "role-took_place_at" },
+        { "entity": "zens-gr-003", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-054",
+      "label": {
+        "default": "Musikvideoprojekt \"Gesang der Geister über den Wassern\""
+      },
+      "description": "Musikvideoprojekt \"Gesang der Geister über den Wassern\" gemeinsam mit dem Arnold-Schönberg-Chor (Ltg:: Erwin Ortner)",
+      "kind": "event-kind-production",
+      "startDate": "2004-01-01",
+      "relations": [
+        { "entity": "zens-ob-034", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-018", "role": "role-institution" },
+        { "entity": "zens-pr-018", "role": "role-project_partner" },
+        { "entity": "zens-pr-019", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-035", "role": "role-inspiring_work" },
+        { "entity": "zens-pr-009", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-036", "role": "role-inspiring_work" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-055",
+      "label": { "default": "\"Francisco de Goya: Briefe an Martín Zapater\"" },
+      "description": "Publikation \"Francisco de Goya: Briefe an Martín Zapater\", hrsg. u. eingel. von Herwig Zens. (Enth. außerd. Herwig Zens’ Goya-Reflexionen.) Verlag Bibliothek der Provinz, Weitra 2004",
+      "kind": "event-kind-production",
+      "startDate": "2004-01-01",
+      "relations": [
+        { "entity": "zens-ob-037", "role": "role-book_project" },
+        { "entity": "zens-pl-021", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" },
+        { "entity": "zens-pr-020", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-056",
+      "label": { "default": "\"Tagebuchradierung\" in Betanzos " },
+      "description": "Präsentation der Tagebuchradierung in einem Stück (40 m) im Graphikzentrum Betanzos (Spanien)",
+      "kind": "event-kind-production",
+      "startDate": "2005-01-01",
+      "relations": [
+        { "entity": "zens-ob-001", "role": "role-exhibition" },
+        { "entity": "zens-pl-022", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-001", "role": "role-related_art_project" },
+        { "entity": "zens-gr-019", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-057",
+      "label": { "default": "\"Goya-Paraphrasen\" im KHM Wien " },
+      "description": "Präsentation von Goya-Paraphrasen im Kunsthistorischen Museum in Wien anlässlich der Goya-Retrospektive",
+      "kind": "event-kind-production",
+      "startDate": "2005-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-015", "role": "role-institution" },
+        { "entity": "zens-ob-004", "role": "role-related_art_project" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-058",
+      "label": {
+        "default": "Bildzyklus für die österr. Botschaft in Washington"
+      },
+      "description": "Zyklus von Bildern für den Festsaal der österreichischen Botschaft in Washington",
+      "kind": "event-kind-production",
+      "startDate": "2006-01-01",
+      "relations": [
+        { "entity": "zens-ob-038", "role": "role-project" },
+        { "entity": "zens-pl-023", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-gr-020", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-059",
+      "label": { "default": "Filmprojekt: “Goya – Last und Leidenschaft”" },
+      "description": "Filmprojekt: “Goya – Last und Leidenschaft” (Gustav W. Trampitsch)",
+      "kind": "event-kind-production",
+      "startDate": "2006-01-01",
+      "relations": [
+        { "entity": "zens-ob-039", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-013", "role": "role-project_partner" },
+        { "entity": "zens-pr-004", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-060",
+      "label": { "default": "Emeritierung Akademie der bildenden Künste" },
+      "description": "Krankheitsbedingte Emeritierung von der Akademie der bildenden Künste",
+      "kind": "event-kind-career",
+      "startDate": "2006-01-01",
+      "relations": [
+        { "entity": "zens-gr-001", "role": "role-profession" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-professor_emeritus" }
+      ]
+    },
+    {
+      "id": "zens-ev-061",
+      "label": { "default": "Ausstellung Otto Schäfer Bibliothek" },
+      "description": "Umfassende Graphikausstellung in der „Otto Schäfer Bibliothek“, Schweinfurt",
+      "kind": "event-kind-career",
+      "startDate": "2007-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-024", "role": "role-took_place_at" },
+        { "entity": "zens-gr-021", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-062",
+      "label": {
+        "default": "Publikation \"Herwig Zens. Das druckgraphische Werk 1965-2007\""
+      },
+      "description": "Publikation \"Herwig Zens. Das druckgraphische Werk 1965-2007\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "kind": "event-kind-production",
+      "startDate": "2007-01-01",
+      "relations": [
+        { "entity": "zens-ob-013", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-021", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-063",
+      "label": { "default": "Film \"Haimatochare\"" },
+      "description": "Filmprojekt Haimatochare (2007, Herbert Link)",
+      "kind": "event-kind-production",
+      "startDate": "2007-01-01",
+      "relations": [
+        { "entity": "zens-ob-040", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-024", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-064",
+      "label": { "default": "Film \"Der Tod auf Urlaub\" " },
+      "description": "Filmprojekt Der Tod auf Urlaub (2007, Herbert Link)",
+      "kind": "event-kind-production",
+      "startDate": "2007-01-01",
+      "relations": [
+        { "entity": "zens-ob-041", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-065",
+      "label": { "default": "Film \"Zens – Das radierte Tagebuch\"" },
+      "description": "Filmprojekt Zens – Das radierte Tagebuch (2007, Herbert Link)",
+      "kind": "event-kind-production",
+      "startDate": "2007-01-01",
+      "relations": [
+        { "entity": "zens-ob-042", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-ob-001", "role": "role-related_art_project" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-066",
+      "label": { "default": "Ausgedehnte Ausstellungstouren durch Spanien" },
+      "description": "Ausgedehnte Ausstellungstouren durch Spanien (Madrid, Cordoba, …)",
+      "kind": "event-kind-career",
+      "startDate": "2009-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pl-005", "role": "role-took_place_at" },
+        { "entity": "zens-pl-028", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-067",
+      "label": { "default": "Publikation \"Herwig Zens. Zeichnungen\"" },
+      "description": "Publikation \"Herwig Zens. Zeichnungen\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "kind": "event-kind-production",
+      "startDate": "2009-01-01",
+      "relations": [
+        { "entity": "zens-ob-043", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-021", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-068",
+      "label": { "default": "Film \"Zens rafft die Zeit\"" },
+      "description": "Filmprojekt Zens rafft die Zeit – Zusammenführung von zwei unabhängigen Ereignissen (2009, Herbert Link)",
+      "kind": "event-kind-production",
+      "startDate": "2009-01-01",
+      "relations": [
+        { "entity": "zens-ob-044", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-ob-005", "role": "role-related_art_project" },
+        { "entity": "zens-pr-009", "role": "role-inspiring_person" }
+      ]
+    },
+    {
+      "id": "zens-ev-069",
+      "label": { "default": "Film \"König Ubu und sein Gefolge\"" },
+      "description": "Filmprojekt König Ubu und sein Gefolge – aus dem radierten Tagebuch von Herwig Zens (2010, Herbert Link)",
+      "kind": "event-kind-production",
+      "startDate": "2010-01-01",
+      "relations": [
+        { "entity": "zens-ob-046", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" },
+        { "entity": "zens-pr-025", "role": "role-inspiring_person" },
+        { "entity": "zens-ob-045", "role": "role-inspiring_work" },
+        { "entity": "zens-ob-001", "role": "role-related_art_project" }
+      ]
+    },
+    {
+      "id": "zens-ev-070",
+      "label": { "default": "Ehrenkreuz für Wiss. u. Kunst, 1. Klasse " },
+      "description": "Ehrenkreuz für Wissenschaft und Kunst 1. Klasse der Republik Österreich",
+      "kind": "event-kind-honour",
+      "startDate": "2011-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-071",
+      "label": { "default": "Grafiken in \"Es tanzt der Tod sein' Reigen\"" },
+      "description": "Grafiken von Herwig Zens in der Publikation \"Es tanzt der Tod sein' Reigen\" von Hans Dieter Mairinger (Linz: Wagner Verlag)",
+      "kind": "event-kind-production",
+      "startDate": "2011-01-01",
+      "relations": [
+        { "entity": "zens-ob-047", "role": "role-project" },
+        { "entity": "zens-pl-025", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-026", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-072",
+      "label": { "default": "Preis der Stadt Wien für Bildende Kunst" },
+      "description": "Preis der Stadt Wien für Bildende Kunst",
+      "kind": "event-kind-honour",
+      "startDate": "2013-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-gr-005", "role": "role-institution" }
+      ]
+    },
+    {
+      "id": "zens-ev-073",
+      "label": {
+        "default": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\""
+      },
+      "description": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\", hrsg. v. Johannes Scheer (Wien: Kunstverlag Wolfrum)",
+      "kind": "event-kind-production",
+      "startDate": "2013-01-01",
+      "relations": [
+        { "entity": "zens-ob-048", "role": "role-book_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-021", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-074",
+      "label": { "default": "Publikation \"Herwig Zens. Mythos\"" },
+      "description": "Publikation \"Herwig Zens. Mythos\", hrsg. v. Johann Winkler, Linz: Wagner Verlag",
+      "kind": "event-kind-production",
+      "startDate": "2013-01-01",
+      "relations": [
+        { "entity": "zens-ob-049", "role": "role-book_project" },
+        { "entity": "zens-pl-025", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-027", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-075",
+      "label": { "default": "Film \"ZENS – Der Versuch\" " },
+      "description": "Filmprojekt ZENS – Der Versuch (2013) Herbert Link",
+      "kind": "event-kind-production",
+      "startDate": "2013-01-01",
+      "relations": [
+        { "entity": "zens-ob-050", "role": "role-film_project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-007", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-076",
+      "label": {
+        "default": "Illustrationen in \"Flüchtiges Wild: 50 Gedichte\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation Stefan Nebehay: Flüchtiges Wild: 50 Gedichte. Verlag Bibliothek der Provinz, Weitra 2014",
+      "kind": "event-kind-production",
+      "startDate": "2014-01-01",
+      "relations": [
+        { "entity": "zens-ob-051", "role": "role-project" },
+        { "entity": "zens-pl-021", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-028", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-077",
+      "label": {
+        "default": "Illustrationen in \"Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation Gernot Friedel: Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen. Mandelbaum-Verlag, Wien 2015",
+      "kind": "event-kind-production",
+      "startDate": "2015-01-01",
+      "relations": [
+        { "entity": "zens-ob-052", "role": "role-project" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-029", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-078",
+      "label": {
+        "default": "Illustrationen in \"Tod oder Leben - Kleiner Totentanz\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation \"Tod oder Leben - Kleiner Totentanz\" von Hans Dieter Mairinger (Wagner Verlag, Linz 2015)",
+      "kind": "event-kind-production",
+      "startDate": "2015-01-01",
+      "relations": [
+        { "entity": "zens-ob-053", "role": "role-project" },
+        { "entity": "zens-pl-025", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" },
+        { "entity": "zens-pr-026", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-079",
+      "label": { "default": "Publikation „Zens Reisen“" },
+      "description": "Publikation „Zens Reisen“. Hrsg. von Johannes Scheer. Wagner Verlag, Linz 2016",
+      "kind": "event-kind-production",
+      "startDate": "2016-01-01",
+      "relations": [
+        { "entity": "zens-ob-054", "role": "role-book_project" },
+        { "entity": "zens-pl-025", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-author" },
+        { "entity": "zens-pr-021", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-080",
+      "label": {
+        "default": "Verleihung \"Goldener Rathausmann\" der Stadt Wien"
+      },
+      "description": "Verleihung des Goldenen Rathausmann der Stadt Wien",
+      "kind": "event-kind-honour",
+      "startDate": "2018-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-081",
+      "label": { "default": "Radierungen in der Reihe \"Der Totentanz\" " },
+      "description": "2 Originalradierungen von Herwig Zens in der Publikation \"DER TOTENTANZ\", Heft 7 der Reihe Totentänze mit der Ballade \"Der Totentanz\" von Johann Wolfgang von Goethe. Hrsg. von Jost Braun, Edition Lebensretter, Berlin & Leipzig 2018",
+      "kind": "event-kind-production",
+      "startDate": "2018-01-01",
+      "relations": [
+        { "entity": "zens-ob-055", "role": "role-project" },
+        { "entity": "zens-pl-026", "role": "role-took_place_at" },
+        { "entity": "zens-pr-001", "role": "role-artist" }
+      ]
+    },
+    {
+      "id": "zens-ev-082",
+      "label": { "default": "Tod" },
+      "description": "Tod",
+      "kind": "event-kind-death",
+      "startDate": "2019-09-24",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-person_died" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-083",
+      "label": { "default": "Schenkungen an die Landessammlungen NÖ" },
+      "description": "Umfangreiche Schenkungen aus dem Werk von Herwig Zens an die Landessammlungen Niederösterreich von Gerda Zens und Johannes Scheer (Radierungen, Druckplatten und Grafiken; Erfassung und Inventarisierungen in den Folgemonaten seitens der Landessammlungen in Kooperation mit dem Zentrum für Museale Sammlungswissenschaften der Universität für Weiterbildung Krems)",
+      "kind": "event-kind-event",
+      "startDate": "2020-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-donation" },
+        { "entity": "zens-pl-020", "role": "role-took_place_at" },
+        { "entity": "zens-gr-023", "role": "role-institution" },
+        { "entity": "zens-pr-021", "role": "role-project_partner" },
+        { "entity": "zens-pr-023", "role": "role-project_partner" }
+      ]
+    },
+    {
+      "id": "zens-ev-084",
+      "label": { "default": "Eröffnung \"Herwig-Zens-Platz\" in Wien " },
+      "description": "Eröffnung des Herwig-Zens-Platzes in Wien Mitte Oktober 2021",
+      "kind": "event-kind-career",
+      "startDate": "2021-01-01",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-awardee" },
+        { "entity": "zens-pl-002", "role": "role-took_place_at" }
+      ]
+    },
+    {
+      "id": "zens-ev-085",
+      "label": { "default": "Einzelausstellung Landesgalerie NÖ" },
+      "description": "Einzelausstellung von Herwig Zens in der Landesgalerie Niederösterreich bis 14.04.2024 kuratiert von Nikolaus Kratzer",
+      "kind": "event-kind-career",
+      "startDate": "2023-11-04",
+      "relations": [
+        { "entity": "zens-pr-001", "role": "role-exhibition" },
+        { "entity": "zens-pl-027", "role": "role-took_place_at" },
+        { "entity": "zens-gr-022", "role": "role-institution" },
+        { "entity": "zens-pr-022", "role": "role-project_partner" }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "zens-m-001",
+      "label": { "default": "Photo of Herwig Zens" },
+      "description": "Herwig Zens Porträt",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Herwig_Zens_Portr%C3%A4t.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Herwig_Zens_Portr%C3%A4t.jpg/360px-Herwig_Zens_Portr%C3%A4t.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-002",
+      "label": {
+        "default": "Photo of Oskar Kokoschka in 1963 by Erling Mandelmann"
+      },
+      "description": "Photo of Oskar Kokoschka in 1963 by Erling Mandelmann",
+      "attribution": "https://commons.wikimedia.org/wiki/Category:Oskar_Kokoschka#/media/File:Oskar_Kokoschka_(1963)_by_Erling_Mandelmann_-_3.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Oskar_Kokoschka_%281963%29_by_Erling_Mandelmann_-_3.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-003",
+      "label": { "default": "Photo of Gerhard Weissenbacher" },
+      "description": "Photo of Gerhard Weissenbacher",
+      "attribution": "http://www.gerhard-weissenbacher.at/images/Gerhard_Weissenbacher_Portrait.jpg",
+      "url": "http://www.gerhard-weissenbacher.at/images/Gerhard_Weissenbacher_Portrait.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-004",
+      "label": { "default": "Self-portrait at 69 Years by Francisco de Goya" },
+      "description": "Self-portrait at 69 Years by Francisco de Goya",
+      "attribution": "https://commons.wikimedia.org/wiki/File:Self-portrait_at_69_Years_by_Francisco_de_Goya.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Self-portrait_at_69_Years_by_Francisco_de_Goya.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-005",
+      "label": { "default": "Self-portrait by Walter Stach" },
+      "description": "Self-portrait by Walter Stach",
+      "attribution": "https://wstach.at/de/impressum/images/20130814_walter_stach_selbstportrait_medium.jpg",
+      "url": "https://wstach.at/de/impressum/images/20130814_walter_stach_selbstportrait_medium.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-006",
+      "label": { "default": "Self-portrait by Herbert Link" },
+      "description": "Self-portrait by Herbert Link",
+      "attribution": "https://www.mediathek.at/fileadmin/_processed_/4/8/csm_Herbert_Link_Weihnachten_2013_8aa42b956e.jpg",
+      "url": "https://www.mediathek.at/fileadmin/_processed_/4/8/csm_Herbert_Link_Weihnachten_2013_8aa42b956e.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-007",
+      "label": { "default": "Photo of Robert Polak" },
+      "description": "Photo of Robert Polak",
+      "attribution": "https://www.filmakademie.wien/wp-content/uploads/2016/12/Robert_Polak_Voradelberg.jpg",
+      "url": "https://www.filmakademie.wien/wp-content/uploads/2016/12/Robert_Polak_Voradelberg.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-008",
+      "label": { "default": "Himberg near Vienna, postcard, circa 1920." },
+      "description": "Himberg near Vienna, postcard, circa 1920.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401769486/8d37aabe-a559-4231-a9c2-019966ed06b0.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401769486/8d37aabe-a559-4231-a9c2-019966ed06b0.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-009",
+      "label": { "default": "Academy of Fine Arts Vienna" },
+      "description": "Academy of Fine Arts Vienna, photo: Peter Haas / CC BY-SA 3.0",
+      "attribution": "https://commons.wikimedia.org/wiki/Category:Academy_of_Fine_Arts_Vienna#/media/File:Akademie_der_bildenden_Kuenste_DSC_2400w.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Category:Academy_of_Fine_Arts_Vienna#/media/File:Akademie_der_bildenden_Kuenste_DSC_2400w.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-010",
+      "label": {
+        "default": "Bundesgymnasium and Bundesrealgymnasium Vienna 8"
+      },
+      "description": "Bundesgymnasium and Bundesrealgymnasium Vienna 8",
+      "attribution": "https://commons.wikimedia.org/wiki/Category:Bundesgymnasium_und_Bundesrealgymnasium_Wien_VIII#/media/File:Wien_08_BGRG_8_Albertgasse_a.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wien_08_BGRG_8_Albertgasse_a.jpg/640px-Wien_08_BGRG_8_Albertgasse_a.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-011",
+      "label": { "default": "Herwig Zens making the diary etchings" },
+      "description": "Herwig Zens making the diary etchings, 1994, photographer: Johann Klinger, Vienna, © Gerda Zens",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401769491/55f5c782-4bd1-4c86-840e-06528b5b4a2d.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401769491/55f5c782-4bd1-4c86-840e-06528b5b4a2d.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-012",
+      "label": {
+        "default": "Goya, Una manola: Leocadia Zorrilla (from the Pinturas Negras)"
+      },
+      "description": "Francisco de Goya, Una manola: Leocadia Zorrilla (from the Pinturas Negras) ©Museo Nacional del Prado",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401771384/cc8fd26a-3531-489d-97a3-7f3baf20f052.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401771384/cc8fd26a-3531-489d-97a3-7f3baf20f052.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-013",
+      "label": { "default": "Aus dem Palermozyklus von Herwig Zens" },
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401779146/df5203e9-5e8a-4fff-8cc3-69c2d011ca06.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401779146/df5203e9-5e8a-4fff-8cc3-69c2d011ca06.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-014",
+      "label": { "default": "Bildermöbel" },
+      "description": "Zens with one of his \"Bildermöbel\" (furniture with images)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401778235/0affd7f2-086d-41cf-ab3c-4c743502ac9c.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401778235/0affd7f2-086d-41cf-ab3c-4c743502ac9c.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-015",
+      "label": { "default": "From H. Zens' \"Winterreise\" series" },
+      "description": "Herwig Zens, Gute Nacht, Mappe Winterreise, 1996",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401778755/fc8e4295-bac3-4452-b266-e0b6f498957d.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401778755/fc8e4295-bac3-4452-b266-e0b6f498957d.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-016",
+      "label": { "default": "Portrait of F. Schubert" },
+      "description": "Oil painting of Franz Schubert by Wilhelm August Rieder (1875), made from his own 1825 watercolour portrait",
+      "attribution": "https://en.wikipedia.org/wiki/Franz_Schubert#/media/File:Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version_crop.png",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Franz_Schubert_by_Wilhelm_August_Rieder_1875_larger_version_crop.png",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-017",
+      "label": { "default": "Possible portrait of Jakob Hiebeler" },
+      "description": "Possible portrait of Jakob Hiebeler in the dance of death in Füssen",
+      "attribution": "https://de.wikipedia.org/wiki/F%C3%BCssener_Totentanz#/media/Datei:Totentanz_Fuessen_4.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Totentanz_Fuessen_4.jpg/1024px-Totentanz_Fuessen_4.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-018",
+      "label": { "default": "Dance of Death in Füssen by Hiebeler" },
+      "description": "Photo of the Dance of Death in Füssen by Ralf Schulze",
+      "attribution": "https://de.wikipedia.org/wiki/F%C3%BCssener_Totentanz#/media/Datei:Totentanz_Fuessen_3.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Totentanz_Fuessen_3.jpg/768px-Totentanz_Fuessen_3.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-019",
+      "label": { "default": "Zens' Füssen Dance of Death" },
+      "description": "Füssener Totentanz. Öl und Acryl, 1998.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401865959/0399d6a9-470e-4812-98cc-28536a7b4028.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401865959/0399d6a9-470e-4812-98cc-28536a7b4028.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-020",
+      "label": { "default": "Zens' paintings in Brunn am Gebirge" },
+      "description": "\t\r\nFries in der Friedhofskapelle in Brunn am Gebirge. Öl und Acryl, 1999/2000.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401865937/7180f187-cbfa-45e5-88cf-c4dfcc2a2506.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401865937/7180f187-cbfa-45e5-88cf-c4dfcc2a2506.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-021",
+      "label": { "default": "An early Zens' exhibition poster" },
+      "description": "An early Zens' exhibition poster (1967)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401874586/435edf6c-4f38-4b18-ac97-d51c00c48671.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401874586/435edf6c-4f38-4b18-ac97-d51c00c48671.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-022",
+      "label": { "default": "Zens with fellow students" },
+      "description": "Zens with fellow students at an event in the Secession (Gschnas, 1965)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401878957/d7034a18-13e1-4c42-aa16-4bf702da5955.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401878957/d7034a18-13e1-4c42-aa16-4bf702da5955.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-023",
+      "label": { "default": "On the way to Paris" },
+      "description": "On the way to Paris (Gerlospass 1962)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401878260/c37e86bf-16ba-456f-806a-a5dfda4b1f33.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401878260/c37e86bf-16ba-456f-806a-a5dfda4b1f33.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-024",
+      "label": { "default": "Location of the Sommerakademie" },
+      "description": "Photo of Festung Hohensalzburg by Maria Wallner CC BY-SA 3.0 de",
+      "attribution": "https://de.wikipedia.org/wiki/Festung_Hohensalzburg#/media/Datei:Hohensalzburg-mw01.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hohensalzburg-mw01.jpg/1024px-Hohensalzburg-mw01.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-025",
+      "label": { "default": "Strukturen der Kunst" },
+      "description": "Strukturen der Kunst",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401881908/a87307ee-2114-401a-b6f3-e0125679322e.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401881908/a87307ee-2114-401a-b6f3-e0125679322e.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-026",
+      "label": { "default": "Buch von Herwig Zens \"KunstBEgriffe\"" },
+      "description": "Buch von Herwig Zens \"KunstBEgriffe\", Klett-Verlag, Stuttgart 1994, mit Walter Stach",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401881958/fb39b7f8-dbbf-4c57-8465-13a4fadc3859.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401881958/fb39b7f8-dbbf-4c57-8465-13a4fadc3859.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-027",
+      "label": { "default": "Zens and friends in Athos" },
+      "description": "Zens and friends in Athos, photo undated",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401884276/6bfb7433-0dfc-41e9-9abd-e279ea22bfc0.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401884276/6bfb7433-0dfc-41e9-9abd-e279ea22bfc0.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-028",
+      "label": { "default": "Herwig-Zens-Platz" },
+      "description": "Herwig-Zens-Platz - Photo by Christian Michelides CC BY-SA 4.0",
+      "attribution": "https://de.wikipedia.org/wiki/Herwig_Zens#/media/Datei:Street_Sign_Herwig-Zens-Platz_(Wien).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Street_Sign_Herwig-Zens-Platz_%28Wien%29.jpg/1024px-Street_Sign_Herwig-Zens-Platz_%28Wien%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-029",
+      "label": { "default": "Zens in der Volksschule" },
+      "description": "1. Klasse Volksschule: Herwig Zens sitzt zwischem dem Lehrer und dem Direkor.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401912006/327d6fd9-348c-492c-a7c5-db902cf16f01.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401912006/327d6fd9-348c-492c-a7c5-db902cf16f01.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-030",
+      "label": { "default": "Bildnerische Erziehung 1" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 1\". Jugend und Volk, Wien 1981, mit Walter Stach",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401913378/47a5f38c-f2e9-464f-a054-968dd858aa69.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401913378/47a5f38c-f2e9-464f-a054-968dd858aa69.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-031",
+      "label": { "default": "Bildnerische Erziehung 2" },
+      "description": "Buch von Herwig Zens \"Bildnerische Erziehung 2\". Jugend und Volk, Wien 1982, mit Walter Stach",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401913420/2ae6cef8-ebd4-4991-8310-7089e6ab0e2a.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401913420/2ae6cef8-ebd4-4991-8310-7089e6ab0e2a.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-032",
+      "label": { "default": "Aus den Goya-Projektionen" },
+      "description": "Herwig Zens, Spanischer Hofzwerg, 1993",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401914595/3352ca44-a9a5-40df-930a-baaaa1b88f4c.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401914595/3352ca44-a9a5-40df-930a-baaaa1b88f4c.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-033",
+      "label": { "default": "Hugo Distlers Totentanz von H. Zens" },
+      "description": "Herwig Zens, Der große Trompeter, zu Hugo Distlers Totentanz, 2001.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401915897/66bc0cb0-d5ef-44ce-8746-2d0f3a28bc67.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401915897/66bc0cb0-d5ef-44ce-8746-2d0f3a28bc67.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-034",
+      "label": { "default": "Portrait of Ludwig van Beethoven" },
+      "description": "Beethoven depicted in an 1803 painting by Christian Horneman",
+      "attribution": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven#/media/File:Beethoven_Hornemann.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Beethoven_Hornemann.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-035",
+      "label": {
+        "default": "Zens und Studierende der Akademie für Bildende Künste Wien"
+      },
+      "description": "Zens und Studierende der Akademie für Bildende Künste Wien in Paris 1996",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401919471/25e7623f-b7e6-4977-beee-eb123ae4efe7.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401919471/25e7623f-b7e6-4977-beee-eb123ae4efe7.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-036",
+      "label": { "default": "Basler Totentanz (Kopie)" },
+      "description": "Johann Rudolf Feyerabend: Basler Totentanz oder Tod von Basel, 1806, Aquarellzeichnung, Historisches Museum Basel, nach einem spätmittelalterlichen Wandbild, 1439/40 (1805 zerstört), das sich an der Innenseite des Laienfriedhofes des Predigerklosters in Basel befand",
+      "attribution": "https://de.wikipedia.org/wiki/Basler_Totentanz#/media/Datei:Historisches_Museum_Basel_Totentanz.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Historisches_Museum_Basel_Totentanz.jpg/1024px-Historisches_Museum_Basel_Totentanz.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-037",
+      "label": { "default": "Goya-Paraphrasen v. Zens 1984" },
+      "description": "Zens bei der Arbeit an den Goya-Paraphrasen",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401922148/15097edd-886f-40f0-a350-2e31590a5be0.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401922148/15097edd-886f-40f0-a350-2e31590a5be0.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-038",
+      "label": { "default": "Aus dem Basler Totentanzprojekt v. H. Zens" },
+      "description": "Herwig Zens, Basler Totentanz, Eröffnung, Acryl, 130x150 cm, 1990",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401923977/e5a1caea-1258-40e4-84b1-c9238b10d835.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401923977/e5a1caea-1258-40e4-84b1-c9238b10d835.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-039",
+      "label": { "default": "Aus den Kreuzweg-Stationen v. H. Zens" },
+      "description": "Herwig Zens, Kreuzweg, Station XI: Christus wird ans Kreuz geschlagen, 1993, Österr. Hospiz, Jerusalem",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401925709/4420e4ec-916b-4192-89ee-5faeca2a596e.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401925709/4420e4ec-916b-4192-89ee-5faeca2a596e.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-040",
+      "label": { "default": "Aus Schuberts Winterreise-Manuskript" },
+      "description": "Manuskript des Liedes \"Erstarrung\" aus der \"Winterreise\" von Franz Schubert",
+      "attribution": "https://commons.wikimedia.org/wiki/Category:Winterreise#/media/File:Erstarrung_manuscript.jpg",
+      "url": "https://commons.wikimedia.org/wiki/Category:Winterreise#/media/File:Erstarrung_manuscript.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-041",
+      "label": { "default": "Gustav W. Trampitsch 2023" },
+      "description": "Gustav W. Trampitsch bei Aufnahmen zu einem Film über Herwig Zens 2023 (2. von rechts). Foto: Viola Rühse.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401937184/fdb91034-dabf-4343-a829-c0044a20efb2.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401937184/fdb91034-dabf-4343-a829-c0044a20efb2.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-042",
+      "label": { "default": "Publikation \"Also sprach Zens [...]\"" },
+      "description": "Herwig Zens' Publikation \"Also sprach Zens. Kritische Anmerkungen zu Kunst und Kunstpädagogik\" (Wien: Österreichischer Kunst und Kulturverlag)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401941594/ee4f7b81-a7dd-4319-93e7-bcebb97e2079.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401941594/ee4f7b81-a7dd-4319-93e7-bcebb97e2079.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-043",
+      "label": { "default": "Photo von Rainer Bischof" },
+      "description": "Rainer Bischof, 2014 (©Franz Johann Morgenbesser) CC BY-SA 2.0",
+      "attribution": "https://de.wikipedia.org/wiki/Rainer_Bischof#/media/Datei:Rainer_Bischof-9584.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Rainer_Bischof-9584.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-044",
+      "label": { "default": "Aus dem Theseus-Zyklus" },
+      "description": "Herwig Zens, Antiope, Theseus-Zyklus",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401951206/e2f8edc5-4bfb-4031-afa8-ad5759e2eda6.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401951206/e2f8edc5-4bfb-4031-afa8-ad5759e2eda6.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-045",
+      "label": { "default": "Photo von Hugo Distler" },
+      "description": "Hugo Distler 1941 CC BY-SA 3.0",
+      "attribution": "https://de.wikipedia.org/wiki/Hugo_Distler#/media/Datei:Hugo_Distler.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Hugo_Distler.jpg/605px-Hugo_Distler.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-046",
+      "label": { "default": "\"Schwarze Weiber\" - Schloß Ambras" },
+      "description": "Die \"Schwarzen Weiber\" auf dem Schloß Ambras in Tirol, 2002",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401966309/44689ab4-41a4-49cd-b2f5-9d5ee702f598.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401966309/44689ab4-41a4-49cd-b2f5-9d5ee702f598.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-047",
+      "label": { "default": "\"Schwarze Weiber\" - Elisabeth" },
+      "description": "\"Schwarze Weiber\" - Elisabeth",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401967470/a63e97f4-816a-4c9e-87eb-0dd9da2195e7.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401967470/a63e97f4-816a-4c9e-87eb-0dd9da2195e7.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-048",
+      "label": { "default": "Lübecker Totentanz v. H. Zens in Lübeck" },
+      "description": "Lübecker Totentanz v. H. Zens, Aufbau in der Lübecker Marienkirche 2003",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401970130/8566b718-3d96-4017-af5e-2fc28dbb2d3d.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401970130/8566b718-3d96-4017-af5e-2fc28dbb2d3d.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-049",
+      "label": { "default": "Aus dem Lübecker Totentanz v. H. Zens " },
+      "description": "Herwig Zens, Der Neue Lübecker Totentanz, Der Tod holt den Papst und den Kaiser, 2003",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401970124/885957ca-5f0a-4b11-9306-44639995f13d.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401970124/885957ca-5f0a-4b11-9306-44639995f13d.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-050",
+      "label": {
+        "default": "Lübecker Totentanz 1463 (Abzeichnungsdetail 1852)"
+      },
+      "description": "Detail einer Abzeichnung des Totentanzes durch Carl Julius Milde von 1852 mit Domherr, Edelmann und Arzt vor der Silhouette Lübecks",
+      "attribution": "https://de.wikipedia.org/wiki/L%C3%BCbecker_Totentanz#/media/Datei:Milde_Fragment_Totentanz.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Milde_Fragment_Totentanz.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-051",
+      "label": { "default": "Bernt Notke - vermutetes Selbstporträt" },
+      "description": "Bernt Notke – vermutetes Selbstporträt in der zerstörten Gregorsmesse",
+      "attribution": "https://de.wikipedia.org/wiki/Bernt_Notke#/media/Datei:Bernt_Notke_goss_74a.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Bernt_Notke_goss_74a.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-052",
+      "label": {
+        "default": "Musikvideoprojekt \"Gesang der Geister über den Wassern\""
+      },
+      "description": "Musikvideoprojekt \"Gesang der Geister über den Wassern\" gemeinsam mit dem Arnold-Schönberg-Chor (Ltg:: Erwin Ortner)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401973215/3fb78432-b784-46d2-ac52-c301078723dc.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401973215/3fb78432-b784-46d2-ac52-c301078723dc.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-053",
+      "label": { "default": "Photo von Erwin Ortner" },
+      "description": "Portraitfoto von Erwin Guido Ortner CC0",
+      "attribution": "https://de.wikipedia.org/wiki/Erwin_Ortner#/media/Datei:Erwin_Guido_Ortner.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Erwin_Guido_Ortner.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-054",
+      "label": { "default": "Gedicht \"Gesang der Geister über den Wassern\"" },
+      "description": "Die handschriftliche Fassung von Goethes Gedicht \"Gesang der Geister über den Wassern\"",
+      "attribution": "https://commons.wikimedia.org/wiki/File:JohannWolfgangVonGoetheGesangDerGeisterUeberDenWassernHandschrift1S88.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:JohannWolfgangVonGoetheGesangDerGeisterUeberDenWassernHandschrift1S88.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-055",
+      "label": { "default": "Johann Wolfgang von Goethe" },
+      "description": "Johann Wolfgang von Goethe, Ölgemälde von Joseph Karl Stieler, 1828",
+      "attribution": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe#/media/Datei:Goethe_(Stieler_1828).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Goethe_%28Stieler_1828%29.jpg/830px-Goethe_%28Stieler_1828%29.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-056",
+      "label": {
+        "default": "Schuberts Vertonung von \"Gesang der Geister über den Wassern\""
+      },
+      "description": "Franz Schubert, \"Gesang der Geister über den Wassern\" (D 714, 2. Fassung) nach einem Text von Johann Wolfgang von Goethe (Musiksammlung der Wienbibliothek im Rathaus, MH 15803)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401976141/2429d0fd-f66f-48a8-bbb2-0edbdd2921cf.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401976141/2429d0fd-f66f-48a8-bbb2-0edbdd2921cf.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-057",
+      "label": { "default": "Publikation der Briefe Goyas an Zapater" },
+      "description": "Publikation \"Francisco de Goya: Briefe an Martín Zapater\", hrsg. u. eingel. von Herwig Zens. Verlag Bibliothek der Provinz, Weitra 2004",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/401976817/f481d8f8-a0d2-4e8f-b6ee-ca2949c9cdf4.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/401976817/f481d8f8-a0d2-4e8f-b6ee-ca2949c9cdf4.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-058",
+      "label": { "default": "Goyas Porträt von Martín Zapater" },
+      "description": "Francisco Goya, Porträt von Martín Zapater, 1790",
+      "attribution": "https://en.wikipedia.org/wiki/File:Francisco_de_Goya_-_Retrato_de_Mart%C3%ADn_Zapater.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Francisco_de_Goya_-_Retrato_de_Mart%C3%ADn_Zapater.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-059",
+      "label": {
+        "default": "Bildzyklus für die österr. Botschaft in Washington"
+      },
+      "description": "Zyklus von Bildern für den Festsaal der österreichischen Botschaft in Washington",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402038021/7515d26b-08f4-495d-aaa5-8a91aef79aa9.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402038021/7515d26b-08f4-495d-aaa5-8a91aef79aa9.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-060",
+      "label": { "default": "Herwig Zens. Das druckgraphische Werk 1965-2007" },
+      "description": "Publikation \"Herwig Zens. Das druckgraphische Werk 1965-2007\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402039798/81b2ddc3-f611-4cfd-8d0b-ea6a07a1e3d6.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402039798/81b2ddc3-f611-4cfd-8d0b-ea6a07a1e3d6.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-061",
+      "label": { "default": "Photo von Johannes Scheer" },
+      "description": "Photo von Johannes Scheer mit Herwig Zens rechts im Hintergrund",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402041231/f9646264-f9fb-4c6a-bbd5-0199c1b410c9.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402041231/f9646264-f9fb-4c6a-bbd5-0199c1b410c9.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-062",
+      "label": { "default": "Schenkung an die Landessammlungen NÖ" },
+      "description": "Gerda Zens (links) überreichte gemeinsam mit Johannes Scheer (rechts) an Landeshauptfrau Johanna Mikl-Leitner als zusätzliche Schenkung ein Porträt, das anlässlich ihres 70.Geburtstags entstanden ist. Photo: NLK Pfeiffer",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402043348/aa0717ca-b1cb-460f-a428-c110b08cade9.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402043348/aa0717ca-b1cb-460f-a428-c110b08cade9.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-063",
+      "label": { "default": "Zens-Retrospektive und Buch Landesgalerie NÖ " },
+      "description": "Einzelausstellung von Herwig Zens in der Landesgalerie Niederösterreich bis 14.04.2024 kuratiert von Nikolaus Kratzer, hier das Buch, das parallel veröffentlicht wird",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402044735/0053a63b-1e1f-4c7f-b30a-f28555372d4c.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402044735/0053a63b-1e1f-4c7f-b30a-f28555372d4c.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-064",
+      "label": { "default": "Nikolaus Kratzer und Gerda Zens" },
+      "description": "Nikolaus Kratzer und Gerda Zens vor dem radierten Tagebuch von Herwig Zens 2023",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402046651/9e700473-cbb0-4aad-96b9-242a8fbd0e74.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402046651/9e700473-cbb0-4aad-96b9-242a8fbd0e74.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-065",
+      "label": { "default": "Photo von Gerda Zens" },
+      "description": "Gerda Zens, 1960er Jahre",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402049965/12b8136f-6377-42a0-a4f4-6eab70370079.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402049965/12b8136f-6377-42a0-a4f4-6eab70370079.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-066",
+      "label": { "default": "Trailer ZENS - Der Versuch" },
+      "description": "Trailer zum Film ZENS - DER VERSUCH  (Länge 50 Min.), anlässlich des 70. Geburtstages von Prof. Herwig Zens",
+      "attribution": "https://www.youtube.com/watch?v=tc3NEe_D81Y",
+      "url": "https://www.youtube.com/watch?v=tc3NEe_D81Y",
+      "kind": "video"
+    },
+    {
+      "id": "zens-m-067",
+      "label": { "default": "Der Tod auf Urlaub DVD" },
+      "description": "“Der Tod auf Urlaub” Ausschnitte aus einer Lesung, 2007, 15 Minuten, Ein Film von Herbert Link",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402054211/005990c2-6c19-43b1-b2ed-f8d47036f3d2.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402054211/005990c2-6c19-43b1-b2ed-f8d47036f3d2.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-068",
+      "label": { "default": "Porträt von E. T. A. Hoffmann" },
+      "description": "E. T. A. Hoffmann, Öl, anonym. Früher als Selbstporträt interpretiert (Alte Nationalgalerie, Berlin)",
+      "attribution": "https://de.wikipedia.org/wiki/E._T._A._Hoffmann#/media/Datei:E._T._A._Hoffmann,_autorretrato.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/E._T._A._Hoffmann%2C_autorretrato.jpg/881px-E._T._A._Hoffmann%2C_autorretrato.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-069",
+      "label": { "default": "Publikation \"Herwig Zens. Zeichnungen\"" },
+      "description": "Publikation \"Herwig Zens. Zeichnungen\", hrsg. v. Johannes Scheer (Wien: Böhlau)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402057197/e6b2517f-c1aa-440b-8c11-5eb47610a51e.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402057197/e6b2517f-c1aa-440b-8c11-5eb47610a51e.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-070",
+      "label": {
+        "default": "\nPère Ubu nach einer Zeichnung von Alfred Jarry"
+      },
+      "description": "\nPère Ubu nach einer Zeichnung von Alfred Jarry",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402059019/f8cbd983-950e-412f-bcb1-fb77f7a10eec.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402059019/f8cbd983-950e-412f-bcb1-fb77f7a10eec.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-071",
+      "label": { "default": "Porträt von Alfred Jarry 1896" },
+      "description": "Atelier Nadar, Porträt von Alfred Jarry 1896",
+      "attribution": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Alfred_Jarry.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Alfred_Jarry.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-072",
+      "label": {
+        "default": "\"Es tanzt der Tod sein' Reigen\" mit Grafiken von H. Zens"
+      },
+      "description": "Publikation \"Es tanzt der Tod sein' Reigen\" von Hans Dieter Mairinger mit Grafiken von Herwig Zens (Linz: Wagner Verlag, 2011)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402133576/17ed5eb3-5e22-4494-b260-a7868e7a4ee1.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402133576/17ed5eb3-5e22-4494-b260-a7868e7a4ee1.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-073",
+      "label": { "default": "Einweihung Herwig-Zens-Platz" },
+      "description": "Einweihung Herwig-Zens-Platz",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402139824/bb788567-55fc-49a0-acd1-1f13e1c9c990.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402139824/bb788567-55fc-49a0-acd1-1f13e1c9c990.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-074",
+      "label": { "default": "Ausstellung Otto Schäfer Bibliothek - Ansicht 1" },
+      "description": "Umfassende Graphikausstellung in der „Otto Schäfer Bibliothek“, Schweinfurt",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402140480/a61dca94-8291-475a-8ed3-caffa70108e1.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402140480/a61dca94-8291-475a-8ed3-caffa70108e1.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-075",
+      "label": { "default": "Ausstellung Otto Schäfer Bibliothek - Ansicht 2" },
+      "description": "Umfassende Graphikausstellung in der „Otto Schäfer Bibliothek“, Schweinfurt",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402140352/bffbcbda-a118-40ee-86aa-ae2766ffe183.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402140352/bffbcbda-a118-40ee-86aa-ae2766ffe183.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-076",
+      "label": {
+        "default": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\""
+      },
+      "description": "Publikation \"Herwig Zens. Malerei. Ausgewählte Arbeiten von 1961-2013\"",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402140871/751f1b66-5e8f-4776-b438-426ad39ba4c2.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402140871/751f1b66-5e8f-4776-b438-426ad39ba4c2.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-077",
+      "label": { "default": "Publikation \"Herwig Zens. Mythos\"" },
+      "description": "Publikation \"Herwig Zens. Mythos\", hrsg. v. Johann Winkler, Linz: Wagner Verlag",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402141424/903103f4-ca93-46c7-b26b-ab8ee264e3f3.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402141424/903103f4-ca93-46c7-b26b-ab8ee264e3f3.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-078",
+      "label": { "default": "Filmabend \"Zens - Der Versuch\" 2013" },
+      "description": "Filmabend \"Zens - Der Versuch\" 2013",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402147699/7f8a4932-6d19-44c8-9260-dbd007e04200.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402147699/7f8a4932-6d19-44c8-9260-dbd007e04200.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-079",
+      "label": {
+        "default": "Cover der Publikation \"Flüchtiges Wild\" m. Illustrationen v. H. Zens"
+      },
+      "description": "Cover der Publikation Stefan Nebehay: Flüchtiges Wild: 50 Gedichte. Verlag Bibliothek der Provinz, Weitra 2014 mit Illustrationen von Herwig Zens",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402148348/f9f4d209-0f86-44e3-bdf5-14080553f6c1.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402148348/f9f4d209-0f86-44e3-bdf5-14080553f6c1.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-080",
+      "label": {
+        "default": "Beispielseiten aus der Publikation \"Flüchtiges Wild\" m. Illustrationen v. H. Zens"
+      },
+      "description": "Beispielseiten aus der Publikation Stefan Nebehay: Flüchtiges Wild: 50 Gedichte. Verlag Bibliothek der Provinz, Weitra 2014 mit Illustrationen von Herwig Zens",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402148427/c5e6432a-8726-419f-ab99-997842ca94a4.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402148427/c5e6432a-8726-419f-ab99-997842ca94a4.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-081",
+      "label": { "default": "Stefan Nebehay" },
+      "description": "Stefan Nebehay bei einer Lesung aus \"Flüchtiges WIld\" im Café Schopenhauer am 28.4.2015. Foto: Kristin Engelhardt",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402149200/939d47c9-42e2-4fba-992d-db28004ac3b0.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402149200/939d47c9-42e2-4fba-992d-db28004ac3b0.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-082",
+      "label": {
+        "default": "Illustrationen in \"Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen\""
+      },
+      "description": "Illustrationen von Herwig Zens in der Publikation Gernot Friedel: Herr Specht oder Die Legende von der Entstehung der Karnischen Alpen. Mandelbaum-Verlag, Wien 2015",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402149547/efbfe3a7-5cc1-4ea1-a777-622e0ad9223e.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402149547/efbfe3a7-5cc1-4ea1-a777-622e0ad9223e.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-083",
+      "label": { "default": "Gernot Friedel 2015 - Foto: Gregor Kallina" },
+      "description": "Gernot Friedel bei einer Lesung in der Wienbibliothek 2015 Foto: Gregor Kallina",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402151673/2e049dba-2f2b-448f-bab9-48b75822f93b.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402151673/2e049dba-2f2b-448f-bab9-48b75822f93b.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-084",
+      "label": { "default": "Publikation „Zens Reisen“ - Cover" },
+      "description": "Publikation „Zens Reisen“. Hrsg. von Johannes Scheer. Wagner Verlag, Linz 2016",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402152744/94b97185-2d06-447f-9ab8-fa3a55be9314.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402152744/94b97185-2d06-447f-9ab8-fa3a55be9314.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-085",
+      "label": {
+        "default": "Goldener Rathausmann zum 75. Geburtstag von Herwig Zens"
+      },
+      "description": "Bürgermeister Michael Ludwig und Landtagspräsident Ernst Woller haben am Dienstag den Künstler Herwig Zens zum 75. Geburtstag mit dem Goldenen Rathausmann ausgezeichnet. Copyright: Ismail Gökmen.",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402153810/389ae739-1e51-41c3-96cb-7088f32b8734.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402153810/389ae739-1e51-41c3-96cb-7088f32b8734.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-086",
+      "label": {
+        "default": "Originalradierung \"... sie kommen hervor\" von H. Zens in der Publikation \"DER TOTENTANZ\""
+      },
+      "description": "\"... sie kommen hervor\" / Originalradierung von Herwig Zens, Kupferdruck auf Bütten, Motiv 13,8 x 16,9 cm\n(Graphikdruck Jost Braun, Edition Lebensretter)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402154199/2be24142-662f-45a6-b1fc-7e3351b176be.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402154199/2be24142-662f-45a6-b1fc-7e3351b176be.jpg",
+      "kind": "image"
+    },
+    {
+      "id": "zens-m-087",
+      "label": {
+        "default": "Originalradierung \"... der Türmer erbleichet\", von H. Zens in der Publikation \"DER TOTENTANZ\""
+      },
+      "description": "\"... der Türmer erbleichet\", Originalradierung von Herwig Zens, Kupferdruck auf Bütten, Motiv 16,7 x 13,8 cm\n(Graphikdruck Jost Braun, Edition Lebensretter)",
+      "attribution": "https://jimdo-storage.freetls.fastly.net/image/402154240/814e1247-52e6-4b25-bf88-e7d756f86668.jpg",
+      "url": "https://jimdo-storage.freetls.fastly.net/image/402154240/814e1247-52e6-4b25-bf88-e7d756f86668.jpg",
+      "kind": "image"
+    }
+  ],
+  "biographies": [
+    {
+      "id": "zens-bio-001",
+      "text": "Herwig Zens begann 1961 sein Studium an der Akademie der bildenden Künste in Wien. Schon 1962 besuchte er auch die Schule des Sehens von Oskar Kokoschka in Salzburg. 1965 wurde Zens der Fügerpreis verliehen, dem in den folgenden Jahrzehnten noch viele weitere Preise folgen sollten. Im selben Jahr reiste er nach Spanien und begann die Arbeit an seiner Diplomarbeit über die „Pinturas Negras“ von Francisco de Goya, der eine tiefe Faszination auf ihn ausübte. 1966 absolvierte Zens die Lehramtsprüfung für Bildnerische Erziehung, Geschichte und Werkerziehung, ein Jahr später schloss er seine Ausbildung mit einem Diplom der Malerei bei Elsner ab.\n\nNach seinem Studium stieg Zens in den Schulbetrieb ein, wobei er als leidenschaftlicher Pädagoge an einigen Wiener Gymnasien tätig war. In dieser Zeit entstand unter anderem das Filmprojekt „Beethoven im Rucksack“, bei dem auch der spätere Kabarettist Thomas Maurer als Schüler mitwirkte. Dieser Film markiert den Beginn der Zusammenarbeit mit dem Filmemacher Herbert Link, der zahlreiche Filme über Herwig Zens und sein Werk gestaltet hat.\n\nNeben der pädagogischen Tätigkeit widmete sich Zens auch intensiv seinem künstlerischen Werk. 1984 begann er seine Goya-Projektionen, Variationen über die „Pinturas Negras“, die 1993 abgeschlossen wurden. Am 9. November 1977 notierte Zens erstmals etwas in seinem „radierten Tagebuch“. Auf Kupferplatten im Format 5 × 40 cm hielt er seit damals Tag für Tag in unterschiedlichen Radiertechniken fest, was ihn bewegt. 1995 wurde das Tagebuch erstmals in einem Stück gedruckt und auf der Art multiple in Düsseldorf gezeigt – als damals längste Radierung der Welt. 2006 wurde das Tagebuch erneut zu Papier gebracht – auf einer Länge von ca. 40 Metern.\n\nIn seinem Werk setzt sich Zens intensiv mit dem Tod auseinander, unter anderem in den Großprojekten „Basler Totentanz“, den Kreuzwegstationen im Österreichischen Hospiz in Jerusalem und der Gestaltung der Aufbahrungshalle in Brunn am Gebirge. Außerdem widmete sich Zens immer wieder der griechischen Mythologie, dem Werk von Francisco de Goya und Spanien.\n\n1987 wurde Herwig Zens als Professor an die Akademie der bildenden Künste in Wien berufen, wo er schon seit 1975 einen Lehrauftrag hatte. Bis 2006 war er als Vorstand des Institutes für das künstlerische Lehramt tätig.\n\nZens schuf über tausend Zeichnungen, Radierungen, Ölbilder und druckgraphische Werke, die er in über 100 Einzelausstellungen in Europa und den USA präsentierte. 2011 wurde ihm das Österreichische Ehrenkreuz für Wissenschaft und Kunst I. Klasse verliehen. Herwig Zens lebte und arbeitete in Wien.\n\nEr überließ seinen Körper dem Anatomischen Institut der Universität Wien zu wissenschaftlichen Zwecken. Den Toten, die ihren Körper in dieser Form gewidmet haben, sind Gedenkstätten im Wiener Zentralfriedhof gewidmet (hier: Neue Anatomiegräber, Gruppe 26).[1] Im Oktober 2021 wurde in Wien-Innere Stadt der Herwig-Zens-Platz nach ihm benannt.[2]",
+      "citation": "https://de.wikipedia.org/wiki/Herwig_Zens"
+    },
+    {
+      "id": "zens-bio-002",
+      "text": "Gerhard Weissenbacher (* 1941 in Wien) ist ein österreichischer Maler und Kunsterzieher. Er hat ein zweibändiges Standardwerk über die Baugeschichte des Wiener Bezirks Hietzing verfasst.",
+      "citation": "https://de.wikipedia.org/wiki/Gerhard_Weissenbacher; http://www.gerhard-weissenbacher.at/"
+    },
+    {
+      "id": "zens-bio-003",
+      "text": "Oskar Kokoschka (1886-1980) war ein österreichischer Maler, Grafiker und Schriftsteller des Expressionismus und der Wiener Moderne. U. a. gründete 1953 Kokoschka zusammen mit Friedrich Welz als Schule des Sehens die Internationale Sommerakademie für Bildende Kunst Salzburg auf der Festung Hohensalzburg. ",
+      "citation": "https://de.wikipedia.org/wiki/Oskar_Kokoschka"
+    },
+    {
+      "id": "zens-bio-004",
+      "text": "Francisco José de Goya y Lucientes (1746–1828) was a Spanish romantic painter and printmaker.",
+      "citation": "https://en.wikipedia.org/wiki/Francisco_Goya"
+    },
+    {
+      "id": "zens-bio-005",
+      "text": "Franz Elsner (1898-1978) war ein österreichischer Maler, der 1946 eine Meisterklasse für Malerei an der Akademie Wien übernahm und 1951 zum Titularprofessor ernannt wurde."
+    },
+    {
+      "id": "zens-bio-006",
+      "text": "Walter Stach (* 1946) is an Austrian artist and author."
+    },
+    {
+      "id": "zens-bio-007",
+      "text": "Herbert Link (1944-2018) war ein österreichischer Autor, Regisseur und Medienpädagoge. Ab 1967 war Link vorwiegend freiberuflich als Kameramann, Filmeditor und Filmgestalter tätig. Darüber hinaus war er von 1989 bis 2006 Lehrbeauftragter an der Akademie der bildenden Künste Wien. Der Film \"Beethoven im Rucksack\" (1984) begründete die Zusammenarbeit zwischen Zens und Link.",
+      "citation": "https://de.wikipedia.org/wiki/Herbert_Link"
+    },
+    {
+      "id": "zens-bio-008",
+      "text": "Robert Polak (1944-2016) war ein österreichischer Drehbuchautor und Regisseur. Ab 1986 unterrichtete er an der Filmakademie Wien, 2002 erhielt er den Titel ao.Univ-Prof. ",
+      "citation": "https://www.filmakademie.wien/de/robert-polak-1944-2016/ -- https://www.mdw.ac.at/768/"
+    },
+    {
+      "id": "zens-bio-009",
+      "text": "Franz Schubert (1797-1828) war ein österreichischer Komponist, dessen Schaffen überaus reich und vielfältig war (u.a. Kompositionen von Liedern, Chormusik, Sinfonien, Klavier- und Kammermusik).",
+      "citation": "https://de.wikipedia.org/wiki/Franz_Schubert"
+    },
+    {
+      "id": "zens-bio-010",
+      "text": "Jakob Hiebeler was a German painter (late 16th-early 17th century) active in Füssen. He painted a dance of death in Füssen.",
+      "citation": "https://de.wikipedia.org/wiki/F%C3%BCssener_Totentanz"
+    },
+    {
+      "id": "zens-bio-011",
+      "text": "Ludwig van Beethoven (1770–1827) was a German composer and pianist. ",
+      "citation": "https://en.wikipedia.org/wiki/Ludwig_van_Beethoven"
+    },
+    {
+      "id": "zens-bio-012",
+      "text": "Peter Kasperak ist ein österreichischer Kameramann und Regisseur."
+    },
+    {
+      "id": "zens-bio-013",
+      "text": "Gustav W. Trampitsch ist ein seit 1970 tätiger österreichischer Journalist, Dehbuchatur und Regisseur. Er erarbeitet u.a. 130 Dokumentationen für ORF, 3sat und ZDF (Drehbuch & Regie)",
+      "citation": "https://www.linkedin.com/in/gustav-w-trampitsch-20147954/?originalSubdomain=at"
+    },
+    {
+      "id": "zens-bio-014",
+      "text": "Helmut Sautner (*1939) ist ein österreichischer Architekt. Er studierte an der Akademie der bildenden Künste in Wien Architektur in der Meisterklasse von Roland Reiner. Seit 1970 ist er als selbständiger Architekt mit einem Büro in Mödling (gemeinsam mit den Architekten Egerer und Kienzl) tätig.",
+      "citation": "https://www.lafc.at/files/2966/plaene/2966_Plan_friedhofskapelle_brunn_an_gebirge_192.pdf"
+    },
+    {
+      "id": "zens-bio-015",
+      "text": "Rainer Bischof (*1947) ist ein österreichischer Komponist und Musikmanager.",
+      "citation": "https://de.wikipedia.org/wiki/Rainer_Bischof"
+    },
+    {
+      "id": "zens-bio-016",
+      "text": "Hugo Distler (1908-1942) war ein deutscher Komponist und evangelischer Kirchenmusiker. Von 1935–1941 komponierte er die Motettensammlung \"Geistliche Chormusik op. 12\", Nr. 2 ist ein dem Totensonntag zugeordneter \"Totentanz\".",
+      "citation": "https://de.wikipedia.org/wiki/Hugo_Distler"
+    },
+    {
+      "id": "zens-bio-017",
+      "text": "Bernt Notke (* ca. 1435 - 1509) war ein bedeutender Lübecker Maler und Bildhauer. U. a. wird der Totentanz in der Marienkirche in Lübeck ihm zugeschrieben.\n",
+      "citation": "https://de.wikipedia.org/wiki/Bernt_Notke"
+    },
+    {
+      "id": "zens-bio-018",
+      "text": "Erwin Guido Ortner (* 1947) ist ein österreichischer Chorleiter und Dirigent. Er ist Gründer und künstlerischer Leiter des Arnold Schoenberg Chores. ",
+      "citation": "https://de.wikipedia.org/wiki/Erwin_Ortner"
+    },
+    {
+      "id": "zens-bio-019",
+      "text": "Johann Wolfgang von Goethe (1749-1832) war ein deutscher Dichter, Politiker und Naturforscher. ",
+      "citation": "https://de.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+    },
+    {
+      "id": "zens-bio-020",
+      "text": "Martín Zapater y Clavería (1747-1803) war ein wohlhabender aragonesischer Kaufmann und eng mit Goya befreundet. Sein Briefwechsel mit Goya ist sehr erhellend über Goyas Leben.",
+      "citation": "https://en.wikipedia.org/wiki/Mart%C3%ADn_Zapater"
+    },
+    {
+      "id": "zens-bio-021",
+      "text": "Dipl.-Ing. Johannes Scheer ist Grafiksammler und ein langjähriger Freund von Herwig Zens. Er betreut das Werkverzeichnis der Grafik von Herwig Zens und hat zu diesem sowie anderen Bereichen des Werkes von Herwig Zens mehrere Publikationen vorgelegt."
+    },
+    {
+      "id": "zens-bio-022",
+      "text": "Dr. Nikolaus Kratzer ist ein österreichischer Kunsthistoriker und Ausstellungskurator. Er leitet den Bereich Kunst in den Landessammlungen Niederösterreich."
+    },
+    {
+      "id": "zens-bio-023",
+      "text": "Dr. Gerda Zens ist eine österreichische Pianistin, Nachlassbetreuerin des Oeuvres von Herwig Zens und Herausgeberin von Publikationen zu Herwig Zens. "
+    },
+    {
+      "id": "zens-bio-024",
+      "text": "E. T. A. Hoffmann (1776-1822) war ein deutscher Schriftsteller, der in der Epoche der Romantik aktiv war. Darüberhinaus war er u.a. als Jurist, Zeichner, Komponist und Kapellmeister tätig.",
+      "citation": "https://de.wikipedia.org/wiki/E._T._A._Hoffmann"
+    },
+    {
+      "id": "zens-bio-025",
+      "text": "Alfred Jarry (1873-1907) war ein französischer Schriftsteller. Besonders bekannt ist sein Theaterstück \"König Ubu\", das 1896 in Frankreich uraufgeführt wurde.",
+      "citation": "https://de.wikipedia.org/wiki/Alfred_Jarry"
+    },
+    {
+      "id": "zens-bio-026",
+      "text": "Hans Dieter Maringer (*1943) ist ein österreichischer Autor und Pädagoge. Er ist u. a. für Texte in oberösterreichischer Mundart bekannt. ",
+      "citation": "weitere details hier: http://www.idi-dialekt.at/index.php/autoren/mairinger-hans-dieter // https://www.ooevbw.at/mitglieder/linz/kulturverein-besser-leben/vereinsveranstaltung-1288"
+    },
+    {
+      "id": "zens-bio-027",
+      "text": "Johann Winkler ist ein in Österreich lebender Kunstexperte.",
+      "citation": "Infos noch bei Gerda Zens erfragen - wahrscheinlich derjenige J. Winkler, der bei der Galerie Welz und und dem Oskar Kokoschka Museum in Pöchlarn tätig gewesen ist."
+    },
+    {
+      "id": "zens-bio-028",
+      "text": "Stefan Nebehay (*1950) studierte Ur- und Frühgeschichte sowie antike Numismatik. Er arbeitete hauptberuflich lange als Antiquar, ist jedoch auch als Prähistoriker, Numismatiker, Archivar und Autor tätig gewesen. Von 1993–2003 hatte er einen Lehrauftrag an der Universität Wien inne. In der Sparte Wissenschaft wurde ihm der Anerkennungspreis des Landes Niederösterreich verliehen",
+      "citation": "https://www.bibliothekderprovinz.at/autor/stefan-nebehay/"
+    },
+    {
+      "id": "zens-bio-029",
+      "text": "Gernot Friedel (*1941) ist ein österreichischer Theater- und Fernsehregisseur. Er studierte am Mozarteum und am Reinhardtseminar Wien. U. a. inszenierte er den \"Jedermann\" bei den Salzburger Festspielen und Gottfried Einems »Dantons Tod«. Er schreibt darüber hinaus Fernsehspiele, Drehbücher, Romane und Theaterstücke.",
+      "citation": "https://www.mandelbaum.at/autorinnen/gernot-friedel/; https://de.wikipedia.org/wiki/Gernot_Friedel"
+    }
+  ],
+  "vocabularies": {
+    "cultural-heritage-object-type": [
+      {
+        "id": "cultural-heritage-object-type-divers",
+        "label": { "default": "Divers" }
+      },
+      {
+        "id": "cultural-heritage-object-type-werkserie",
+        "label": { "default": "Werkserie" }
+      },
+      {
+        "id": "cultural-heritage-object-type-zyklus;_grafiken",
+        "label": { "default": "Zyklus; Grafiken" }
+      },
+      {
+        "id": "cultural-heritage-object-type-zyklus",
+        "label": { "default": "Zyklus" }
+      },
+      {
+        "id": "cultural-heritage-object-type-wandgemälde",
+        "label": { "default": "Wandgemälde" }
+      },
+      {
+        "id": "cultural-heritage-object-type-musikkomposition",
+        "label": { "default": "Musikkomposition" }
+      },
+      {
+        "id": "cultural-heritage-object-type-buch",
+        "label": { "default": "Buch" }
+      },
+      {
+        "id": "cultural-heritage-object-type-film",
+        "label": { "default": "Film" }
+      },
+      {
+        "id": "cultural-heritage-object-type-grafikmappe",
+        "label": { "default": "Grafikmappe" }
+      },
+      {
+        "id": "cultural-heritage-object-type-gedicht",
+        "label": { "default": "Gedicht" }
+      },
+      {
+        "id": "cultural-heritage-object-type-film_",
+        "label": { "default": "Film " }
+      },
+      {
+        "id": "cultural-heritage-object-type-theaterstück",
+        "label": { "default": "Theaterstück" }
+      },
+      {
+        "id": "cultural-heritage-object-type-grafiken",
+        "label": { "default": "Grafiken" }
+      }
+    ],
+    "group-type": [
+      { "id": "group-type-academy", "label": { "default": "academy" } },
+      { "id": "group-type-art_school", "label": { "default": "art school" } },
+      {
+        "id": "group-type-state_government",
+        "label": { "default": "state government" }
+      },
+      {
+        "id": "group-type-funding_body",
+        "label": { "default": "funding body" }
+      },
+      { "id": "group-type-museum", "label": { "default": "museum" } },
+      { "id": "group-type-art_fair", "label": { "default": "art fair" } },
+      {
+        "id": "group-type-pilgrims_hostel",
+        "label": { "default": "pilgrims hostel" }
+      },
+      { "id": "group-type-university", "label": { "default": "university" } },
+      { "id": "group-type-festival", "label": { "default": "festival" } },
+      {
+        "id": "group-type-concert_choir",
+        "label": { "default": "concert choir" }
+      },
+      { "id": "group-type-embassy", "label": { "default": "embassy" } },
+      {
+        "id": "group-type-landessammlungen",
+        "label": { "default": "Landessammlungen" }
+      }
+    ],
+    "place-type": [
+      { "id": "place-type-city", "label": { "default": "city" } },
+      { "id": "place-type-place", "label": { "default": "place" } }
+    ],
+    "event-kind": [
+      { "id": "event-kind-birth", "label": { "default": "birth" } },
+      { "id": "event-kind-career", "label": { "default": "career" } },
+      { "id": "event-kind-movement", "label": { "default": "movement" } },
+      { "id": "event-kind-honour", "label": { "default": "honour" } },
+      { "id": "event-kind-production", "label": { "default": "production" } },
+      { "id": "event-kind-death", "label": { "default": "death" } },
+      { "id": "event-kind-event", "label": { "default": "event" } }
+    ],
+    "role": [
+      { "id": "role-person_born", "label": { "default": "person_born" } },
+      { "id": "role-took_place_at", "label": { "default": "took_place_at" } },
+      { "id": "role-student", "label": { "default": "student" } },
+      { "id": "role-school", "label": { "default": "school" } },
+      { "id": "role-teacher", "label": { "default": "teacher" } },
+      { "id": "role-travelling", "label": { "default": "travelling" } },
+      {
+        "id": "role-project_partner",
+        "label": { "default": "project partner" }
+      },
+      { "id": "role-awardee", "label": { "default": "awardee" } },
+      { "id": "role-institution", "label": { "default": "institution" } },
+      {
+        "id": "role-inspiring_person",
+        "label": { "default": "inspiring person" }
+      },
+      { "id": "role-inspiring_work", "label": { "default": "inspiring work" } },
+      { "id": "role-profession", "label": { "default": "profession" } },
+      { "id": "role-project", "label": { "default": "project" } },
+      { "id": "role-artist", "label": { "default": "artist" } },
+      { "id": "role-book_project", "label": { "default": "book project" } },
+      { "id": "role-author", "label": { "default": "author" } },
+      { "id": "role-film_project", "label": { "default": "film project" } },
+      {
+        "id": "role-related_art_project",
+        "label": { "default": "related art project" }
+      },
+      { "id": "role-exhibition", "label": { "default": "exhibition" } },
+      {
+        "id": "role-projekt_partner",
+        "label": { "default": "Projekt partner" }
+      },
+      {
+        "id": "role-project_inspiration",
+        "label": { "default": "project inspiration" }
+      },
+      {
+        "id": "role-professor_emeritus",
+        "label": { "default": "professor emeritus" }
+      },
+      { "id": "role-person_died", "label": { "default": "person_died" } },
+      { "id": "role-donation", "label": { "default": "donation" } }
+    ]
+  },
+  "unmappedEntries": [
+    {
+      "id": "zens-pr-001",
+      "label": "Herwig Zens",
+      "media": "zens-m-001",
+      "gender": "male",
+      "occupations": "Künstler; Kunstpädagoge",
+      "biographies": "zens-bio-001",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 2,
+      "error": "validation error for entity in row: 2 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-002",
+      "label": "Oskar Kokoschka",
+      "media": "zens-m-002",
+      "gender": "male",
+      "occupations": "Maler; Grafiker; Schriftsteller",
+      "biographies": "zens-bio-003",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 3,
+      "error": "validation error for entity in row: 3 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "2": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-003",
+      "label": "Gerhard Weissenbacher",
+      "media": "zens-m-003",
+      "gender": "male",
+      "occupations": "Maler; Kunstpädagoge",
+      "biographies": "zens-bio-002",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 4,
+      "error": "validation error for entity in row: 4 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-004",
+      "label": "Francisco de Goya",
+      "media": "zens-m-004",
+      "gender": "male",
+      "occupations": "Maler; Grafiker",
+      "biographies": "zens-bio-004",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 5,
+      "error": "validation error for entity in row: 5 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-005",
+      "label": "Franz Elsner",
+      "gender": "male",
+      "occupations": "Maler",
+      "biographies": "zens-bio-005",
+      "Interne Anmerkungen": "Anm. Gemaltes Selbstporträt im Belvedere ist nicht frei verfügbar und hat keinen Jpg link -- https://sammlung.belvedere.at/people/427/franz-elsner -- Auf Wikipedia sind 2 werke von ihm eingestellt - https://de.wikipedia.org/wiki/Franz_Elsner_(Maler) ",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 6,
+      "error": "validation error for entity in row: 6 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-006",
+      "label": "Walter Stach",
+      "media": "zens-m-005",
+      "gender": "male",
+      "occupations": "Künstler; Autor",
+      "biographies": "zens-bio-006",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 7,
+      "error": "validation error for entity in row: 7 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-007",
+      "label": "Herbert Link",
+      "media": "zens-m-006",
+      "gender": "male",
+      "occupations": "Autor; Regisseur; Medienpädagoge",
+      "biographies": "zens-bio-007",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 8,
+      "error": "validation error for entity in row: 8 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "2": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-008",
+      "label": "Robert Polak",
+      "media": "zens-m-007",
+      "gender": "male",
+      "occupations": "Drehbuchautor; Regisseur",
+      "biographies": "zens-bio-008",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 9,
+      "error": "validation error for entity in row: 9 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-009",
+      "label": "Franz Schubert",
+      "media": "zens-m-016",
+      "gender": "male",
+      "occupations": "Komponist",
+      "biographies": "zens-bio-009",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 10,
+      "error": "validation error for entity in row: 10 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-010",
+      "label": "Jakob Hiebeler",
+      "media": "zens-m-017",
+      "gender": "male",
+      "occupations": "Maler",
+      "biographies": "zens-bio-010",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 11,
+      "error": "validation error for entity in row: 11 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-011",
+      "label": "Ludwig van Beethoven",
+      "media": "zens-m-034",
+      "gender": "male",
+      "occupations": "Komponist; Pianist",
+      "biographies": "zens-bio-011",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 12,
+      "error": "validation error for entity in row: 12 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-012",
+      "label": "Peter Kasperak",
+      "gender": "male",
+      "occupations": "Regisseur",
+      "biographies": "zens-bio-012",
+      "Interne Anmerkungen": "Er hat anscheinend viel für das TV gearbeitet.",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 13,
+      "error": "validation error for entity in row: 13 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-013",
+      "label": "Gustav W. Trampitsch",
+      "media": "zens-m-041",
+      "gender": "male",
+      "occupations": "Regisseur",
+      "biographies": "zens-bio-013",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 14,
+      "error": "validation error for entity in row: 14 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-014",
+      "label": "Helmut Sautner",
+      "gender": "male",
+      "occupations": "Architekt",
+      "biographies": "zens-bio-014",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 15,
+      "error": "validation error for entity in row: 15 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-015",
+      "label": "Rainer Bischof",
+      "media": "zens-m-043",
+      "gender": "male",
+      "occupations": "Komponist; Musikmanager",
+      "biographies": "zens-bio-015",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 16,
+      "error": "validation error for entity in row: 16 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-016",
+      "label": "Hugo Distler",
+      "media": "zens-m-045",
+      "gender": "male",
+      "occupations": "Komponist; Kirchenmusiker",
+      "biographies": "zens-bio-016",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 17,
+      "error": "validation error for entity in row: 17 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-017",
+      "label": "Bernt Notke",
+      "media": "zens-m-051",
+      "gender": "male",
+      "occupations": "Maler; Bildhauer",
+      "biographies": "zens-bio-017",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 18,
+      "error": "validation error for entity in row: 18 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-018",
+      "label": "Erwin Ortner",
+      "media": "zens-m-053",
+      "gender": "male",
+      "occupations": "Chorleiter; Dirigent",
+      "biographies": "zens-bio-018",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 19,
+      "error": "validation error for entity in row: 19 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-019",
+      "label": "Johann Wolfgang von Goethe",
+      "media": "zens-m-055",
+      "gender": "male",
+      "occupations": "Dichter; Politiker; Naturforscher",
+      "biographies": "zens-bio-019",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 20,
+      "error": "validation error for entity in row: 20 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "2": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-020",
+      "label": "Martín Zapater y Clavería",
+      "media": "zens-m-058",
+      "gender": "male",
+      "occupations": "Kaufmann",
+      "biographies": "zens-bio-020",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 21,
+      "error": "validation error for entity in row: 21 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-021",
+      "label": "Johannes Scheer",
+      "media": "zens-m-061",
+      "gender": "male",
+      "occupations": "Grafikkenner",
+      "biographies": "zens-bio-021",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 22,
+      "error": "validation error for entity in row: 22 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-022",
+      "label": "Nikolaus Kratzer",
+      "media": "zens-m-064",
+      "gender": "male",
+      "occupations": "Kunsthistoriker",
+      "biographies": "zens-bio-022",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 23,
+      "error": "validation error for entity in row: 23 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-023",
+      "label": "Gerda Zens",
+      "media": "zens-m-065",
+      "gender": "female",
+      "occupations": "Pianistin",
+      "biographies": "zens-bio-023",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 24,
+      "error": "validation error for entity in row: 24 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-024",
+      "label": "E. T. A. Hoffmann",
+      "media": "zens-m-068",
+      "gender": "male",
+      "occupations": "Schriftsteller; Jurist; Komponist",
+      "biographies": "zens-bio-024",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 25,
+      "error": "validation error for entity in row: 25 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "2": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-025",
+      "label": "Alfred Jarry",
+      "media": "zens-m-071",
+      "gender": "male",
+      "occupations": "Schriftsteller",
+      "biographies": "zens-bio-025",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 26,
+      "error": "validation error for entity in row: 26 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-026",
+      "label": "Hans Dieter Maringer",
+      "gender": "male",
+      "occupations": "Autor; Pädagoge",
+      "biographies": "zens-bio-026",
+      "Interne Anmerkungen": "Foto ggf. hier https://www.meinbezirk.at/linz/c-lokales/ein-totentanz_a374403 -- https://www.meinbezirk.at/linz/c-leute/vorweihnachtliche-feier-mit-lesung-und-musikalischer-umrahmung_a2237498#gallery=default&pid=10961761",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 27,
+      "error": "validation error for entity in row: 27 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-027",
+      "label": "Johann Winkler",
+      "gender": "male",
+      "occupations": "Kunstexperte",
+      "biographies": "zens-bio-027",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 28,
+      "error": "validation error for entity in row: 28 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-028",
+      "label": "Stefan Nebehay",
+      "media": "zens-m-081",
+      "gender": "male",
+      "occupations": "Antiquar; Autor",
+      "biographies": "zens-bio-028",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 29,
+      "error": "validation error for entity in row: 29 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    },
+    {
+      "id": "zens-pr-029",
+      "label": "Gernot Friedel",
+      "media": "zens-m-83",
+      "gender": "male",
+      "occupations": "Regisseur; Autor",
+      "biographies": "zens-bio-029",
+      "kind": "person",
+      "sheetName": "person",
+      "rowNumber": 30,
+      "error": "validation error for entity in row: 30 of sheet: person",
+      "zodError": {
+        "_errors": [],
+        "occupations": {
+          "0": { "_errors": ["Expected string, received object"] },
+          "1": { "_errors": ["Expected string, received object"] },
+          "_errors": []
+        }
+      }
+    }
+  ],
+  "collections": {
+    "all": {
+      "label": "zens",
+      "entities": [
+        "zens-ob-001",
+        "zens-ob-002",
+        "zens-ob-003",
+        "zens-ob-004",
+        "zens-ob-005",
+        "zens-ob-006",
+        "zens-ob-007",
+        "zens-ob-008",
+        "zens-ob-009",
+        "zens-ob-010",
+        "zens-ob-011",
+        "zens-ob-012",
+        "zens-ob-013",
+        "zens-ob-014",
+        "zens-ob-015",
+        "zens-ob-016",
+        "zens-ob-017",
+        "zens-ob-018",
+        "zens-ob-019",
+        "zens-ob-020",
+        "zens-ob-021",
+        "zens-ob-022",
+        "zens-ob-023",
+        "zens-ob-024",
+        "zens-ob-025",
+        "zens-ob-026",
+        "zens-ob-027",
+        "zens-ob-028",
+        "zens-ob-029",
+        "zens-ob-030",
+        "zens-ob-031",
+        "zens-ob-032",
+        "zens-ob-033",
+        "zens-ob-034",
+        "zens-ob-035",
+        "zens-ob-036",
+        "zens-ob-037",
+        "zens-ob-038",
+        "zens-ob-039",
+        "zens-ob-040",
+        "zens-ob-041",
+        "zens-ob-042",
+        "zens-ob-043",
+        "zens-ob-044",
+        "zens-ob-045",
+        "zens-ob-046",
+        "zens-ob-047",
+        "zens-ob-048",
+        "zens-ob-049",
+        "zens-ob-050",
+        "zens-ob-051",
+        "zens-ob-052",
+        "zens-ob-053",
+        "zens-ob-054",
+        "zens-ob-055",
+        "zens-ob-056",
+        "zens-gr-001",
+        "zens-gr-002",
+        "zens-gr-003",
+        "zens-gr-004",
+        "zens-gr-005",
+        "zens-gr-006",
+        "zens-gr-007",
+        "zens-gr-008",
+        "zens-gr-009",
+        "zens-gr-010",
+        "zens-gr-011",
+        "zens-gr-012",
+        "zens-gr-013",
+        "zens-gr-014",
+        "zens-gr-015",
+        "zens-gr-016",
+        "zens-gr-017",
+        "zens-gr-018",
+        "zens-gr-019",
+        "zens-gr-020",
+        "zens-gr-021",
+        "zens-gr-022",
+        "zens-gr-023",
+        "zens-gr-024",
+        "zens-pl-001",
+        "zens-pl-002",
+        "zens-pl-003",
+        "zens-pl-004",
+        "zens-pl-005",
+        "zens-pl-006",
+        "zens-pl-007",
+        "zens-pl-008",
+        "zens-pl-009",
+        "zens-pl-010",
+        "zens-pl-011",
+        "zens-pl-012",
+        "zens-pl-013",
+        "zens-pl-014",
+        "zens-pl-015",
+        "zens-pl-016",
+        "zens-pl-017",
+        "zens-pl-018",
+        "zens-pl-019",
+        "zens-pl-020",
+        "zens-pl-021",
+        "zens-pl-022",
+        "zens-pl-023",
+        "zens-pl-024",
+        "zens-pl-025",
+        "zens-pl-026",
+        "zens-pl-027",
+        "zens-pl-028",
+        "zens-pl-029"
+      ],
+      "events": [
+        "zens-ev-000",
+        "zens-ev-001a",
+        "zens-ev-001b",
+        "zens-ev-002",
+        "zens-ev-003",
+        "zens-ev-004",
+        "zens-ev-005",
+        "zens-ev-006",
+        "zens-ev-007",
+        "zens-ev-008",
+        "zens-ev-009",
+        "zens-ev-010",
+        "zens-ev-011",
+        "zens-ev-012",
+        "zens-ev-013",
+        "zens-ev-014",
+        "zens-ev-015",
+        "zens-ev-016",
+        "zens-ev-017",
+        "zens-ev-018",
+        "zens-ev-019",
+        "zens-ev-020",
+        "zens-ev-021",
+        "zens-ev-022",
+        "zens-ev-023",
+        "zens-ev-024",
+        "zens-ev-025",
+        "zens-ev-026",
+        "zens-ev-027",
+        "zens-ev-028",
+        "zens-ev-029",
+        "zens-ev-030",
+        "zens-ev-031",
+        "zens-ev-032",
+        "zens-ev-033",
+        "zens-ev-034",
+        "zens-ev-035",
+        "zens-ev-036",
+        "zens-ev-037",
+        "zens-ev-038",
+        "zens-ev-039",
+        "zens-ev-040",
+        "zens-ev-041",
+        "zens-ev-042",
+        "zens-ev-043",
+        "zens-ev-044",
+        "zens-ev-045",
+        "zens-ev-046",
+        "zens-ev-047",
+        "zens-ev-048",
+        "zens-ev-049",
+        "zens-ev-050",
+        "zens-ev-051",
+        "zens-ev-052",
+        "zens-ev-053",
+        "zens-ev-054",
+        "zens-ev-055",
+        "zens-ev-056",
+        "zens-ev-057",
+        "zens-ev-058",
+        "zens-ev-059",
+        "zens-ev-060",
+        "zens-ev-061",
+        "zens-ev-062",
+        "zens-ev-063",
+        "zens-ev-064",
+        "zens-ev-065",
+        "zens-ev-066",
+        "zens-ev-067",
+        "zens-ev-068",
+        "zens-ev-069",
+        "zens-ev-070",
+        "zens-ev-071",
+        "zens-ev-072",
+        "zens-ev-073",
+        "zens-ev-074",
+        "zens-ev-075",
+        "zens-ev-076",
+        "zens-ev-077",
+        "zens-ev-078",
+        "zens-ev-079",
+        "zens-ev-080",
+        "zens-ev-081",
+        "zens-ev-082",
+        "zens-ev-083",
+        "zens-ev-084",
+        "zens-ev-085"
+      ]
+    },
+    "event-biography": {
+      "label": "event-biography",
+      "entities": [
+        "zens-pr-001",
+        "zens-pl-001",
+        "zens-pl-002",
+        "zens-pl-0029",
+        "zens-gr-001",
+        "zens-pl-003",
+        "zens-pr-002",
+        "zens-gr-002",
+        "zens-pl-004",
+        "zens-pr-003",
+        "zens-pl-005",
+        "zens-pr-004",
+        "zens-gr-008",
+        "zens-ob-002",
+        "zens-pr-005",
+        "zens-gr-003",
+        "zens-ob-001",
+        "zens-pl-006",
+        "zens-ob-014",
+        "zens-pr-006",
+        "zens-ob-016",
+        "zens-ob-017",
+        "zens-pr-007",
+        "zens-pr-008",
+        "zens-pl-007",
+        "zens-gr-004",
+        "zens-gr-005",
+        "zens-ob-018",
+        "zens-ob-003",
+        "zens-ob-004",
+        "zens-gr-007",
+        "zens-ob-056",
+        "zens-pr-011",
+        "zens-ob-021",
+        "zens-gr-006",
+        "zens-ob-022",
+        "zens-pl-008",
+        "zens-ob-005",
+        "zens-ob-006",
+        "zens-gr-009",
+        "zens-gr-010",
+        "zens-ob-023",
+        "zens-pl-009",
+        "zens-gr-011",
+        "zens-pl-010",
+        "zens-ob-007",
+        "zens-ob-024",
+        "zens-pr-012",
+        "zens-ob-015",
+        "zens-pl-011",
+        "zens-pl-012",
+        "zens-gr-012",
+        "zens-gr-013",
+        "zens-pl-013",
+        "zens-ob-008",
+        "zens-pr-009",
+        "zens-ob-009",
+        "zens-ob-010",
+        "zens-pl-014",
+        "zens-ob-011",
+        "zens-pr-010",
+        "zens-ob-025",
+        "zens-pr-013",
+        "zens-ob-012",
+        "zens-pl-015",
+        "zens-pr-014",
+        "zens-ob-026",
+        "zens-ob-027",
+        "zens-gr-014",
+        "zens-ob-028",
+        "zens-pl-016",
+        "zens-ob-029",
+        "zens-pl-017",
+        "zens-pr-015",
+        "zens-gr-016",
+        "zens-ob-030",
+        "zens-gr-015",
+        "zens-gr-024",
+        "zens-pl-018",
+        "zens-gr-017",
+        "zens-ob-019",
+        "zens-ob-020",
+        "zens-pr-016",
+        "zens-ob-031",
+        "zens-ob-032",
+        "zens-pl-019",
+        "zens-ob-033",
+        "zens-pr-017",
+        "zens-pl-020",
+        "zens-ob-034",
+        "zens-gr-018",
+        "zens-pr-018",
+        "zens-pr-019",
+        "zens-ob-035",
+        "zens-ob-036",
+        "zens-ob-037",
+        "zens-pl-021",
+        "zens-pr-020",
+        "zens-pl-022",
+        "zens-gr-019",
+        "zens-ob-038",
+        "zens-pl-023",
+        "zens-gr-020",
+        "zens-ob-039",
+        "zens-pl-024",
+        "zens-gr-021",
+        "zens-ob-013",
+        "zens-pr-021",
+        "zens-ob-040",
+        "zens-pr-024",
+        "zens-ob-041",
+        "zens-ob-042",
+        "zens-pl-028",
+        "zens-ob-043",
+        "zens-ob-044",
+        "zens-ob-046",
+        "zens-pr-025",
+        "zens-ob-045",
+        "zens-ob-047",
+        "zens-pl-025",
+        "zens-pr-026",
+        "zens-ob-048",
+        "zens-ob-049",
+        "zens-pr-027",
+        "zens-ob-050",
+        "zens-ob-051",
+        "zens-pr-028",
+        "zens-ob-052",
+        "zens-pr-029",
+        "zens-ob-053",
+        "zens-ob-054",
+        "zens-ob-055",
+        "zens-pl-026",
+        "zens-gr-023",
+        "zens-pr-023",
+        "zens-pl-027",
+        "zens-gr-022",
+        "zens-pr-022"
+      ],
+      "events": [
+        "zens-ev-000",
+        "zens-ev-001a",
+        "zens-ev-001b",
+        "zens-ev-002",
+        "zens-ev-003",
+        "zens-ev-004",
+        "zens-ev-005",
+        "zens-ev-006",
+        "zens-ev-007",
+        "zens-ev-008",
+        "zens-ev-009",
+        "zens-ev-010",
+        "zens-ev-011",
+        "zens-ev-012",
+        "zens-ev-013",
+        "zens-ev-014",
+        "zens-ev-015",
+        "zens-ev-016",
+        "zens-ev-017",
+        "zens-ev-018",
+        "zens-ev-019",
+        "zens-ev-020",
+        "zens-ev-021",
+        "zens-ev-022",
+        "zens-ev-023",
+        "zens-ev-024",
+        "zens-ev-025",
+        "zens-ev-026",
+        "zens-ev-027",
+        "zens-ev-028",
+        "zens-ev-029",
+        "zens-ev-030",
+        "zens-ev-031",
+        "zens-ev-032",
+        "zens-ev-033",
+        "zens-ev-034",
+        "zens-ev-035",
+        "zens-ev-036",
+        "zens-ev-037",
+        "zens-ev-038",
+        "zens-ev-039",
+        "zens-ev-040",
+        "zens-ev-041",
+        "zens-ev-042",
+        "zens-ev-043",
+        "zens-ev-044",
+        "zens-ev-045",
+        "zens-ev-046",
+        "zens-ev-047",
+        "zens-ev-048",
+        "zens-ev-049",
+        "zens-ev-050",
+        "zens-ev-051",
+        "zens-ev-052",
+        "zens-ev-053",
+        "zens-ev-054",
+        "zens-ev-055",
+        "zens-ev-056",
+        "zens-ev-057",
+        "zens-ev-058",
+        "zens-ev-059",
+        "zens-ev-060",
+        "zens-ev-061",
+        "zens-ev-062",
+        "zens-ev-063",
+        "zens-ev-064",
+        "zens-ev-065",
+        "zens-ev-066",
+        "zens-ev-067",
+        "zens-ev-068",
+        "zens-ev-069",
+        "zens-ev-070",
+        "zens-ev-071",
+        "zens-ev-072",
+        "zens-ev-073",
+        "zens-ev-074",
+        "zens-ev-075",
+        "zens-ev-076",
+        "zens-ev-077",
+        "zens-ev-078",
+        "zens-ev-079",
+        "zens-ev-080",
+        "zens-ev-081",
+        "zens-ev-082",
+        "zens-ev-083",
+        "zens-ev-084",
+        "zens-ev-085"
+      ]
+    }
+  },
+  "tags": [
+    {
+      "label": "zens",
+      "description": "The entire zens data set.",
+      "entities": [
+        "zens-ob-001",
+        "zens-ob-002",
+        "zens-ob-003",
+        "zens-ob-004",
+        "zens-ob-005",
+        "zens-ob-006",
+        "zens-ob-007",
+        "zens-ob-008",
+        "zens-ob-009",
+        "zens-ob-010",
+        "zens-ob-011",
+        "zens-ob-012",
+        "zens-ob-013",
+        "zens-ob-014",
+        "zens-ob-015",
+        "zens-ob-016",
+        "zens-ob-017",
+        "zens-ob-018",
+        "zens-ob-019",
+        "zens-ob-020",
+        "zens-ob-021",
+        "zens-ob-022",
+        "zens-ob-023",
+        "zens-ob-024",
+        "zens-ob-025",
+        "zens-ob-026",
+        "zens-ob-027",
+        "zens-ob-028",
+        "zens-ob-029",
+        "zens-ob-030",
+        "zens-ob-031",
+        "zens-ob-032",
+        "zens-ob-033",
+        "zens-ob-034",
+        "zens-ob-035",
+        "zens-ob-036",
+        "zens-ob-037",
+        "zens-ob-038",
+        "zens-ob-039",
+        "zens-ob-040",
+        "zens-ob-041",
+        "zens-ob-042",
+        "zens-ob-043",
+        "zens-ob-044",
+        "zens-ob-045",
+        "zens-ob-046",
+        "zens-ob-047",
+        "zens-ob-048",
+        "zens-ob-049",
+        "zens-ob-050",
+        "zens-ob-051",
+        "zens-ob-052",
+        "zens-ob-053",
+        "zens-ob-054",
+        "zens-ob-055",
+        "zens-ob-056",
+        "zens-gr-001",
+        "zens-gr-002",
+        "zens-gr-003",
+        "zens-gr-004",
+        "zens-gr-005",
+        "zens-gr-006",
+        "zens-gr-007",
+        "zens-gr-008",
+        "zens-gr-009",
+        "zens-gr-010",
+        "zens-gr-011",
+        "zens-gr-012",
+        "zens-gr-013",
+        "zens-gr-014",
+        "zens-gr-015",
+        "zens-gr-016",
+        "zens-gr-017",
+        "zens-gr-018",
+        "zens-gr-019",
+        "zens-gr-020",
+        "zens-gr-021",
+        "zens-gr-022",
+        "zens-gr-023",
+        "zens-gr-024",
+        "zens-pl-001",
+        "zens-pl-002",
+        "zens-pl-003",
+        "zens-pl-004",
+        "zens-pl-005",
+        "zens-pl-006",
+        "zens-pl-007",
+        "zens-pl-008",
+        "zens-pl-009",
+        "zens-pl-010",
+        "zens-pl-011",
+        "zens-pl-012",
+        "zens-pl-013",
+        "zens-pl-014",
+        "zens-pl-015",
+        "zens-pl-016",
+        "zens-pl-017",
+        "zens-pl-018",
+        "zens-pl-019",
+        "zens-pl-020",
+        "zens-pl-021",
+        "zens-pl-022",
+        "zens-pl-023",
+        "zens-pl-024",
+        "zens-pl-025",
+        "zens-pl-026",
+        "zens-pl-027",
+        "zens-pl-028",
+        "zens-pl-029"
+      ],
+      "events": [
+        "zens-ev-000",
+        "zens-ev-001a",
+        "zens-ev-001b",
+        "zens-ev-002",
+        "zens-ev-003",
+        "zens-ev-004",
+        "zens-ev-005",
+        "zens-ev-006",
+        "zens-ev-007",
+        "zens-ev-008",
+        "zens-ev-009",
+        "zens-ev-010",
+        "zens-ev-011",
+        "zens-ev-012",
+        "zens-ev-013",
+        "zens-ev-014",
+        "zens-ev-015",
+        "zens-ev-016",
+        "zens-ev-017",
+        "zens-ev-018",
+        "zens-ev-019",
+        "zens-ev-020",
+        "zens-ev-021",
+        "zens-ev-022",
+        "zens-ev-023",
+        "zens-ev-024",
+        "zens-ev-025",
+        "zens-ev-026",
+        "zens-ev-027",
+        "zens-ev-028",
+        "zens-ev-029",
+        "zens-ev-030",
+        "zens-ev-031",
+        "zens-ev-032",
+        "zens-ev-033",
+        "zens-ev-034",
+        "zens-ev-035",
+        "zens-ev-036",
+        "zens-ev-037",
+        "zens-ev-038",
+        "zens-ev-039",
+        "zens-ev-040",
+        "zens-ev-041",
+        "zens-ev-042",
+        "zens-ev-043",
+        "zens-ev-044",
+        "zens-ev-045",
+        "zens-ev-046",
+        "zens-ev-047",
+        "zens-ev-048",
+        "zens-ev-049",
+        "zens-ev-050",
+        "zens-ev-051",
+        "zens-ev-052",
+        "zens-ev-053",
+        "zens-ev-054",
+        "zens-ev-055",
+        "zens-ev-056",
+        "zens-ev-057",
+        "zens-ev-058",
+        "zens-ev-059",
+        "zens-ev-060",
+        "zens-ev-061",
+        "zens-ev-062",
+        "zens-ev-063",
+        "zens-ev-064",
+        "zens-ev-065",
+        "zens-ev-066",
+        "zens-ev-067",
+        "zens-ev-068",
+        "zens-ev-069",
+        "zens-ev-070",
+        "zens-ev-071",
+        "zens-ev-072",
+        "zens-ev-073",
+        "zens-ev-074",
+        "zens-ev-075",
+        "zens-ev-076",
+        "zens-ev-077",
+        "zens-ev-078",
+        "zens-ev-079",
+        "zens-ev-080",
+        "zens-ev-081",
+        "zens-ev-082",
+        "zens-ev-083",
+        "zens-ev-084",
+        "zens-ev-085"
+      ]
+    }
+  ],
+  "upstreamEntityIds": []
+}
