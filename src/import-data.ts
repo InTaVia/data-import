@@ -62,3 +62,42 @@ export function importData(params: ImportDataParams): void {
 
     reader.readAsBinaryString(file);
 }
+
+export function readJsonFile(
+    file: File,
+    onSuccess: (data: ImportData) => void,
+    onError: (error: string) => void
+) {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => {
+        const result = JSON.parse(reader.result as string) as ImportData;
+
+        // add all entities to a new collection if dataset doesn't contain collections
+        if (!result.collections || Object.keys(result.collections).length === 0) {
+            const collectionName = file.name.replace(".json", "");
+            result.collections = {
+                collectionName: {
+                    label: collectionName,
+                    entities: result.entities
+                        ? result.entities.map((entity) => {
+                              return entity.id;
+                          })
+                        : [],
+                    events: result.events
+                        ? result.events.map((event) => {
+                              return event.id;
+                          })
+                        : [],
+                },
+            };
+        }
+
+        onSuccess(result);
+    });
+
+    reader.onerror = () => {
+        onError("import error");
+    };
+
+    reader.readAsText(file);
+}

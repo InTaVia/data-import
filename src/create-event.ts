@@ -140,7 +140,7 @@ export function createEventEntityRelation(
     }
 
     const eventEntityRelation = mapper.mapper(entry)[0];
-    const base64candidate = eventEntityRelation.entity.split("-").slice(-1);
+    const base64candidate = eventEntityRelation.entity.split("-").slice(-1)[0];
     const base64regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
 
     const isUpstream =
