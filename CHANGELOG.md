@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.15
+
+### Patch Changes
+
+-   [`fd2fff5`](https://github.com/InTaVia/data-import/commit/fd2fff5ba4a5deec97b71984d3727b9a173fdc08) Thanks [@johannesliem](https://github.com/johannesliem)! - readJsonFile moved from main repo; upstreamEventIDs fixed; data templates updated
+
 ## 0.1.14
 
 ### Patch Changes
