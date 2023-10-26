@@ -1,5 +1,11 @@
 # @intavia/data-import
 
+## 0.1.16
+
+### Patch Changes
+
+-   [`73a9758`](https://github.com/InTaVia/data-import/commit/73a9758079d0fcb6b6daa2739e548d0ed84ce7d0) Thanks [@johannesliem](https://github.com/johannesliem)! - biographies also for places, ch-objects, and groups
+
 ## 0.1.15
 
 ### Patch Changes
