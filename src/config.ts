@@ -35,7 +35,7 @@ export const eventTargetProps: Array<string> = [
     "endDate",
 ];
 
-export const biographyTargetProps: Array<string> = ["id", "text", "citation"];
+export const biographyTargetProps: Array<string> = ["id", "title", "abstract", "text", "citation"];
 
 export const mediaTargetProps: Array<string> = [
     "id",

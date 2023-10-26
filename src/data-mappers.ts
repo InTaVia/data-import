@@ -352,6 +352,18 @@ export const biographyPropertyMappers: Record<string, Mapper> = {
         },
         requiredSourceProps: ["id"],
     },
+    title: {
+        mapper: (props) => {
+            return props.title as Biography["title"];
+        },
+        requiredSourceProps: ["title"],
+    },
+    abstract: {
+        mapper: (props) => {
+            return props.abstract as Biography["abstract"];
+        },
+        requiredSourceProps: ["abstract"],
+    },
     text: {
         mapper: (props) => {
             return props.text as Biography["text"];
