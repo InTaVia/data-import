@@ -13,10 +13,11 @@ const enityBaseProps = [
     "media",
     "relations",
     "kind",
+    "biographies",
 ];
 
 export const entityTargetPropsByKind: Record<string, Array<string>> = {
-    person: [...enityBaseProps, "gender", "occupations", "biographies"],
+    person: [...enityBaseProps, "gender", "occupations"],
     // FIXME: find appropriate attributes in Backend for currentLocation and isPartOf
     "cultural-heritage-object": [...enityBaseProps, "type"],
     group: [...enityBaseProps, "type"],
