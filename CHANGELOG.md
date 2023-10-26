@@ -1,5 +1,15 @@
 # @intavia/data-import
 
+## 0.2.0
+
+### Minor Changes
+
+-   [`1b3c03d`](https://github.com/InTaVia/data-import/commit/1b3c03d284f9eaa64eca6234bbc833dfe501f89e) Thanks [@johannesliem](https://github.com/johannesliem)! - update of readme and master template
+
+### Patch Changes
+
+-   [`f3ae237`](https://github.com/InTaVia/data-import/commit/f3ae237846ba736a3c838eed0181798015ab5d0e) Thanks [@johannesliem](https://github.com/johannesliem)! - full set of biography properties now used
+
 ## 0.1.16
 
 ### Patch Changes
