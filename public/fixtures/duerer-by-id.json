@@ -1693,8 +1693,8 @@
         { "event": "duerer-nl-EID156", "role": "role-was_travelling" }
       ],
       "kind": "person",
-      "gender": { "id": "male", "label": { "default": "male" } },
-      "biographies": ["duerer-bio-001"]
+      "biographies": ["duerer-bio-001"],
+      "gender": { "id": "male", "label": { "default": "male" } }
     },
     "duerer-pr-002": {
       "id": "duerer-pr-002",
@@ -1746,8 +1746,8 @@
         { "event": "duerer-nl-EID144", "role": "role-was_travelling" }
       ],
       "kind": "person",
-      "gender": { "id": "female", "label": { "default": "female" } },
-      "biographies": ["duerer-bio-002"]
+      "biographies": ["duerer-bio-002"],
+      "gender": { "id": "female", "label": { "default": "female" } }
     },
     "duerer-pr-007": {
       "id": "duerer-pr-007",
@@ -1965,6 +1965,7 @@
         { "event": "duerer-cho-ev-013", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-015", "role": "role-took_place_at" },
         { "event": "duerer-cho-ev-029", "role": "role-took_place_at" },
+        { "event": "duerer-macro-ev-025", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID088", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID090", "role": "role-took_place_at" },
         { "event": "duerer-nl-EID152", "role": "role-took_place_at" }
@@ -4653,9 +4654,14 @@
     },
     "duerer-macro-ev-025": {
       "id": "duerer-macro-ev-025",
+      "label": { "default": "Coronation of Charles V" },
+      "description": "Krönung Karl V",
       "kind": "event-kind-event",
+      "startDate": "1520-10-07",
+      "endDate": "1520-10-25",
       "relations": [
         { "entity": "duerer-pr-007", "role": "role-participated" },
+        { "entity": "duerer-pl-011", "role": "role-took_place_at" },
         { "entity": "duerer-pr-001", "role": "role-participated" }
       ]
     },
@@ -5831,8 +5837,7 @@
       "relations": [
         { "entity": "duerer-pr-001", "role": "role-participated" },
         { "entity": "duerer-pl-011", "role": "role-took_place_at" },
-        { "entity": "duerer-pr-007", "role": "role-participated" },
-        { "entity": "duerer-he-001", "role": "role-is_historical_event" }
+        { "entity": "duerer-pr-007", "role": "role-participated" }
       ]
     },
     "duerer-nl-EID089": {
@@ -7095,10 +7100,6 @@
       { "id": "role-is_gravesite", "label": { "default": "is gravesite" } },
       { "id": "role-was_hosting", "label": { "default": "was hosting" } },
       {
-        "id": "role-is_historical_event",
-        "label": { "default": "is historical event" }
-      },
-      {
         "id": "role-provided_support",
         "label": { "default": "provided support" }
       },
@@ -7907,6 +7908,7 @@
         "duerer-ob-010",
         "duerer-pl-010",
         "duerer-pr-007",
+        "duerer-pl-011",
         "duerer-pl-012",
         "duerer-pr-006",
         "duerer-pl-013",
@@ -8051,7 +8053,6 @@
         "duerer-pl-098",
         "duerer-pl-011",
         "duerer-pr-007",
-        "duerer-he-001",
         "duerer-pl-100",
         "duerer-pl-101",
         "duerer-pl-102",
