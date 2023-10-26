@@ -50,14 +50,14 @@ For the additional rows only the fields `id`, `relationRole`, and `entity` are u
 Use the same event id in the additional rows.
 Related entities are referenced by id.
 
-Example of an education event with student, institution, teachers, place and duration (not all columns used):
+Example of an education event with student, institution, teachers, place and duration (not all columns of templated shown here):
 
-| id     | label                                              | relationRole   | entity | kind      | startDate  | endDate   | place  |
-| ------ | -------------------------------------------------- | -------------- | ------ | --------- | ---------- | --------- | ------ |
-| ev-054 | Klimt studied at University of Applied Arts Vienna | was student    | pr-001 | education | 1862-07-14 | 186-07-14 | pl-001 |
-| ev-054 |                                                    | was university | gr-001 |           |            |           |        |
-| ev-054 |                                                    | was teacher    | pr-002 |           |            |           |        |
-| ev-054 |                                                    | was teacher    | pr-003 |           |            |           |        |
+| id     | label                                              | relationRole   | entity | kind      | startDate  | endDate    | place  |
+| ------ | -------------------------------------------------- | -------------- | ------ | --------- | ---------- | ---------- | ------ |
+| ev-054 | Klimt studied at University of Applied Arts Vienna | was student    | pr-001 | education | 1876-01-01 | 1883-12-31 | pl-001 |
+| ev-054 |                                                    | was university | gr-001 |           |            |            |        |
+| ev-054 |                                                    | was teacher    | pr-002 |           |            |            |        |
+| ev-054 |                                                    | was teacher    | pr-003 |           |            |            |        |
 
 where
 
