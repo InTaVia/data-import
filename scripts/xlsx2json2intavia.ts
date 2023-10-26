@@ -115,3 +115,14 @@ generate({
     .catch((error) => {
         console.log(`Failed to generate data [adamic-ernest].\n`, String(error));
     });
+
+generate({
+    path: "public/data/intavia-local-data-empty-template-and-how-to.xlsx",
+    idPrefix: "master-template",
+})
+    .then(() => {
+        console.log(`Successfully generated data [master-template].`);
+    })
+    .catch((error) => {
+        console.log(`Failed to generate data [master-template].\n`, String(error));
+    });
